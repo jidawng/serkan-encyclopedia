@@ -1417,6 +1417,59 @@
     scrollAfterRender("#weekly-board", "auto");
   }
 
+  function renderCustomPlanningBoard(kind) {
+    const meta = addRoutineBoardMeta[kind];
+    const routines = data.routines.filter((routine) => routine.board === kind);
+    const groups = meta.options.map((option) => ({
+      label: option,
+      routines: routines.filter((routine) => (routine.timeBlocks || []).includes(option)),
+    }));
+    return `
+      <article class="board planning-board ${kind}-board" id="${esc(kind)}-board">
+        <div class="board-head">
+          <div class="board-title">
+            <div class="orb ${kind === "seasonal" ? "seasonal" : "weekly"}">${kind === "monthly" ? "◫" : "❄︎"}</div>
+            <div>
+              <h2>${kind === "monthly" ? "Monthly Routine Overview" : "Seasonal Routine Overview"}</h2>
+              <p>${kind === "monthly" ? "월간 점검, 교체, 재구매, 정리 루틴을 추가해 관리합니다." : "계절별로 바뀌는 관리 루틴을 추가해 관리합니다."}</p>
+            </div>
+          </div>
+          <button class="weekly-add board-add-btn" data-action="add-routine" data-board="${esc(kind)}" data-location="${esc(meta.defaultLocation)}">+ ${kind === "monthly" ? "월간" : "계절"} 루틴 추가</button>
+        </div>
+        <div class="planning-grid">
+          ${groups.map((group) => renderPlanningGroup(kind, group)).join("")}
+        </div>
+      </article>
+    `;
+  }
+
+  function renderPlanningGroup(kind, group) {
+    const meta = addRoutineBoardMeta[kind];
+    return `
+      <section class="planning-group">
+        <div class="planning-group-head">
+          <strong>${esc(group.label)}</strong>
+          <span>${group.routines.length}개 루틴</span>
+        </div>
+        <div class="planning-task-list">
+          ${group.routines.length
+            ? group.routines.map((routine) => renderPlanningTaskPill(routine)).join("")
+            : `<div class="weekly-empty">사용자 추가 루틴 없음</div>`}
+        </div>
+        <button class="weekly-add" data-action="add-routine" data-board="${esc(kind)}" data-location="${esc(group.label)}">+ ${esc(group.label)} 루틴 추가</button>
+      </section>
+    `;
+  }
+
+  function renderPlanningTaskPill(routine) {
+    return `
+      <button class="weekly-task-pill planning-task-pill clickable" data-open-type="routine" data-code="${esc(routine.code)}">
+        <strong>${esc(routine.title)}</strong>
+        <span>${esc(routine.frequency || routine.priority || categoryName(routine.domain))}</span>
+      </button>
+    `;
+  }
+
   function groupKey(kind, group) {
     return `${kind}:${group}`;
   }
@@ -1457,6 +1510,8 @@
         ${renderRoutineBoard("daily")}
         ${renderRoutineBoard("weekly")}
       </section>
+      ${renderCustomPlanningBoard("monthly")}
+      ${renderCustomPlanningBoard("seasonal")}
       ${renderManuals({ compact: true })}
       ${renderProducts({ compact: true })}
       ${renderSituations({ compact: true })}
