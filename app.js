@@ -10,7 +10,7 @@
     situationFilter: "all",
     selectedSituationCategory: null,
     weeklyDone: loadWeeklyDone(),
-    customWeeklyRoutines: loadCustomWeeklyRoutines(),
+    customEntries: loadCustomEntries(),
     itemReclasses: loadItemReclasses(),
     itemOrders: loadItemOrders(),
     cardOrders: loadCardOrders(),
@@ -20,7 +20,7 @@
     suppressClick: false,
   };
 
-  mergeCustomWeeklyRoutines();
+  mergeCustomEntries();
 
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
@@ -75,6 +75,69 @@
   };
 
   const commonCategoryOrder = ["SK", "GR", "BD", "FD", "SL", "MT", "ST", "SO", "SP", "SY"];
+
+  const addRoutineBoardMeta = {
+    daily: {
+      title: "새 Daily Routine 추가",
+      kicker: "Add Daily Routine",
+      codePrefix: "DY",
+      storageType: "routine",
+      locationName: "시간대",
+      locationField: "timeBlock",
+      defaultLocation: "기상",
+      options: ["기상", "업무", "점심", "오후", "저녁", "수면"],
+      scrollTarget: "#daily-board",
+      toastUnit: "Daily",
+    },
+    weekly: {
+      title: "새 Weekly Routine 추가",
+      kicker: "Add Weekly Routine",
+      codePrefix: "WK",
+      storageType: "routine",
+      locationName: "요일",
+      locationField: "weekday",
+      defaultLocation: "월",
+      options: ["월", "화", "수", "목", "금", "토", "일"],
+      scrollTarget: "#weekly-board",
+      toastUnit: "Weekly",
+    },
+    monthly: {
+      title: "새 Monthly Routine 추가",
+      kicker: "Add Monthly Routine",
+      codePrefix: "MO",
+      storageType: "routine",
+      locationName: "월간 관리 유형",
+      locationField: "timeBlock",
+      defaultLocation: "점검",
+      options: ["점검", "교체", "재구매", "정리", "대청소", "기타"],
+      scrollTarget: "#monthly-board",
+      toastUnit: "Monthly",
+    },
+    seasonal: {
+      title: "새 Seasonal Routine 추가",
+      kicker: "Add Seasonal Routine",
+      codePrefix: "SE",
+      storageType: "routine",
+      locationName: "계절",
+      locationField: "timeBlock",
+      defaultLocation: "봄",
+      options: ["봄", "여름", "가을", "겨울"],
+      scrollTarget: "#seasonal-board",
+      toastUnit: "Seasonal",
+    },
+    situation: {
+      title: "새 Situation Routine 추가",
+      kicker: "Add Situation Routine",
+      codePrefix: "SI",
+      storageType: "situation",
+      locationName: "상황 유형",
+      locationField: "type",
+      defaultLocation: "Mental",
+      options: ["Mental", "Social", "Space", "Body", "기타"],
+      scrollTarget: "#situations",
+      toastUnit: "Situation",
+    },
+  };
 
   const situationCategoryDefs = {
     Mental: [
