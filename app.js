@@ -392,58 +392,70 @@
     localStorage.setItem("SERKAN_WEEKLY_DONE", JSON.stringify(state.weeklyDone));
   }
 
-  function loadCustomWeeklyRoutines() {
+  function loadCustomEntries() {
     try {
-      const routines = JSON.parse(localStorage.getItem("SERKAN_CUSTOM_WEEKLY_ROUTINES") || "[]");
-      return Array.isArray(routines) ? routines.filter((routine) => routine?.code && routine?.title) : [];
+      const entries = JSON.parse(localStorage.getItem("SERKAN_CUSTOM_ROUTINES") || "[]");
+      const weeklyEntries = JSON.parse(localStorage.getItem("SERKAN_CUSTOM_WEEKLY_ROUTINES") || "[]");
+      return [...(Array.isArray(entries) ? entries : []), ...(Array.isArray(weeklyEntries) ? weeklyEntries : [])]
+        .filter((entry, index, all) => entry?.code && entry?.title && all.findIndex((item) => item.code === entry.code) === index)
+        .map((entry) => ({ ...entry, isCustom: true }));
     } catch {
       return [];
     }
   }
 
-  function saveCustomWeeklyRoutines() {
-    localStorage.setItem("SERKAN_CUSTOM_WEEKLY_ROUTINES", JSON.stringify(state.customWeeklyRoutines));
+  function saveCustomEntries() {
+    localStorage.setItem("SERKAN_CUSTOM_ROUTINES", JSON.stringify(state.customEntries));
   }
 
-  function mergeCustomWeeklyRoutines() {
+  function mergeCustomEntries() {
     const existingCodes = new Set(data.routines.map((routine) => routine.code));
-    state.customWeeklyRoutines.forEach((routine) => {
-      if (!existingCodes.has(routine.code)) {
-        data.routines.push(routine);
-        existingCodes.add(routine.code);
+    const existingSituationCodes = new Set(data.situations.map((situation) => situation.code));
+    state.customEntries.forEach((entry) => {
+      if ((entry.customType || entry.board) === "situation") {
+        if (!existingSituationCodes.has(entry.code)) {
+          data.situations.push(entry);
+          existingSituationCodes.add(entry.code);
+        }
+        return;
+      }
+      if (!existingCodes.has(entry.code)) {
+        data.routines.push(entry);
+        existingCodes.add(entry.code);
       }
     });
   }
 
-  function nextCustomWeeklyCode() {
+  function nextCustomCode(boardType) {
+    const meta = addRoutineBoardMeta[boardType] || addRoutineBoardMeta.weekly;
     const used = new Set([
       ...data.routines.map((routine) => routine.code),
-      ...state.customWeeklyRoutines.map((routine) => routine.code),
+      ...data.situations.map((situation) => situation.code),
+      ...state.customEntries.map((entry) => entry.code),
     ]);
     let number = 1;
-    while (used.has(`SR26-CUSTOM-WK-R${number}`)) number += 1;
-    return `SR26-CUSTOM-WK-R${number}`;
+    while (used.has(`SR26-CUSTOM-${meta.codePrefix}-R${number}`)) number += 1;
+    return `SR26-CUSTOM-${meta.codePrefix}-R${number}`;
   }
 
-  function createCustomWeeklyRoutine(formData) {
-    const dayKey = formData.get("weekday") || "월";
+  function createCustomEntry(formData) {
+    const boardType = String(formData.get("boardType") || "weekly");
+    const meta = addRoutineBoardMeta[boardType] || addRoutineBoardMeta.weekly;
+    const location = String(formData.get("location") || meta.defaultLocation);
     const domain = formData.get("domain") || "SY";
     const title = String(formData.get("title") || "").trim();
     const frequency = String(formData.get("frequency") || "Weekly").trim() || "Weekly";
     const summary = String(formData.get("summary") || "").trim();
     if (!title) return null;
     const category = byCode.categories.get(domain);
-    const routine = {
-      code: nextCustomWeeklyCode(),
+    const base = {
+      code: nextCustomCode(boardType),
       title,
-      board: "weekly",
       domain,
       topic: "CUSTOM",
       category: category?.name || categoryName(domain),
-      weekday: dayKey,
       frequency,
       priority: "사용자 추가",
-      timeBlocks: [dayKey],
       tags: uniq(["사용자 추가", "Custom", frequency, category?.name || domain]),
       summary,
       action: summary || title,
@@ -452,26 +464,43 @@
       connectionStatus: "custom",
       linkConfidence: "custom",
       isCustom: true,
+      customType: boardType,
       createdAt: new Date().toISOString(),
     };
-    state.customWeeklyRoutines.push(routine);
-    data.routines.push(routine);
+    const entry = meta.storageType === "situation"
+      ? {
+        ...base,
+        type: location === "기타" ? "Situation" : location,
+        priority: frequency,
+        trigger: summary,
+      }
+      : {
+        ...base,
+        board: boardType,
+        weekday: boardType === "weekly" ? location : "",
+        timeBlocks: [location],
+      };
+    state.customEntries.push(entry);
+    if (meta.storageType === "situation") data.situations.push(entry);
+    else data.routines.push(entry);
     rebuildIndexes();
-    saveCustomWeeklyRoutines();
-    return routine;
+    saveCustomEntries();
+    return entry;
   }
 
-  function deleteCustomWeeklyRoutine(code) {
-    const routine = byCode.routines.get(code);
-    if (!routine?.isCustom) return false;
-    state.customWeeklyRoutines = state.customWeeklyRoutines.filter((item) => item.code !== code);
-    const dataIndex = data.routines.findIndex((item) => item.code === code);
-    if (dataIndex !== -1) data.routines.splice(dataIndex, 1);
+  function deleteCustomEntry(code) {
+    const entry = byCode.routines.get(code) || byCode.situations.get(code);
+    if (!entry?.isCustom) return false;
+    state.customEntries = state.customEntries.filter((item) => item.code !== code);
+    const routineIndex = data.routines.findIndex((item) => item.code === code);
+    if (routineIndex !== -1) data.routines.splice(routineIndex, 1);
+    const situationIndex = data.situations.findIndex((item) => item.code === code);
+    if (situationIndex !== -1) data.situations.splice(situationIndex, 1);
     Object.keys(state.weeklyDone).forEach((key) => {
       if (key.endsWith(`:${code}`)) delete state.weeklyDone[key];
     });
     saveWeeklyDone();
-    saveCustomWeeklyRoutines();
+    saveCustomEntries();
     rebuildIndexes();
     return true;
   }
@@ -1135,6 +1164,7 @@
           ${pills}
           ${moreButton}
         </div>
+        ${!isWeekly ? `<button class="weekly-add routine-add-inline" data-action="add-routine" data-board="daily" data-location="${esc(group)}">+ 루틴 추가</button>` : ""}
       </div>
     `;
   }
