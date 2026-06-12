@@ -2227,7 +2227,7 @@
 
   function renderDetail(type, code) {
     if (type === "routine") return renderRoutineDetail(byCode.routines.get(code));
-    if (type === "addWeeklyRoutine") return renderAddWeeklyRoutine(code);
+    if (type === "addRoutine") return renderAddRoutine(code);
     if (type === "dailyLibrary") return renderDailyLibraryDetail(code);
     if (type === "routineCategory") return renderRoutineCategoryDetail(code);
     if (type === "plannedPanel") return renderPlannedPanel(code);
@@ -2264,21 +2264,37 @@
     `;
   }
 
-  function renderAddWeeklyRoutine(dayKey = "월") {
-    const activeDay = weekDays.some((day) => day.key === dayKey) ? dayKey : "월";
+  function parseAddRoutineCode(code) {
+    const [boardType = "weekly", location = ""] = String(code || "weekly:월").split(":");
+    const meta = addRoutineBoardMeta[boardType] || addRoutineBoardMeta.weekly;
+    return {
+      boardType: addRoutineBoardMeta[boardType] ? boardType : "weekly",
+      location: meta.options.includes(location) ? location : meta.defaultLocation,
+      meta,
+    };
+  }
+
+  function addRoutineDrawerCode(boardType, location) {
+    const meta = addRoutineBoardMeta[boardType] || addRoutineBoardMeta.weekly;
+    return `${boardType}:${location || meta.defaultLocation}`;
+  }
+
+  function renderAddRoutine(code) {
+    const { boardType, location, meta } = parseAddRoutineCode(code);
     return `
-      ${detailHeader("Add Weekly Routine", "새 Weekly Routine 추가", `기본 요일: ${activeDay}`)}
-      <p>프로토타입 안에서만 저장되는 사용자 루틴입니다. 저장 후 해당 요일 보드, 검색, 상세 Drawer, 완료율에 바로 반영됩니다.</p>
-      <form class="routine-form" data-action="save-weekly-routine">
+      ${detailHeader(meta.kicker, meta.title, `기본 ${meta.locationName}: ${location}`)}
+      <p>프로토타입 안에서만 저장되는 사용자 추가 데이터입니다. 저장 후 해당 보드, 검색, 상세 Drawer에 바로 반영됩니다.</p>
+      <form class="routine-form" data-action="save-routine">
+        <input type="hidden" name="boardType" value="${esc(boardType)}">
         <label>
           <span>루틴 제목</span>
-          <input name="title" type="text" placeholder="예: 침구 먼지 털고 환기하기" required maxlength="80">
+          <input name="title" type="text" placeholder="${boardType === "situation" ? "예: 약속 전 긴장 완화 루틴" : "예: 침구 먼지 털고 환기하기"}" required maxlength="80">
         </label>
         <div class="form-grid">
           <label>
-            <span>요일</span>
-            <select name="weekday">
-              ${weekDays.map((day) => `<option value="${esc(day.key)}" ${day.key === activeDay ? "selected" : ""}>${esc(day.label)}</option>`).join("")}
+            <span>${esc(meta.locationName)}</span>
+            <select name="location">
+              ${meta.options.map((option) => `<option value="${esc(option)}" ${option === location ? "selected" : ""}>${esc(option)}</option>`).join("")}
             </select>
           </label>
           <label>
@@ -2304,7 +2320,7 @@
         </label>
         <label>
           <span>짧은 실행 기준</span>
-          <textarea name="summary" rows="4" placeholder="예: 토요일 오전에 침구를 털고 창문을 10분 열어둔다." maxlength="180"></textarea>
+          <textarea name="summary" rows="4" placeholder="${boardType === "situation" ? "예: 약속 30분 전 호흡, 옷매무새, 대화 주제를 1개씩 점검한다." : "예: 토요일 오전에 침구를 털고 창문을 10분 열어둔다."}" maxlength="180"></textarea>
         </label>
         <div class="form-actions">
           <button type="button" class="outline-btn" data-action="close">취소</button>
@@ -2977,38 +2993,45 @@
       if (action === "weekly-add") {
         event.stopPropagation();
         state.navTarget = "weekly";
-        openDetail("addWeeklyRoutine", trigger.dataset.day || "월");
+        openDetail("addRoutine", addRoutineDrawerCode("weekly", trigger.dataset.day || "월"));
         return;
       }
-      if (action === "delete-custom-weekly") {
+      if (action === "add-routine") {
+        event.stopPropagation();
+        const boardType = trigger.dataset.board || "weekly";
+        state.navTarget = boardType === "situation" ? "situation" : boardType;
+        openDetail("addRoutine", addRoutineDrawerCode(boardType, trigger.dataset.location));
+        return;
+      }
+      if (action === "delete-custom-entry") {
         event.preventDefault();
-        const routine = byCode.routines.get(trigger.dataset.code);
-        if (!routine?.isCustom) return;
-        const ok = window.confirm(`"${routine.title}" 루틴을 삭제할까요?`);
+        const entry = byCode.routines.get(trigger.dataset.code) || byCode.situations.get(trigger.dataset.code);
+        if (!entry?.isCustom) return;
+        const ok = window.confirm(`"${entry.title}" 사용자 추가 항목을 삭제할까요?`);
         if (!ok) return;
-        const dayKey = routine.weekday || "월";
-        deleteCustomWeeklyRoutine(routine.code);
+        const scrollTarget = addRoutineBoardMeta[entry.customType || entry.board]?.scrollTarget || ".hero-row";
+        deleteCustomEntry(entry.code);
         closeDrawer();
         render();
-        scrollAfterRender("#weekly-board", "auto");
-        showToast(`${dayKey}요일 사용자 루틴을 삭제했습니다.`);
+        scrollAfterRender(scrollTarget, "auto");
+        showToast("사용자 추가 항목을 삭제했습니다.");
       }
     });
 
     document.addEventListener("submit", (event) => {
-      const form = event.target.closest('[data-action="save-weekly-routine"]');
+      const form = event.target.closest('[data-action="save-routine"]');
       if (!form) return;
       event.preventDefault();
-      const routine = createCustomWeeklyRoutine(new FormData(form));
-      if (!routine) {
+      const entry = createCustomEntry(new FormData(form));
+      if (!entry) {
         showToast("루틴 제목을 입력해주세요.");
         return;
       }
       closeDrawer();
-      state.navTarget = "weekly";
+      state.navTarget = entry.customType === "situation" ? "situation" : entry.board;
       render();
-      scrollAfterRender("#weekly-board", "auto");
-      showToast(`${routine.weekday}요일에 루틴을 추가했습니다.`);
+      scrollAfterRender(addRoutineBoardMeta[entry.customType || entry.board]?.scrollTarget || ".hero-row", "auto");
+      showToast(`${addRoutineBoardMeta[entry.customType || entry.board]?.toastUnit || "Custom"} 항목을 추가했습니다.`);
     });
 
     document.addEventListener("keydown", (event) => {
