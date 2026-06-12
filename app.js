@@ -10,6 +10,7 @@
     situationFilter: "all",
     selectedSituationCategory: null,
     weeklyDone: loadWeeklyDone(),
+    customWeeklyRoutines: loadCustomWeeklyRoutines(),
     itemReclasses: loadItemReclasses(),
     itemOrders: loadItemOrders(),
     cardOrders: loadCardOrders(),
@@ -18,6 +19,8 @@
     draggedCard: null,
     suppressClick: false,
   };
+
+  mergeCustomWeeklyRoutines();
 
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
@@ -324,6 +327,90 @@
 
   function saveWeeklyDone() {
     localStorage.setItem("SERKAN_WEEKLY_DONE", JSON.stringify(state.weeklyDone));
+  }
+
+  function loadCustomWeeklyRoutines() {
+    try {
+      const routines = JSON.parse(localStorage.getItem("SERKAN_CUSTOM_WEEKLY_ROUTINES") || "[]");
+      return Array.isArray(routines) ? routines.filter((routine) => routine?.code && routine?.title) : [];
+    } catch {
+      return [];
+    }
+  }
+
+  function saveCustomWeeklyRoutines() {
+    localStorage.setItem("SERKAN_CUSTOM_WEEKLY_ROUTINES", JSON.stringify(state.customWeeklyRoutines));
+  }
+
+  function mergeCustomWeeklyRoutines() {
+    const existingCodes = new Set(data.routines.map((routine) => routine.code));
+    state.customWeeklyRoutines.forEach((routine) => {
+      if (!existingCodes.has(routine.code)) {
+        data.routines.push(routine);
+        existingCodes.add(routine.code);
+      }
+    });
+  }
+
+  function nextCustomWeeklyCode() {
+    const used = new Set([
+      ...data.routines.map((routine) => routine.code),
+      ...state.customWeeklyRoutines.map((routine) => routine.code),
+    ]);
+    let number = 1;
+    while (used.has(`SR26-CUSTOM-WK-R${number}`)) number += 1;
+    return `SR26-CUSTOM-WK-R${number}`;
+  }
+
+  function createCustomWeeklyRoutine(formData) {
+    const dayKey = formData.get("weekday") || "월";
+    const domain = formData.get("domain") || "SY";
+    const title = String(formData.get("title") || "").trim();
+    const frequency = String(formData.get("frequency") || "Weekly").trim() || "Weekly";
+    const summary = String(formData.get("summary") || "").trim();
+    if (!title) return null;
+    const category = byCode.categories.get(domain);
+    const routine = {
+      code: nextCustomWeeklyCode(),
+      title,
+      board: "weekly",
+      domain,
+      topic: "CUSTOM",
+      category: category?.name || categoryName(domain),
+      weekday: dayKey,
+      frequency,
+      priority: "사용자 추가",
+      timeBlocks: [dayKey],
+      tags: uniq(["사용자 추가", "Custom", frequency, category?.name || domain]),
+      summary,
+      action: summary || title,
+      manualCode: null,
+      itemCode: null,
+      connectionStatus: "custom",
+      linkConfidence: "custom",
+      isCustom: true,
+      createdAt: new Date().toISOString(),
+    };
+    state.customWeeklyRoutines.push(routine);
+    data.routines.push(routine);
+    rebuildIndexes();
+    saveCustomWeeklyRoutines();
+    return routine;
+  }
+
+  function deleteCustomWeeklyRoutine(code) {
+    const routine = byCode.routines.get(code);
+    if (!routine?.isCustom) return false;
+    state.customWeeklyRoutines = state.customWeeklyRoutines.filter((item) => item.code !== code);
+    const dataIndex = data.routines.findIndex((item) => item.code === code);
+    if (dataIndex !== -1) data.routines.splice(dataIndex, 1);
+    Object.keys(state.weeklyDone).forEach((key) => {
+      if (key.endsWith(`:${code}`)) delete state.weeklyDone[key];
+    });
+    saveWeeklyDone();
+    saveCustomWeeklyRoutines();
+    rebuildIndexes();
+    return true;
   }
 
   function loadItemReclasses() {
@@ -1991,6 +2078,7 @@
 
   function renderDetail(type, code) {
     if (type === "routine") return renderRoutineDetail(byCode.routines.get(code));
+    if (type === "addWeeklyRoutine") return renderAddWeeklyRoutine(code);
     if (type === "dailyLibrary") return renderDailyLibraryDetail(code);
     if (type === "routineCategory") return renderRoutineCategoryDetail(code);
     if (type === "plannedPanel") return renderPlannedPanel(code);
@@ -2024,6 +2112,56 @@
         <span>${esc(meta.next)}</span>
       </div>
       ${meta.relatedView ? relationButton(meta.relatedView.type, meta.relatedView.code, meta.relatedView.label, meta.relatedView.title) : ""}
+    `;
+  }
+
+  function renderAddWeeklyRoutine(dayKey = "월") {
+    const activeDay = weekDays.some((day) => day.key === dayKey) ? dayKey : "월";
+    return `
+      ${detailHeader("Add Weekly Routine", "새 Weekly Routine 추가", `기본 요일: ${activeDay}`)}
+      <p>프로토타입 안에서만 저장되는 사용자 루틴입니다. 저장 후 해당 요일 보드, 검색, 상세 Drawer, 완료율에 바로 반영됩니다.</p>
+      <form class="routine-form" data-action="save-weekly-routine">
+        <label>
+          <span>루틴 제목</span>
+          <input name="title" type="text" placeholder="예: 침구 먼지 털고 환기하기" required maxlength="80">
+        </label>
+        <div class="form-grid">
+          <label>
+            <span>요일</span>
+            <select name="weekday">
+              ${weekDays.map((day) => `<option value="${esc(day.key)}" ${day.key === activeDay ? "selected" : ""}>${esc(day.label)}</option>`).join("")}
+            </select>
+          </label>
+          <label>
+            <span>카테고리</span>
+            <select name="domain">
+              ${commonCategoryOrder.map((domain) => {
+                const category = byCode.categories.get(domain);
+                const label = category?.name || categoryName(domain);
+                return `<option value="${esc(domain)}">${esc(label)}</option>`;
+              }).join("")}
+            </select>
+          </label>
+        </div>
+        <label>
+          <span>빈도 / 상태</span>
+          <select name="frequency">
+            <option value="Weekly">Weekly</option>
+            <option value="1x/Week">1x/Week</option>
+            <option value="2~3x/Week">2~3x/Week</option>
+            <option value="Monthly">Monthly</option>
+            <option value="필요 시">필요 시</option>
+          </select>
+        </label>
+        <label>
+          <span>짧은 실행 기준</span>
+          <textarea name="summary" rows="4" placeholder="예: 토요일 오전에 침구를 털고 창문을 10분 열어둔다." maxlength="180"></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="button" class="outline-btn" data-action="close">취소</button>
+          <button type="submit" class="primary-btn">저장하기</button>
+        </div>
+      </form>
     `;
   }
 
@@ -2243,12 +2381,20 @@
     const manual = getManualForRoutine(routine);
     const items = manual ? getItemsForManual(manual.code) : [];
     const productGroups = getProductGroupsForItems(items, { includeMock: false });
+    const timeBlocks = Array.isArray(routine.timeBlocks) ? routine.timeBlocks : [];
+    const customActions = routine.isCustom ? `
+      <div class="custom-routine-actions">
+        <button class="danger-link" data-action="delete-custom-weekly" data-code="${esc(routine.code)}">이 사용자 루틴 삭제</button>
+      </div>
+    ` : "";
     return `
       ${detailHeader("Routine Task", routine.title, routine.code)}
-      <p>${esc(routine.frequency)} · ${esc(routine.priority)} · ${esc(routine.timeBlocks.join(", ") || categoryName(routine.domain))}</p>
+      <p>${esc(routine.frequency)} · ${esc(routine.priority)} · ${esc(timeBlocks.join(", ") || categoryName(routine.domain))}</p>
+      ${routine.summary ? `<p>${esc(routine.summary)}</p>` : ""}
       ${manual ? relationButton("manual", manual.code, manualLabel(routine), manual.title) : pendingBox("상세 매뉴얼 연결 대기", "핵심 행동, 대상, 목적이 맞는 매뉴얼만 연결합니다.")}
       ${renderRelationList("관련 아이템", items.map((item) => ["item", item.code, item.name]))}
       ${productGroups.length ? renderRelationList("관련 제품 그룹", productGroups.map((group) => ["productGroup", group.code, group.title])) : pendingBox("관련 제품 연결 대기", "실제 제품명, 이미지 또는 구매 링크가 확인된 제품 그룹만 표시합니다.")}
+      ${customActions}
     `;
   }
 
@@ -2682,8 +2828,38 @@
       if (action === "weekly-add") {
         event.stopPropagation();
         state.navTarget = "weekly";
-        scrollAfterRender("#weekly-board");
+        openDetail("addWeeklyRoutine", trigger.dataset.day || "월");
+        return;
       }
+      if (action === "delete-custom-weekly") {
+        event.preventDefault();
+        const routine = byCode.routines.get(trigger.dataset.code);
+        if (!routine?.isCustom) return;
+        const ok = window.confirm(`"${routine.title}" 루틴을 삭제할까요?`);
+        if (!ok) return;
+        const dayKey = routine.weekday || "월";
+        deleteCustomWeeklyRoutine(routine.code);
+        closeDrawer();
+        render();
+        scrollAfterRender("#weekly-board", "auto");
+        showToast(`${dayKey}요일 사용자 루틴을 삭제했습니다.`);
+      }
+    });
+
+    document.addEventListener("submit", (event) => {
+      const form = event.target.closest('[data-action="save-weekly-routine"]');
+      if (!form) return;
+      event.preventDefault();
+      const routine = createCustomWeeklyRoutine(new FormData(form));
+      if (!routine) {
+        showToast("루틴 제목을 입력해주세요.");
+        return;
+      }
+      closeDrawer();
+      state.navTarget = "weekly";
+      render();
+      scrollAfterRender("#weekly-board", "auto");
+      showToast(`${routine.weekday}요일에 루틴을 추가했습니다.`);
     });
 
     document.addEventListener("keydown", (event) => {
