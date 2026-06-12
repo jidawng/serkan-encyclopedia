@@ -3408,6 +3408,8 @@
     .weekly-board-grid {
       gap: 12px;
       padding-bottom: 6px;
+      width: 100%;
+      max-width: 100%;
     }
     .weekly-day-column {
       min-width: 132px;
@@ -3783,6 +3785,28 @@
     }
 
     @media (max-width: 720px) {
+      .main,
+      .content,
+      .board,
+      .section-card,
+      .weekly-execution-board {
+        min-width: 0;
+      }
+      .tabs,
+      .weekly-board-grid,
+      .segmented {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        scrollbar-gutter: stable;
+      }
+      .tabs {
+        justify-content: flex-start;
+        padding-bottom: 2px;
+      }
+      .tab {
+        flex: 0 0 auto;
+      }
       .manual-grid, .manual-cards, .product-grid, .item-grid, .item-grid.is-compact, .result-grid, .quick-grid, .routine-strip, .stats, .guide-flow, .guide-section-grid, .guide-two-col {
         grid-template-columns: 1fr;
       }
