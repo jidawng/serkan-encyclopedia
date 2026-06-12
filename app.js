@@ -1792,6 +1792,7 @@
             <button class="${state.situationFilter === "all" ? "active" : ""}" data-action="filter-situation" data-type="all">전체</button>
             <button class="${state.situationFilter === "Mental" ? "active" : ""}" data-action="filter-situation" data-type="Mental">Mental</button>
             <button class="${state.situationFilter === "Social" ? "active" : ""}" data-action="filter-situation" data-type="Social">Social</button>
+            <button data-action="add-routine" data-board="situation" data-location="${esc(state.situationFilter === "all" ? "Mental" : state.situationFilter)}">+ 상황 루틴 추가</button>
           </div>
         </div>
         <div class="situation">
