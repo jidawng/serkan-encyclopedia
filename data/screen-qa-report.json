@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-06-12T02:14:08.675Z",
+  "drawerQa": [
+    {
+      "title": "설거지 하루 1회 이상 하기",
+      "code": "SR26-SP-RS-R21",
+      "type": "routine",
+      "status": "pending",
+      "manualCode": null,
+      "itemCode": null,
+      "linkConfidence": "none",
+      "reviewNeeded": false,
+      "expectedDrawer": {
+        "manualPending": true,
+        "productPending": true,
+        "productButtons": 0,
+        "badInternalVisible": false
+      }
+    },
+    {
+      "title": "기상 후 블랙커피를 마시고 30분 유산소 하기",
+      "code": "SR26-BD-RS-R214",
+      "type": "routine",
+      "status": "pending",
+      "manualCode": null,
+      "itemCode": null,
+      "linkConfidence": "none",
+      "reviewNeeded": false,
+      "expectedDrawer": {
+        "manualPending": true,
+        "productPending": true,
+        "productButtons": 0,
+        "badInternalVisible": false
+      }
+    },
+    {
+      "title": "스마트폰을 눈높이로 올려 보기",
+      "code": "SR26-BD-FT-R99",
+      "type": "routine",
+      "status": "pending",
+      "manualCode": null,
+      "itemCode": null,
+      "linkConfidence": "none",
+      "reviewNeeded": false,
+      "expectedDrawer": {
+        "manualPending": true,
+        "productPending": true,
+        "productButtons": 0,
+        "badInternalVisible": false
+      }
+    },
+    {
+      "title": "디지털 디톡스",
+      "code": "SR26-MT-CN-C36",
+      "type": "situation",
+      "status": "pending",
+      "manualCode": null,
+      "itemCode": null,
+      "linkConfidence": "none",
+      "reviewNeeded": false,
+      "expectedDrawer": {
+        "manualPending": true,
+        "productPending": true,
+        "productButtons": 0,
+        "badInternalVisible": false
+      }
+    },
+    {
+      "title": "고민 적기",
+      "code": "SR26-MT-RS-C37",
+      "type": "situation",
+      "status": "pending",
+      "manualCode": null,
+      "itemCode": null,
+      "linkConfidence": "none",
+      "reviewNeeded": false,
+      "expectedDrawer": {
+        "manualPending": true,
+        "productPending": true,
+        "productButtons": 0,
+        "badInternalVisible": false
+      }
+    }
+  ],
+  "itemReport": {
+    "totalItems": 81,
+    "uniqueItemNames": 17,
+    "reviewNeededItems": 24,
+    "genericExactCount": 39,
+    "genericExactReviewed": 24,
+    "byGenericName": {
+      "리셋 / 생산성": {
+        "total": 10,
+        "reviewNeeded": 10,
+        "codes": [
+          "SR26-SP-RS-C1",
+          "SR26-MT-RS-C1",
+          "SR26-SY-RS-C1",
+          "SR26-SL-RS-C1",
+          "SR26-FD-RS-C1",
+          "SR26-BD-RS-C1",
+          "SR26-SK-RS-C1",
+          "SR26-GR-RS-C1",
+          "SR26-ST-RS-C1",
+          "SR26-SO-RS-C1"
+        ]
+      },
+      "식단 / 수분": {
+        "total": 8,
+        "reviewNeeded": 8,
+        "codes": [
+          "SR26-SP-DT-C1",
+          "SR26-MT-DT-C1",
+          "SR26-FD-DT-C1",
+          "SR26-BD-DT-C1",
+          "SR26-GR-DT-C1",
+          "SR26-SY-DT-C1",
+          "SR26-SK-DT-C1",
+          "SR26-SO-DT-C1"
+        ]
+      },
+      "운동 / 자세": {
+        "total": 7,
+        "reviewNeeded": 6,
+        "codes": [
+          "SR26-MT-FT-C1",
+          "SR26-SL-FT-C1",
+          "SR26-FD-FT-C1",
+          "SR26-BD-FT-C1",
+          "SR26-SK-FT-C1",
+          "SR26-GR-FT-C1",
+          "SR26-SY-FT-C1"
+        ]
+      },
+      "청소 / 정리": {
+        "total": 10,
+        "reviewNeeded": 0,
+        "codes": [
+          "SR26-SP-CN-C1",
+          "SR26-MT-CN-C1",
+          "SR26-SO-CN-C1",
+          "SR26-FD-CN-C1",
+          "SR26-BD-CN-C1",
+          "SR26-SK-CN-C1",
+          "SR26-GR-CN-C1",
+          "SR26-ST-CN-C1",
+          "SR26-SY-CN-C1",
+          "SR26-SL-CN-C1"
+        ]
+      },
+      "침구 / 수면": {
+        "total": 4,
+        "reviewNeeded": 0,
+        "codes": [
+          "SR26-SP-BD-C1",
+          "SR26-SL-BD-C1",
+          "SR26-GR-BD-C1",
+          "SR26-SK-BD-C1"
+        ]
+      }
+    }
+  },
+  "screenInternalExposure": {
+    "appReferences": [
+      "SERKAN_DATA only"
+    ],
+    "internalTermsRendered": false,
+    "notes": "app.js/index.html do not render linkMap, linkQa, source dump, or QA report data in the drawer"
+  }
+}

@@ -1,0 +1,1161 @@
+{
+  "mode": "check",
+  "summary": {
+    "evaluatedSourceCount": 510,
+    "pendingCount": 9,
+    "reviewNeededCount": 390,
+    "itemReviewCount": 51,
+    "mockProductCount": 243,
+    "placeholderExposureBeforeScreenFilter": 1395,
+    "placeholderExposureAfterScreenFilter": 1395,
+    "fixedCount": 0
+  },
+  "samples": {
+    "pending": [
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R5",
+        "title": "기상 직후/요리 후 10분 환기하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-R7",
+        "title": "책상을 알코올 티슈로 닦기",
+        "manualCode": "SR26-SP-DT-M1",
+        "manualTitle": "발코니/조명 관리 매뉴얼",
+        "itemCode": "SR26-SP-DT-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "object"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R21",
+        "title": "설거지 하루 1회 이상 하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "object"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R29",
+        "title": "공기질 측정기를 두고 환기 신호 확인하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-BD-FT-R95",
+        "title": "폼롤러로 거북목, 굽은 어깨 스트레칭하기",
+        "manualCode": "SR26-BD-FT-M1",
+        "manualTitle": "뒷목 아이스팩 냉찜질 관리 매뉴얼",
+        "itemCode": "SR26-BD-FT-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [
+          "exercise-posture"
+        ],
+        "sharedAxes": [
+          "object",
+          "purpose"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-BD-FT-R99",
+        "title": "스마트폰을 눈높이로 올려 보기",
+        "manualCode": "SR26-BD-FT-M1",
+        "manualTitle": "뒷목 아이스팩 냉찜질 관리 매뉴얼",
+        "itemCode": "SR26-BD-FT-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [
+          "exercise-posture"
+        ],
+        "sharedAxes": [
+          "object",
+          "purpose"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-BD-FT-R211",
+        "title": "목이 앞으로 빠지지 않게 자세를 수시로 바로잡기",
+        "manualCode": "SR26-BD-FT-M1",
+        "manualTitle": "뒷목 아이스팩 냉찜질 관리 매뉴얼",
+        "itemCode": "SR26-BD-FT-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [
+          "exercise-posture"
+        ],
+        "sharedAxes": [
+          "object",
+          "purpose"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-BD-RS-R214",
+        "title": "기상 후 블랙커피를 마시고 30분 유산소 하기",
+        "manualCode": "SR26-BD-RS-M1",
+        "manualTitle": "얼굴 혈점 마사지 관리 매뉴얼",
+        "itemCode": "SR26-BD-RS-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "action"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-BD-RS-R222",
+        "title": "매일 30분 걷기",
+        "manualCode": "SR26-BD-RS-M1",
+        "manualTitle": "얼굴 혈점 마사지 관리 매뉴얼",
+        "itemCode": "SR26-BD-RS-C1",
+        "status": "pending",
+        "confidence": "none",
+        "reason": "explicit concept conflict",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "action"
+        ],
+        "titleScore": 0
+      }
+    ],
+    "reviewNeeded": [
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R1",
+        "title": "실내 온도 18~20°C 유지하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R2",
+        "title": "실내 습도 50~60% 유지하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R3",
+        "title": "청소기 밀기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R9",
+        "title": "휴식 시간에 책상 위 정리하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R11",
+        "title": "책상, 선반 등 가구 위 먼지 닦기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R12",
+        "title": "바닥 걸레질(스팀청소) 하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M13",
+        "title": "세탁기 고무 패킹과 내부 닦기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-M14",
+        "title": "식초물로 전자레인지 내부 스팀 청소",
+        "manualCode": "SR26-SP-DT-M1",
+        "manualTitle": "발코니/조명 관리 매뉴얼",
+        "itemCode": "SR26-SP-DT-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "object"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M15",
+        "title": "창문틀 먼지와 오염 닦기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R16",
+        "title": "수납장 내부 보이는 곳만 닦기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R17",
+        "title": "싱크대 락스 청소하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R19",
+        "title": "거울 닦고 변기, 바닥은 락스 청소하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-R20",
+        "title": "마른 세탁물 개어 제자리에 두기",
+        "manualCode": "SR26-SP-DT-M1",
+        "manualTitle": "발코니/조명 관리 매뉴얼",
+        "itemCode": "SR26-SP-DT-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "object"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M22",
+        "title": "후드 필터 분리해 찌든 때 제거하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-M23",
+        "title": "쓰레기통을 강한 수압으로 세척하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-M24",
+        "title": "구석 물때와 오염 제거하기",
+        "manualCode": "SR26-SP-DT-M1",
+        "manualTitle": "발코니/조명 관리 매뉴얼",
+        "itemCode": "SR26-SP-DT-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "object"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M25",
+        "title": "보이지 않는 틈새 먼지 청소하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M26",
+        "title": "보일러실과 환기구 청소하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M27",
+        "title": "식료품 정리하고 유통기한 확인하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M28",
+        "title": "커튼 먼지 제거하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      }
+    ],
+    "keptLowConfidence": [
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R1",
+        "title": "실내 온도 18~20°C 유지하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R2",
+        "title": "실내 습도 50~60% 유지하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R3",
+        "title": "청소기 밀기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R9",
+        "title": "휴식 시간에 책상 위 정리하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R11",
+        "title": "책상, 선반 등 가구 위 먼지 닦기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R12",
+        "title": "바닥 걸레질(스팀청소) 하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M13",
+        "title": "세탁기 고무 패킹과 내부 닦기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-M14",
+        "title": "식초물로 전자레인지 내부 스팀 청소",
+        "manualCode": "SR26-SP-DT-M1",
+        "manualTitle": "발코니/조명 관리 매뉴얼",
+        "itemCode": "SR26-SP-DT-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "object"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M15",
+        "title": "창문틀 먼지와 오염 닦기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R16",
+        "title": "수납장 내부 보이는 곳만 닦기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R17",
+        "title": "싱크대 락스 청소하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R19",
+        "title": "거울 닦고 변기, 바닥은 락스 청소하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-R20",
+        "title": "마른 세탁물 개어 제자리에 두기",
+        "manualCode": "SR26-SP-DT-M1",
+        "manualTitle": "발코니/조명 관리 매뉴얼",
+        "itemCode": "SR26-SP-DT-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "object"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M22",
+        "title": "후드 필터 분리해 찌든 때 제거하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-M23",
+        "title": "쓰레기통을 강한 수압으로 세척하기",
+        "manualCode": "SR26-SP-RS-M1",
+        "manualTitle": "간접 조명 전환 관리 매뉴얼",
+        "itemCode": "SR26-SP-RS-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-M24",
+        "title": "구석 물때와 오염 제거하기",
+        "manualCode": "SR26-SP-DT-M1",
+        "manualTitle": "발코니/조명 관리 매뉴얼",
+        "itemCode": "SR26-SP-DT-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [
+          "object"
+        ],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M25",
+        "title": "보이지 않는 틈새 먼지 청소하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M26",
+        "title": "보일러실과 환기구 청소하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M27",
+        "title": "식료품 정리하고 유통기한 확인하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-M28",
+        "title": "커튼 먼지 제거하기",
+        "manualCode": "SR26-SP-CN-M1",
+        "manualTitle": "시각 자극 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-SP-CN-C1",
+        "status": "review",
+        "confidence": "low",
+        "reason": "no meaningful execution overlap",
+        "sharedConcepts": [],
+        "sharedAxes": [],
+        "titleScore": 0
+      }
+    ],
+    "itemReviewNeeded": [
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-M71",
+        "sourceTitle": "집에 간식 많이 사서 쟁여두지 않기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R72",
+        "sourceTitle": "주위에 물 채운 텀블러 두기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R73",
+        "sourceTitle": "기상 직후 생수 or 레몬물 or 소금물 마시기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R74",
+        "sourceTitle": "매시간 물 한 컵 마시기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R75",
+        "sourceTitle": "오래 둔 물은 마시지 않기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R77",
+        "sourceTitle": "단백질 18g 이상, 식이섬유 포함, 복합 탄수화물",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R78",
+        "sourceTitle": "단백질 25g 이상, 정제당 미섭취, 알코올 미섭취",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R79",
+        "sourceTitle": "식단에 단백질 18g 닭가슴살 한 팩 추가하기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R80",
+        "sourceTitle": "식사 때 고기 반찬 위주로 단백질 챙기기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-RS-R83",
+        "sourceTitle": "한 입에 30회 이상 씹어먹기",
+        "manualCode": "SR26-FD-RS-M1",
+        "manualTitle": "퇴근 후 혼술 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-FD-RS-C1",
+        "itemName": "리셋 / 생산성",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-RS-R84",
+        "sourceTitle": "담배 피우지 않기",
+        "manualCode": "SR26-FD-RS-M1",
+        "manualTitle": "퇴근 후 혼술 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-FD-RS-C1",
+        "itemName": "리셋 / 생산성",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-RS-R85",
+        "sourceTitle": "설탕, 디저트, 단 음료 줄이기",
+        "manualCode": "SR26-FD-RS-M1",
+        "manualTitle": "퇴근 후 혼술 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-FD-RS-C1",
+        "itemName": "리셋 / 생산성",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-RS-R86",
+        "sourceTitle": "뜨거운 밥 식혀 먹기",
+        "manualCode": "SR26-FD-RS-M1",
+        "manualTitle": "퇴근 후 혼술 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-FD-RS-C1",
+        "itemName": "리셋 / 생산성",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R88",
+        "sourceTitle": "오후에 물과 함께 가벼운 간식 먹기 (요거트, 견과류 등)",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R89",
+        "sourceTitle": "운동 전 간식을 소량 섭취하기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-RS-R91",
+        "sourceTitle": "식이섬유 섭취량 체크하기",
+        "manualCode": "SR26-FD-RS-M1",
+        "manualTitle": "퇴근 후 혼술 줄이기 관리 매뉴얼",
+        "itemCode": "SR26-FD-RS-C1",
+        "itemName": "리셋 / 생산성",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-FD-DT-R92",
+        "sourceTitle": "식사 때 국물 섭취 줄이기",
+        "manualCode": "SR26-FD-DT-M1",
+        "manualTitle": "급한 컷팅 다이어트 관리 매뉴얼",
+        "itemCode": "SR26-FD-DT-C1",
+        "itemName": "식단 / 수분",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": [
+          "food-hydration"
+        ]
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-ST-RS-R153",
+        "sourceTitle": "외출 전 안경의 지문과 얼룩 제거하기",
+        "manualCode": "SR26-ST-RS-M1",
+        "manualTitle": "발색 립밤 도포 관리 매뉴얼",
+        "itemCode": "SR26-ST-RS-C1",
+        "itemName": "리셋 / 생산성",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": []
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-ST-RS-R160",
+        "sourceTitle": "내일 입을 옷 미리 골라두기",
+        "manualCode": "SR26-ST-RS-M1",
+        "manualTitle": "발색 립밤 도포 관리 매뉴얼",
+        "itemCode": "SR26-ST-RS-C1",
+        "itemName": "리셋 / 생산성",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": []
+      },
+      {
+        "type": "routine",
+        "sourceCode": "SR26-ST-RS-M167",
+        "sourceTitle": "월급의 10% 옷에 투자하기",
+        "manualCode": "SR26-ST-RS-M1",
+        "manualTitle": "발색 립밤 도포 관리 매뉴얼",
+        "itemCode": "SR26-ST-RS-C1",
+        "itemName": "리셋 / 생산성",
+        "reason": "generic item name with weak manual fit",
+        "sharedConcepts": []
+      }
+    ],
+    "placeholderExposure": [
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R1",
+        "title": "실내 온도 18~20°C 유지하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P1",
+        "productName": "리셋 / 생산성 가성비 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R1",
+        "title": "실내 온도 18~20°C 유지하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P2",
+        "productName": "리셋 / 생산성 민감/입문 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R1",
+        "title": "실내 온도 18~20°C 유지하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P3",
+        "productName": "리셋 / 생산성 프리미엄 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R2",
+        "title": "실내 습도 50~60% 유지하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P1",
+        "productName": "리셋 / 생산성 가성비 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R2",
+        "title": "실내 습도 50~60% 유지하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P2",
+        "productName": "리셋 / 생산성 민감/입문 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R2",
+        "title": "실내 습도 50~60% 유지하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P3",
+        "productName": "리셋 / 생산성 프리미엄 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R3",
+        "title": "청소기 밀기",
+        "itemCode": "SR26-SP-CN-C1",
+        "productCode": "SR26-SP-CN-P1",
+        "productName": "청소 / 정리 가성비 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R3",
+        "title": "청소기 밀기",
+        "itemCode": "SR26-SP-CN-C1",
+        "productCode": "SR26-SP-CN-P2",
+        "productName": "청소 / 정리 민감/입문 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-CN-R3",
+        "title": "청소기 밀기",
+        "itemCode": "SR26-SP-CN-C1",
+        "productCode": "SR26-SP-CN-P3",
+        "productName": "청소 / 정리 프리미엄 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-BD-R4",
+        "title": "이불, 패드 세탁",
+        "itemCode": "SR26-SP-BD-C1",
+        "productCode": "SR26-SP-BD-P1",
+        "productName": "침구 / 수면 가성비 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-BD-R4",
+        "title": "이불, 패드 세탁",
+        "itemCode": "SR26-SP-BD-C1",
+        "productCode": "SR26-SP-BD-P2",
+        "productName": "침구 / 수면 민감/입문 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-BD-R4",
+        "title": "이불, 패드 세탁",
+        "itemCode": "SR26-SP-BD-C1",
+        "productCode": "SR26-SP-BD-P3",
+        "productName": "침구 / 수면 프리미엄 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R5",
+        "title": "기상 직후/요리 후 10분 환기하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P1",
+        "productName": "리셋 / 생산성 가성비 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R5",
+        "title": "기상 직후/요리 후 10분 환기하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P2",
+        "productName": "리셋 / 생산성 민감/입문 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-RS-R5",
+        "title": "기상 직후/요리 후 10분 환기하기",
+        "itemCode": "SR26-SP-RS-C1",
+        "productCode": "SR26-SP-RS-P3",
+        "productName": "리셋 / 생산성 프리미엄 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-BD-R6",
+        "title": "베개 시트 세탁",
+        "itemCode": "SR26-SP-BD-C1",
+        "productCode": "SR26-SP-BD-P1",
+        "productName": "침구 / 수면 가성비 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-BD-R6",
+        "title": "베개 시트 세탁",
+        "itemCode": "SR26-SP-BD-C1",
+        "productCode": "SR26-SP-BD-P2",
+        "productName": "침구 / 수면 민감/입문 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-BD-R6",
+        "title": "베개 시트 세탁",
+        "itemCode": "SR26-SP-BD-C1",
+        "productCode": "SR26-SP-BD-P3",
+        "productName": "침구 / 수면 프리미엄 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-R7",
+        "title": "책상을 알코올 티슈로 닦기",
+        "itemCode": "SR26-SP-DT-C1",
+        "productCode": "SR26-SP-DT-P1",
+        "productName": "식단 / 수분 가성비 추천 제품"
+      },
+      {
+        "type": "routine",
+        "code": "SR26-SP-DT-R7",
+        "title": "책상을 알코올 티슈로 닦기",
+        "itemCode": "SR26-SP-DT-C1",
+        "productCode": "SR26-SP-DT-P2",
+        "productName": "식단 / 수분 민감/입문 추천 제품"
+      }
+    ],
+    "fixed": []
+  }
+}

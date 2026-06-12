@@ -1,0 +1,465 @@
+{
+  "counts": {
+    "routines": 465,
+    "manuals": 81,
+    "items": 81,
+    "products": 243,
+    "situations": 45,
+    "categories": 10,
+    "linkMap": 1704
+  },
+  "missing": {
+    "routineManual": [],
+    "manualRoutine": [],
+    "itemManuals": [],
+    "itemProducts": [],
+    "productItem": [],
+    "situationManual": [],
+    "linkDestinations": []
+  },
+  "quality": {
+    "productsWithoutImage": 243,
+    "productsWithoutExternalLink": 243,
+    "placeholderProducts": 243,
+    "duplicateProducts": [
+      [
+        "가성비 기준 / 리셋 / 생산성 가성비 추천 제품",
+        [
+          "SR26-SP-RS-P1",
+          "SR26-MT-RS-P1",
+          "SR26-SY-RS-P1",
+          "SR26-SL-RS-P1",
+          "SR26-FD-RS-P1",
+          "SR26-BD-RS-P1",
+          "SR26-SK-RS-P1",
+          "SR26-GR-RS-P1",
+          "SR26-ST-RS-P1",
+          "SR26-SO-RS-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 리셋 / 생산성 민감/입문 추천 제품",
+        [
+          "SR26-SP-RS-P2",
+          "SR26-MT-RS-P2",
+          "SR26-SY-RS-P2",
+          "SR26-SL-RS-P2",
+          "SR26-FD-RS-P2",
+          "SR26-BD-RS-P2",
+          "SR26-SK-RS-P2",
+          "SR26-GR-RS-P2",
+          "SR26-ST-RS-P2",
+          "SR26-SO-RS-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 리셋 / 생산성 프리미엄 추천 제품",
+        [
+          "SR26-SP-RS-P3",
+          "SR26-MT-RS-P3",
+          "SR26-SY-RS-P3",
+          "SR26-SL-RS-P3",
+          "SR26-FD-RS-P3",
+          "SR26-BD-RS-P3",
+          "SR26-SK-RS-P3",
+          "SR26-GR-RS-P3",
+          "SR26-ST-RS-P3",
+          "SR26-SO-RS-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 침구 / 수면 가성비 추천 제품",
+        [
+          "SR26-SP-BD-P1",
+          "SR26-GR-BD-P1",
+          "SR26-SK-BD-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 침구 / 수면 민감/입문 추천 제품",
+        [
+          "SR26-SP-BD-P2",
+          "SR26-GR-BD-P2",
+          "SR26-SK-BD-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 침구 / 수면 프리미엄 추천 제품",
+        [
+          "SR26-SP-BD-P3",
+          "SR26-GR-BD-P3",
+          "SR26-SK-BD-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 식단 / 수분 가성비 추천 제품",
+        [
+          "SR26-SP-DT-P1",
+          "SR26-MT-DT-P1",
+          "SR26-FD-DT-P1",
+          "SR26-BD-DT-P1",
+          "SR26-GR-DT-P1",
+          "SR26-SY-DT-P1",
+          "SR26-SK-DT-P1",
+          "SR26-SO-DT-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 식단 / 수분 민감/입문 추천 제품",
+        [
+          "SR26-SP-DT-P2",
+          "SR26-MT-DT-P2",
+          "SR26-FD-DT-P2",
+          "SR26-BD-DT-P2",
+          "SR26-GR-DT-P2",
+          "SR26-SY-DT-P2",
+          "SR26-SK-DT-P2",
+          "SR26-SO-DT-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 식단 / 수분 프리미엄 추천 제품",
+        [
+          "SR26-SP-DT-P3",
+          "SR26-MT-DT-P3",
+          "SR26-FD-DT-P3",
+          "SR26-BD-DT-P3",
+          "SR26-GR-DT-P3",
+          "SR26-SY-DT-P3",
+          "SR26-SK-DT-P3",
+          "SR26-SO-DT-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 면도 / 체모 가성비 추천 제품",
+        [
+          "SR26-SP-SH-P1",
+          "SR26-SK-SH-P1",
+          "SR26-GR-SH-P1",
+          "SR26-ST-SH-P1",
+          "SR26-SY-SH-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 면도 / 체모 민감/입문 추천 제품",
+        [
+          "SR26-SP-SH-P2",
+          "SR26-SK-SH-P2",
+          "SR26-GR-SH-P2",
+          "SR26-ST-SH-P2",
+          "SR26-SY-SH-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 면도 / 체모 프리미엄 추천 제품",
+        [
+          "SR26-SP-SH-P3",
+          "SR26-SK-SH-P3",
+          "SR26-GR-SH-P3",
+          "SR26-ST-SH-P3",
+          "SR26-SY-SH-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 청소 / 정리 가성비 추천 제품",
+        [
+          "SR26-MT-CN-P1",
+          "SR26-SO-CN-P1",
+          "SR26-FD-CN-P1",
+          "SR26-BD-CN-P1",
+          "SR26-SK-CN-P1",
+          "SR26-GR-CN-P1",
+          "SR26-ST-CN-P1",
+          "SR26-SY-CN-P1",
+          "SR26-SL-CN-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 청소 / 정리 민감/입문 추천 제품",
+        [
+          "SR26-MT-CN-P2",
+          "SR26-SO-CN-P2",
+          "SR26-FD-CN-P2",
+          "SR26-BD-CN-P2",
+          "SR26-SK-CN-P2",
+          "SR26-GR-CN-P2",
+          "SR26-ST-CN-P2",
+          "SR26-SY-CN-P2",
+          "SR26-SL-CN-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 청소 / 정리 프리미엄 추천 제품",
+        [
+          "SR26-MT-CN-P3",
+          "SR26-SO-CN-P3",
+          "SR26-FD-CN-P3",
+          "SR26-BD-CN-P3",
+          "SR26-SK-CN-P3",
+          "SR26-GR-CN-P3",
+          "SR26-ST-CN-P3",
+          "SR26-SY-CN-P3",
+          "SR26-SL-CN-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 운동 / 자세 가성비 추천 제품",
+        [
+          "SR26-MT-FT-P1",
+          "SR26-SL-FT-P1",
+          "SR26-FD-FT-P1",
+          "SR26-BD-FT-P1",
+          "SR26-SK-FT-P1",
+          "SR26-GR-FT-P1",
+          "SR26-SY-FT-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 운동 / 자세 민감/입문 추천 제품",
+        [
+          "SR26-MT-FT-P2",
+          "SR26-SL-FT-P2",
+          "SR26-FD-FT-P2",
+          "SR26-BD-FT-P2",
+          "SR26-SK-FT-P2",
+          "SR26-GR-FT-P2",
+          "SR26-SY-FT-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 운동 / 자세 프리미엄 추천 제품",
+        [
+          "SR26-MT-FT-P3",
+          "SR26-SL-FT-P3",
+          "SR26-FD-FT-P3",
+          "SR26-BD-FT-P3",
+          "SR26-SK-FT-P3",
+          "SR26-GR-FT-P3",
+          "SR26-SY-FT-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 루틴 회복 가성비 추천 제품",
+        [
+          "SR26-MT-RC-P1",
+          "SR26-SY-RC-P1",
+          "SR26-SK-RC-P1",
+          "SR26-SL-RC-P1",
+          "SR26-BD-RC-P1",
+          "SR26-ST-RC-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 루틴 회복 민감/입문 추천 제품",
+        [
+          "SR26-MT-RC-P2",
+          "SR26-SY-RC-P2",
+          "SR26-SK-RC-P2",
+          "SR26-SL-RC-P2",
+          "SR26-BD-RC-P2",
+          "SR26-ST-RC-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 루틴 회복 프리미엄 추천 제품",
+        [
+          "SR26-MT-RC-P3",
+          "SR26-SY-RC-P3",
+          "SR26-SK-RC-P3",
+          "SR26-SL-RC-P3",
+          "SR26-BD-RC-P3",
+          "SR26-ST-RC-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 커뮤니케이션 가성비 추천 제품",
+        [
+          "SR26-SO-CM-P1",
+          "SR26-SY-CM-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 커뮤니케이션 민감/입문 추천 제품",
+        [
+          "SR26-SO-CM-P2",
+          "SR26-SY-CM-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 커뮤니케이션 프리미엄 추천 제품",
+        [
+          "SR26-SO-CM-P3",
+          "SR26-SY-CM-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 갈등 / 거절 가성비 추천 제품",
+        [
+          "SR26-SO-CF-P1",
+          "SR26-SY-CF-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 갈등 / 거절 민감/입문 추천 제품",
+        [
+          "SR26-SO-CF-P2",
+          "SR26-SY-CF-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 갈등 / 거절 프리미엄 추천 제품",
+        [
+          "SR26-SO-CF-P3",
+          "SR26-SY-CF-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 선크림 가성비 추천 제품",
+        [
+          "SR26-SL-SS-P1",
+          "SR26-BD-SS-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 선크림 민감/입문 추천 제품",
+        [
+          "SR26-SL-SS-P2",
+          "SR26-BD-SS-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 선크림 프리미엄 추천 제품",
+        [
+          "SR26-SL-SS-P3",
+          "SR26-BD-SS-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 향 / 체취 가성비 추천 제품",
+        [
+          "SR26-FD-FR-P1",
+          "SR26-SK-FR-P1",
+          "SR26-ST-FR-P1",
+          "SR26-SO-FR-P1",
+          "SR26-MT-FR-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 향 / 체취 민감/입문 추천 제품",
+        [
+          "SR26-FD-FR-P2",
+          "SR26-SK-FR-P2",
+          "SR26-ST-FR-P2",
+          "SR26-SO-FR-P2",
+          "SR26-MT-FR-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 향 / 체취 프리미엄 추천 제품",
+        [
+          "SR26-FD-FR-P3",
+          "SR26-SK-FR-P3",
+          "SR26-ST-FR-P3",
+          "SR26-SO-FR-P3",
+          "SR26-MT-FR-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 클렌징 가성비 추천 제품",
+        [
+          "SR26-BD-CL-P1",
+          "SR26-GR-CL-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 클렌징 민감/입문 추천 제품",
+        [
+          "SR26-BD-CL-P2",
+          "SR26-GR-CL-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 클렌징 프리미엄 추천 제품",
+        [
+          "SR26-BD-CL-P3",
+          "SR26-GR-CL-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 영양제 가성비 추천 제품",
+        [
+          "SR26-BD-SP-P1",
+          "SR26-SK-SP-P1",
+          "SR26-ST-SP-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 영양제 민감/입문 추천 제품",
+        [
+          "SR26-BD-SP-P2",
+          "SR26-SK-SP-P2",
+          "SR26-ST-SP-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 영양제 프리미엄 추천 제품",
+        [
+          "SR26-BD-SP-P3",
+          "SR26-SK-SP-P3",
+          "SR26-ST-SP-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 헤어 가성비 추천 제품",
+        [
+          "SR26-SK-HR-P1",
+          "SR26-BD-HR-P1",
+          "SR26-ST-HR-P1",
+          "SR26-SO-HR-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 헤어 민감/입문 추천 제품",
+        [
+          "SR26-SK-HR-P2",
+          "SR26-BD-HR-P2",
+          "SR26-ST-HR-P2",
+          "SR26-SO-HR-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 헤어 프리미엄 추천 제품",
+        [
+          "SR26-SK-HR-P3",
+          "SR26-BD-HR-P3",
+          "SR26-ST-HR-P3",
+          "SR26-SO-HR-P3"
+        ]
+      ],
+      [
+        "가성비 기준 / 여드름 / 트러블 가성비 추천 제품",
+        [
+          "SR26-FD-AC-P1",
+          "SR26-BD-AC-P1",
+          "SR26-SY-AC-P1"
+        ]
+      ],
+      [
+        "민감/입문 기준 / 여드름 / 트러블 민감/입문 추천 제품",
+        [
+          "SR26-FD-AC-P2",
+          "SR26-BD-AC-P2",
+          "SR26-SY-AC-P2"
+        ]
+      ],
+      [
+        "프리미엄 기준 / 여드름 / 트러블 프리미엄 추천 제품",
+        [
+          "SR26-FD-AC-P3",
+          "SR26-BD-AC-P3",
+          "SR26-SY-AC-P3"
+        ]
+      ]
+    ]
+  }
+}
