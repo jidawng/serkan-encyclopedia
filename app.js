@@ -88,6 +88,7 @@
       options: ["기상", "업무", "점심", "오후", "저녁", "수면"],
       scrollTarget: "#daily-board",
       toastUnit: "Daily",
+      defaultFrequency: "Daily",
     },
     weekly: {
       title: "새 Weekly Routine 추가",
@@ -100,6 +101,7 @@
       options: ["월", "화", "수", "목", "금", "토", "일"],
       scrollTarget: "#weekly-board",
       toastUnit: "Weekly",
+      defaultFrequency: "Weekly",
     },
     monthly: {
       title: "새 Monthly Routine 추가",
@@ -112,6 +114,7 @@
       options: ["점검", "교체", "재구매", "정리", "대청소", "기타"],
       scrollTarget: "#monthly-board",
       toastUnit: "Monthly",
+      defaultFrequency: "Monthly",
     },
     seasonal: {
       title: "새 Seasonal Routine 추가",
@@ -124,6 +127,7 @@
       options: ["봄", "여름", "가을", "겨울"],
       scrollTarget: "#seasonal-board",
       toastUnit: "Seasonal",
+      defaultFrequency: "Seasonal",
     },
     situation: {
       title: "새 Situation Routine 추가",
@@ -136,6 +140,7 @@
       options: ["Mental", "Social", "Space", "Body", "기타"],
       scrollTarget: "#situations",
       toastUnit: "Situation",
+      defaultFrequency: "필요 시",
     },
   };
 
@@ -1778,9 +1783,10 @@
     const social = orderedCards(data.situations.filter((situation) => situation.type.includes("Social")), socialOrderKey);
     const mentalCategories = buildSituationCategories("Mental", mental);
     const socialCategories = buildSituationCategories("Social", social);
-    const visibleCategories = visibleSituationCategories(mentalCategories, socialCategories);
+    const customSituationCategories = buildCustomSituationCategories();
+    const visibleCategories = visibleSituationCategories(mentalCategories, socialCategories, customSituationCategories);
     const detailCount = visibleCategories.reduce((sum, category) => sum + category.items.length, 0);
-    const selectedCategory = getSelectedSituationCategory(mentalCategories, socialCategories);
+    const selectedCategory = getSelectedSituationCategory(mentalCategories, socialCategories, customSituationCategories);
     return `
       <section class="section-card" id="situations">
         <div class="section-head">
@@ -1960,18 +1966,39 @@
       .filter((group) => group.key !== fallback.key || group.items.length);
   }
 
-  function visibleSituationCategories(mentalCategories, socialCategories) {
+  function buildCustomSituationCategories() {
+    const custom = data.situations.filter((situation) => situation.isCustom && !situation.type.includes("Mental") && !situation.type.includes("Social"));
+    if (!custom.length) return [];
+    const grouped = new Map();
+    custom.forEach((situation) => {
+      const type = situation.type || "기타";
+      if (!grouped.has(type)) grouped.set(type, []);
+      grouped.get(type).push(situation);
+    });
+    return [...grouped.entries()].map(([type, items]) => ({
+      key: `custom-${type}`,
+      icon: type === "Space" ? "🏠" : type === "Body" ? "🏋️" : "◇",
+      title: `${type} 사용자 추가 상황`,
+      desc: "직접 추가한 상황 대응 루틴",
+      type,
+      items,
+      manualCount: items.filter((situation) => situation.manualCode).length,
+      itemCount: items.flatMap((situation) => getSituationItems(situation)).length,
+    }));
+  }
+
+  function visibleSituationCategories(mentalCategories, socialCategories, customCategories = []) {
     const all = state.situationFilter === "Mental"
       ? mentalCategories
-      : state.situationFilter === "Social" ? socialCategories : [...mentalCategories, ...socialCategories];
+      : state.situationFilter === "Social" ? socialCategories : [...mentalCategories, ...socialCategories, ...customCategories];
     if (!state.selectedSituationCategory) return all.filter((category) => category.items.length);
     const selected = all.find((category) => category.key === state.selectedSituationCategory);
     return selected ? [selected] : all;
   }
 
-  function getSelectedSituationCategory(mentalCategories, socialCategories) {
+  function getSelectedSituationCategory(mentalCategories, socialCategories, customCategories = []) {
     if (!state.selectedSituationCategory) return null;
-    return [...mentalCategories, ...socialCategories].find((category) => category.key === state.selectedSituationCategory) || null;
+    return [...mentalCategories, ...socialCategories, ...customCategories].find((category) => category.key === state.selectedSituationCategory) || null;
   }
 
   function renderSituationManualCards(situations) {
@@ -2311,11 +2338,7 @@
         <label>
           <span>빈도 / 상태</span>
           <select name="frequency">
-            <option value="Weekly">Weekly</option>
-            <option value="1x/Week">1x/Week</option>
-            <option value="2~3x/Week">2~3x/Week</option>
-            <option value="Monthly">Monthly</option>
-            <option value="필요 시">필요 시</option>
+            ${["Daily", "Weekly", "1x/Week", "2~3x/Week", "Monthly", "Seasonal", "필요 시"].map((option) => `<option value="${esc(option)}" ${option === meta.defaultFrequency ? "selected" : ""}>${esc(option)}</option>`).join("")}
           </select>
         </label>
         <label>
@@ -2549,7 +2572,7 @@
     const timeBlocks = Array.isArray(routine.timeBlocks) ? routine.timeBlocks : [];
     const customActions = routine.isCustom ? `
       <div class="custom-routine-actions">
-        <button class="danger-link" data-action="delete-custom-weekly" data-code="${esc(routine.code)}">이 사용자 루틴 삭제</button>
+        <button class="danger-link" data-action="delete-custom-entry" data-code="${esc(routine.code)}">이 사용자 루틴 삭제</button>
       </div>
     ` : "";
     return `
@@ -2659,12 +2682,19 @@
     const manual = byCode.manuals.get(situation.manualCode);
     const items = manual ? getItemsForManual(manual.code) : [];
     const productGroups = getProductGroupsForItems(items, { includeMock: false });
+    const customActions = situation.isCustom ? `
+      <div class="custom-routine-actions">
+        <button class="danger-link" data-action="delete-custom-entry" data-code="${esc(situation.code)}">이 사용자 상황 루틴 삭제</button>
+      </div>
+    ` : "";
     return `
       ${detailHeader("Situation", situation.title, situation.code)}
       <p>${esc(situation.type)} · ${esc(situation.priority)}</p>
+      ${situation.summary || situation.trigger ? `<p>${esc(situation.summary || situation.trigger)}</p>` : ""}
       ${manual ? relationButton("manual", manual.code, manualLabel(situation, "상황 상세 매뉴얼"), manual.title) : pendingBox("상황 매뉴얼 연결 대기", "상황 제목과 실행 맥락이 직접 이어지는 매뉴얼만 연결합니다.")}
       ${renderRelationList("관련 아이템", items.map((item) => ["item", item.code, item.name]))}
       ${productGroups.length ? renderRelationList("관련 제품 그룹", productGroups.map((group) => ["productGroup", group.code, group.title])) : pendingBox("관련 제품 연결 대기", "실제 제품 데이터가 들어오기 전까지 제품 연결을 보류합니다.")}
+      ${customActions}
     `;
   }
 
@@ -3204,9 +3234,14 @@
       scrollAfterRender("#weekly-board");
       return;
     }
-    if (["daily", "monthly", "seasonal"].includes(nav)) {
+    if (nav === "daily") {
       setView("dashboard");
       scrollAfterRender("#daily-board");
+      return;
+    }
+    if (["monthly", "seasonal"].includes(nav)) {
+      setView("dashboard");
+      scrollAfterRender(`#${nav}-board`);
       return;
     }
     if (nav === "guide") {
