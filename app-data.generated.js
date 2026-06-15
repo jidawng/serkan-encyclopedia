@@ -42,7 +42,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-RS-R2",
@@ -72,7 +76,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-R3",
@@ -104,7 +112,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-BD-R4",
@@ -134,7 +146,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SP-RS-R5",
@@ -149,8 +163,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "의무",
       "difficulty": "쉬움",
-      "manualCode": "SR26-SP-RS-M1",
-      "itemCode": "SR26-SP-RS-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0005",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -164,7 +178,12 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-SP-RS-M1",
+      "previousItemCode": "SR26-SP-RS-C1"
     },
     {
       "code": "SR26-SP-BD-R6",
@@ -195,7 +214,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SP-DT-R7",
@@ -210,8 +231,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "권장",
       "difficulty": "쉬움",
-      "manualCode": "SR26-SP-DT-M1",
-      "itemCode": "SR26-SP-DT-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0007",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -225,7 +246,12 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-SP-DT-M1",
+      "previousItemCode": "SR26-SP-DT-C1"
     },
     {
       "code": "SR26-SP-BD-R8",
@@ -255,7 +281,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SP-CN-R9",
@@ -285,7 +313,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-SH-R10",
@@ -315,7 +347,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SP-CN-R11",
@@ -345,7 +379,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-R12",
@@ -375,7 +413,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M13",
@@ -405,7 +447,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-DT-M14",
@@ -435,7 +481,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M15",
@@ -465,7 +515,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-R16",
@@ -495,7 +549,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-R17",
@@ -525,7 +583,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-BD-R18",
@@ -555,7 +617,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SP-CN-R19",
@@ -585,7 +649,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-DT-R20",
@@ -615,7 +683,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-RS-R21",
@@ -630,8 +702,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "의무",
       "difficulty": "쉬움",
-      "manualCode": "SR26-SP-RS-M1",
-      "itemCode": "SR26-SP-RS-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0021",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -645,7 +717,12 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-SP-RS-M1",
+      "previousItemCode": "SR26-SP-RS-C1"
     },
     {
       "code": "SR26-SP-CN-M22",
@@ -675,7 +752,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "의무",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-RS-M23",
@@ -705,7 +786,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-DT-M24",
@@ -735,7 +820,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M25",
@@ -765,7 +854,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M26",
@@ -795,7 +888,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M27",
@@ -825,7 +922,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M28",
@@ -855,7 +956,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-RS-R29",
@@ -870,8 +975,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "추가",
       "difficulty": "보통",
-      "manualCode": "SR26-SP-RS-M1",
-      "itemCode": "SR26-SP-RS-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0029",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -885,7 +990,12 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-SP-RS-M1",
+      "previousItemCode": "SR26-SP-RS-C1"
     },
     {
       "code": "SR26-SP-CN-M30",
@@ -915,7 +1025,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M31",
@@ -945,7 +1059,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M32",
@@ -975,7 +1093,11 @@ window.SERKAN_DATA = {
         "Annually",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-DT-M33",
@@ -1005,7 +1127,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SP-CN-M34",
@@ -1035,7 +1161,11 @@ window.SERKAN_DATA = {
         "Annually",
         "권장",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M35",
@@ -1065,7 +1195,11 @@ window.SERKAN_DATA = {
         "Annually",
         "권장",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-CN-C36",
@@ -1080,8 +1214,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "권장",
       "difficulty": "쉬움",
-      "manualCode": "SR26-MT-CN-M1",
-      "itemCode": "SR26-MT-CN-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0036",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -1095,7 +1229,12 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-MT-CN-M1",
+      "previousItemCode": "SR26-MT-CN-C1"
     },
     {
       "code": "SR26-MT-RS-C37",
@@ -1110,8 +1249,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "권장",
       "difficulty": "쉬움",
-      "manualCode": "SR26-MT-RS-M1",
-      "itemCode": "SR26-MT-RS-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0037",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -1125,7 +1264,12 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-MT-RS-M1",
+      "previousItemCode": "SR26-MT-RS-C1"
     },
     {
       "code": "SR26-MT-DT-R38",
@@ -1159,7 +1303,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-DT-R39",
@@ -1189,7 +1337,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-FT-R40",
@@ -1219,7 +1371,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-MT-RS-R41",
@@ -1249,7 +1403,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RC-R42",
@@ -1279,7 +1437,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C43",
@@ -1309,7 +1471,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RC-R44",
@@ -1339,7 +1505,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-MT-RS-C45",
@@ -1369,7 +1539,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RC-C46",
@@ -1399,7 +1573,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-DT-C47",
@@ -1429,7 +1607,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-M48",
@@ -1459,7 +1641,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-M49",
@@ -1489,7 +1675,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C50",
@@ -1519,7 +1709,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C51",
@@ -1549,7 +1743,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-M52",
@@ -1579,7 +1777,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-FI-R53",
@@ -1609,7 +1811,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-CN-C54",
@@ -1639,7 +1845,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-CM-R55",
@@ -1669,7 +1879,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-RL-R56",
@@ -1699,7 +1913,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-CM-C57",
@@ -1729,7 +1947,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-RL-C58",
@@ -1759,7 +1981,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-CF-C59",
@@ -1789,7 +2015,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-CM-C60",
@@ -1819,7 +2049,11 @@ window.SERKAN_DATA = {
         "불명확",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-BD-R61",
@@ -1849,7 +2083,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-FT-R62",
@@ -1879,7 +2117,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-BD-R63",
@@ -1909,7 +2151,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-BD-R64",
@@ -1939,7 +2185,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-RS-R65",
@@ -1969,7 +2219,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SL-RS-R66",
@@ -1999,7 +2253,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SL-RS-R67",
@@ -2029,7 +2287,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SL-FT-R68",
@@ -2059,7 +2321,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-SS-R69",
@@ -2089,7 +2355,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-BD-R70",
@@ -2119,7 +2389,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-FD-DT-M71",
@@ -2149,7 +2423,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R72",
@@ -2179,7 +2457,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R73",
@@ -2209,7 +2491,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R74",
@@ -2239,7 +2525,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R75",
@@ -2269,7 +2559,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-SP-R76",
@@ -2299,7 +2593,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R77",
@@ -2329,7 +2627,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R78",
@@ -2359,7 +2661,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R79",
@@ -2389,7 +2695,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R80",
@@ -2419,7 +2729,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-CN-R81",
@@ -2449,7 +2763,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-SP-R82",
@@ -2479,7 +2797,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-RS-R83",
@@ -2509,7 +2831,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-RS-R84",
@@ -2539,7 +2865,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-RS-R85",
@@ -2569,7 +2899,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-RS-R86",
@@ -2599,7 +2933,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-FR-M87",
@@ -2629,7 +2967,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R88",
@@ -2659,7 +3001,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R89",
@@ -2689,7 +3035,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-FT-R90",
@@ -2719,7 +3069,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-RS-R91",
@@ -2749,7 +3103,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R92",
@@ -2779,7 +3137,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-SP-R93",
@@ -2809,7 +3171,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-DT-R94",
@@ -2839,7 +3205,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-FT-R95",
@@ -2854,8 +3224,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "권장",
       "difficulty": "쉬움",
-      "manualCode": "SR26-BD-FT-M1",
-      "itemCode": "SR26-BD-FT-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0095",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -2869,7 +3239,12 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-BD-FT-M1",
+      "previousItemCode": "SR26-BD-FT-C1"
     },
     {
       "code": "SR26-BD-RS-R96",
@@ -2899,7 +3274,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R97",
@@ -2929,7 +3308,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-DT-R98",
@@ -2959,7 +3342,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-FT-R99",
@@ -2974,8 +3361,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "의무",
       "difficulty": "쉬움",
-      "manualCode": "SR26-BD-FT-M1",
-      "itemCode": "SR26-BD-FT-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0099",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -2989,7 +3376,12 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-BD-FT-M1",
+      "previousItemCode": "SR26-BD-FT-C1"
     },
     {
       "code": "SR26-BD-FT-R100",
@@ -3019,7 +3411,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-CL-R101",
@@ -3049,7 +3445,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-BD-FT-R102",
@@ -3079,7 +3477,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R103",
@@ -3109,7 +3511,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R104",
@@ -3139,7 +3545,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-DT-R105",
@@ -3169,7 +3579,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-DT-R106",
@@ -3199,7 +3613,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R107",
@@ -3229,7 +3647,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R108",
@@ -3259,7 +3681,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-CN-R109",
@@ -3289,7 +3715,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-M110",
@@ -3319,7 +3749,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-CN-M111",
@@ -3349,7 +3783,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-DT-M112",
@@ -3379,7 +3817,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-DT-R113",
@@ -3409,7 +3851,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-SP-R114",
@@ -3439,7 +3885,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M115",
@@ -3469,7 +3919,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-HR-M116",
@@ -3499,7 +3951,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-BD-HR-M117",
@@ -3529,7 +3983,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-BD-R118",
@@ -3559,7 +4017,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-FI-R119",
@@ -3589,7 +4051,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-SS-R120",
@@ -3619,7 +4085,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-SS-M121",
@@ -3649,7 +4119,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-CN-M122",
@@ -3679,7 +4153,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-RS-R123",
@@ -3709,7 +4187,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-AC-R124",
@@ -3739,7 +4219,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-CL-M125",
@@ -3769,7 +4253,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-GR-RS-R126",
@@ -3799,7 +4287,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-CL-R127",
@@ -3829,7 +4321,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-CL-R128",
@@ -3859,7 +4355,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-CL-R129",
@@ -3889,7 +4389,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-CL-M130",
@@ -3919,7 +4423,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-R131",
@@ -3949,7 +4457,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-CL-R132",
@@ -3979,7 +4489,11 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-R133",
@@ -4009,7 +4523,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-SH-R134",
@@ -4039,7 +4555,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-GR-SH-R135",
@@ -4069,7 +4587,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-SH-R136",
@@ -4099,7 +4621,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-SH-R137",
@@ -4129,7 +4653,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-SH-R138",
@@ -4159,7 +4685,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-HR-R139",
@@ -4189,7 +4717,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-HR-R140",
@@ -4219,7 +4749,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-HR-R141",
@@ -4249,7 +4781,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-FT-R142",
@@ -4279,7 +4813,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-SH-M143",
@@ -4309,7 +4847,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-GR-SH-M144",
@@ -4339,7 +4879,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-HR-M145",
@@ -4369,7 +4913,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-SS-M146",
@@ -4399,7 +4947,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-FR-R147",
@@ -4429,7 +4981,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M148",
@@ -4459,7 +5015,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-HR-R149",
@@ -4489,7 +5047,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-GR-RS-R150",
@@ -4519,7 +5079,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-RS-R151",
@@ -4549,7 +5113,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-DT-R152",
@@ -4579,7 +5147,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-RS-R153",
@@ -4609,7 +5181,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-SH-R154",
@@ -4639,7 +5215,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-CN-R155",
@@ -4669,7 +5249,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-CL-R156",
@@ -4699,7 +5283,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-FR-R157",
@@ -4729,7 +5317,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-RS-M158",
@@ -4759,7 +5351,11 @@ window.SERKAN_DATA = {
         "Annually",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-RS-M159",
@@ -4789,7 +5385,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-RS-R160",
@@ -4819,7 +5419,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-SH-R161",
@@ -4849,7 +5453,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-CN-R162",
@@ -4879,7 +5485,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-RS-R163",
@@ -4909,7 +5519,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-HR-R164",
@@ -4939,7 +5551,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-CN-M165",
@@ -4969,7 +5585,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-HR-M166",
@@ -4999,7 +5619,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-RS-M167",
@@ -5029,7 +5653,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-CN-M168",
@@ -5059,7 +5687,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-CN-R169",
@@ -5089,7 +5721,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-FR-R170",
@@ -5119,7 +5755,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-CN-R171",
@@ -5149,7 +5789,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-RS-M172",
@@ -5179,7 +5823,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-HR-R173",
@@ -5209,7 +5857,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-DT-R174",
@@ -5239,7 +5891,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-RS-R175",
@@ -5269,7 +5925,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-M176",
@@ -5299,7 +5959,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-M177",
@@ -5329,7 +5993,11 @@ window.SERKAN_DATA = {
         "Annually",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-R178",
@@ -5359,7 +6027,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-CN-R179",
@@ -5389,7 +6061,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-R180",
@@ -5419,7 +6095,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-FT-M181",
@@ -5449,7 +6129,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M182",
@@ -5479,7 +6163,9 @@ window.SERKAN_DATA = {
         "필요시",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-R183",
@@ -5509,7 +6195,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-CN-R184",
@@ -5539,7 +6227,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R185",
@@ -5569,7 +6261,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-FT-R186",
@@ -5599,7 +6295,11 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-FD-AC-M187",
@@ -5629,7 +6329,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-GR-HR-M188",
@@ -5659,7 +6363,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-AC-M189",
@@ -5689,7 +6397,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-HR-M190",
@@ -5719,7 +6431,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-CL-M191",
@@ -5749,7 +6463,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-BD-R192",
@@ -5779,7 +6497,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-FD-DT-R193",
@@ -5809,7 +6531,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-DT-R194",
@@ -5839,7 +6565,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-MT-FT-R195",
@@ -5869,7 +6597,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-FD-SP-R196",
@@ -5899,7 +6629,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-RS-M197",
@@ -5929,7 +6663,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-M198",
@@ -5959,7 +6697,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-CN-M199",
@@ -5989,7 +6731,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-FT-M200",
@@ -6019,7 +6765,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-CN-M201",
@@ -6049,7 +6799,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-SP-R202",
@@ -6079,7 +6833,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-FD-RS-M203",
@@ -6109,7 +6865,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R204",
@@ -6139,7 +6899,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-M205",
@@ -6169,7 +6933,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-RS-M206",
@@ -6199,7 +6967,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-DT-R207",
@@ -6229,7 +7001,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-R208",
@@ -6259,7 +7035,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-FR-M209",
@@ -6289,7 +7069,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-RS-M210",
@@ -6319,7 +7103,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-FT-R211",
@@ -6334,8 +7122,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "의무",
       "difficulty": "보통",
-      "manualCode": "SR26-BD-FT-M1",
-      "itemCode": "SR26-BD-FT-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0211",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -6349,7 +7137,12 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-BD-FT-M1",
+      "previousItemCode": "SR26-BD-FT-C1"
     },
     {
       "code": "SR26-SY-RS-M212",
@@ -6379,7 +7172,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R213",
@@ -6409,7 +7206,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R214",
@@ -6424,8 +7225,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "추가",
       "difficulty": "어려움",
-      "manualCode": "SR26-BD-RS-M1",
-      "itemCode": "SR26-BD-RS-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0214",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -6439,7 +7240,12 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-BD-RS-M1",
+      "previousItemCode": "SR26-BD-RS-C1"
     },
     {
       "code": "SR26-ST-FR-R215",
@@ -6469,7 +7275,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-DT-R216",
@@ -6499,7 +7309,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-DT-R217",
@@ -6529,7 +7341,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-BD-RS-R218",
@@ -6559,7 +7373,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-R219",
@@ -6589,7 +7407,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-MT-RS-R220",
@@ -6619,7 +7439,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SL-BD-R221",
@@ -6649,7 +7473,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-RS-R222",
@@ -6664,8 +7492,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "의무",
       "difficulty": "쉬움",
-      "manualCode": "SR26-BD-RS-M1",
-      "itemCode": "SR26-BD-RS-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0222",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -6679,7 +7507,12 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-BD-RS-M1",
+      "previousItemCode": "SR26-BD-RS-C1"
     },
     {
       "code": "SR26-SK-RS-R223",
@@ -6709,7 +7542,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-BD-FT-R224",
@@ -6739,7 +7574,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-CM-C225",
@@ -6769,7 +7608,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-DT-C226",
@@ -6799,7 +7642,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-CF-C227",
@@ -6829,7 +7676,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-RS-C228",
@@ -6859,7 +7710,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-C229",
@@ -6889,7 +7744,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-C230",
@@ -6919,7 +7778,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-R231",
@@ -6949,7 +7812,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-RC-M232",
@@ -6979,7 +7846,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-DT-R233",
@@ -7009,7 +7880,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-AC-R234",
@@ -7039,7 +7912,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-SP-R235",
@@ -7069,7 +7946,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-R236",
@@ -7099,7 +7978,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-R237",
@@ -7129,7 +8010,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-AC-R238",
@@ -7159,7 +8042,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-SP-R239",
@@ -7189,7 +8076,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-SP-M240",
@@ -7219,7 +8108,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-M241",
@@ -7249,7 +8140,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-SS-R242",
@@ -7279,7 +8172,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-RS-R243",
@@ -7309,7 +8206,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-R244",
@@ -7339,7 +8238,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-M245",
@@ -7369,7 +8270,9 @@ window.SERKAN_DATA = {
         "Monthly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SY-DT-R246",
@@ -7399,7 +8302,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-AC-M247",
@@ -7429,7 +8336,11 @@ window.SERKAN_DATA = {
         "Annually",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-CL-M248",
@@ -7459,7 +8370,11 @@ window.SERKAN_DATA = {
         "Annually",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-AC-M249",
@@ -7489,7 +8404,11 @@ window.SERKAN_DATA = {
         "Annually",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-ST-RS-M250",
@@ -7519,7 +8438,11 @@ window.SERKAN_DATA = {
         "Annually",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-FR-M251",
@@ -7549,7 +8472,11 @@ window.SERKAN_DATA = {
         "필요시",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-ST-SP-R252",
@@ -7579,7 +8506,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-GR-DT-R253",
@@ -7609,7 +8540,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-DT-R254",
@@ -7639,7 +8574,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-R255",
@@ -7669,7 +8608,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-FD-DT-R256",
@@ -7699,7 +8640,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R257",
@@ -7729,7 +8674,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R258",
@@ -7759,7 +8708,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-SH-R259",
@@ -7791,7 +8744,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-GR-FT-R260",
@@ -7821,7 +8776,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-CN-M261",
@@ -7851,7 +8808,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M262",
@@ -7881,7 +8842,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-M263",
@@ -7911,7 +8876,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-FT-M264",
@@ -7941,7 +8910,9 @@ window.SERKAN_DATA = {
         "Quarterly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-M265",
@@ -7971,7 +8942,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-RS-M266",
@@ -8001,7 +8974,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-CN-M267",
@@ -8031,7 +9008,11 @@ window.SERKAN_DATA = {
         "Quarterly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-RS-R268",
@@ -8061,7 +9042,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-HR-M269",
@@ -8091,7 +9076,11 @@ window.SERKAN_DATA = {
         "Annually",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-FD-RS-R270",
@@ -8121,7 +9110,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R271",
@@ -8151,7 +9144,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-DT-R272",
@@ -8181,7 +9178,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R273",
@@ -8211,7 +9212,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-DT-R274",
@@ -8241,7 +9246,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-RS-R275",
@@ -8271,7 +9280,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-RS-R276",
@@ -8301,7 +9314,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-CL-R277",
@@ -8331,7 +9348,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-CL-R278",
@@ -8361,7 +9382,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-R279",
@@ -8391,7 +9416,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SP-CN-R280",
@@ -8423,7 +9450,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-R281",
@@ -8453,7 +9484,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M282",
@@ -8483,7 +9518,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-M283",
@@ -8513,7 +9552,11 @@ window.SERKAN_DATA = {
         "Annually",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SP-CN-R284",
@@ -8543,7 +9586,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SL-CN-R285",
@@ -8573,7 +9620,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SP-RS-R286",
@@ -8603,7 +9654,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-GR-RS-R287",
@@ -8633,7 +9688,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-SP-M288",
@@ -8663,7 +9722,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-GR-BD-M289",
@@ -8693,7 +9754,11 @@ window.SERKAN_DATA = {
         "Annually",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-HR-R290",
@@ -8723,7 +9788,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-FI-R291",
@@ -8753,7 +9822,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-FR-R292",
@@ -8783,7 +9856,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-DT-C293",
@@ -8813,7 +9890,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-RS-C294",
@@ -8843,7 +9924,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-RS-C295",
@@ -8873,7 +9958,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-CN-R296",
@@ -8903,7 +9992,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-BD-SS-R297",
@@ -8933,7 +10024,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RC-R298",
@@ -8963,7 +10058,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-MT-CN-R299",
@@ -8993,7 +10092,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-MT-RS-R300",
@@ -9008,8 +10109,8 @@ window.SERKAN_DATA = {
       ],
       "priority": "권장",
       "difficulty": "쉬움",
-      "manualCode": "SR26-MT-RS-M1",
-      "itemCode": "SR26-MT-RS-C1",
+      "manualCode": null,
+      "itemCode": null,
       "sourceId": "SL-0300",
       "sourceType": "database_row",
       "sourceCount": 1,
@@ -9023,7 +10124,12 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-MT-RS-M1",
+      "previousItemCode": "SR26-MT-RS-C1"
     },
     {
       "code": "SR26-MT-DT-C301",
@@ -9053,7 +10159,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-MT-RS-R302",
@@ -9083,7 +10193,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C303",
@@ -9113,7 +10227,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-FR-C304",
@@ -9143,7 +10261,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C305",
@@ -9173,7 +10295,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-R306",
@@ -9203,7 +10329,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-FT-M307",
@@ -9233,7 +10363,9 @@ window.SERKAN_DATA = {
         "Monthly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-MT-RS-C308",
@@ -9263,7 +10395,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-M309",
@@ -9293,7 +10429,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-M310",
@@ -9323,7 +10463,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-M311",
@@ -9353,7 +10497,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-M312",
@@ -9383,7 +10531,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-R313",
@@ -9413,7 +10565,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-FT-R314",
@@ -9443,7 +10599,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SY-RS-M315",
@@ -9473,7 +10631,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SL-RS-M316",
@@ -9503,7 +10665,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SL-RS-R317",
@@ -9533,7 +10699,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SL-RS-R318",
@@ -9563,7 +10733,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SL-RC-M319",
@@ -9593,7 +10767,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-CN-R320",
@@ -9623,7 +10801,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-SH-R321",
@@ -9653,7 +10835,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-SH-R322",
@@ -9683,7 +10867,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-SH-R323",
@@ -9713,7 +10901,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-SH-R324",
@@ -9743,7 +10933,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-SH-R325",
@@ -9773,7 +10965,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-CN-R326",
@@ -9805,7 +10999,11 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R327",
@@ -9835,7 +11033,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R328",
@@ -9865,7 +11067,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-M329",
@@ -9895,7 +11101,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-CN-M330",
@@ -9925,7 +11135,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-FD-RS-R331",
@@ -9955,7 +11169,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-FD-DT-M332",
@@ -9985,7 +11203,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-SP-M333",
@@ -10015,7 +11237,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-FD-SP-R334",
@@ -10045,7 +11271,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R335",
@@ -10075,7 +11305,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R336",
@@ -10105,7 +11339,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R337",
@@ -10135,7 +11373,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R338",
@@ -10165,7 +11407,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R339",
@@ -10195,7 +11441,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-FT-R340",
@@ -10225,7 +11475,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-RC-M341",
@@ -10255,7 +11509,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-RC-M342",
@@ -10285,7 +11543,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-M343",
@@ -10315,7 +11577,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-RS-R344",
@@ -10345,7 +11611,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-RS-R345",
@@ -10375,7 +11645,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-SH-R346",
@@ -10405,7 +11679,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-RS-M347",
@@ -10435,7 +11713,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-CL-M348",
@@ -10465,7 +11747,11 @@ window.SERKAN_DATA = {
         "Annually",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-R349",
@@ -10495,7 +11781,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-AC-M350",
@@ -10525,7 +11813,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-CL-R351",
@@ -10555,7 +11847,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-HR-R352",
@@ -10585,7 +11881,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-M353",
@@ -10615,7 +11913,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-SS-M354",
@@ -10645,7 +11945,11 @@ window.SERKAN_DATA = {
         "필요시",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-FT-R355",
@@ -10675,7 +11979,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M356",
@@ -10705,7 +12013,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-AC-M357",
@@ -10735,7 +12045,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-CL-R358",
@@ -10765,7 +12079,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RC-M359",
@@ -10795,7 +12113,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-RS-R360",
@@ -10825,7 +12147,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-R361",
@@ -10855,7 +12179,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-CL-R362",
@@ -10885,7 +12211,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-RC-C363",
@@ -10915,7 +12245,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-AC-C364",
@@ -10945,7 +12279,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-DT-C365",
@@ -10975,7 +12313,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-DT-C366",
@@ -11005,7 +12347,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SY-SH-R367",
@@ -11035,7 +12379,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RC-C368",
@@ -11065,7 +12413,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-ST-CN-R369",
@@ -11095,7 +12447,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-GR-CN-M370",
@@ -11125,7 +12481,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-CN-M371",
@@ -11155,7 +12515,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-R372",
@@ -11185,7 +12549,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-RC-R373",
@@ -11215,7 +12583,11 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-HR-R374",
@@ -11245,7 +12617,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-BD-M375",
@@ -11275,7 +12649,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-FD-DT-R376",
@@ -11305,7 +12683,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-DT-M377",
@@ -11335,7 +12717,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-RC-M378",
@@ -11365,7 +12751,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RC-M379",
@@ -11395,7 +12785,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-GR-RS-M380",
@@ -11425,7 +12819,11 @@ window.SERKAN_DATA = {
         "Annually",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-M381",
@@ -11455,7 +12853,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-CL-R382",
@@ -11485,7 +12887,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-HR-M383",
@@ -11515,7 +12921,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-R384",
@@ -11545,7 +12953,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-BD-RS-R385",
@@ -11575,7 +12985,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-M386",
@@ -11605,7 +13019,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R387",
@@ -11635,7 +13053,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-DT-R388",
@@ -11665,7 +13087,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R389",
@@ -11695,7 +13121,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-CN-M390",
@@ -11725,7 +13155,11 @@ window.SERKAN_DATA = {
         "필요시",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M391",
@@ -11755,7 +13189,9 @@ window.SERKAN_DATA = {
         "필요시",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-DT-M392",
@@ -11785,7 +13221,9 @@ window.SERKAN_DATA = {
         "필요시",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-DT-M393",
@@ -11815,7 +13253,9 @@ window.SERKAN_DATA = {
         "필요시",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-SH-M394",
@@ -11845,7 +13285,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-SH-R395",
@@ -11875,7 +13317,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-SH-R396",
@@ -11905,7 +13349,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-ST-SH-R397",
@@ -11935,7 +13381,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-BD-SS-R398",
@@ -11965,7 +13413,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-RS-R399",
@@ -11995,7 +13447,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R400",
@@ -12025,7 +13481,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-FD-DT-R401",
@@ -12055,7 +13515,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-RS-R402",
@@ -12085,7 +13549,11 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-MT-RS-R403",
@@ -12115,7 +13583,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-RS-C404",
@@ -12145,7 +13617,11 @@ window.SERKAN_DATA = {
         "Monthly",
         "추가",
         "어려움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-SH-R405",
@@ -12175,7 +13651,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-SH-R406",
@@ -12205,7 +13683,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-R407",
@@ -12235,7 +13715,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-GR-SH-R408",
@@ -12265,7 +13747,11 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-SH-R409",
@@ -12295,7 +13781,9 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-GR-SH-R410",
@@ -12325,7 +13813,11 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-GR-SH-R411",
@@ -12355,7 +13847,11 @@ window.SERKAN_DATA = {
         "2~3x/Week",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-ST-SH-R412",
@@ -12385,7 +13881,9 @@ window.SERKAN_DATA = {
         "Weekly",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-SP-R413",
@@ -12415,7 +13913,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-M414",
@@ -12445,7 +13945,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-BD-SP-M415",
@@ -12475,7 +13977,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-RS-R416",
@@ -12505,7 +14011,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-DT-M417",
@@ -12535,7 +14045,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-BD-FT-M418",
@@ -12565,7 +14079,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-BD-RS-R419",
@@ -12595,7 +14111,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-R420",
@@ -12625,7 +14145,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-R421",
@@ -12655,7 +14177,9 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-ST-RS-R422",
@@ -12685,7 +14209,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-RS-R423",
@@ -12715,7 +14243,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-ST-FR-R424",
@@ -12745,7 +14277,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-ST-RS-R425",
@@ -12775,7 +14311,9 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-BD-SP-M426",
@@ -12805,7 +14343,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-BD-SP-R427",
@@ -12835,7 +14377,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-AC-M428",
@@ -12865,7 +14411,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-SP-M429",
@@ -12895,7 +14445,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-AC-M430",
@@ -12925,7 +14477,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-SP-M431",
@@ -12955,7 +14511,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-SP-M432",
@@ -12985,7 +14543,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-M433",
@@ -13015,7 +14575,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-M434",
@@ -13045,7 +14607,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-SP-M435",
@@ -13075,7 +14639,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-AC-M436",
@@ -13105,7 +14671,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M437",
@@ -13135,7 +14705,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-GR-RS-R438",
@@ -13165,7 +14737,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-DT-M439",
@@ -13195,7 +14771,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-BD-DT-R440",
@@ -13225,7 +14803,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M441",
@@ -13255,7 +14837,9 @@ window.SERKAN_DATA = {
         "Seasonal",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-BD-RS-R442",
@@ -13285,7 +14869,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SY-CN-M443",
@@ -13315,7 +14903,11 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SK-CL-M444",
@@ -13345,7 +14937,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-AC-M445",
@@ -13375,7 +14971,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M446",
@@ -13405,7 +15005,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-AC-M447",
@@ -13435,7 +15037,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-AC-M448",
@@ -13465,7 +15071,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-AC-M449",
@@ -13495,7 +15105,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-DT-M450",
@@ -13525,7 +15139,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-M451",
@@ -13555,7 +15171,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-M452",
@@ -13585,7 +15203,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-M453",
@@ -13615,7 +15235,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-M454",
@@ -13645,7 +15267,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-SK-RS-M455",
@@ -13675,7 +15299,9 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-BD-RS-R456",
@@ -13705,7 +15331,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SY-SH-M457",
@@ -13735,7 +15365,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SK-RS-M458",
@@ -13765,7 +15399,9 @@ window.SERKAN_DATA = {
         "필요시",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-SK-RS-R459",
@@ -13795,7 +15431,9 @@ window.SERKAN_DATA = {
         "Daily",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-GR-DT-R460",
@@ -13825,7 +15463,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-RS-R461",
@@ -13855,7 +15497,11 @@ window.SERKAN_DATA = {
         "Daily",
         "권장",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-RS-M462",
@@ -13885,7 +15531,11 @@ window.SERKAN_DATA = {
         "필요시",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-DT-R463",
@@ -13915,7 +15565,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-GR-RS-R464",
@@ -13945,7 +15599,11 @@ window.SERKAN_DATA = {
         "Daily",
         "추가",
         "보통"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-GR-CN-M465",
@@ -13975,7 +15633,11 @@ window.SERKAN_DATA = {
         "Annually",
         "의무",
         "쉬움"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     }
   ],
   "manuals": [
@@ -16543,79 +18205,60 @@ window.SERKAN_DATA = {
     {
       "code": "SR26-SK-HR-M1",
       "routineCode": "SR26-SK-HR-M383",
-      "title": "두피 보습 관리 관리 매뉴얼",
+      "title": "두피케어 / 두피 세럼 관리 매뉴얼",
       "breadcrumb": "03. Manual Encyclopedia / 헤어",
       "category": "피부관리",
       "domain": "SK",
       "topic": "HR",
-      "summary": "두피 보습 관리을 필요시 기준으로 실행하기 위한 세부 매뉴얼입니다.",
+      "summary": "샴푸 이후 두피 컨디션을 관리하고 정수리 볼륨 저하를 줄이기 위한 매뉴얼입니다.",
       "blocks": [
         {
           "label": "목적",
-          "text": "두피 보습 관리은 피부관리 영역에서 반복 가능한 자기관리 기준을 만드는 세부 루틴이다. 방법론 원칙과 라이프스타일 DB의 실행 행동을 교차해, 실제로 오늘 할 수 있는 단위로 정리했다.",
+          "text": "두피케어는 헤어스타일링 전에 두피 열감, 가려움, 정수리 볼륨 저하를 관리하는 기반 루틴이다.",
           "items": []
         },
         {
           "label": "방법론 연결",
           "text": "",
           "items": [
-            "피부는 무언가를 더하기보다 피부를 나쁘게 만드는 접촉면, 위생, 자극을 먼저 줄이는 방식으로 관리한다. 얼굴과 목에 닿는 손, 수건, 침구, 샴푸 잔여물, 선크림 세정까지 하나의 위생 루틴으로 묶는다.",
-            "면도는 도구 위생, 예열, 압력, 사후 진정을 함께 관리해야 피부 자극을 줄일 수 있다. 면도 전 예열과 도구 소독, 같은 부위 반복 면도 줄이기, 면도 후 찬물 진정과 보습을 연결한다.",
-            "수면 관리는 잠드는 시간만이 아니라 얼굴과 몸이 오래 닿는 침구의 청결을 포함한다. 베개 커버, 이불, 패드, 담요는 피부와 수면 컨디션에 직접 닿는 관리 면으로 본다.",
-            "식단은 완전히 끊는 방식보다 대체하고 조절하는 반복 가능한 기준으로 만든다. 수분, 단백질, 장 컨디션, 당/밀가루 조절을 피부와 체형 관리의 하위 루틴으로 연결한다.",
-            "스타일은 한 번 꾸미는 기술보다 헤어, 옷, 향, 생활 무드가 같은 방향으로 반복될 때 만들어진다. 셀프 스타일링, 의류 관리, 향 관리, 구매 기준을 하나의 분위기 기준으로 연결한다."
+            "샴푸만으로 끝내지 않고 두피가 마른 뒤 필요한 제품을 소량 사용한다.",
+            "정수리 볼륨이 무너지는 날은 스타일링 제품보다 두피 컨디션을 먼저 본다."
           ]
         },
         {
           "label": "실행 순서",
           "text": "",
           "items": [
-            "1. 두피에서 건조함이 느껴질 땐 토닉으로 관리하기"
+            "1. 샴푸 후 두피를 완전히 말리기",
+            "2. 정수리와 가려운 부위 중심으로 두피 세럼을 소량 바르기",
+            "3. 손끝으로 문지르기보다 가볍게 눌러 흡수시키기"
           ]
         },
         {
           "label": "반복 기준",
           "text": "",
           "items": [
-            "주기: 필요시",
-            "요일: 수",
+            "주기: Daily / 필요시",
+            "요일: 매일",
             "중요도: 권장",
-            "난이도: 쉬움"
+            "난이도: 보통"
           ]
         },
         {
           "label": "추천 아이템",
           "text": "",
           "items": [
-            "페이스 타월 →",
-            "약산성 클렌징폼 →",
-            "선크림 →",
-            "알코올 스왑 →",
-            "면도기 →",
-            "쉐이빙젤 →",
-            "알코올 스프레이 →",
-            "진정 크림 →",
-            "침구 청소기 →",
-            "베개 커버 →",
-            "세탁망 →",
-            "섬유 탈취제 →",
-            "단백질 →",
-            "유산균 →",
-            "오메가3 →",
-            "물병 →",
-            "헤어 왁스 →",
-            "헤어 스프레이 →",
-            "향수 →",
-            "보풀 제거기 →"
+            "두피 세럼 →",
+            "드라이기 →",
+            "두피 체크 거울 →"
           ]
         },
         {
           "label": "주의사항",
           "text": "",
           "items": [
-            "관리 강도를 올리기보다 반복 가능한 기준을 먼저 잡는다.",
-            "자극, 비용, 시간이 커지면 루틴 단위를 낮춘다.",
-            "제품 하나만 탓하지 말고 습관, 환경, 접촉면을 같이 본다."
+            "탈모 치료 표현으로 과장하지 않고 두피 컨디션 관리로 다룬다.",
+            "끈적임이나 떡짐이 생기면 사용량과 사용 시간을 줄인다."
           ]
         }
       ],
@@ -16624,14 +18267,10 @@ window.SERKAN_DATA = {
         "SL-0383"
       ],
       "tags": [
-        "피부관리",
+        "두피",
         "헤어",
-        "두피 보습 관리",
-        "skin-hygiene",
-        "shaving-irritation",
-        "sleep-bedding",
-        "food-skin-body",
-        "style-consistency"
+        "세럼",
+        "정수리 볼륨"
       ]
     },
     {
@@ -16719,40 +18358,42 @@ window.SERKAN_DATA = {
     {
       "code": "SR26-SK-SS-M1",
       "routineCode": "SR26-SK-SS-M354",
-      "title": "상처 후 색소침착 방지 관리 매뉴얼",
+      "title": "데일리 선크림 도포 관리 매뉴얼",
       "breadcrumb": "03. Manual Encyclopedia / 선크림",
       "category": "피부관리",
       "domain": "SK",
       "topic": "SS",
-      "summary": "상처 후 색소침착 방지을 필요시 기준으로 실행하기 위한 세부 매뉴얼입니다.",
+      "summary": "아침 루틴에서 얼굴과 목까지 자외선 차단제를 안정적으로 바르기 위한 매뉴얼입니다.",
       "blocks": [
         {
           "label": "목적",
-          "text": "상처 후 색소침착 방지은 피부관리 영역에서 반복 가능한 자기관리 기준을 만드는 세부 루틴이다. 방법론 원칙과 라이프스타일 DB의 실행 행동을 교차해, 실제로 오늘 할 수 있는 단위로 정리했다.",
+          "text": "데일리 선크림 도포는 피부를 꾸미기보다 매일 자외선 손상을 줄이는 기본 방어 루틴이다.",
           "items": []
         },
         {
           "label": "방법론 연결",
           "text": "",
           "items": [
-            "피부는 무언가를 더하기보다 피부를 나쁘게 만드는 접촉면, 위생, 자극을 먼저 줄이는 방식으로 관리한다. 얼굴과 목에 닿는 손, 수건, 침구, 샴푸 잔여물, 선크림 세정까지 하나의 위생 루틴으로 묶는다.",
-            "면도는 도구 위생, 예열, 압력, 사후 진정을 함께 관리해야 피부 자극을 줄일 수 있다. 면도 전 예열과 도구 소독, 같은 부위 반복 면도 줄이기, 면도 후 찬물 진정과 보습을 연결한다.",
-            "식단은 완전히 끊는 방식보다 대체하고 조절하는 반복 가능한 기준으로 만든다. 수분, 단백질, 장 컨디션, 당/밀가루 조절을 피부와 체형 관리의 하위 루틴으로 연결한다."
+            "아침 세안과 보습 이후 얼굴, 목, 귀 주변까지 빠뜨리지 않고 바른다.",
+            "끈적임 때문에 루틴을 포기하지 않도록 사용감이 맞는 제품을 고른다.",
+            "야외 이동이 길거나 땀이 많은 날은 덧바름 기준을 따로 둔다."
           ]
         },
         {
           "label": "실행 순서",
           "text": "",
           "items": [
-            "1. 새살이 돋은 상처 부위에 선크림 수시로 덧바르기"
+            "1. 보습이 흡수된 뒤 선크림을 얼굴과 목에 나눠 바르기",
+            "2. 콧등, 광대, 턱선, 귀 앞처럼 빠지기 쉬운 부위 확인하기",
+            "3. 외출 시간이 길면 작은 용량을 가방에 넣어 덧바름 준비하기"
           ]
         },
         {
           "label": "반복 기준",
           "text": "",
           "items": [
-            "주기: 필요시",
-            "요일: 일",
+            "주기: Daily",
+            "요일: 매일",
             "중요도: 의무",
             "난이도: 쉬움"
           ]
@@ -16761,27 +18402,17 @@ window.SERKAN_DATA = {
           "label": "추천 아이템",
           "text": "",
           "items": [
-            "페이스 타월 →",
-            "약산성 클렌징폼 →",
-            "선크림 →",
-            "알코올 스왑 →",
-            "면도기 →",
-            "쉐이빙젤 →",
-            "알코올 스프레이 →",
-            "진정 크림 →",
-            "단백질 →",
-            "유산균 →",
-            "오메가3 →",
-            "물병 →"
+            "데일리 선크림 →",
+            "거울 →",
+            "휴대용 선케어 →"
           ]
         },
         {
           "label": "주의사항",
           "text": "",
           "items": [
-            "관리 강도를 올리기보다 반복 가능한 기준을 먼저 잡는다.",
-            "자극, 비용, 시간이 커지면 루틴 단위를 낮춘다.",
-            "제품 하나만 탓하지 말고 습관, 환경, 접촉면을 같이 본다."
+            "눈시림, 백탁, 번들거림은 제품별로 차이가 커서 실사용 검수가 필요하다.",
+            "트러블이 심해지면 사용량보다 세안과 보습 루틴을 함께 점검한다."
           ]
         }
       ],
@@ -16792,10 +18423,8 @@ window.SERKAN_DATA = {
       "tags": [
         "피부관리",
         "선크림",
-        "상처 후 색소침착 방지",
-        "skin-hygiene",
-        "shaving-irritation",
-        "food-skin-body"
+        "데일리 SPF",
+        "아침 루틴"
       ]
     },
     {
@@ -17855,41 +19484,42 @@ window.SERKAN_DATA = {
     {
       "code": "SR26-GR-FR-M1",
       "routineCode": "SR26-GR-FR-M251",
-      "title": "체취 부위 세정 관리 매뉴얼",
+      "title": "체취 / 데오 관리 매뉴얼",
       "breadcrumb": "03. Manual Encyclopedia / 향 / 체취",
       "category": "위생관리",
       "domain": "GR",
       "topic": "FR",
-      "summary": "체취 부위 세정을 필요시 기준으로 실행하기 위한 세부 매뉴얼입니다.",
+      "summary": "몸의 냄새와 끈적임을 향으로 덮기 전에 정리하는 그루밍 매뉴얼입니다.",
       "blocks": [
         {
           "label": "목적",
-          "text": "체취 부위 세정은 위생관리 영역에서 반복 가능한 자기관리 기준을 만드는 세부 루틴이다. 방법론 원칙과 라이프스타일 DB의 실행 행동을 교차해, 실제로 오늘 할 수 있는 단위로 정리했다.",
+          "text": "체취 / 데오 관리는 향수를 뿌리기 전에 땀, 끈적임, 옷에 남는 눅눅함을 먼저 줄이는 루틴이다.",
           "items": []
         },
         {
           "label": "방법론 연결",
           "text": "",
           "items": [
-            "면도는 도구 위생, 예열, 압력, 사후 진정을 함께 관리해야 피부 자극을 줄일 수 있다. 면도 전 예열과 도구 소독, 같은 부위 반복 면도 줄이기, 면도 후 찬물 진정과 보습을 연결한다.",
-            "스타일은 한 번 꾸미는 기술보다 헤어, 옷, 향, 생활 무드가 같은 방향으로 반복될 때 만들어진다. 셀프 스타일링, 의류 관리, 향 관리, 구매 기준을 하나의 분위기 기준으로 연결한다.",
-            "멘탈과 관계 관리는 감정이 커진 뒤 버티는 것이 아니라 기록, 회복, 대화 기준을 미리 만드는 일이다. 감정 기록, 비교 차단, 관계 회복, 루틴 재시작을 상황형 관리 흐름으로 연결한다."
+            "체취는 향보다 세정, 건조, 보송함 관리가 먼저다.",
+            "외출 전과 점심 전처럼 무너지기 쉬운 시간대를 기준으로 짧게 리셋한다."
           ]
         },
         {
           "label": "실행 순서",
           "text": "",
           "items": [
-            "1. 샤워 시 귀 뒤, 발가락 사이 등 체취 유발 부위 집중 세정"
+            "1. 땀이 잘 나는 부위를 씻거나 닦아내기",
+            "2. 완전히 마른 뒤 데오 제품이나 보송 제품을 얇게 사용하기",
+            "3. 향수는 체취를 덮는 용도가 아니라 마지막 인상 정리로만 사용하기"
           ]
         },
         {
           "label": "반복 기준",
           "text": "",
           "items": [
-            "주기: 필요시",
-            "요일: 일",
-            "중요도: 의무",
+            "주기: Daily / 필요시",
+            "요일: 매일",
+            "중요도: 권장",
             "난이도: 쉬움"
           ]
         },
@@ -17897,27 +19527,17 @@ window.SERKAN_DATA = {
           "label": "추천 아이템",
           "text": "",
           "items": [
-            "면도기 →",
-            "쉐이빙젤 →",
-            "알코올 스프레이 →",
-            "진정 크림 →",
-            "헤어 왁스 →",
-            "헤어 스프레이 →",
-            "향수 →",
-            "보풀 제거기 →",
-            "노트 →",
-            "타이머 →",
-            "명상 앱 →",
-            "캘린더 →"
+            "데오 제품 →",
+            "물티슈 →",
+            "휴대용 타월 →"
           ]
         },
         {
           "label": "주의사항",
           "text": "",
           "items": [
-            "관리 강도를 올리기보다 반복 가능한 기준을 먼저 잡는다.",
-            "자극, 비용, 시간이 커지면 루틴 단위를 낮춘다.",
-            "제품 하나만 탓하지 말고 습관, 환경, 접촉면을 같이 본다."
+            "향이 강한 제품은 땀냄새와 섞일 수 있어 무향/저향 제품부터 검수한다.",
+            "피부 자극이 생기면 겨드랑이, 목 뒤, 가슴 등 부위별 사용 빈도를 낮춘다."
           ]
         }
       ],
@@ -17927,11 +19547,9 @@ window.SERKAN_DATA = {
       ],
       "tags": [
         "위생관리",
-        "향 / 체취",
-        "체취 부위 세정",
-        "shaving-irritation",
-        "style-consistency",
-        "mental-social-recovery"
+        "체취",
+        "데오",
+        "그루밍"
       ]
     },
     {
@@ -19915,40 +21533,41 @@ window.SERKAN_DATA = {
     {
       "code": "SR26-BD-RC-M1",
       "routineCode": "SR26-BD-RC-M379",
-      "title": "마사지볼 회복 루틴 관리 매뉴얼",
+      "title": "회복 디바이스 / 목어깨 마사지 관리 매뉴얼",
       "breadcrumb": "03. Manual Encyclopedia / 루틴 회복",
       "category": "신체관리",
       "domain": "BD",
       "topic": "RC",
-      "summary": "마사지볼 회복 루틴을 필요시 기준으로 실행하기 위한 세부 매뉴얼입니다.",
+      "summary": "퇴근 후 또는 운동 후 목과 어깨 긴장을 풀어 다음 날 컨디션을 회복하는 매뉴얼입니다.",
       "blocks": [
         {
           "label": "목적",
-          "text": "마사지볼 회복 루틴은 신체관리 영역에서 반복 가능한 자기관리 기준을 만드는 세부 루틴이다. 방법론 원칙과 라이프스타일 DB의 실행 행동을 교차해, 실제로 오늘 할 수 있는 단위로 정리했다.",
+          "text": "회복 디바이스 / 목어깨 마사지는 긴장된 상체를 짧게 풀어 자세와 컨디션을 회수하는 루틴이다.",
           "items": []
         },
         {
           "label": "방법론 연결",
           "text": "",
           "items": [
-            "면도는 도구 위생, 예열, 압력, 사후 진정을 함께 관리해야 피부 자극을 줄일 수 있다. 면도 전 예열과 도구 소독, 같은 부위 반복 면도 줄이기, 면도 후 찬물 진정과 보습을 연결한다.",
-            "식단은 완전히 끊는 방식보다 대체하고 조절하는 반복 가능한 기준으로 만든다. 수분, 단백질, 장 컨디션, 당/밀가루 조절을 피부와 체형 관리의 하위 루틴으로 연결한다.",
-            "멘탈과 관계 관리는 감정이 커진 뒤 버티는 것이 아니라 기록, 회복, 대화 기준을 미리 만드는 일이다. 감정 기록, 비교 차단, 관계 회복, 루틴 재시작을 상황형 관리 흐름으로 연결한다."
+            "통증을 버티는 것이 아니라 뭉친 부위를 짧게 풀고 휴식으로 전환한다.",
+            "강도를 높이기보다 매일 반복 가능한 시간과 압력을 정한다."
           ]
         },
         {
           "label": "실행 순서",
           "text": "",
           "items": [
-            "1. 냉각된 마사지볼로 뭉친 근육과 몸의 긴장 풀어주기"
+            "1. 목과 어깨가 뻐근한 부위를 확인하기",
+            "2. 마사지기나 회복 도구를 5~10분만 사용하기",
+            "3. 사용 후 물을 마시고 목 스트레칭으로 마무리하기"
           ]
         },
         {
           "label": "반복 기준",
           "text": "",
           "items": [
-            "주기: 필요시",
-            "요일: 금",
+            "주기: 필요시 / Weekly",
+            "요일: 피로한 날",
             "중요도: 권장",
             "난이도: 쉬움"
           ]
@@ -19957,27 +21576,17 @@ window.SERKAN_DATA = {
           "label": "추천 아이템",
           "text": "",
           "items": [
-            "면도기 →",
-            "쉐이빙젤 →",
-            "알코올 스프레이 →",
-            "진정 크림 →",
-            "단백질 →",
-            "유산균 →",
-            "오메가3 →",
-            "물병 →",
-            "노트 →",
-            "타이머 →",
-            "명상 앱 →",
-            "캘린더 →"
+            "목어깨 마사지기 →",
+            "마사지볼 →",
+            "타이머 →"
           ]
         },
         {
           "label": "주의사항",
           "text": "",
           "items": [
-            "관리 강도를 올리기보다 반복 가능한 기준을 먼저 잡는다.",
-            "자극, 비용, 시간이 커지면 루틴 단위를 낮춘다.",
-            "제품 하나만 탓하지 말고 습관, 환경, 접촉면을 같이 본다."
+            "통증이 심하거나 저림이 있으면 제품 사용으로 해결하려 하지 않는다.",
+            "한 부위를 오래 누르지 않고 짧은 시간부터 검수한다."
           ]
         }
       ],
@@ -19986,12 +21595,10 @@ window.SERKAN_DATA = {
         "SL-0379"
       ],
       "tags": [
-        "신체관리",
-        "루틴 회복",
-        "마사지볼 회복 루틴",
-        "shaving-irritation",
-        "food-skin-body",
-        "mental-social-recovery"
+        "회복",
+        "목어깨",
+        "마사지",
+        "바디관리"
       ]
     },
     {
@@ -20338,11 +21945,11 @@ window.SERKAN_DATA = {
   "items": [
     {
       "code": "SR26-SP-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "간접 조명 / 조도 설정",
       "category": "Space Item Encyclopedia",
       "domain": "SP",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "간접 조명 / 조도 설정 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SP-RS-M1"
       ],
@@ -20362,16 +21969,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "간접 조명 전환",
+        "환경/공간 아이템",
+        "간접 조명 / 조도 설정"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "환경/공간 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SP-CN-C1",
-      "name": "청소 / 정리",
+      "name": "데스크 정리 체크",
       "category": "Space Item Encyclopedia",
       "domain": "SP",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "데스크 정리 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SP-CN-M1"
       ],
@@ -20391,16 +22004,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "시각 자극 줄이기",
+        "루틴 실행 아이템",
+        "데스크 정리 체크"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SP-BD-C1",
-      "name": "침구 / 수면",
+      "name": "침구 정리 도구",
       "category": "Space Item Encyclopedia",
       "domain": "SP",
       "topic": "BD",
-      "role": "침구 / 수면 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "침구 정리 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SP-BD-M1"
       ],
@@ -20424,16 +22043,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "침구 정리",
+        "환경/공간 아이템",
+        "침구 정리 도구"
+      ],
+      "previousName": "침구 / 수면",
+      "itemType": "환경/공간 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SP-DT-C1",
-      "name": "식단 / 수분",
+      "name": "발코니/조명 청소 도구",
       "category": "Space Item Encyclopedia",
       "domain": "SP",
       "topic": "DT",
-      "role": "식단 / 수분 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "발코니/조명 청소 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SP-DT-M1"
       ],
@@ -20461,16 +22086,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "발코니/조명",
+        "환경/공간 아이템",
+        "발코니/조명 청소 도구"
+      ],
+      "previousName": "식단 / 수분",
+      "itemType": "환경/공간 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SP-SH-C1",
-      "name": "면도 / 체모",
+      "name": "체모 정리 도구",
       "category": "Space Item Encyclopedia",
       "domain": "SP",
       "topic": "SH",
-      "role": "면도 / 체모 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "체모 정리 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SP-SH-M1"
       ],
@@ -20494,16 +22125,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "체모 흔적 정리",
+        "그루밍 아이템",
+        "체모 정리 도구"
+      ],
+      "previousName": "면도 / 체모",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-MT-CN-C1",
-      "name": "청소 / 정리",
+      "name": "감정 기록 노트",
       "category": "Mental Item Encyclopedia",
       "domain": "MT",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "감정 기록 노트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-MT-CN-M1"
       ],
@@ -20523,16 +22160,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "손글씨 감정 정리",
+        "기록/관계 도구",
+        "감정 기록 노트"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-MT-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "리플렉션 노트",
       "category": "Mental Item Encyclopedia",
       "domain": "MT",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "리플렉션 노트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-MT-RS-M1"
       ],
@@ -20548,16 +22191,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "세상에 대한 주인의식",
+        "루틴 실행 아이템",
+        "리플렉션 노트"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-MT-DT-C1",
-      "name": "식단 / 수분",
+      "name": "차/머그컵 세트",
       "category": "Mental Item Encyclopedia",
       "domain": "MT",
       "topic": "DT",
-      "role": "식단 / 수분 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "차/머그컵 세트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-MT-DT-M1"
       ],
@@ -20577,16 +22226,23 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "휴대폰 없는 차 한 잔",
+        "식단/영양 아이템",
+        "차/머그컵 세트",
+        "루틴 실행 아이템"
+      ],
+      "previousName": "식단 / 수분",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-MT-FT-C1",
-      "name": "운동 / 자세",
+      "name": "스트레칭 타이머",
       "category": "Mental Item Encyclopedia",
       "domain": "MT",
       "topic": "FT",
-      "role": "운동 / 자세 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "스트레칭 타이머 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-MT-FT-M1"
       ],
@@ -20602,16 +22258,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "정각 스트레칭",
+        "바디/회복 아이템",
+        "스트레칭 타이머"
+      ],
+      "previousName": "운동 / 자세",
+      "itemType": "바디/회복 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-MT-RC-C1",
-      "name": "루틴 회복",
+      "name": "디지털 차단 도구",
       "category": "Mental Item Encyclopedia",
       "domain": "MT",
       "topic": "RC",
-      "role": "루틴 회복 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "디지털 차단 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-MT-RC-M1"
       ],
@@ -20627,16 +22289,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "디지털 디톡스",
+        "기록/관계 도구",
+        "디지털 차단 도구"
+      ],
+      "previousName": "루틴 회복",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "시간 기록 트래커",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "시간 기록 트래커 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-RS-M1"
       ],
@@ -20656,16 +22324,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "내 시간의 가치",
+        "기록/관계 도구",
+        "시간 기록 트래커"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-RC-C1",
-      "name": "루틴 회복",
+      "name": "외모관리 프롬프트",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "RC",
-      "role": "루틴 회복 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "외모관리 프롬프트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-RC-M1"
       ],
@@ -20685,16 +22359,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "외모관리 프롬프트",
+        "기록/관계 도구"
+      ],
+      "previousName": "루틴 회복",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-FI-C1",
-      "name": "첫인상",
+      "name": "인사/첫인상 체크",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "FI",
-      "role": "첫인상 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "인사/첫인상 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-FI-M1"
       ],
@@ -20710,16 +22389,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "따뜻한 인사",
+        "기록/관계 도구",
+        "인사/첫인상 체크"
+      ],
+      "previousName": "첫인상",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-CN-C1",
-      "name": "청소 / 정리",
+      "name": "시선/표정 체크",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "시선/표정 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-CN-M1"
       ],
@@ -20739,16 +22424,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "루틴 실행 아이템",
+        "시선/표정 체크"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-CM-C1",
-      "name": "커뮤니케이션",
+      "name": "대화 습관 체크",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "CM",
-      "role": "커뮤니케이션 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "대화 습관 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-CM-M1"
       ],
@@ -20764,16 +22454,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "비판, 불평 줄이기",
+        "루틴 실행 아이템",
+        "대화 습관 체크"
+      ],
+      "previousName": "커뮤니케이션",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-RL-C1",
-      "name": "관계 유지",
+      "name": "관계 관리 메모",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "RL",
-      "role": "관계 유지 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "관계 관리 메모 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-RL-M1"
       ],
@@ -20789,16 +22485,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "관계 밀도",
+        "기록/관계 도구",
+        "관계 관리 메모"
+      ],
+      "previousName": "관계 유지",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-CF-C1",
-      "name": "갈등 / 거절",
+      "name": "거절 연습 체크리스트",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "CF",
-      "role": "갈등 / 거절 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "거절 연습 체크리스트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-CF-M1"
       ],
@@ -20814,16 +22516,21 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "거절 연습 체크리스트"
+      ],
+      "previousName": "갈등 / 거절",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-SL-BD-C1",
-      "name": "침구 / 수면",
+      "name": "수면 트래커",
       "category": "Sleep Item Encyclopedia",
       "domain": "SL",
       "topic": "BD",
-      "role": "침구 / 수면 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "수면 트래커 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SL-BD-M1"
       ],
@@ -20843,16 +22550,22 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "수면 데이터 확인",
+        "루틴 실행 아이템",
+        "수면 트래커"
+      ],
+      "previousName": "침구 / 수면",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SL-FT-C1",
-      "name": "운동 / 자세",
+      "name": "수면 식단 체크",
       "category": "Sleep Item Encyclopedia",
       "domain": "SL",
       "topic": "FT",
-      "role": "운동 / 자세 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "수면 식단 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SL-FT-M1"
       ],
@@ -20872,16 +22585,23 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "수면 우선 다이어트",
+        "루틴 실행 아이템",
+        "수면 식단 체크",
+        "식단/영양 아이템"
+      ],
+      "previousName": "운동 / 자세",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SL-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "가습기 / 습도계",
       "category": "Sleep Item Encyclopedia",
       "domain": "SL",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "가습기 / 습도계 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SL-RS-M1"
       ],
@@ -20897,16 +22617,22 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "가습기 사용",
+        "환경/공간 아이템",
+        "가습기 / 습도계"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "환경/공간 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SL-SS-C1",
-      "name": "선크림",
+      "name": "햇빛 노출 체크",
       "category": "Sleep Item Encyclopedia",
       "domain": "SL",
       "topic": "SS",
-      "role": "선크림 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "햇빛 노출 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SL-SS-M1"
       ],
@@ -20925,16 +22651,21 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "루틴 실행 아이템",
+        "햇빛 노출 체크"
+      ],
+      "previousName": "선크림",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-FD-DT-C1",
-      "name": "식단 / 수분",
+      "name": "컷팅 식단 체크",
       "category": "Food Item Encyclopedia",
       "domain": "FD",
       "topic": "DT",
-      "role": "식단 / 수분 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "컷팅 식단 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-FD-DT-M1"
       ],
@@ -20950,16 +22681,23 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "급한 컷팅 다이어트",
+        "루틴 실행 아이템",
+        "컷팅 식단 체크",
+        "식단/영양 아이템"
+      ],
+      "previousName": "식단 / 수분",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-FD-SP-C1",
-      "name": "영양제",
+      "name": "피부 식품 리스트",
       "category": "Food Item Encyclopedia",
       "domain": "FD",
       "topic": "SP",
-      "role": "영양제 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "피부 식품 리스트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-FD-SP-M1"
       ],
@@ -20975,16 +22713,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "피부 식품 섭취",
+        "루틴 실행 아이템",
+        "피부 식품 리스트"
+      ],
+      "previousName": "영양제",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-FD-CN-C1",
-      "name": "청소 / 정리",
+      "name": "유지방 음식 체크",
       "category": "Food Item Encyclopedia",
       "domain": "FD",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "유지방 음식 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-FD-CN-M1"
       ],
@@ -21004,16 +22748,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "유지방 음식 주의",
+        "식단/영양 아이템",
+        "유지방 음식 체크"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-FD-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "혼술 제한 체크",
       "category": "Food Item Encyclopedia",
       "domain": "FD",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "혼술 제한 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-FD-RS-M1"
       ],
@@ -21029,16 +22779,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "퇴근 후 혼술 줄이기",
+        "식단/영양 아이템",
+        "혼술 제한 체크"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-FD-FR-C1",
-      "name": "향 / 체취",
+      "name": "장 자극 음식 체크",
       "category": "Food Item Encyclopedia",
       "domain": "FD",
       "topic": "FR",
-      "role": "향 / 체취 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "장 자극 음식 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-FD-FR-M1"
       ],
@@ -21058,16 +22814,22 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "루틴 실행 아이템",
+        "장 자극 음식 체크",
+        "식단/영양 아이템"
+      ],
+      "previousName": "향 / 체취",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-FD-FT-C1",
-      "name": "운동 / 자세",
+      "name": "전해질 보충제",
       "category": "Food Item Encyclopedia",
       "domain": "FD",
       "topic": "FT",
-      "role": "운동 / 자세 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "전해질 보충제 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-FD-FT-M1"
       ],
@@ -21083,16 +22845,21 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "식단/영양 아이템",
+        "전해질 보충제"
+      ],
+      "previousName": "운동 / 자세",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-DT-C1",
-      "name": "식단 / 수분",
+      "name": "반창고/상처 키트",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "DT",
-      "role": "식단 / 수분 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "반창고/상처 키트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-DT-M1"
       ],
@@ -21112,16 +22879,23 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "반창고 휴대",
+        "루틴 실행 아이템",
+        "반창고/상처 키트",
+        "스킨케어 아이템"
+      ],
+      "previousName": "식단 / 수분",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-FT-C1",
-      "name": "운동 / 자세",
+      "name": "뒷목 아이스팩",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "FT",
-      "role": "운동 / 자세 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "뒷목 아이스팩 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-FT-M1"
       ],
@@ -21141,16 +22915,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "뒷목 아이스팩 냉찜질",
+        "바디/회복 아이템",
+        "뒷목 아이스팩"
+      ],
+      "previousName": "운동 / 자세",
+      "itemType": "바디/회복 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "얼굴 마사지 도구",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "얼굴 마사지 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-RS-M1"
       ],
@@ -21170,16 +22950,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "얼굴 혈점 마사지",
+        "바디/회복 아이템",
+        "얼굴 마사지 도구"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "바디/회복 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-CL-C1",
-      "name": "클렌징",
+      "name": "목 스트레칭 도구",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "CL",
-      "role": "클렌징 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "목 스트레칭 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-CL-M1"
       ],
@@ -21203,16 +22989,21 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "바디/회복 아이템",
+        "목 스트레칭 도구"
+      ],
+      "previousName": "클렌징",
+      "itemType": "바디/회복 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-CN-C1",
-      "name": "청소 / 정리",
+      "name": "격투기 운동 장비",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "격투기 운동 장비 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-CN-M1"
       ],
@@ -21236,16 +23027,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "격투기 훈련",
+        "바디/회복 아이템",
+        "격투기 운동 장비"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "바디/회복 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-SP-C1",
-      "name": "영양제",
+      "name": "기본 영양제",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "SP",
-      "role": "영양제 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "기본 영양제 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-SP-M1"
       ],
@@ -21265,16 +23062,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "기본 영양제 섭취",
+        "식단/영양 아이템",
+        "기본 영양제"
+      ],
+      "previousName": "영양제",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "정량 도포 도구",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "정량 도포 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-RS-M1"
       ],
@@ -21298,16 +23101,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "스킨케어 정량 도포",
+        "스킨케어 아이템",
+        "정량 도포 도구"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-HR-C1",
-      "name": "헤어",
+      "name": "두피케어 / 두피 세럼",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "HR",
-      "role": "헤어 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "두피 컨디션과 정수리 볼륨 관리를 위한 두피 제품군",
       "manualCodes": [
         "SR26-SK-HR-M1"
       ],
@@ -21335,16 +23144,22 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "두피 보습",
+        "스킨케어 아이템",
+        "두피 보습제"
+      ],
+      "previousName": "헤어",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-HR-C1",
-      "name": "헤어",
+      "name": "귀 물기 제거 타월",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "HR",
-      "role": "헤어 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "귀 물기 제거 타월 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-HR-M1"
       ],
@@ -21368,16 +23183,21 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "루틴 실행 아이템",
+        "귀 물기 제거 타월"
+      ],
+      "previousName": "헤어",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-SS-C1",
-      "name": "선크림",
+      "name": "데일리 선크림",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "SS",
-      "role": "선크림 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "매일 얼굴과 목에 바르는 자외선 차단 제품군",
       "manualCodes": [
         "SR26-SK-SS-M1"
       ],
@@ -21400,16 +23220,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "상처 후 색소침착 방지",
+        "스킨케어 아이템",
+        "상처 선크림/패치"
+      ],
+      "previousName": "선크림",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-CN-C1",
-      "name": "청소 / 정리",
+      "name": "상처 세척 키트",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "상처 세척 키트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-CN-M1"
       ],
@@ -21437,16 +23263,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "상처 초기 세척",
+        "스킨케어 아이템",
+        "상처 세척 키트"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-AC-C1",
-      "name": "여드름 / 트러블",
+      "name": "트러블 케어",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "AC",
-      "role": "여드름 / 트러블 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "트러블 케어 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-AC-M1"
       ],
@@ -21474,16 +23306,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "트러블 재발 방지",
+        "스킨케어 아이템",
+        "트러블 케어"
+      ],
+      "previousName": "여드름 / 트러블",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-CL-C1",
-      "name": "클렌징",
+      "name": "좁쌀 여드름 케어",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "CL",
-      "role": "클렌징 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "좁쌀 여드름 케어 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-CL-M1"
       ],
@@ -21507,16 +23345,21 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "좁쌀 여드름 케어",
+        "스킨케어 아이템"
+      ],
+      "previousName": "클렌징",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "워터픽 / 구강 세정",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "워터픽 / 구강 세정 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-GR-RS-M1"
       ],
@@ -21540,16 +23383,22 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "워터픽 사용",
+        "그루밍 아이템",
+        "워터픽 / 구강 세정"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-SH-C1",
-      "name": "면도 / 체모",
+      "name": "애프터쉐이브",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "SH",
-      "role": "면도 / 체모 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "애프터쉐이브 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-SH-M1"
       ],
@@ -21573,16 +23422,23 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "애프터쉐이브 도포",
+        "스킨케어 아이템",
+        "애프터쉐이브",
+        "루틴 실행 아이템"
+      ],
+      "previousName": "면도 / 체모",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-SH-C1",
-      "name": "면도 / 체모",
+      "name": "면도 후 위생 체크",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "SH",
-      "role": "면도 / 체모 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "면도 후 위생 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-GR-SH-M1"
       ],
@@ -21606,16 +23462,22 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "면도 직후 휴대폰 금지",
+        "그루밍 아이템",
+        "면도 후 위생 체크"
+      ],
+      "previousName": "면도 / 체모",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-FT-C1",
-      "name": "운동 / 자세",
+      "name": "피부 관찰 체크",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "FT",
-      "role": "운동 / 자세 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "피부 관찰 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-FT-M1"
       ],
@@ -21639,16 +23501,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "부위별 피부 관찰",
+        "루틴 실행 아이템",
+        "피부 관찰 체크"
+      ],
+      "previousName": "운동 / 자세",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-HR-C1",
-      "name": "헤어",
+      "name": "개인 세정용품",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "HR",
-      "role": "헤어 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "개인 세정용품 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-GR-HR-M1"
       ],
@@ -21668,16 +23536,21 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "개인 세정용품",
+        "그루밍 아이템"
+      ],
+      "previousName": "헤어",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-FR-C1",
-      "name": "향 / 체취",
+      "name": "헤어 스타일링 도구",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "FR",
-      "role": "향 / 체취 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "헤어 스타일링 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-FR-M1"
       ],
@@ -21705,16 +23578,22 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "그루밍 아이템",
+        "헤어 스타일링 도구",
+        "루틴 실행 아이템"
+      ],
+      "previousName": "향 / 체취",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-DT-C1",
-      "name": "식단 / 수분",
+      "name": "무알코올 가글",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "DT",
-      "role": "식단 / 수분 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "무알코올 가글 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-GR-DT-M1"
       ],
@@ -21738,16 +23617,21 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "무알코올 가글",
+        "그루밍 아이템"
+      ],
+      "previousName": "식단 / 수분",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-ST-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "발색 립밤",
       "category": "Style Item Encyclopedia",
       "domain": "ST",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "발색 립밤 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-ST-RS-M1"
       ],
@@ -21763,16 +23647,21 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "발색 립밤",
+        "스킨케어 아이템"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-CN-C1",
-      "name": "청소 / 정리",
+      "name": "치과 관리 체크",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "치과 관리 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-GR-CN-M1"
       ],
@@ -21800,16 +23689,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "치과 정기 방문",
+        "루틴 실행 아이템",
+        "치과 관리 체크"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-CL-C1",
-      "name": "클렌징",
+      "name": "수건 / 세면 타월",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "CL",
-      "role": "클렌징 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "수건 / 세면 타월 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-GR-CL-M1"
       ],
@@ -21837,16 +23732,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "수건 / 세면 타월",
+        "그루밍 아이템"
+      ],
+      "previousName": "클렌징",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-FR-C1",
-      "name": "향 / 체취",
+      "name": "체취 / 데오 관리",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "FR",
-      "role": "향 / 체취 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "땀, 체취, 끈적임을 상황별로 정리하는 데오 관리 제품군",
       "manualCodes": [
         "SR26-GR-FR-M1"
       ],
@@ -21866,16 +23766,22 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "체취 부위 세정",
+        "그루밍 아이템",
+        "체취 세정용품"
+      ],
+      "previousName": "향 / 체취",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-ST-SH-C1",
-      "name": "면도 / 체모",
+      "name": "눈썹/코털 정리 도구",
       "category": "Style Item Encyclopedia",
       "domain": "ST",
       "topic": "SH",
-      "role": "면도 / 체모 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "눈썹/코털 정리 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-ST-SH-M1"
       ],
@@ -21899,16 +23805,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "눈썹과 코털 정리",
+        "그루밍 아이템",
+        "눈썹/코털 정리 도구"
+      ],
+      "previousName": "면도 / 체모",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-ST-CN-C1",
-      "name": "청소 / 정리",
+      "name": "착장 체크리스트",
       "category": "Style Item Encyclopedia",
       "domain": "ST",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "착장 체크리스트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-ST-CN-M1"
       ],
@@ -21928,16 +23840,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "착장 완성도 더",
+        "루틴 실행 아이템",
+        "착장 체크리스트"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-ST-HR-C1",
-      "name": "헤어",
+      "name": "헤어컷 캘린더",
       "category": "Style Item Encyclopedia",
       "domain": "ST",
       "topic": "HR",
-      "role": "헤어 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "헤어컷 캘린더 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-ST-HR-M1"
       ],
@@ -21953,16 +23871,22 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "컷트 캘린더 설정",
+        "루틴 실행 아이템",
+        "헤어컷 캘린더"
+      ],
+      "previousName": "헤어",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-ST-FR-C1",
-      "name": "향 / 체취",
+      "name": "향수 소분 용기",
       "category": "Style Item Encyclopedia",
       "domain": "ST",
       "topic": "FR",
-      "role": "향 / 체취 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "향수 소분 용기 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-ST-FR-M1"
       ],
@@ -21978,16 +23902,21 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "향수 소분 용기",
+        "그루밍 아이템"
+      ],
+      "previousName": "향 / 체취",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-DT-C1",
-      "name": "식단 / 수분",
+      "name": "피부 식단 챌린지",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "DT",
-      "role": "식단 / 수분 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "피부 식단 챌린지 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-DT-M1"
       ],
@@ -22015,16 +23944,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "피부 식단 챌린지",
+        "식단/영양 아이템"
+      ],
+      "previousName": "식단 / 수분",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-CN-C1",
-      "name": "청소 / 정리",
+      "name": "독서/메모 도구",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "독서/메모 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-CN-M1"
       ],
@@ -22044,16 +23978,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "자기계발 독서",
+        "기록/관계 도구",
+        "독서/메모 도구"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-FD-AC-C1",
-      "name": "여드름 / 트러블",
+      "name": "기름 음식 체크",
       "category": "Food Item Encyclopedia",
       "domain": "FD",
       "topic": "AC",
-      "role": "여드름 / 트러블 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "기름 음식 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-FD-AC-M1"
       ],
@@ -22077,16 +24017,22 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "루틴 실행 아이템",
+        "기름 음식 체크",
+        "식단/영양 아이템"
+      ],
+      "previousName": "여드름 / 트러블",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-DT-C1",
-      "name": "식단 / 수분",
+      "name": "스쿠알란 화장품",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "DT",
-      "role": "식단 / 수분 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "스쿠알란 화장품 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-DT-M1"
       ],
@@ -22110,16 +24056,23 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "스쿠알란 화장품 도포",
+        "스킨케어 아이템",
+        "스쿠알란 화장품",
+        "루틴 실행 아이템"
+      ],
+      "previousName": "식단 / 수분",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-SP-C1",
-      "name": "영양제",
+      "name": "비타민C 세럼",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "SP",
-      "role": "영양제 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "비타민C 세럼 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-SP-M1"
       ],
@@ -22143,16 +24096,23 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "고함량 비타민C 도포",
+        "스킨케어 아이템",
+        "비타민C 세럼",
+        "루틴 실행 아이템"
+      ],
+      "previousName": "영양제",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-CM-C1",
-      "name": "커뮤니케이션",
+      "name": "대화 태도 체크",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "CM",
-      "role": "커뮤니케이션 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "대화 태도 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-CM-M1"
       ],
@@ -22172,16 +24132,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "루틴 실행 아이템",
+        "대화 태도 체크"
+      ],
+      "previousName": "커뮤니케이션",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-CF-C1",
-      "name": "갈등 / 거절",
+      "name": "거절 훈련 체크리스트",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "CF",
-      "role": "갈등 / 거절 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "거절 훈련 체크리스트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-CF-M1"
       ],
@@ -22201,16 +24166,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "100번 거절당",
+        "기록/관계 도구",
+        "거절 훈련 체크리스트"
+      ],
+      "previousName": "갈등 / 거절",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-RC-C1",
-      "name": "루틴 회복",
+      "name": "상처 회복 키트",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "RC",
-      "role": "루틴 회복 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "상처 회복 키트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-RC-M1"
       ],
@@ -22238,16 +24209,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "상처 회복",
+        "스킨케어 아이템",
+        "상처 회복 키트"
+      ],
+      "previousName": "루틴 회복",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-AC-C1",
-      "name": "여드름 / 트러블",
+      "name": "신체나이 체크 도구",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "AC",
-      "role": "여드름 / 트러블 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "신체나이 체크 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-AC-M1"
       ],
@@ -22271,16 +24248,21 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "신체나이 체크 도구",
+        "루틴 실행 아이템"
+      ],
+      "previousName": "여드름 / 트러블",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-ST-SP-C1",
-      "name": "영양제",
+      "name": "손톱 관리 도구",
       "category": "Style Item Encyclopedia",
       "domain": "ST",
       "topic": "SP",
-      "role": "영양제 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "손톱 관리 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-ST-SP-M1"
       ],
@@ -22304,16 +24286,22 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "손톱 컨디션",
+        "루틴 실행 아이템",
+        "손톱 관리 도구"
+      ],
+      "previousName": "영양제",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-FT-C1",
-      "name": "운동 / 자세",
+      "name": "운동복 세탁망",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "FT",
-      "role": "운동 / 자세 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "운동복 세탁망 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-GR-FT-M1"
       ],
@@ -22337,16 +24325,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "바디/회복 아이템",
+        "운동복 세탁망"
+      ],
+      "previousName": "운동 / 자세",
+      "itemType": "바디/회복 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-FT-C1",
-      "name": "운동 / 자세",
+      "name": "리프레시 운동 도구",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "FT",
-      "role": "운동 / 자세 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "리프레시 운동 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-FT-M1"
       ],
@@ -22366,16 +24359,22 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "틈새 리프레시 운동",
+        "바디/회복 아이템",
+        "리프레시 운동 도구"
+      ],
+      "previousName": "운동 / 자세",
+      "itemType": "바디/회복 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SL-CN-C1",
-      "name": "청소 / 정리",
+      "name": "습도계/가습기",
       "category": "Sleep Item Encyclopedia",
       "domain": "SL",
       "topic": "CN",
-      "role": "청소 / 정리 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "습도계/가습기 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SL-CN-M1"
       ],
@@ -22395,16 +24394,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "환경/공간 아이템",
+        "습도계/가습기"
+      ],
+      "previousName": "청소 / 정리",
+      "itemType": "환경/공간 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-GR-BD-C1",
-      "name": "침구 / 수면",
+      "name": "베개 커버",
       "category": "Grooming Item Encyclopedia",
       "domain": "GR",
       "topic": "BD",
-      "role": "침구 / 수면 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "베개 커버 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-GR-BD-M1"
       ],
@@ -22432,16 +24436,20 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "환경/공간 아이템"
+      ],
+      "previousName": "침구 / 수면",
+      "itemType": "환경/공간 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-HR-C1",
-      "name": "헤어",
+      "name": "칭찬 메모",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "HR",
-      "role": "헤어 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "칭찬 메모 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-HR-M1"
       ],
@@ -22465,16 +24473,21 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "칭찬 메모"
+      ],
+      "previousName": "헤어",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-FR-C1",
-      "name": "향 / 체취",
+      "name": "대화 메모",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "FR",
-      "role": "향 / 체취 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "대화 메모 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-FR-M1"
       ],
@@ -22494,16 +24507,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "대화 메모",
+        "루틴 실행 아이템"
+      ],
+      "previousName": "향 / 체취",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-DT-C1",
-      "name": "식단 / 수분",
+      "name": "메뉴 후보 리스트",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "DT",
-      "role": "식단 / 수분 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "메뉴 후보 리스트 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-DT-M1"
       ],
@@ -22523,16 +24542,21 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "식단/영양 아이템",
+        "메뉴 후보 리스트"
+      ],
+      "previousName": "식단 / 수분",
+      "itemType": "식단/영양 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SO-RS-C1",
-      "name": "리셋 / 생산성",
+      "name": "관계 가치 체크",
       "category": "Relationship Item Encyclopedia",
       "domain": "SO",
       "topic": "RS",
-      "role": "리셋 / 생산성 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "관계 가치 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SO-RS-M1"
       ],
@@ -22548,16 +24572,23 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "약자에 대한 연민과 책임",
+        "루틴 실행 아이템",
+        "관계 가치 체크",
+        "기록/관계 도구"
+      ],
+      "previousName": "리셋 / 생산성",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-SS-C1",
-      "name": "선크림",
+      "name": "햇빛/선크림 체크",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "SS",
-      "role": "선크림 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "햇빛/선크림 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-BD-SS-M1"
       ],
@@ -22580,16 +24611,23 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "햇빛 노출 루틴",
+        "기록/관계 도구",
+        "햇빛/선크림 체크",
+        "스킨케어 아이템"
+      ],
+      "previousName": "선크림",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-MT-FR-C1",
-      "name": "향 / 체취",
+      "name": "트리거 향수/디퓨저",
       "category": "Mental Item Encyclopedia",
       "domain": "MT",
       "topic": "FR",
-      "role": "향 / 체취 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "트리거 향수/디퓨저 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-MT-FR-M1"
       ],
@@ -22609,16 +24647,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "트리거 향 정",
+        "그루밍 아이템",
+        "트리거 향수/디퓨저"
+      ],
+      "previousName": "향 / 체취",
+      "itemType": "그루밍 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SL-RC-C1",
-      "name": "루틴 회복",
+      "name": "취침 전 루틴 체크",
       "category": "Sleep Item Encyclopedia",
       "domain": "SL",
       "topic": "RC",
-      "role": "루틴 회복 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "취침 전 루틴 체크 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SL-RC-M1"
       ],
@@ -22638,16 +24682,22 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "취침 전 루틴 정",
+        "기록/관계 도구",
+        "취침 전 루틴 체크"
+      ],
+      "previousName": "루틴 회복",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-BD-RC-C1",
-      "name": "루틴 회복",
+      "name": "회복 디바이스 / 목어깨 마사지",
       "category": "Body Item Encyclopedia",
       "domain": "BD",
       "topic": "RC",
-      "role": "루틴 회복 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "목, 어깨, 상체 피로를 짧게 회복하는 마사지 및 회복 도구 제품군",
       "manualCodes": [
         "SR26-BD-RC-M1"
       ],
@@ -22671,16 +24721,21 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "마사지볼 회복 루틴",
+        "바디/회복 아이템"
+      ],
+      "previousName": "루틴 회복",
+      "itemType": "바디/회복 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-AC-C1",
-      "name": "여드름 / 트러블",
+      "name": "모공 / 블랙헤드 케어",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "AC",
-      "role": "여드름 / 트러블 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "모공 / 블랙헤드 케어 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-AC-M1"
       ],
@@ -22708,16 +24763,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "모공 / 블랙헤드 케어",
+        "스킨케어 아이템"
+      ],
+      "previousName": "여드름 / 트러블",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SY-SH-C1",
-      "name": "면도 / 체모",
+      "name": "AI 루틴 설계 도구",
       "category": "System Item Encyclopedia",
       "domain": "SY",
       "topic": "SH",
-      "role": "면도 / 체모 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "AI 루틴 설계 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SY-SH-M1"
       ],
@@ -22745,16 +24805,21 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "AI 루틴 설계 도구",
+        "기록/관계 도구"
+      ],
+      "previousName": "면도 / 체모",
+      "itemType": "기록/관계 도구",
+      "reclassified": true
     },
     {
       "code": "SR26-ST-RC-C1",
-      "name": "루틴 회복",
+      "name": "바디그루밍 도구",
       "category": "Style Item Encyclopedia",
       "domain": "ST",
       "topic": "RC",
-      "role": "루틴 회복 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "바디그루밍 도구 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-ST-RC-M1"
       ],
@@ -22774,16 +24839,21 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "루틴 실행 아이템",
+        "바디그루밍 도구"
+      ],
+      "previousName": "루틴 회복",
+      "itemType": "루틴 실행 아이템",
+      "reclassified": true
     },
     {
       "code": "SR26-SK-BD-C1",
-      "name": "침구 / 수면",
+      "name": "바세린 / 보습 밤",
       "category": "Skin Item Encyclopedia",
       "domain": "SK",
       "topic": "BD",
-      "role": "침구 / 수면 루틴을 실제 도구와 제품 선택 기준으로 연결하는 아이템 카드",
+      "role": "바세린 / 보습 밤 실행에 필요한 도구, 소모품, 체크 기준을 묶은 아이템 그룹",
       "manualCodes": [
         "SR26-SK-BD-M1"
       ],
@@ -22811,24 +24881,29 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "바세린 / 보습 밤",
+        "스킨케어 아이템"
+      ],
+      "previousName": "침구 / 수면",
+      "itemType": "스킨케어 아이템",
+      "reclassified": true
     }
   ],
   "products": [
     {
       "code": "SR26-SP-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Space",
+      "brand": "가성비 슬롯",
+      "productName": "간접 조명 / 조도 설정 가성비 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-RS-C1",
       "domain": "SP",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "실내 온도 18~20°C 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "간접 조명 / 조도 설정 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "간접 조명 / 조도 설정 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "리셋 / 생산성",
@@ -22840,22 +24915,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "간접 조명 전환",
+        "환경/공간 아이템",
+        "간접 조명 / 조도 설정"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Space",
+      "brand": "민감/입문 슬롯",
+      "productName": "간접 조명 / 조도 설정 민감/입문 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-RS-C1",
       "domain": "SP",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "실내 온도 18~20°C 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "간접 조명 / 조도 설정 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "간접 조명 / 조도 설정 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "리셋 / 생산성",
@@ -22867,22 +24946,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "간접 조명 전환",
+        "환경/공간 아이템",
+        "간접 조명 / 조도 설정"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Space",
+      "brand": "프리미엄 슬롯",
+      "productName": "간접 조명 / 조도 설정 프리미엄 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-RS-C1",
       "domain": "SP",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "실내 온도 18~20°C 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "간접 조명 / 조도 설정 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "간접 조명 / 조도 설정 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "리셋 / 생산성",
@@ -22894,22 +24977,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "간접 조명 전환",
+        "환경/공간 아이템",
+        "간접 조명 / 조도 설정"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-CN-P1",
-      "brand": "가성비",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Space",
+      "brand": "가성비 슬롯",
+      "productName": "데스크 정리 체크 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SP-CN-C1",
       "domain": "SP",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매일 쓰기 부담이 적고 입문자가 루틴화하기 쉬운 기준 제품",
-      "target": "입문자 / 매일 사용할 사람",
-      "caution": "피부 타입, 향, 자극감은 개인차 확인",
+      "recommendationReason": "데스크 정리 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "데스크 정리 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "청소 / 정리",
@@ -22921,22 +25008,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "시각 자극 줄이기",
+        "루틴 실행 아이템",
+        "데스크 정리 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-CN-P2",
-      "brand": "민감/입문",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Space",
+      "brand": "민감/입문 슬롯",
+      "productName": "데스크 정리 체크 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SP-CN-C1",
       "domain": "SP",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "자극 가능성을 낮추고 실패 확률을 줄이는 선택지",
-      "target": "민감한 피부 / 처음 구매하는 사람",
-      "caution": "새 제품은 한 번에 여러 개 도입하지 않기",
+      "recommendationReason": "데스크 정리 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "데스크 정리 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "청소 / 정리",
@@ -22948,22 +25039,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "시각 자극 줄이기",
+        "루틴 실행 아이템",
+        "데스크 정리 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-CN-P3",
-      "brand": "프리미엄",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Space",
+      "brand": "프리미엄 슬롯",
+      "productName": "데스크 정리 체크 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SP-CN-C1",
       "domain": "SP",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "사용감, 마감, 지속성까지 고려한 상위 선택지",
-      "target": "루틴이 자리 잡은 사람 / 사용감에 예민한 사람",
-      "caution": "가격 대비 사용 빈도와 실제 체감 확인",
+      "recommendationReason": "데스크 정리 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "데스크 정리 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "청소 / 정리",
@@ -22975,22 +25070,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "시각 자극 줄이기",
+        "루틴 실행 아이템",
+        "데스크 정리 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-BD-P1",
-      "brand": "가성비 기준",
-      "productName": "침구 / 수면 가성비 추천 제품",
-      "category": "Space",
+      "brand": "가성비 슬롯",
+      "productName": "침구 정리 도구 가성비 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-BD-C1",
       "domain": "SP",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "이불, 패드 세탁 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "침구 정리 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "침구 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "침구 / 수면",
@@ -23006,22 +25105,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "침구 정리",
+        "환경/공간 아이템",
+        "침구 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-BD-P2",
-      "brand": "민감/입문 기준",
-      "productName": "침구 / 수면 민감/입문 추천 제품",
-      "category": "Space",
+      "brand": "민감/입문 슬롯",
+      "productName": "침구 정리 도구 민감/입문 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-BD-C1",
       "domain": "SP",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "이불, 패드 세탁 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "침구 정리 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "침구 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "침구 / 수면",
@@ -23037,22 +25140,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "침구 정리",
+        "환경/공간 아이템",
+        "침구 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-BD-P3",
-      "brand": "프리미엄 기준",
-      "productName": "침구 / 수면 프리미엄 추천 제품",
-      "category": "Space",
+      "brand": "프리미엄 슬롯",
+      "productName": "침구 정리 도구 프리미엄 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-BD-C1",
       "domain": "SP",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "이불, 패드 세탁 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "침구 정리 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "침구 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "침구 / 수면",
@@ -23068,22 +25175,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "침구 정리",
+        "환경/공간 아이템",
+        "침구 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-DT-P1",
-      "brand": "가성비 기준",
-      "productName": "식단 / 수분 가성비 추천 제품",
-      "category": "Space",
+      "brand": "가성비 슬롯",
+      "productName": "발코니/조명 청소 도구 가성비 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-DT-C1",
       "domain": "SP",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "책상을 알코올 티슈로 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "발코니/조명 청소 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "발코니/조명 청소 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "식단 / 수분",
@@ -23103,22 +25214,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "발코니/조명",
+        "환경/공간 아이템",
+        "발코니/조명 청소 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-DT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "식단 / 수분 민감/입문 추천 제품",
-      "category": "Space",
+      "brand": "민감/입문 슬롯",
+      "productName": "발코니/조명 청소 도구 민감/입문 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-DT-C1",
       "domain": "SP",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "책상을 알코올 티슈로 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "발코니/조명 청소 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "발코니/조명 청소 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "식단 / 수분",
@@ -23138,22 +25253,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "발코니/조명",
+        "환경/공간 아이템",
+        "발코니/조명 청소 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-DT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "식단 / 수분 프리미엄 추천 제품",
-      "category": "Space",
+      "brand": "프리미엄 슬롯",
+      "productName": "발코니/조명 청소 도구 프리미엄 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SP-DT-C1",
       "domain": "SP",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "책상을 알코올 티슈로 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "발코니/조명 청소 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "발코니/조명 청소 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "식단 / 수분",
@@ -23173,22 +25292,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "발코니/조명",
+        "환경/공간 아이템",
+        "발코니/조명 청소 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-SH-P1",
-      "brand": "가성비 기준",
-      "productName": "면도 / 체모 가성비 추천 제품",
-      "category": "Space",
+      "brand": "가성비 슬롯",
+      "productName": "체모 정리 도구 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-SP-SH-C1",
       "domain": "SP",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도기와 칫솔을 욕실 홀더에 정리 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "체모 정리 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "체모 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "면도 / 체모",
@@ -23204,22 +25327,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "체모 흔적 정리",
+        "그루밍 아이템",
+        "체모 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-SH-P2",
-      "brand": "민감/입문 기준",
-      "productName": "면도 / 체모 민감/입문 추천 제품",
-      "category": "Space",
+      "brand": "민감/입문 슬롯",
+      "productName": "체모 정리 도구 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-SP-SH-C1",
       "domain": "SP",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도기와 칫솔을 욕실 홀더에 정리 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "체모 정리 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "체모 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "면도 / 체모",
@@ -23235,22 +25362,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "체모 흔적 정리",
+        "그루밍 아이템",
+        "체모 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SP-SH-P3",
-      "brand": "프리미엄 기준",
-      "productName": "면도 / 체모 프리미엄 추천 제품",
-      "category": "Space",
+      "brand": "프리미엄 슬롯",
+      "productName": "체모 정리 도구 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-SP-SH-C1",
       "domain": "SP",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도기와 칫솔을 욕실 홀더에 정리 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "체모 정리 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "체모 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "공간관리",
         "면도 / 체모",
@@ -23266,22 +25397,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "체모 흔적 정리",
+        "그루밍 아이템",
+        "체모 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Mental",
+      "brand": "가성비 슬롯",
+      "productName": "감정 기록 노트 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-MT-CN-C1",
       "domain": "MT",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "지칠 때 휴대폰 방해금지 켜고 1시간 쉬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "감정 기록 노트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "감정 기록 노트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "청소 / 정리",
@@ -23293,22 +25428,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "손글씨 감정 정리",
+        "기록/관계 도구",
+        "감정 기록 노트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Mental",
+      "brand": "민감/입문 슬롯",
+      "productName": "감정 기록 노트 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-MT-CN-C1",
       "domain": "MT",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "지칠 때 휴대폰 방해금지 켜고 1시간 쉬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "감정 기록 노트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "감정 기록 노트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "청소 / 정리",
@@ -23320,22 +25459,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "손글씨 감정 정리",
+        "기록/관계 도구",
+        "감정 기록 노트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Mental",
+      "brand": "프리미엄 슬롯",
+      "productName": "감정 기록 노트 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-MT-CN-C1",
       "domain": "MT",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "지칠 때 휴대폰 방해금지 켜고 1시간 쉬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "감정 기록 노트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "감정 기록 노트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "청소 / 정리",
@@ -23347,22 +25490,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "손글씨 감정 정리",
+        "기록/관계 도구",
+        "감정 기록 노트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Mental",
+      "brand": "가성비 슬롯",
+      "productName": "리플렉션 노트 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-MT-RS-C1",
       "domain": "MT",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "고민을 눈에 보이게 적어두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "리플렉션 노트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "리플렉션 노트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "리셋 / 생산성",
@@ -23370,22 +25517,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "세상에 대한 주인의식",
+        "루틴 실행 아이템",
+        "리플렉션 노트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Mental",
+      "brand": "민감/입문 슬롯",
+      "productName": "리플렉션 노트 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-MT-RS-C1",
       "domain": "MT",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "고민을 눈에 보이게 적어두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "리플렉션 노트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "리플렉션 노트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "리셋 / 생산성",
@@ -23393,22 +25544,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "세상에 대한 주인의식",
+        "루틴 실행 아이템",
+        "리플렉션 노트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Mental",
+      "brand": "프리미엄 슬롯",
+      "productName": "리플렉션 노트 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-MT-RS-C1",
       "domain": "MT",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "고민을 눈에 보이게 적어두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "리플렉션 노트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "리플렉션 노트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "리셋 / 생산성",
@@ -23416,22 +25571,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "세상에 대한 주인의식",
+        "루틴 실행 아이템",
+        "리플렉션 노트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-DT-P1",
-      "brand": "가성비 기준",
-      "productName": "식단 / 수분 가성비 추천 제품",
-      "category": "Mental",
+      "brand": "가성비 슬롯",
+      "productName": "차/머그컵 세트 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-MT-DT-C1",
       "domain": "MT",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "점심 무렵 446 호흡법으로 5분 쉬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "차/머그컵 세트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "차/머그컵 세트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "식단 / 수분",
@@ -23443,22 +25602,27 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "휴대폰 없는 차 한 잔",
+        "식단/영양 아이템",
+        "차/머그컵 세트",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-DT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "식단 / 수분 민감/입문 추천 제품",
-      "category": "Mental",
+      "brand": "민감/입문 슬롯",
+      "productName": "차/머그컵 세트 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-MT-DT-C1",
       "domain": "MT",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "점심 무렵 446 호흡법으로 5분 쉬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "차/머그컵 세트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "차/머그컵 세트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "식단 / 수분",
@@ -23470,22 +25634,27 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "휴대폰 없는 차 한 잔",
+        "식단/영양 아이템",
+        "차/머그컵 세트",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-DT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "식단 / 수분 프리미엄 추천 제품",
-      "category": "Mental",
+      "brand": "프리미엄 슬롯",
+      "productName": "차/머그컵 세트 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-MT-DT-C1",
       "domain": "MT",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "점심 무렵 446 호흡법으로 5분 쉬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "차/머그컵 세트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "차/머그컵 세트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "식단 / 수분",
@@ -23497,22 +25666,27 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "휴대폰 없는 차 한 잔",
+        "식단/영양 아이템",
+        "차/머그컵 세트",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-FT-P1",
-      "brand": "가성비 기준",
-      "productName": "운동 / 자세 가성비 추천 제품",
-      "category": "Mental",
+      "brand": "가성비 슬롯",
+      "productName": "스트레칭 타이머 가성비 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-MT-FT-C1",
       "domain": "MT",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스트레스 받을 때 어깨 힘 빼고 심호흡 하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "스트레칭 타이머 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "스트레칭 타이머 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "운동 / 자세",
@@ -23520,22 +25694,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "정각 스트레칭",
+        "바디/회복 아이템",
+        "스트레칭 타이머"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-FT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "운동 / 자세 민감/입문 추천 제품",
-      "category": "Mental",
+      "brand": "민감/입문 슬롯",
+      "productName": "스트레칭 타이머 민감/입문 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-MT-FT-C1",
       "domain": "MT",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스트레스 받을 때 어깨 힘 빼고 심호흡 하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "스트레칭 타이머 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "스트레칭 타이머 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "운동 / 자세",
@@ -23543,22 +25721,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "정각 스트레칭",
+        "바디/회복 아이템",
+        "스트레칭 타이머"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-FT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "운동 / 자세 프리미엄 추천 제품",
-      "category": "Mental",
+      "brand": "프리미엄 슬롯",
+      "productName": "스트레칭 타이머 프리미엄 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-MT-FT-C1",
       "domain": "MT",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스트레스 받을 때 어깨 힘 빼고 심호흡 하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "스트레칭 타이머 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "스트레칭 타이머 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "운동 / 자세",
@@ -23566,22 +25748,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "정각 스트레칭",
+        "바디/회복 아이템",
+        "스트레칭 타이머"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-RC-P1",
-      "brand": "가성비 기준",
-      "productName": "루틴 회복 가성비 추천 제품",
-      "category": "Mental",
+      "brand": "가성비 슬롯",
+      "productName": "디지털 차단 도구 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-MT-RC-C1",
       "domain": "MT",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "피곤할 때 15분 낮잠 or 명상으로 뇌 리셋하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "디지털 차단 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "디지털 차단 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "루틴 회복",
@@ -23589,22 +25775,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "디지털 디톡스",
+        "기록/관계 도구",
+        "디지털 차단 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-RC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "루틴 회복 민감/입문 추천 제품",
-      "category": "Mental",
+      "brand": "민감/입문 슬롯",
+      "productName": "디지털 차단 도구 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-MT-RC-C1",
       "domain": "MT",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "피곤할 때 15분 낮잠 or 명상으로 뇌 리셋하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "디지털 차단 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "디지털 차단 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "루틴 회복",
@@ -23612,22 +25802,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "디지털 디톡스",
+        "기록/관계 도구",
+        "디지털 차단 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-RC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "루틴 회복 프리미엄 추천 제품",
-      "category": "Mental",
+      "brand": "프리미엄 슬롯",
+      "productName": "디지털 차단 도구 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-MT-RC-C1",
       "domain": "MT",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "피곤할 때 15분 낮잠 or 명상으로 뇌 리셋하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "디지털 차단 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "디지털 차단 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "루틴 회복",
@@ -23635,22 +25829,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "디지털 디톡스",
+        "기록/관계 도구",
+        "디지털 차단 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "시간 기록 트래커 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-RS-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "완벽하게 준비되기 전 일단 시작하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "시간 기록 트래커 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "시간 기록 트래커 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "리셋 / 생산성",
@@ -23662,22 +25860,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "내 시간의 가치",
+        "기록/관계 도구",
+        "시간 기록 트래커"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "시간 기록 트래커 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-RS-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "완벽하게 준비되기 전 일단 시작하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "시간 기록 트래커 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "시간 기록 트래커 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "리셋 / 생산성",
@@ -23689,22 +25891,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "내 시간의 가치",
+        "기록/관계 도구",
+        "시간 기록 트래커"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "시간 기록 트래커 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-RS-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "완벽하게 준비되기 전 일단 시작하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "시간 기록 트래커 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "시간 기록 트래커 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "리셋 / 생산성",
@@ -23716,22 +25922,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "내 시간의 가치",
+        "기록/관계 도구",
+        "시간 기록 트래커"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-RC-P1",
-      "brand": "가성비 기준",
-      "productName": "루틴 회복 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "외모관리 프롬프트 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-RC-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "즉각적인 보상(숏폼, 게임 등) 멀리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "외모관리 프롬프트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "외모관리 프롬프트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "루틴 회복",
@@ -23743,22 +25953,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "외모관리 프롬프트",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-RC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "루틴 회복 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "외모관리 프롬프트 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-RC-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "즉각적인 보상(숏폼, 게임 등) 멀리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "외모관리 프롬프트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "외모관리 프롬프트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "루틴 회복",
@@ -23770,22 +25983,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "외모관리 프롬프트",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-RC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "루틴 회복 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "외모관리 프롬프트 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-RC-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "즉각적인 보상(숏폼, 게임 등) 멀리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "외모관리 프롬프트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "외모관리 프롬프트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "루틴 회복",
@@ -23797,22 +26013,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "외모관리 프롬프트",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-FI-P1",
-      "brand": "가성비 기준",
-      "productName": "첫인상 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "인사/첫인상 체크 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-FI-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "하루 한 번 타인에게 칭찬하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "인사/첫인상 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "인사/첫인상 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "첫인상",
@@ -23820,22 +26039,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "따뜻한 인사",
+        "기록/관계 도구",
+        "인사/첫인상 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-FI-P2",
-      "brand": "민감/입문 기준",
-      "productName": "첫인상 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "인사/첫인상 체크 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-FI-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "하루 한 번 타인에게 칭찬하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "인사/첫인상 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "인사/첫인상 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "첫인상",
@@ -23843,22 +26066,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "따뜻한 인사",
+        "기록/관계 도구",
+        "인사/첫인상 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-FI-P3",
-      "brand": "프리미엄 기준",
-      "productName": "첫인상 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "인사/첫인상 체크 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-FI-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "하루 한 번 타인에게 칭찬하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "인사/첫인상 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "인사/첫인상 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "첫인상",
@@ -23866,22 +26093,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "따뜻한 인사",
+        "기록/관계 도구",
+        "인사/첫인상 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "시선/표정 체크 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-CN-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "대화할 때 상대 눈동자 색을 바라보기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "체크 리스트 정리",
+      "recommendationReason": "시선/표정 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "시선/표정 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "청소 / 정리",
@@ -23893,22 +26124,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "루틴 실행 아이템",
+        "시선/표정 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "시선/표정 체크 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-CN-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "대화할 때 상대 눈동자 색을 바라보기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "체크 리스트 정리",
+      "recommendationReason": "시선/표정 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "시선/표정 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "청소 / 정리",
@@ -23920,22 +26154,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "루틴 실행 아이템",
+        "시선/표정 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "시선/표정 체크 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-CN-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "대화할 때 상대 눈동자 색을 바라보기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "체크 리스트 정리",
+      "recommendationReason": "시선/표정 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "시선/표정 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "청소 / 정리",
@@ -23947,22 +26184,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "루틴 실행 아이템",
+        "시선/표정 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CM-P1",
-      "brand": "가성비 기준",
-      "productName": "커뮤니케이션 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "대화 습관 체크 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-CM-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "거친 말투와 욕설 습관 경계하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 습관 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 습관 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "커뮤니케이션",
@@ -23970,22 +26210,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "비판, 불평 줄이기",
+        "루틴 실행 아이템",
+        "대화 습관 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CM-P2",
-      "brand": "민감/입문 기준",
-      "productName": "커뮤니케이션 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "대화 습관 체크 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-CM-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "거친 말투와 욕설 습관 경계하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 습관 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 습관 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "커뮤니케이션",
@@ -23993,22 +26237,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "비판, 불평 줄이기",
+        "루틴 실행 아이템",
+        "대화 습관 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CM-P3",
-      "brand": "프리미엄 기준",
-      "productName": "커뮤니케이션 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "대화 습관 체크 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-CM-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "거친 말투와 욕설 습관 경계하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 습관 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 습관 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "커뮤니케이션",
@@ -24016,22 +26264,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "비판, 불평 줄이기",
+        "루틴 실행 아이템",
+        "대화 습관 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-RL-P1",
-      "brand": "가성비 기준",
-      "productName": "관계 유지 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "관계 관리 메모 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-RL-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "건강한 에너지를 주고받는 관계 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "관계 관리 메모 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "관계 관리 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "관계 유지",
@@ -24039,22 +26291,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "관계 밀도",
+        "기록/관계 도구",
+        "관계 관리 메모"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-RL-P2",
-      "brand": "민감/입문 기준",
-      "productName": "관계 유지 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "관계 관리 메모 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-RL-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "건강한 에너지를 주고받는 관계 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "관계 관리 메모 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "관계 관리 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "관계 유지",
@@ -24062,22 +26318,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "관계 밀도",
+        "기록/관계 도구",
+        "관계 관리 메모"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-RL-P3",
-      "brand": "프리미엄 기준",
-      "productName": "관계 유지 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "관계 관리 메모 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-RL-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "건강한 에너지를 주고받는 관계 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "관계 관리 메모 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "관계 관리 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "관계 유지",
@@ -24085,22 +26345,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "관계 밀도",
+        "기록/관계 도구",
+        "관계 관리 메모"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CF-P1",
-      "brand": "가성비 기준",
-      "productName": "갈등 / 거절 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "거절 연습 체크리스트 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-CF-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "낯선 사람에게 먼저 말을 걸거나 제안하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "거절 연습 체크리스트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "거절 연습 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "갈등 / 거절",
@@ -24108,22 +26372,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "거절 연습 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CF-P2",
-      "brand": "민감/입문 기준",
-      "productName": "갈등 / 거절 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "거절 연습 체크리스트 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-CF-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "낯선 사람에게 먼저 말을 걸거나 제안하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "거절 연습 체크리스트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "거절 연습 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "갈등 / 거절",
@@ -24131,22 +26398,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "거절 연습 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-CF-P3",
-      "brand": "프리미엄 기준",
-      "productName": "갈등 / 거절 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "거절 연습 체크리스트 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-CF-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "낯선 사람에게 먼저 말을 걸거나 제안하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "거절 연습 체크리스트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "거절 연습 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "갈등 / 거절",
@@ -24154,22 +26424,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "거절 연습 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-BD-P1",
-      "brand": "가성비",
-      "productName": "침구 / 수면 가성비 추천 제품",
-      "category": "Sleep",
+      "brand": "가성비 슬롯",
+      "productName": "수면 트래커 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SL-BD-C1",
       "domain": "SL",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매일 쓰기 부담이 적고 입문자가 루틴화하기 쉬운 기준 제품",
-      "target": "입문자 / 매일 사용할 사람",
-      "caution": "피부 타입, 향, 자극감은 개인차 확인",
+      "recommendationReason": "수면 트래커 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수면 트래커 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "침구 / 수면",
@@ -24181,22 +26454,26 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "수면 데이터 확인",
+        "루틴 실행 아이템",
+        "수면 트래커"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-BD-P2",
-      "brand": "민감/입문",
-      "productName": "침구 / 수면 민감/입문 추천 제품",
-      "category": "Sleep",
+      "brand": "민감/입문 슬롯",
+      "productName": "수면 트래커 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SL-BD-C1",
       "domain": "SL",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "자극 가능성을 낮추고 실패 확률을 줄이는 선택지",
-      "target": "민감한 피부 / 처음 구매하는 사람",
-      "caution": "새 제품은 한 번에 여러 개 도입하지 않기",
+      "recommendationReason": "수면 트래커 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수면 트래커 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "침구 / 수면",
@@ -24208,22 +26485,26 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "수면 데이터 확인",
+        "루틴 실행 아이템",
+        "수면 트래커"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-BD-P3",
-      "brand": "프리미엄",
-      "productName": "침구 / 수면 프리미엄 추천 제품",
-      "category": "Sleep",
+      "brand": "프리미엄 슬롯",
+      "productName": "수면 트래커 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SL-BD-C1",
       "domain": "SL",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "사용감, 마감, 지속성까지 고려한 상위 선택지",
-      "target": "루틴이 자리 잡은 사람 / 사용감에 예민한 사람",
-      "caution": "가격 대비 사용 빈도와 실제 체감 확인",
+      "recommendationReason": "수면 트래커 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수면 트래커 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "침구 / 수면",
@@ -24235,22 +26516,26 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "수면 데이터 확인",
+        "루틴 실행 아이템",
+        "수면 트래커"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-FT-P1",
-      "brand": "가성비 기준",
-      "productName": "운동 / 자세 가성비 추천 제품",
-      "category": "Sleep",
+      "brand": "가성비 슬롯",
+      "productName": "수면 식단 체크 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SL-FT-C1",
       "domain": "SL",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "취침 전 욕실 조명을 끄거나 낮추고 씻기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "수면 식단 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수면 식단 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "운동 / 자세",
@@ -24262,22 +26547,27 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "수면 우선 다이어트",
+        "루틴 실행 아이템",
+        "수면 식단 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-FT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "운동 / 자세 민감/입문 추천 제품",
-      "category": "Sleep",
+      "brand": "민감/입문 슬롯",
+      "productName": "수면 식단 체크 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SL-FT-C1",
       "domain": "SL",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "취침 전 욕실 조명을 끄거나 낮추고 씻기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "수면 식단 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수면 식단 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "운동 / 자세",
@@ -24289,22 +26579,27 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "수면 우선 다이어트",
+        "루틴 실행 아이템",
+        "수면 식단 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-FT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "운동 / 자세 프리미엄 추천 제품",
-      "category": "Sleep",
+      "brand": "프리미엄 슬롯",
+      "productName": "수면 식단 체크 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SL-FT-C1",
       "domain": "SL",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "취침 전 욕실 조명을 끄거나 낮추고 씻기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "수면 식단 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수면 식단 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "운동 / 자세",
@@ -24316,22 +26611,27 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "수면 우선 다이어트",
+        "루틴 실행 아이템",
+        "수면 식단 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Sleep",
+      "brand": "가성비 슬롯",
+      "productName": "가습기 / 습도계 가성비 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SL-RS-C1",
       "domain": "SL",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "밤에는 인공 조명과 강한 빛 멀리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "가습기 / 습도계 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "가습기 / 습도계 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "리셋 / 생산성",
@@ -24339,22 +26639,26 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "가습기 사용",
+        "환경/공간 아이템",
+        "가습기 / 습도계"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Sleep",
+      "brand": "민감/입문 슬롯",
+      "productName": "가습기 / 습도계 민감/입문 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SL-RS-C1",
       "domain": "SL",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "밤에는 인공 조명과 강한 빛 멀리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "가습기 / 습도계 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "가습기 / 습도계 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "리셋 / 생산성",
@@ -24362,22 +26666,26 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "가습기 사용",
+        "환경/공간 아이템",
+        "가습기 / 습도계"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Sleep",
+      "brand": "프리미엄 슬롯",
+      "productName": "가습기 / 습도계 프리미엄 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SL-RS-C1",
       "domain": "SL",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "밤에는 인공 조명과 강한 빛 멀리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "가습기 / 습도계 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "가습기 / 습도계 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "리셋 / 생산성",
@@ -24385,22 +26693,26 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "가습기 사용",
+        "환경/공간 아이템",
+        "가습기 / 습도계"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-SS-P1",
-      "brand": "가성비 기준",
-      "productName": "선크림 가성비 추천 제품",
-      "category": "Sleep",
+      "brand": "가성비 슬롯",
+      "productName": "햇빛 노출 체크 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SL-SS-C1",
       "domain": "SL",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "기상 후 밝은 햇빛을 눈에 담기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "햇빛 노출 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "햇빛 노출 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "선크림",
@@ -24411,22 +26723,25 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "루틴 실행 아이템",
+        "햇빛 노출 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-SS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "선크림 민감/입문 추천 제품",
-      "category": "Sleep",
+      "brand": "민감/입문 슬롯",
+      "productName": "햇빛 노출 체크 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SL-SS-C1",
       "domain": "SL",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "기상 후 밝은 햇빛을 눈에 담기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "햇빛 노출 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "햇빛 노출 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "선크림",
@@ -24437,22 +26752,25 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "루틴 실행 아이템",
+        "햇빛 노출 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-SS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "선크림 프리미엄 추천 제품",
-      "category": "Sleep",
+      "brand": "프리미엄 슬롯",
+      "productName": "햇빛 노출 체크 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SL-SS-C1",
       "domain": "SL",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "기상 후 밝은 햇빛을 눈에 담기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "햇빛 노출 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "햇빛 노출 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "선크림",
@@ -24463,22 +26781,25 @@ window.SERKAN_DATA = {
         "침구 청소기",
         "베개 커버",
         "세탁망",
-        "섬유 탈취제"
-      ]
+        "섬유 탈취제",
+        "루틴 실행 아이템",
+        "햇빛 노출 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-DT-P1",
-      "brand": "가성비 기준",
-      "productName": "식단 / 수분 가성비 추천 제품",
-      "category": "Food",
+      "brand": "가성비 슬롯",
+      "productName": "컷팅 식단 체크 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-DT-C1",
       "domain": "FD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "집에 간식 많이 사서 쟁여두지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "컷팅 식단 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "컷팅 식단 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "식단 / 수분",
@@ -24486,22 +26807,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "급한 컷팅 다이어트",
+        "루틴 실행 아이템",
+        "컷팅 식단 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-DT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "식단 / 수분 민감/입문 추천 제품",
-      "category": "Food",
+      "brand": "민감/입문 슬롯",
+      "productName": "컷팅 식단 체크 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-DT-C1",
       "domain": "FD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "집에 간식 많이 사서 쟁여두지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "컷팅 식단 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "컷팅 식단 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "식단 / 수분",
@@ -24509,22 +26835,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "급한 컷팅 다이어트",
+        "루틴 실행 아이템",
+        "컷팅 식단 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-DT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "식단 / 수분 프리미엄 추천 제품",
-      "category": "Food",
+      "brand": "프리미엄 슬롯",
+      "productName": "컷팅 식단 체크 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-DT-C1",
       "domain": "FD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "집에 간식 많이 사서 쟁여두지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "컷팅 식단 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "컷팅 식단 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "식단 / 수분",
@@ -24532,22 +26863,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "급한 컷팅 다이어트",
+        "루틴 실행 아이템",
+        "컷팅 식단 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-SP-P1",
-      "brand": "가성비",
-      "productName": "영양제 가성비 추천 제품",
-      "category": "Food",
+      "brand": "가성비 슬롯",
+      "productName": "피부 식품 리스트 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-FD-SP-C1",
       "domain": "FD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매일 쓰기 부담이 적고 입문자가 루틴화하기 쉬운 기준 제품",
-      "target": "입문자 / 매일 사용할 사람",
-      "caution": "피부 타입, 향, 자극감은 개인차 확인",
+      "recommendationReason": "피부 식품 리스트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 식품 리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "영양제",
@@ -24555,22 +26891,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "피부 식품 섭취",
+        "루틴 실행 아이템",
+        "피부 식품 리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-SP-P2",
-      "brand": "민감/입문",
-      "productName": "영양제 민감/입문 추천 제품",
-      "category": "Food",
+      "brand": "민감/입문 슬롯",
+      "productName": "피부 식품 리스트 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-FD-SP-C1",
       "domain": "FD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "자극 가능성을 낮추고 실패 확률을 줄이는 선택지",
-      "target": "민감한 피부 / 처음 구매하는 사람",
-      "caution": "새 제품은 한 번에 여러 개 도입하지 않기",
+      "recommendationReason": "피부 식품 리스트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 식품 리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "영양제",
@@ -24578,22 +26918,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "피부 식품 섭취",
+        "루틴 실행 아이템",
+        "피부 식품 리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-SP-P3",
-      "brand": "프리미엄",
-      "productName": "영양제 프리미엄 추천 제품",
-      "category": "Food",
+      "brand": "프리미엄 슬롯",
+      "productName": "피부 식품 리스트 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-FD-SP-C1",
       "domain": "FD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "사용감, 마감, 지속성까지 고려한 상위 선택지",
-      "target": "루틴이 자리 잡은 사람 / 사용감에 예민한 사람",
-      "caution": "가격 대비 사용 빈도와 실제 체감 확인",
+      "recommendationReason": "피부 식품 리스트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 식품 리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "영양제",
@@ -24601,22 +26945,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "피부 식품 섭취",
+        "루틴 실행 아이템",
+        "피부 식품 리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Food",
+      "brand": "가성비 슬롯",
+      "productName": "유지방 음식 체크 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-CN-C1",
       "domain": "FD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "끼니 거르지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "유지방 음식 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "유지방 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "청소 / 정리",
@@ -24628,22 +26976,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "유지방 음식 주의",
+        "식단/영양 아이템",
+        "유지방 음식 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Food",
+      "brand": "민감/입문 슬롯",
+      "productName": "유지방 음식 체크 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-CN-C1",
       "domain": "FD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "끼니 거르지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "유지방 음식 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "유지방 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "청소 / 정리",
@@ -24655,22 +27007,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "유지방 음식 주의",
+        "식단/영양 아이템",
+        "유지방 음식 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Food",
+      "brand": "프리미엄 슬롯",
+      "productName": "유지방 음식 체크 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-CN-C1",
       "domain": "FD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "끼니 거르지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "유지방 음식 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "유지방 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "청소 / 정리",
@@ -24682,22 +27038,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "유지방 음식 주의",
+        "식단/영양 아이템",
+        "유지방 음식 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Food",
+      "brand": "가성비 슬롯",
+      "productName": "혼술 제한 체크 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-RS-C1",
       "domain": "FD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "한 입에 30회 이상 씹어먹기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "혼술 제한 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "혼술 제한 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "리셋 / 생산성",
@@ -24705,22 +27065,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "퇴근 후 혼술 줄이기",
+        "식단/영양 아이템",
+        "혼술 제한 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Food",
+      "brand": "민감/입문 슬롯",
+      "productName": "혼술 제한 체크 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-RS-C1",
       "domain": "FD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "한 입에 30회 이상 씹어먹기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "혼술 제한 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "혼술 제한 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "리셋 / 생산성",
@@ -24728,22 +27092,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "퇴근 후 혼술 줄이기",
+        "식단/영양 아이템",
+        "혼술 제한 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Food",
+      "brand": "프리미엄 슬롯",
+      "productName": "혼술 제한 체크 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-RS-C1",
       "domain": "FD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "한 입에 30회 이상 씹어먹기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "혼술 제한 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "혼술 제한 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "리셋 / 생산성",
@@ -24751,22 +27119,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "퇴근 후 혼술 줄이기",
+        "식단/영양 아이템",
+        "혼술 제한 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-FR-P1",
-      "brand": "가성비 기준",
-      "productName": "향 / 체취 가성비 추천 제품",
-      "category": "Food",
+      "brand": "가성비 슬롯",
+      "productName": "장 자극 음식 체크 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-FR-C1",
       "domain": "FD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매운 소스, 인공감미료, 과한 향신료 피하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "장 자극 음식 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "장 자극 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "향 / 체취",
@@ -24778,22 +27150,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "루틴 실행 아이템",
+        "장 자극 음식 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-FR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "향 / 체취 민감/입문 추천 제품",
-      "category": "Food",
+      "brand": "민감/입문 슬롯",
+      "productName": "장 자극 음식 체크 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-FR-C1",
       "domain": "FD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매운 소스, 인공감미료, 과한 향신료 피하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "장 자극 음식 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "장 자극 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "향 / 체취",
@@ -24805,22 +27181,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "루틴 실행 아이템",
+        "장 자극 음식 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-FR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "향 / 체취 프리미엄 추천 제품",
-      "category": "Food",
+      "brand": "프리미엄 슬롯",
+      "productName": "장 자극 음식 체크 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-FR-C1",
       "domain": "FD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매운 소스, 인공감미료, 과한 향신료 피하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "장 자극 음식 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "장 자극 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "향 / 체취",
@@ -24832,22 +27212,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "루틴 실행 아이템",
+        "장 자극 음식 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-FT-P1",
-      "brand": "가성비 기준",
-      "productName": "운동 / 자세 가성비 추천 제품",
-      "category": "Food",
+      "brand": "가성비 슬롯",
+      "productName": "전해질 보충제 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-FT-C1",
       "domain": "FD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "고강도 운동 후 전해질 파우더 챙기기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "전해질 보충제 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "전해질 보충제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "운동 / 자세",
@@ -24855,22 +27239,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "식단/영양 아이템",
+        "전해질 보충제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-FT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "운동 / 자세 민감/입문 추천 제품",
-      "category": "Food",
+      "brand": "민감/입문 슬롯",
+      "productName": "전해질 보충제 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-FT-C1",
       "domain": "FD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "고강도 운동 후 전해질 파우더 챙기기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "전해질 보충제 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "전해질 보충제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "운동 / 자세",
@@ -24878,22 +27265,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "식단/영양 아이템",
+        "전해질 보충제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-FT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "운동 / 자세 프리미엄 추천 제품",
-      "category": "Food",
+      "brand": "프리미엄 슬롯",
+      "productName": "전해질 보충제 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-FT-C1",
       "domain": "FD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "고강도 운동 후 전해질 파우더 챙기기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "전해질 보충제 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "전해질 보충제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "운동 / 자세",
@@ -24901,22 +27291,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "식단/영양 아이템",
+        "전해질 보충제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-DT-P1",
-      "brand": "가성비 기준",
-      "productName": "식단 / 수분 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "반창고/상처 키트 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-BD-DT-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "가벼운 아침 운동 하기 (스트레칭, 요가, 폼롤러 등) 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "반창고/상처 키트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "반창고/상처 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "식단 / 수분",
@@ -24928,22 +27321,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "반창고 휴대",
+        "루틴 실행 아이템",
+        "반창고/상처 키트",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-DT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "식단 / 수분 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "반창고/상처 키트 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-BD-DT-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "가벼운 아침 운동 하기 (스트레칭, 요가, 폼롤러 등) 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "반창고/상처 키트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "반창고/상처 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "식단 / 수분",
@@ -24955,22 +27353,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "반창고 휴대",
+        "루틴 실행 아이템",
+        "반창고/상처 키트",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-DT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "식단 / 수분 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "반창고/상처 키트 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-BD-DT-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "가벼운 아침 운동 하기 (스트레칭, 요가, 폼롤러 등) 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "반창고/상처 키트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "반창고/상처 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "식단 / 수분",
@@ -24982,22 +27385,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "반창고 휴대",
+        "루틴 실행 아이템",
+        "반창고/상처 키트",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-FT-P1",
-      "brand": "가성비 기준",
-      "productName": "운동 / 자세 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "뒷목 아이스팩 가성비 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-FT-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "폼롤러로 거북목, 굽은 어깨 스트레칭하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "뒷목 아이스팩 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "뒷목 아이스팩 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "운동 / 자세",
@@ -25009,22 +27417,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "뒷목 아이스팩 냉찜질",
+        "바디/회복 아이템",
+        "뒷목 아이스팩"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-FT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "운동 / 자세 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "뒷목 아이스팩 민감/입문 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-FT-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "폼롤러로 거북목, 굽은 어깨 스트레칭하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "뒷목 아이스팩 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "뒷목 아이스팩 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "운동 / 자세",
@@ -25036,22 +27448,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "뒷목 아이스팩 냉찜질",
+        "바디/회복 아이템",
+        "뒷목 아이스팩"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-FT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "운동 / 자세 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "뒷목 아이스팩 프리미엄 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-FT-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "폼롤러로 거북목, 굽은 어깨 스트레칭하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "뒷목 아이스팩 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "뒷목 아이스팩 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "운동 / 자세",
@@ -25063,22 +27479,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "뒷목 아이스팩 냉찜질",
+        "바디/회복 아이템",
+        "뒷목 아이스팩"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "얼굴 마사지 도구 가성비 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-RS-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매 시 정각마다 기지개 한 번 켜기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "얼굴 마사지 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "얼굴 마사지 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "리셋 / 생산성",
@@ -25090,22 +27510,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "얼굴 혈점 마사지",
+        "바디/회복 아이템",
+        "얼굴 마사지 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "얼굴 마사지 도구 민감/입문 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-RS-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매 시 정각마다 기지개 한 번 켜기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "얼굴 마사지 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "얼굴 마사지 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "리셋 / 생산성",
@@ -25117,22 +27541,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "얼굴 혈점 마사지",
+        "바디/회복 아이템",
+        "얼굴 마사지 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "얼굴 마사지 도구 프리미엄 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-RS-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매 시 정각마다 기지개 한 번 켜기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "얼굴 마사지 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "얼굴 마사지 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "리셋 / 생산성",
@@ -25144,22 +27572,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "얼굴 혈점 마사지",
+        "바디/회복 아이템",
+        "얼굴 마사지 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-CL-P1",
-      "brand": "가성비 기준",
-      "productName": "클렌징 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "목 스트레칭 도구 가성비 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-CL-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "뒤통수에 수건 대고 목 버티기 운동하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "목 스트레칭 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "목 스트레칭 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "클렌징",
@@ -25175,22 +27607,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "바디/회복 아이템",
+        "목 스트레칭 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-CL-P2",
-      "brand": "민감/입문 기준",
-      "productName": "클렌징 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "목 스트레칭 도구 민감/입문 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-CL-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "뒤통수에 수건 대고 목 버티기 운동하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "목 스트레칭 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "목 스트레칭 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "클렌징",
@@ -25206,22 +27641,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "바디/회복 아이템",
+        "목 스트레칭 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-CL-P3",
-      "brand": "프리미엄 기준",
-      "productName": "클렌징 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "목 스트레칭 도구 프리미엄 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-CL-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "뒤통수에 수건 대고 목 버티기 운동하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "목 스트레칭 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "목 스트레칭 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "클렌징",
@@ -25237,22 +27675,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "바디/회복 아이템",
+        "목 스트레칭 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "격투기 운동 장비 가성비 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-CN-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "무의식적인 구강 호흡 경계하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "격투기 운동 장비 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "격투기 운동 장비 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "청소 / 정리",
@@ -25268,22 +27709,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "격투기 훈련",
+        "바디/회복 아이템",
+        "격투기 운동 장비"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "격투기 운동 장비 민감/입문 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-CN-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "무의식적인 구강 호흡 경계하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "격투기 운동 장비 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "격투기 운동 장비 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "청소 / 정리",
@@ -25299,22 +27744,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "격투기 훈련",
+        "바디/회복 아이템",
+        "격투기 운동 장비"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "격투기 운동 장비 프리미엄 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-CN-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "무의식적인 구강 호흡 경계하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "격투기 운동 장비 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "격투기 운동 장비 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "청소 / 정리",
@@ -25330,22 +27779,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "격투기 훈련",
+        "바디/회복 아이템",
+        "격투기 운동 장비"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-SP-P1",
-      "brand": "가성비 기준",
-      "productName": "영양제 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "기본 영양제 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-BD-SP-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영장 갈 때 전해질, 마그네슘, 비타민B 챙기기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "기본 영양제 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "기본 영양제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "영양제",
@@ -25357,22 +27810,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "기본 영양제 섭취",
+        "식단/영양 아이템",
+        "기본 영양제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-SP-P2",
-      "brand": "민감/입문 기준",
-      "productName": "영양제 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "기본 영양제 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-BD-SP-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영장 갈 때 전해질, 마그네슘, 비타민B 챙기기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "기본 영양제 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "기본 영양제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "영양제",
@@ -25384,22 +27841,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "기본 영양제 섭취",
+        "식단/영양 아이템",
+        "기본 영양제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-SP-P3",
-      "brand": "프리미엄 기준",
-      "productName": "영양제 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "기본 영양제 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-BD-SP-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영장 갈 때 전해질, 마그네슘, 비타민B 챙기기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "기본 영양제 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "기본 영양제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "영양제",
@@ -25411,22 +27872,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "기본 영양제 섭취",
+        "식단/영양 아이템",
+        "기본 영양제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "정량 도포 도구 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-RS-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 전후 코 안쪽에 바세린 얇게 바르기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "정량 도포 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "정량 도포 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "리셋 / 생산성",
@@ -25442,22 +27907,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "스킨케어 정량 도포",
+        "스킨케어 아이템",
+        "정량 도포 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "정량 도포 도구 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-RS-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 전후 코 안쪽에 바세린 얇게 바르기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "정량 도포 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "정량 도포 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "리셋 / 생산성",
@@ -25473,22 +27942,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "스킨케어 정량 도포",
+        "스킨케어 아이템",
+        "정량 도포 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "정량 도포 도구 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-RS-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 전후 코 안쪽에 바세린 얇게 바르기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "정량 도포 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "정량 도포 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "리셋 / 생산성",
@@ -25504,22 +27977,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "스킨케어 정량 도포",
+        "스킨케어 아이템",
+        "정량 도포 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-HR-P1",
-      "brand": "가성비 기준",
-      "productName": "헤어 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "두피 보습제 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-HR-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 전 머리에 물 묻히고 수모 쓰기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "두피 보습제 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "두피 보습제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "헤어",
@@ -25539,22 +28016,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "두피 보습",
+        "스킨케어 아이템",
+        "두피 보습제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-HR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "헤어 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "두피 보습제 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-HR-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 전 머리에 물 묻히고 수모 쓰기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "두피 보습제 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "두피 보습제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "헤어",
@@ -25574,22 +28055,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "두피 보습",
+        "스킨케어 아이템",
+        "두피 보습제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-HR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "헤어 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "두피 보습제 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-HR-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 전 머리에 물 묻히고 수모 쓰기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "두피 보습제 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "두피 보습제 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "헤어",
@@ -25609,22 +28094,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "두피 보습",
+        "스킨케어 아이템",
+        "두피 보습제"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-HR-P1",
-      "brand": "가성비 기준",
-      "productName": "헤어 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "귀 물기 제거 타월 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-BD-HR-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 후 귀 물기 털고 드라이기 약풍으로 말리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "귀 물기 제거 타월 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "귀 물기 제거 타월 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "헤어",
@@ -25640,22 +28129,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "루틴 실행 아이템",
+        "귀 물기 제거 타월"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-HR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "헤어 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "귀 물기 제거 타월 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-BD-HR-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 후 귀 물기 털고 드라이기 약풍으로 말리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "귀 물기 제거 타월 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "귀 물기 제거 타월 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "헤어",
@@ -25671,22 +28163,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "루틴 실행 아이템",
+        "귀 물기 제거 타월"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-HR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "헤어 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "귀 물기 제거 타월 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-BD-HR-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "수영 후 귀 물기 털고 드라이기 약풍으로 말리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "귀 물기 제거 타월 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "귀 물기 제거 타월 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "헤어",
@@ -25702,22 +28197,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "루틴 실행 아이템",
+        "귀 물기 제거 타월"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SS-P1",
-      "brand": "가성비",
-      "productName": "선크림 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "상처 선크림/패치 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-SS-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매일 쓰기 부담이 적고 입문자가 루틴화하기 쉬운 기준 제품",
-      "target": "입문자 / 매일 사용할 사람",
-      "caution": "피부 타입, 향, 자극감은 개인차 확인",
+      "recommendationReason": "상처 선크림/패치 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 선크림/패치 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "선크림",
@@ -25732,22 +28230,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "상처 후 색소침착 방지",
+        "스킨케어 아이템",
+        "상처 선크림/패치"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SS-P2",
-      "brand": "민감/입문",
-      "productName": "선크림 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "상처 선크림/패치 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-SS-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "자극 가능성을 낮추고 실패 확률을 줄이는 선택지",
-      "target": "민감한 피부 / 처음 구매하는 사람",
-      "caution": "새 제품은 한 번에 여러 개 도입하지 않기",
+      "recommendationReason": "상처 선크림/패치 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 선크림/패치 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "선크림",
@@ -25762,22 +28264,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "상처 후 색소침착 방지",
+        "스킨케어 아이템",
+        "상처 선크림/패치"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SS-P3",
-      "brand": "프리미엄",
-      "productName": "선크림 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "상처 선크림/패치 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-SS-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "사용감, 마감, 지속성까지 고려한 상위 선택지",
-      "target": "루틴이 자리 잡은 사람 / 사용감에 예민한 사람",
-      "caution": "가격 대비 사용 빈도와 실제 체감 확인",
+      "recommendationReason": "상처 선크림/패치 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 선크림/패치 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "선크림",
@@ -25792,22 +28298,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "상처 후 색소침착 방지",
+        "스킨케어 아이템",
+        "상처 선크림/패치"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "상처 세척 키트 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-CN-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "책상 위에 미스트, 크림 등 보습제품 두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "상처 세척 키트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 세척 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "청소 / 정리",
@@ -25827,22 +28337,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "상처 초기 세척",
+        "스킨케어 아이템",
+        "상처 세척 키트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "상처 세척 키트 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-CN-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "책상 위에 미스트, 크림 등 보습제품 두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "상처 세척 키트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 세척 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "청소 / 정리",
@@ -25862,22 +28376,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "상처 초기 세척",
+        "스킨케어 아이템",
+        "상처 세척 키트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "상처 세척 키트 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-CN-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "책상 위에 미스트, 크림 등 보습제품 두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "상처 세척 키트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 세척 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "청소 / 정리",
@@ -25897,22 +28415,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "상처 초기 세척",
+        "스킨케어 아이템",
+        "상처 세척 키트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-AC-P1",
-      "brand": "가성비",
-      "productName": "여드름 / 트러블 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "트러블 케어 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-AC-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매일 쓰기 부담이 적고 입문자가 루틴화하기 쉬운 기준 제품",
-      "target": "입문자 / 매일 사용할 사람",
-      "caution": "피부 타입, 향, 자극감은 개인차 확인",
+      "recommendationReason": "트러블 케어 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "트러블 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "여드름 / 트러블",
@@ -25932,22 +28454,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "트러블 재발 방지",
+        "스킨케어 아이템",
+        "트러블 케어"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-AC-P2",
-      "brand": "민감/입문",
-      "productName": "여드름 / 트러블 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "트러블 케어 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-AC-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "자극 가능성을 낮추고 실패 확률을 줄이는 선택지",
-      "target": "민감한 피부 / 처음 구매하는 사람",
-      "caution": "새 제품은 한 번에 여러 개 도입하지 않기",
+      "recommendationReason": "트러블 케어 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "트러블 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "여드름 / 트러블",
@@ -25967,22 +28493,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "트러블 재발 방지",
+        "스킨케어 아이템",
+        "트러블 케어"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-AC-P3",
-      "brand": "프리미엄",
-      "productName": "여드름 / 트러블 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "트러블 케어 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-AC-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "사용감, 마감, 지속성까지 고려한 상위 선택지",
-      "target": "루틴이 자리 잡은 사람 / 사용감에 예민한 사람",
-      "caution": "가격 대비 사용 빈도와 실제 체감 확인",
+      "recommendationReason": "트러블 케어 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "트러블 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "여드름 / 트러블",
@@ -26002,22 +28532,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "트러블 재발 방지",
+        "스킨케어 아이템",
+        "트러블 케어"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-CL-P1",
-      "brand": "가성비",
-      "productName": "클렌징 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "좁쌀 여드름 케어 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-CL-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매일 쓰기 부담이 적고 입문자가 루틴화하기 쉬운 기준 제품",
-      "target": "입문자 / 매일 사용할 사람",
-      "caution": "피부 타입, 향, 자극감은 개인차 확인",
+      "recommendationReason": "좁쌀 여드름 케어 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "좁쌀 여드름 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "클렌징",
@@ -26033,22 +28567,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "좁쌀 여드름 케어",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-CL-P2",
-      "brand": "민감/입문",
-      "productName": "클렌징 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "좁쌀 여드름 케어 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-CL-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "자극 가능성을 낮추고 실패 확률을 줄이는 선택지",
-      "target": "민감한 피부 / 처음 구매하는 사람",
-      "caution": "새 제품은 한 번에 여러 개 도입하지 않기",
+      "recommendationReason": "좁쌀 여드름 케어 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "좁쌀 여드름 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "클렌징",
@@ -26064,22 +28601,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "좁쌀 여드름 케어",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-CL-P3",
-      "brand": "프리미엄",
-      "productName": "클렌징 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "좁쌀 여드름 케어 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-CL-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "사용감, 마감, 지속성까지 고려한 상위 선택지",
-      "target": "루틴이 자리 잡은 사람 / 사용감에 예민한 사람",
-      "caution": "가격 대비 사용 빈도와 실제 체감 확인",
+      "recommendationReason": "좁쌀 여드름 케어 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "좁쌀 여드름 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "클렌징",
@@ -26095,22 +28635,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "좁쌀 여드름 케어",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "워터픽 / 구강 세정 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-RS-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "화장실 갈 때마다 손 꼼꼼히 씻기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "워터픽 / 구강 세정 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "워터픽 / 구강 세정 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "리셋 / 생산성",
@@ -26126,22 +28669,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "워터픽 사용",
+        "그루밍 아이템",
+        "워터픽 / 구강 세정"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "워터픽 / 구강 세정 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-RS-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "화장실 갈 때마다 손 꼼꼼히 씻기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "워터픽 / 구강 세정 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "워터픽 / 구강 세정 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "리셋 / 생산성",
@@ -26157,22 +28704,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "워터픽 사용",
+        "그루밍 아이템",
+        "워터픽 / 구강 세정"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "워터픽 / 구강 세정 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-RS-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "화장실 갈 때마다 손 꼼꼼히 씻기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "워터픽 / 구강 세정 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "워터픽 / 구강 세정 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "리셋 / 생산성",
@@ -26188,22 +28739,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "워터픽 사용",
+        "그루밍 아이템",
+        "워터픽 / 구강 세정"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SH-P1",
-      "brand": "가성비 기준",
-      "productName": "면도 / 체모 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "애프터쉐이브 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-SH-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도 전 상처, 트러블 부위 확인하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "애프터쉐이브 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "애프터쉐이브 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "면도 / 체모",
@@ -26219,22 +28774,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "애프터쉐이브 도포",
+        "스킨케어 아이템",
+        "애프터쉐이브",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SH-P2",
-      "brand": "민감/입문 기준",
-      "productName": "면도 / 체모 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "애프터쉐이브 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-SH-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도 전 상처, 트러블 부위 확인하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "애프터쉐이브 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "애프터쉐이브 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "면도 / 체모",
@@ -26250,22 +28810,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "애프터쉐이브 도포",
+        "스킨케어 아이템",
+        "애프터쉐이브",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SH-P3",
-      "brand": "프리미엄 기준",
-      "productName": "면도 / 체모 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "애프터쉐이브 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-SH-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도 전 상처, 트러블 부위 확인하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "애프터쉐이브 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "애프터쉐이브 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "면도 / 체모",
@@ -26281,22 +28846,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "애프터쉐이브 도포",
+        "스킨케어 아이템",
+        "애프터쉐이브",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-SH-P1",
-      "brand": "가성비 기준",
-      "productName": "면도 / 체모 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "면도 후 위생 체크 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-SH-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도 전 면도날과 손 소독하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "면도 후 위생 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "면도 후 위생 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "면도 / 체모",
@@ -26312,22 +28882,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "면도 직후 휴대폰 금지",
+        "그루밍 아이템",
+        "면도 후 위생 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-SH-P2",
-      "brand": "민감/입문 기준",
-      "productName": "면도 / 체모 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "면도 후 위생 체크 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-SH-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도 전 면도날과 손 소독하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "면도 후 위생 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "면도 후 위생 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "면도 / 체모",
@@ -26343,22 +28917,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "면도 직후 휴대폰 금지",
+        "그루밍 아이템",
+        "면도 후 위생 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-SH-P3",
-      "brand": "프리미엄 기준",
-      "productName": "면도 / 체모 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "면도 후 위생 체크 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-SH-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "면도 전 면도날과 손 소독하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "면도 후 위생 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "면도 후 위생 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "면도 / 체모",
@@ -26374,22 +28952,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "면도 직후 휴대폰 금지",
+        "그루밍 아이템",
+        "면도 후 위생 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-FT-P1",
-      "brand": "가성비 기준",
-      "productName": "운동 / 자세 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "피부 관찰 체크 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-FT-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "샤워 직후 냉장보관해둔 마스크팩으로 피부 진정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "피부 관찰 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 관찰 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "운동 / 자세",
@@ -26405,22 +28987,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "부위별 피부 관찰",
+        "루틴 실행 아이템",
+        "피부 관찰 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-FT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "운동 / 자세 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "피부 관찰 체크 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-FT-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "샤워 직후 냉장보관해둔 마스크팩으로 피부 진정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "피부 관찰 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 관찰 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "운동 / 자세",
@@ -26436,22 +29022,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "부위별 피부 관찰",
+        "루틴 실행 아이템",
+        "피부 관찰 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-FT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "운동 / 자세 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "피부 관찰 체크 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-FT-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "샤워 직후 냉장보관해둔 마스크팩으로 피부 진정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "피부 관찰 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 관찰 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "운동 / 자세",
@@ -26467,22 +29057,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "부위별 피부 관찰",
+        "루틴 실행 아이템",
+        "피부 관찰 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-HR-P1",
-      "brand": "가성비",
-      "productName": "헤어 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "개인 세정용품 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-HR-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매일 쓰기 부담이 적고 입문자가 루틴화하기 쉬운 기준 제품",
-      "target": "입문자 / 매일 사용할 사람",
-      "caution": "피부 타입, 향, 자극감은 개인차 확인",
+      "recommendationReason": "개인 세정용품 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "개인 세정용품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "헤어",
@@ -26494,22 +29088,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "개인 세정용품",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-HR-P2",
-      "brand": "민감/입문",
-      "productName": "헤어 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "개인 세정용품 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-HR-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "자극 가능성을 낮추고 실패 확률을 줄이는 선택지",
-      "target": "민감한 피부 / 처음 구매하는 사람",
-      "caution": "새 제품은 한 번에 여러 개 도입하지 않기",
+      "recommendationReason": "개인 세정용품 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "개인 세정용품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "헤어",
@@ -26521,22 +29118,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "개인 세정용품",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-HR-P3",
-      "brand": "프리미엄",
-      "productName": "헤어 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "개인 세정용품 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-HR-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "사용감, 마감, 지속성까지 고려한 상위 선택지",
-      "target": "루틴이 자리 잡은 사람 / 사용감에 예민한 사람",
-      "caution": "가격 대비 사용 빈도와 실제 체감 확인",
+      "recommendationReason": "개인 세정용품 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "개인 세정용품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "헤어",
@@ -26548,22 +29148,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "개인 세정용품",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-FR-P1",
-      "brand": "가성비 기준",
-      "productName": "향 / 체취 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "헤어 스타일링 도구 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-FR-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "가르마 방향을 주기적으로 바꾸기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "헤어 스타일링 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "헤어 스타일링 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "향 / 체취",
@@ -26583,22 +29186,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "그루밍 아이템",
+        "헤어 스타일링 도구",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-FR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "향 / 체취 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "헤어 스타일링 도구 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-FR-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "가르마 방향을 주기적으로 바꾸기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "헤어 스타일링 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "헤어 스타일링 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "향 / 체취",
@@ -26618,22 +29225,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "그루밍 아이템",
+        "헤어 스타일링 도구",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-FR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "향 / 체취 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "헤어 스타일링 도구 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-FR-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "가르마 방향을 주기적으로 바꾸기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "헤어 스타일링 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "헤어 스타일링 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "향 / 체취",
@@ -26653,22 +29264,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "그루밍 아이템",
+        "헤어 스타일링 도구",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-DT-P1",
-      "brand": "가성비 기준",
-      "productName": "식단 / 수분 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "무알코올 가글 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-DT-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "커피 마신 직후 물로 입 헹구기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "무알코올 가글 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "무알코올 가글 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "식단 / 수분",
@@ -26684,22 +29299,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "무알코올 가글",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-DT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "식단 / 수분 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "무알코올 가글 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-DT-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "커피 마신 직후 물로 입 헹구기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "무알코올 가글 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "무알코올 가글 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "식단 / 수분",
@@ -26715,22 +29333,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "무알코올 가글",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-DT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "식단 / 수분 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "무알코올 가글 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-DT-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "커피 마신 직후 물로 입 헹구기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "무알코올 가글 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "무알코올 가글 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "식단 / 수분",
@@ -26746,22 +29367,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "무알코올 가글",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Style",
+      "brand": "가성비 슬롯",
+      "productName": "발색 립밤 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-ST-RS-C1",
       "domain": "ST",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "외출 전 안경의 지문과 얼룩 제거하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "발색 립밤 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "발색 립밤 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "리셋 / 생산성",
@@ -26769,22 +29393,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "발색 립밤",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Style",
+      "brand": "민감/입문 슬롯",
+      "productName": "발색 립밤 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-ST-RS-C1",
       "domain": "ST",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "외출 전 안경의 지문과 얼룩 제거하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "발색 립밤 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "발색 립밤 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "리셋 / 생산성",
@@ -26792,22 +29419,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "발색 립밤",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Style",
+      "brand": "프리미엄 슬롯",
+      "productName": "발색 립밤 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-ST-RS-C1",
       "domain": "ST",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "외출 전 안경의 지문과 얼룩 제거하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "발색 립밤 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "발색 립밤 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "리셋 / 생산성",
@@ -26815,22 +29445,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "발색 립밤",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "치과 관리 체크 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-GR-CN-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "손톱과 발톱 깔끔히 다듬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "치과 관리 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "치과 관리 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "청소 / 정리",
@@ -26850,22 +29483,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "치과 정기 방문",
+        "루틴 실행 아이템",
+        "치과 관리 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "치과 관리 체크 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-GR-CN-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "손톱과 발톱 깔끔히 다듬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "치과 관리 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "치과 관리 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "청소 / 정리",
@@ -26885,22 +29522,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "치과 정기 방문",
+        "루틴 실행 아이템",
+        "치과 관리 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "치과 관리 체크 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-GR-CN-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "손톱과 발톱 깔끔히 다듬기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "치과 관리 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "치과 관리 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "청소 / 정리",
@@ -26920,22 +29561,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "치과 정기 방문",
+        "루틴 실행 아이템",
+        "치과 관리 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-CL-P1",
-      "brand": "가성비 기준",
-      "productName": "클렌징 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "수건 / 세면 타월 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-CL-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "얼굴은 세탁된 깨끗한 수건으로 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "수건 / 세면 타월 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수건 / 세면 타월 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "클렌징",
@@ -26955,22 +29600,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "수건 / 세면 타월",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-CL-P2",
-      "brand": "민감/입문 기준",
-      "productName": "클렌징 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "수건 / 세면 타월 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-CL-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "얼굴은 세탁된 깨끗한 수건으로 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "수건 / 세면 타월 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수건 / 세면 타월 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "클렌징",
@@ -26990,22 +29638,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "수건 / 세면 타월",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-CL-P3",
-      "brand": "프리미엄 기준",
-      "productName": "클렌징 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "수건 / 세면 타월 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-CL-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "얼굴은 세탁된 깨끗한 수건으로 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "수건 / 세면 타월 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "수건 / 세면 타월 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "클렌징",
@@ -27025,22 +29676,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "수건 / 세면 타월",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-FR-P1",
-      "brand": "가성비",
-      "productName": "향 / 체취 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "체취 세정용품 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-FR-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "매일 쓰기 부담이 적고 입문자가 루틴화하기 쉬운 기준 제품",
-      "target": "입문자 / 매일 사용할 사람",
-      "caution": "피부 타입, 향, 자극감은 개인차 확인",
+      "recommendationReason": "체취 세정용품 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "체취 세정용품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "향 / 체취",
@@ -27052,22 +29706,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "체취 부위 세정",
+        "그루밍 아이템",
+        "체취 세정용품"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-FR-P2",
-      "brand": "민감/입문",
-      "productName": "향 / 체취 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "체취 세정용품 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-FR-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "자극 가능성을 낮추고 실패 확률을 줄이는 선택지",
-      "target": "민감한 피부 / 처음 구매하는 사람",
-      "caution": "새 제품은 한 번에 여러 개 도입하지 않기",
+      "recommendationReason": "체취 세정용품 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "체취 세정용품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "향 / 체취",
@@ -27079,22 +29737,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "체취 부위 세정",
+        "그루밍 아이템",
+        "체취 세정용품"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-FR-P3",
-      "brand": "프리미엄",
-      "productName": "향 / 체취 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "체취 세정용품 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-GR-FR-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "사용감, 마감, 지속성까지 고려한 상위 선택지",
-      "target": "루틴이 자리 잡은 사람 / 사용감에 예민한 사람",
-      "caution": "가격 대비 사용 빈도와 실제 체감 확인",
+      "recommendationReason": "체취 세정용품 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "체취 세정용품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "향 / 체취",
@@ -27106,22 +29768,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "체취 부위 세정",
+        "그루밍 아이템",
+        "체취 세정용품"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-SH-P1",
-      "brand": "가성비 기준",
-      "productName": "면도 / 체모 가성비 추천 제품",
-      "category": "Style",
+      "brand": "가성비 슬롯",
+      "productName": "눈썹/코털 정리 도구 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-ST-SH-C1",
       "domain": "ST",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "눈썹 정리 상태 확인하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "눈썹/코털 정리 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "눈썹/코털 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "면도 / 체모",
@@ -27137,22 +29803,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "눈썹과 코털 정리",
+        "그루밍 아이템",
+        "눈썹/코털 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-SH-P2",
-      "brand": "민감/입문 기준",
-      "productName": "면도 / 체모 민감/입문 추천 제품",
-      "category": "Style",
+      "brand": "민감/입문 슬롯",
+      "productName": "눈썹/코털 정리 도구 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-ST-SH-C1",
       "domain": "ST",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "눈썹 정리 상태 확인하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "눈썹/코털 정리 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "눈썹/코털 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "면도 / 체모",
@@ -27168,22 +29838,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "눈썹과 코털 정리",
+        "그루밍 아이템",
+        "눈썹/코털 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-SH-P3",
-      "brand": "프리미엄 기준",
-      "productName": "면도 / 체모 프리미엄 추천 제품",
-      "category": "Style",
+      "brand": "프리미엄 슬롯",
+      "productName": "눈썹/코털 정리 도구 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-ST-SH-C1",
       "domain": "ST",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "눈썹 정리 상태 확인하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "눈썹/코털 정리 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "눈썹/코털 정리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "면도 / 체모",
@@ -27199,22 +29873,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "눈썹과 코털 정리",
+        "그루밍 아이템",
+        "눈썹/코털 정리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Style",
+      "brand": "가성비 슬롯",
+      "productName": "착장 체크리스트 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-CN-C1",
       "domain": "ST",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "신발과 가방의 얼룩 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "착장 체크리스트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "착장 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "청소 / 정리",
@@ -27226,22 +29904,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "착장 완성도 더",
+        "루틴 실행 아이템",
+        "착장 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Style",
+      "brand": "민감/입문 슬롯",
+      "productName": "착장 체크리스트 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-CN-C1",
       "domain": "ST",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "신발과 가방의 얼룩 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "착장 체크리스트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "착장 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "청소 / 정리",
@@ -27253,22 +29935,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "착장 완성도 더",
+        "루틴 실행 아이템",
+        "착장 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Style",
+      "brand": "프리미엄 슬롯",
+      "productName": "착장 체크리스트 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-CN-C1",
       "domain": "ST",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "신발과 가방의 얼룩 닦기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "착장 체크리스트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "착장 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "청소 / 정리",
@@ -27280,22 +29966,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "착장 완성도 더",
+        "루틴 실행 아이템",
+        "착장 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-HR-P1",
-      "brand": "가성비 기준",
-      "productName": "헤어 가성비 추천 제품",
-      "category": "Style",
+      "brand": "가성비 슬롯",
+      "productName": "헤어컷 캘린더 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-HR-C1",
       "domain": "ST",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "헤어볼륨 제품으로 뿌리볼륨 살리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "헤어컷 캘린더 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "헤어컷 캘린더 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "헤어",
@@ -27303,22 +29993,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "컷트 캘린더 설정",
+        "루틴 실행 아이템",
+        "헤어컷 캘린더"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-HR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "헤어 민감/입문 추천 제품",
-      "category": "Style",
+      "brand": "민감/입문 슬롯",
+      "productName": "헤어컷 캘린더 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-HR-C1",
       "domain": "ST",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "헤어볼륨 제품으로 뿌리볼륨 살리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "헤어컷 캘린더 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "헤어컷 캘린더 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "헤어",
@@ -27326,22 +30020,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "컷트 캘린더 설정",
+        "루틴 실행 아이템",
+        "헤어컷 캘린더"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-HR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "헤어 프리미엄 추천 제품",
-      "category": "Style",
+      "brand": "프리미엄 슬롯",
+      "productName": "헤어컷 캘린더 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-HR-C1",
       "domain": "ST",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "헤어볼륨 제품으로 뿌리볼륨 살리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "헤어컷 캘린더 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "헤어컷 캘린더 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "헤어",
@@ -27349,22 +30047,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "컷트 캘린더 설정",
+        "루틴 실행 아이템",
+        "헤어컷 캘린더"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-FR-P1",
-      "brand": "가성비 기준",
-      "productName": "향 / 체취 가성비 추천 제품",
-      "category": "Style",
+      "brand": "가성비 슬롯",
+      "productName": "향수 소분 용기 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-ST-FR-C1",
       "domain": "ST",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "향수 은은히 뿌리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "향수 소분 용기 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "향수 소분 용기 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "향 / 체취",
@@ -27372,22 +30074,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "향수 소분 용기",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-FR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "향 / 체취 민감/입문 추천 제품",
-      "category": "Style",
+      "brand": "민감/입문 슬롯",
+      "productName": "향수 소분 용기 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-ST-FR-C1",
       "domain": "ST",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "향수 은은히 뿌리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "향수 소분 용기 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "향수 소분 용기 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "향 / 체취",
@@ -27395,22 +30100,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "향수 소분 용기",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-FR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "향 / 체취 프리미엄 추천 제품",
-      "category": "Style",
+      "brand": "프리미엄 슬롯",
+      "productName": "향수 소분 용기 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-ST-FR-C1",
       "domain": "ST",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "향수 은은히 뿌리기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "향수 소분 용기 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "향수 소분 용기 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "향 / 체취",
@@ -27418,22 +30126,25 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "향수 소분 용기",
+        "그루밍 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-DT-P1",
-      "brand": "가성비 기준",
-      "productName": "식단 / 수분 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "피부 식단 챌린지 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SY-DT-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "아침에 오늘의 목표를 손으로 적기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "피부 식단 챌린지 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 식단 챌린지 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "식단 / 수분",
@@ -27453,22 +30164,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "피부 식단 챌린지",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-DT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "식단 / 수분 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "피부 식단 챌린지 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SY-DT-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "아침에 오늘의 목표를 손으로 적기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "피부 식단 챌린지 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 식단 챌린지 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "식단 / 수분",
@@ -27488,22 +30202,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "피부 식단 챌린지",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-DT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "식단 / 수분 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "피부 식단 챌린지 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SY-DT-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "아침에 오늘의 목표를 손으로 적기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "피부 식단 챌린지 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "피부 식단 챌린지 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "식단 / 수분",
@@ -27523,22 +30240,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "피부 식단 챌린지",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "독서/메모 도구 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-CN-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "휴대폰 갤러리, 배경화면, 최근 실행 앱 정리 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "독서/메모 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "독서/메모 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "청소 / 정리",
@@ -27550,22 +30270,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "자기계발 독서",
+        "기록/관계 도구",
+        "독서/메모 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "독서/메모 도구 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-CN-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "휴대폰 갤러리, 배경화면, 최근 실행 앱 정리 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "독서/메모 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "독서/메모 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "청소 / 정리",
@@ -27577,22 +30301,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "자기계발 독서",
+        "기록/관계 도구",
+        "독서/메모 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "독서/메모 도구 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-CN-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "휴대폰 갤러리, 배경화면, 최근 실행 앱 정리 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "독서/메모 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "독서/메모 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "청소 / 정리",
@@ -27604,22 +30332,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "자기계발 독서",
+        "기록/관계 도구",
+        "독서/메모 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-AC-P1",
-      "brand": "가성비 기준",
-      "productName": "여드름 / 트러블 가성비 추천 제품",
-      "category": "Food",
+      "brand": "가성비 슬롯",
+      "productName": "기름 음식 체크 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-AC-C1",
       "domain": "FD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "콩기름, 옥수수유, 카놀라유 섭취 줄이기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "기름 음식 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "기름 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "여드름 / 트러블",
@@ -27635,22 +30367,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "루틴 실행 아이템",
+        "기름 음식 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-AC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "여드름 / 트러블 민감/입문 추천 제품",
-      "category": "Food",
+      "brand": "민감/입문 슬롯",
+      "productName": "기름 음식 체크 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-AC-C1",
       "domain": "FD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "콩기름, 옥수수유, 카놀라유 섭취 줄이기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "기름 음식 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "기름 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "여드름 / 트러블",
@@ -27666,22 +30402,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "루틴 실행 아이템",
+        "기름 음식 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-FD-AC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "여드름 / 트러블 프리미엄 추천 제품",
-      "category": "Food",
+      "brand": "프리미엄 슬롯",
+      "productName": "기름 음식 체크 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-FD-AC-C1",
       "domain": "FD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "콩기름, 옥수수유, 카놀라유 섭취 줄이기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "기름 음식 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "기름 음식 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "식단관리",
         "여드름 / 트러블",
@@ -27697,22 +30437,26 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "루틴 실행 아이템",
+        "기름 음식 체크",
+        "식단/영양 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-DT-P1",
-      "brand": "가성비 기준",
-      "productName": "식단 / 수분 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "스쿠알란 화장품 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-DT-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "잠들기 전 물 한 컵 마시기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "스쿠알란 화장품 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "스쿠알란 화장품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "식단 / 수분",
@@ -27728,22 +30472,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "스쿠알란 화장품 도포",
+        "스킨케어 아이템",
+        "스쿠알란 화장품",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-DT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "식단 / 수분 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "스쿠알란 화장품 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-DT-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "잠들기 전 물 한 컵 마시기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "스쿠알란 화장품 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "스쿠알란 화장품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "식단 / 수분",
@@ -27759,22 +30508,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "스쿠알란 화장품 도포",
+        "스킨케어 아이템",
+        "스쿠알란 화장품",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-DT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "식단 / 수분 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "스쿠알란 화장품 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-DT-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "잠들기 전 물 한 컵 마시기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "스쿠알란 화장품 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "스쿠알란 화장품 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "식단 / 수분",
@@ -27790,22 +30544,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "스쿠알란 화장품 도포",
+        "스킨케어 아이템",
+        "스쿠알란 화장품",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SP-P1",
-      "brand": "가성비 기준",
-      "productName": "영양제 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "비타민C 세럼 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-SP-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "안색 관리를 위해 비타민 C 고용량 섭취하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "비타민C 세럼 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "비타민C 세럼 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "영양제",
@@ -27821,22 +30580,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "고함량 비타민C 도포",
+        "스킨케어 아이템",
+        "비타민C 세럼",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SP-P2",
-      "brand": "민감/입문 기준",
-      "productName": "영양제 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "비타민C 세럼 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-SP-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "안색 관리를 위해 비타민 C 고용량 섭취하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "비타민C 세럼 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "비타민C 세럼 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "영양제",
@@ -27852,22 +30616,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "고함량 비타민C 도포",
+        "스킨케어 아이템",
+        "비타민C 세럼",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-SP-P3",
-      "brand": "프리미엄 기준",
-      "productName": "영양제 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "비타민C 세럼 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SK-SP-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "안색 관리를 위해 비타민 C 고용량 섭취하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "비타민C 세럼 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "비타민C 세럼 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "영양제",
@@ -27883,22 +30652,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "고함량 비타민C 도포",
+        "스킨케어 아이템",
+        "비타민C 세럼",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CM-P1",
-      "brand": "가성비 기준",
-      "productName": "커뮤니케이션 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "대화 태도 체크 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SY-CM-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "21일간 거절, 불평, 비판, 뒷담화 완전 금지 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 태도 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 태도 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "커뮤니케이션",
@@ -27910,22 +30684,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "루틴 실행 아이템",
+        "대화 태도 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CM-P2",
-      "brand": "민감/입문 기준",
-      "productName": "커뮤니케이션 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "대화 태도 체크 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SY-CM-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "21일간 거절, 불평, 비판, 뒷담화 완전 금지 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 태도 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 태도 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "커뮤니케이션",
@@ -27937,22 +30714,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "루틴 실행 아이템",
+        "대화 태도 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CM-P3",
-      "brand": "프리미엄 기준",
-      "productName": "커뮤니케이션 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "대화 태도 체크 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SY-CM-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "21일간 거절, 불평, 비판, 뒷담화 완전 금지 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 태도 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 태도 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "커뮤니케이션",
@@ -27964,22 +30744,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "루틴 실행 아이템",
+        "대화 태도 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CF-P1",
-      "brand": "가성비 기준",
-      "productName": "갈등 / 거절 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "거절 훈련 체크리스트 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-CF-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "현실에서 의도적으로 100번 거절당하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "거절 훈련 체크리스트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "거절 훈련 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "갈등 / 거절",
@@ -27991,22 +30774,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "100번 거절당",
+        "기록/관계 도구",
+        "거절 훈련 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CF-P2",
-      "brand": "민감/입문 기준",
-      "productName": "갈등 / 거절 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "거절 훈련 체크리스트 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-CF-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "현실에서 의도적으로 100번 거절당하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "거절 훈련 체크리스트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "거절 훈련 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "갈등 / 거절",
@@ -28018,22 +30805,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "100번 거절당",
+        "기록/관계 도구",
+        "거절 훈련 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-CF-P3",
-      "brand": "프리미엄 기준",
-      "productName": "갈등 / 거절 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "거절 훈련 체크리스트 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-CF-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "현실에서 의도적으로 100번 거절당하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "거절 훈련 체크리스트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "거절 훈련 체크리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "갈등 / 거절",
@@ -28045,22 +30836,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "100번 거절당",
+        "기록/관계 도구",
+        "거절 훈련 체크리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-RC-P1",
-      "brand": "가성비 기준",
-      "productName": "루틴 회복 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "상처 회복 키트 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-RC-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "PDRN+판테놀 성분으로 피부 진정·회복 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "상처 회복 키트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 회복 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "루틴 회복",
@@ -28080,22 +30875,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "상처 회복",
+        "스킨케어 아이템",
+        "상처 회복 키트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-RC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "루틴 회복 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "상처 회복 키트 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-RC-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "PDRN+판테놀 성분으로 피부 진정·회복 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "상처 회복 키트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 회복 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "루틴 회복",
@@ -28115,22 +30914,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "상처 회복",
+        "스킨케어 아이템",
+        "상처 회복 키트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-RC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "루틴 회복 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "상처 회복 키트 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-RC-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "PDRN+판테놀 성분으로 피부 진정·회복 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "상처 회복 키트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "상처 회복 키트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "루틴 회복",
@@ -28150,22 +30953,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "상처 회복",
+        "스킨케어 아이템",
+        "상처 회복 키트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-AC-P1",
-      "brand": "가성비 기준",
-      "productName": "여드름 / 트러블 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "신체나이 체크 도구 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-BD-AC-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "각종 피지컬 챌린지 참여하고 신체 상태 점검하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "신체나이 체크 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "신체나이 체크 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "여드름 / 트러블",
@@ -28181,22 +30988,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "신체나이 체크 도구",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-AC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "여드름 / 트러블 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "신체나이 체크 도구 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-BD-AC-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "각종 피지컬 챌린지 참여하고 신체 상태 점검하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "신체나이 체크 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "신체나이 체크 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "여드름 / 트러블",
@@ -28212,22 +31022,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "신체나이 체크 도구",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-AC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "여드름 / 트러블 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "신체나이 체크 도구 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-BD-AC-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "각종 피지컬 챌린지 참여하고 신체 상태 점검하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "신체나이 체크 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "신체나이 체크 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "여드름 / 트러블",
@@ -28243,22 +31056,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "신체나이 체크 도구",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-SP-P1",
-      "brand": "가성비 기준",
-      "productName": "영양제 가성비 추천 제품",
-      "category": "Style",
+      "brand": "가성비 슬롯",
+      "productName": "손톱 관리 도구 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-SP-C1",
       "domain": "ST",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "손톱 영양제나 오일로 손톱 주변 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "손톱 관리 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "손톱 관리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "영양제",
@@ -28274,22 +31090,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "손톱 컨디션",
+        "루틴 실행 아이템",
+        "손톱 관리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-SP-P2",
-      "brand": "민감/입문 기준",
-      "productName": "영양제 민감/입문 추천 제품",
-      "category": "Style",
+      "brand": "민감/입문 슬롯",
+      "productName": "손톱 관리 도구 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-SP-C1",
       "domain": "ST",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "손톱 영양제나 오일로 손톱 주변 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "손톱 관리 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "손톱 관리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "영양제",
@@ -28305,22 +31125,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "손톱 컨디션",
+        "루틴 실행 아이템",
+        "손톱 관리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-SP-P3",
-      "brand": "프리미엄 기준",
-      "productName": "영양제 프리미엄 추천 제품",
-      "category": "Style",
+      "brand": "프리미엄 슬롯",
+      "productName": "손톱 관리 도구 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-SP-C1",
       "domain": "ST",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "손톱 영양제나 오일로 손톱 주변 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "손톱 관리 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "손톱 관리 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "영양제",
@@ -28336,22 +31160,26 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "손톱 컨디션",
+        "루틴 실행 아이템",
+        "손톱 관리 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-FT-P1",
-      "brand": "가성비 기준",
-      "productName": "운동 / 자세 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "운동복 세탁망 가성비 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-GR-FT-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "운동용품 세탁하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "운동복 세탁망 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "운동복 세탁망 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "운동 / 자세",
@@ -28367,22 +31195,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "바디/회복 아이템",
+        "운동복 세탁망"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-FT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "운동 / 자세 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "운동복 세탁망 민감/입문 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-GR-FT-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "운동용품 세탁하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "운동복 세탁망 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "운동복 세탁망 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "운동 / 자세",
@@ -28398,22 +31229,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "바디/회복 아이템",
+        "운동복 세탁망"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-FT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "운동 / 자세 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "운동복 세탁망 프리미엄 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-GR-FT-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "운동용품 세탁하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "운동복 세탁망 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "운동복 세탁망 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "운동 / 자세",
@@ -28429,22 +31263,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "바디/회복 아이템",
+        "운동복 세탁망"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-FT-P1",
-      "brand": "가성비 기준",
-      "productName": "운동 / 자세 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "리프레시 운동 도구 가성비 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-SY-FT-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "장기 목표를 기준으로 현재 우선순위 설정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "리프레시 운동 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "리프레시 운동 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "운동 / 자세",
@@ -28456,22 +31293,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "틈새 리프레시 운동",
+        "바디/회복 아이템",
+        "리프레시 운동 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-FT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "운동 / 자세 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "리프레시 운동 도구 민감/입문 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-SY-FT-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "장기 목표를 기준으로 현재 우선순위 설정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "리프레시 운동 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "리프레시 운동 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "운동 / 자세",
@@ -28483,22 +31324,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "틈새 리프레시 운동",
+        "바디/회복 아이템",
+        "리프레시 운동 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-FT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "운동 / 자세 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "리프레시 운동 도구 프리미엄 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-SY-FT-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "장기 목표를 기준으로 현재 우선순위 설정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "리프레시 운동 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "리프레시 운동 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "생산성관리",
         "운동 / 자세",
@@ -28510,22 +31355,26 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "틈새 리프레시 운동",
+        "바디/회복 아이템",
+        "리프레시 운동 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-CN-P1",
-      "brand": "가성비 기준",
-      "productName": "청소 / 정리 가성비 추천 제품",
-      "category": "Sleep",
+      "brand": "가성비 슬롯",
+      "productName": "습도계/가습기 가성비 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SL-CN-C1",
       "domain": "SL",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "방 습도를 50~80%로 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "습도계/가습기 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "습도계/가습기 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "청소 / 정리",
@@ -28537,22 +31386,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "환경/공간 아이템",
+        "습도계/가습기"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-CN-P2",
-      "brand": "민감/입문 기준",
-      "productName": "청소 / 정리 민감/입문 추천 제품",
-      "category": "Sleep",
+      "brand": "민감/입문 슬롯",
+      "productName": "습도계/가습기 민감/입문 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SL-CN-C1",
       "domain": "SL",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "방 습도를 50~80%로 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "습도계/가습기 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "습도계/가습기 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "청소 / 정리",
@@ -28564,22 +31416,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "환경/공간 아이템",
+        "습도계/가습기"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-CN-P3",
-      "brand": "프리미엄 기준",
-      "productName": "청소 / 정리 프리미엄 추천 제품",
-      "category": "Sleep",
+      "brand": "프리미엄 슬롯",
+      "productName": "습도계/가습기 프리미엄 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-SL-CN-C1",
       "domain": "SL",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "방 습도를 50~80%로 유지하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "습도계/가습기 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "습도계/가습기 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "청소 / 정리",
@@ -28591,22 +31446,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "환경/공간 아이템",
+        "습도계/가습기"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-BD-P1",
-      "brand": "가성비 기준",
-      "productName": "침구 / 수면 가성비 추천 제품",
-      "category": "Grooming",
+      "brand": "가성비 슬롯",
+      "productName": "베개 커버 가성비 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-GR-BD-C1",
       "domain": "GR",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "베개 커버를 자주 교체할 수 있게 여러 장 구비하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "베개 커버 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "베개 커버 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "침구 / 수면",
@@ -28626,22 +31484,24 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "환경/공간 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-BD-P2",
-      "brand": "민감/입문 기준",
-      "productName": "침구 / 수면 민감/입문 추천 제품",
-      "category": "Grooming",
+      "brand": "민감/입문 슬롯",
+      "productName": "베개 커버 민감/입문 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-GR-BD-C1",
       "domain": "GR",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "베개 커버를 자주 교체할 수 있게 여러 장 구비하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "베개 커버 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "베개 커버 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "침구 / 수면",
@@ -28661,22 +31521,24 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "환경/공간 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-GR-BD-P3",
-      "brand": "프리미엄 기준",
-      "productName": "침구 / 수면 프리미엄 추천 제품",
-      "category": "Grooming",
+      "brand": "프리미엄 슬롯",
+      "productName": "베개 커버 프리미엄 추천 슬롯",
+      "category": "환경/공간 아이템",
       "itemCode": "SR26-GR-BD-C1",
       "domain": "GR",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "베개 커버를 자주 교체할 수 있게 여러 장 구비하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "베개 커버 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "베개 커버 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "위생관리",
         "침구 / 수면",
@@ -28696,22 +31558,24 @@ window.SERKAN_DATA = {
         "헤어 왁스",
         "헤어 스프레이",
         "향수",
-        "보풀 제거기"
-      ]
+        "보풀 제거기",
+        "환경/공간 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-HR-P1",
-      "brand": "가성비 기준",
-      "productName": "헤어 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "칭찬 메모 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-HR-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "상대의 헤어라인, 손끝 등 구체적인 디테일 칭찬하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "칭찬 메모 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "칭찬 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "헤어",
@@ -28727,22 +31591,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "칭찬 메모"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-HR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "헤어 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "칭찬 메모 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-HR-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "상대의 헤어라인, 손끝 등 구체적인 디테일 칭찬하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "칭찬 메모 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "칭찬 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "헤어",
@@ -28758,22 +31625,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "칭찬 메모"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-HR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "헤어 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "칭찬 메모 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-HR-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "상대의 헤어라인, 손끝 등 구체적인 디테일 칭찬하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "칭찬 메모 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "칭찬 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "헤어",
@@ -28789,22 +31659,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "칭찬 메모"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-FR-P1",
-      "brand": "가성비 기준",
-      "productName": "향 / 체취 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "대화 메모 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-FR-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "상대의 성향과 상황에 맞춰 세심하게 대답하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 메모 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "향 / 체취",
@@ -28816,22 +31689,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "대화 메모",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-FR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "향 / 체취 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "대화 메모 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-FR-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "상대의 성향과 상황에 맞춰 세심하게 대답하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 메모 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "향 / 체취",
@@ -28843,22 +31720,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "대화 메모",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-FR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "향 / 체취 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "대화 메모 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-SO-FR-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "상대의 성향과 상황에 맞춰 세심하게 대답하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "대화 메모 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "대화 메모 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "향 / 체취",
@@ -28870,22 +31751,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "기록/관계 도구",
+        "대화 메모",
+        "루틴 실행 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-DT-P1",
-      "brand": "가성비 기준",
-      "productName": "식단 / 수분 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "메뉴 후보 리스트 가성비 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SO-DT-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "점심 약속 때 자극적이지 않고 편한 메뉴 제안하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "메뉴 후보 리스트 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "메뉴 후보 리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "식단 / 수분",
@@ -28897,22 +31782,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "식단/영양 아이템",
+        "메뉴 후보 리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-DT-P2",
-      "brand": "민감/입문 기준",
-      "productName": "식단 / 수분 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "메뉴 후보 리스트 민감/입문 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SO-DT-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "점심 약속 때 자극적이지 않고 편한 메뉴 제안하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "메뉴 후보 리스트 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "메뉴 후보 리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "식단 / 수분",
@@ -28924,22 +31812,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "식단/영양 아이템",
+        "메뉴 후보 리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-DT-P3",
-      "brand": "프리미엄 기준",
-      "productName": "식단 / 수분 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "메뉴 후보 리스트 프리미엄 추천 슬롯",
+      "category": "식단/영양 아이템",
       "itemCode": "SR26-SO-DT-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "점심 약속 때 자극적이지 않고 편한 메뉴 제안하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "메뉴 후보 리스트 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "메뉴 후보 리스트 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "식단 / 수분",
@@ -28951,22 +31842,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "식단/영양 아이템",
+        "메뉴 후보 리스트"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-RS-P1",
-      "brand": "가성비 기준",
-      "productName": "리셋 / 생산성 가성비 추천 제품",
-      "category": "Relationship",
+      "brand": "가성비 슬롯",
+      "productName": "관계 가치 체크 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-RS-C1",
       "domain": "SO",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "낯선 사람과의 대화를 피하지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "관계 가치 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "관계 가치 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "리셋 / 생산성",
@@ -28974,22 +31868,27 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "약자에 대한 연민과 책임",
+        "루틴 실행 아이템",
+        "관계 가치 체크",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-RS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "리셋 / 생산성 민감/입문 추천 제품",
-      "category": "Relationship",
+      "brand": "민감/입문 슬롯",
+      "productName": "관계 가치 체크 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-RS-C1",
       "domain": "SO",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "낯선 사람과의 대화를 피하지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "관계 가치 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "관계 가치 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "리셋 / 생산성",
@@ -28997,22 +31896,27 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "약자에 대한 연민과 책임",
+        "루틴 실행 아이템",
+        "관계 가치 체크",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SO-RS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "리셋 / 생산성 프리미엄 추천 제품",
-      "category": "Relationship",
+      "brand": "프리미엄 슬롯",
+      "productName": "관계 가치 체크 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SO-RS-C1",
       "domain": "SO",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "낯선 사람과의 대화를 피하지 않기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "관계 가치 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "관계 가치 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "대인관리",
         "리셋 / 생산성",
@@ -29020,22 +31924,27 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "약자에 대한 연민과 책임",
+        "루틴 실행 아이템",
+        "관계 가치 체크",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-SS-P1",
-      "brand": "가성비 기준",
-      "productName": "선크림 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "햇빛/선크림 체크 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-BD-SS-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "아침에 창문 열고 햇빛 받으며 앉아 있기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "햇빛/선크림 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "햇빛/선크림 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "선크림",
@@ -29050,22 +31959,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "햇빛 노출 루틴",
+        "기록/관계 도구",
+        "햇빛/선크림 체크",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-SS-P2",
-      "brand": "민감/입문 기준",
-      "productName": "선크림 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "햇빛/선크림 체크 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-BD-SS-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "아침에 창문 열고 햇빛 받으며 앉아 있기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "햇빛/선크림 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "햇빛/선크림 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "선크림",
@@ -29080,22 +31994,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "햇빛 노출 루틴",
+        "기록/관계 도구",
+        "햇빛/선크림 체크",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-SS-P3",
-      "brand": "프리미엄 기준",
-      "productName": "선크림 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "햇빛/선크림 체크 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-BD-SS-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "아침에 창문 열고 햇빛 받으며 앉아 있기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "햇빛/선크림 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "햇빛/선크림 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "선크림",
@@ -29110,22 +32029,27 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "햇빛 노출 루틴",
+        "기록/관계 도구",
+        "햇빛/선크림 체크",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-FR-P1",
-      "brand": "가성비 기준",
-      "productName": "향 / 체취 가성비 추천 제품",
-      "category": "Mental",
+      "brand": "가성비 슬롯",
+      "productName": "트리거 향수/디퓨저 가성비 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-MT-FR-C1",
       "domain": "MT",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스트레스 받을 때 찾을 편안한 향 하나 정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "트리거 향수/디퓨저 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "트리거 향수/디퓨저 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "향 / 체취",
@@ -29137,22 +32061,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "트리거 향 정",
+        "그루밍 아이템",
+        "트리거 향수/디퓨저"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-FR-P2",
-      "brand": "민감/입문 기준",
-      "productName": "향 / 체취 민감/입문 추천 제품",
-      "category": "Mental",
+      "brand": "민감/입문 슬롯",
+      "productName": "트리거 향수/디퓨저 민감/입문 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-MT-FR-C1",
       "domain": "MT",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스트레스 받을 때 찾을 편안한 향 하나 정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "트리거 향수/디퓨저 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "트리거 향수/디퓨저 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "향 / 체취",
@@ -29164,22 +32092,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "트리거 향 정",
+        "그루밍 아이템",
+        "트리거 향수/디퓨저"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-MT-FR-P3",
-      "brand": "프리미엄 기준",
-      "productName": "향 / 체취 프리미엄 추천 제품",
-      "category": "Mental",
+      "brand": "프리미엄 슬롯",
+      "productName": "트리거 향수/디퓨저 프리미엄 추천 슬롯",
+      "category": "그루밍 아이템",
       "itemCode": "SR26-MT-FR-C1",
       "domain": "MT",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스트레스 받을 때 찾을 편안한 향 하나 정하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "트리거 향수/디퓨저 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "트리거 향수/디퓨저 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "멘탈관리",
         "향 / 체취",
@@ -29191,22 +32123,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "트리거 향 정",
+        "그루밍 아이템",
+        "트리거 향수/디퓨저"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-RC-P1",
-      "brand": "가성비 기준",
-      "productName": "루틴 회복 가성비 추천 제품",
-      "category": "Sleep",
+      "brand": "가성비 슬롯",
+      "productName": "취침 전 루틴 체크 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SL-RC-C1",
       "domain": "SL",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "취침 전 반복할 수 있는 루틴을 정해두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "취침 전 루틴 체크 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "취침 전 루틴 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "루틴 회복",
@@ -29218,22 +32154,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "취침 전 루틴 정",
+        "기록/관계 도구",
+        "취침 전 루틴 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-RC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "루틴 회복 민감/입문 추천 제품",
-      "category": "Sleep",
+      "brand": "민감/입문 슬롯",
+      "productName": "취침 전 루틴 체크 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SL-RC-C1",
       "domain": "SL",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "취침 전 반복할 수 있는 루틴을 정해두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "취침 전 루틴 체크 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "취침 전 루틴 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "루틴 회복",
@@ -29245,22 +32185,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "취침 전 루틴 정",
+        "기록/관계 도구",
+        "취침 전 루틴 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SL-RC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "루틴 회복 프리미엄 추천 제품",
-      "category": "Sleep",
+      "brand": "프리미엄 슬롯",
+      "productName": "취침 전 루틴 체크 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SL-RC-C1",
       "domain": "SL",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "취침 전 반복할 수 있는 루틴을 정해두기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "취침 전 루틴 체크 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "취침 전 루틴 체크 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "수면관리",
         "루틴 회복",
@@ -29272,22 +32216,26 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "취침 전 루틴 정",
+        "기록/관계 도구",
+        "취침 전 루틴 체크"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-RC-P1",
-      "brand": "가성비 기준",
-      "productName": "루틴 회복 가성비 추천 제품",
-      "category": "Body",
+      "brand": "가성비 슬롯",
+      "productName": "마사지볼 회복 루틴 가성비 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-RC-C1",
       "domain": "BD",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스파링 후 냉찜질, 마사지로 몸 데미지 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "마사지볼 회복 루틴 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "마사지볼 회복 루틴 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "루틴 회복",
@@ -29303,22 +32251,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "마사지볼 회복 루틴",
+        "바디/회복 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-RC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "루틴 회복 민감/입문 추천 제품",
-      "category": "Body",
+      "brand": "민감/입문 슬롯",
+      "productName": "마사지볼 회복 루틴 민감/입문 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-RC-C1",
       "domain": "BD",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스파링 후 냉찜질, 마사지로 몸 데미지 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "마사지볼 회복 루틴 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "마사지볼 회복 루틴 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "루틴 회복",
@@ -29334,22 +32285,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "마사지볼 회복 루틴",
+        "바디/회복 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-BD-RC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "루틴 회복 프리미엄 추천 제품",
-      "category": "Body",
+      "brand": "프리미엄 슬롯",
+      "productName": "마사지볼 회복 루틴 프리미엄 추천 슬롯",
+      "category": "바디/회복 아이템",
       "itemCode": "SR26-BD-RC-C1",
       "domain": "BD",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "스파링 후 냉찜질, 마사지로 몸 데미지 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "마사지볼 회복 루틴 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "마사지볼 회복 루틴 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "신체관리",
         "루틴 회복",
@@ -29365,22 +32319,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "마사지볼 회복 루틴",
+        "바디/회복 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-AC-P1",
-      "brand": "가성비 기준",
-      "productName": "여드름 / 트러블 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "모공 / 블랙헤드 케어 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SY-AC-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "2주·4주·8주 단위로 압출 없이 모공·블랙헤드 개선하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "모공 / 블랙헤드 케어 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "모공 / 블랙헤드 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "여드름 / 트러블",
@@ -29400,22 +32357,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "모공 / 블랙헤드 케어",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-AC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "여드름 / 트러블 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "모공 / 블랙헤드 케어 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SY-AC-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "2주·4주·8주 단위로 압출 없이 모공·블랙헤드 개선하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "모공 / 블랙헤드 케어 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "모공 / 블랙헤드 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "여드름 / 트러블",
@@ -29435,22 +32395,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "모공 / 블랙헤드 케어",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-AC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "여드름 / 트러블 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "모공 / 블랙헤드 케어 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SY-AC-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "2주·4주·8주 단위로 압출 없이 모공·블랙헤드 개선하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "모공 / 블랙헤드 케어 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "모공 / 블랙헤드 케어 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "여드름 / 트러블",
@@ -29470,22 +32433,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "모공 / 블랙헤드 케어",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-SH-P1",
-      "brand": "가성비 기준",
-      "productName": "면도 / 체모 가성비 추천 제품",
-      "category": "System",
+      "brand": "가성비 슬롯",
+      "productName": "AI 루틴 설계 도구 가성비 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-SH-C1",
       "domain": "SY",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "요일별로 손발톱·눈썹·각질·소지품·마스크팩 등 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "AI 루틴 설계 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "AI 루틴 설계 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "면도 / 체모",
@@ -29505,22 +32471,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "AI 루틴 설계 도구",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-SH-P2",
-      "brand": "민감/입문 기준",
-      "productName": "면도 / 체모 민감/입문 추천 제품",
-      "category": "System",
+      "brand": "민감/입문 슬롯",
+      "productName": "AI 루틴 설계 도구 민감/입문 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-SH-C1",
       "domain": "SY",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "요일별로 손발톱·눈썹·각질·소지품·마스크팩 등 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "AI 루틴 설계 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "AI 루틴 설계 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "면도 / 체모",
@@ -29540,22 +32509,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "AI 루틴 설계 도구",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SY-SH-P3",
-      "brand": "프리미엄 기준",
-      "productName": "면도 / 체모 프리미엄 추천 제품",
-      "category": "System",
+      "brand": "프리미엄 슬롯",
+      "productName": "AI 루틴 설계 도구 프리미엄 추천 슬롯",
+      "category": "기록/관계 도구",
       "itemCode": "SR26-SY-SH-C1",
       "domain": "SY",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "요일별로 손발톱·눈썹·각질·소지품·마스크팩 등 관리하기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "AI 루틴 설계 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "AI 루틴 설계 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "챌린지",
         "면도 / 체모",
@@ -29575,22 +32547,25 @@ window.SERKAN_DATA = {
         "알코올 티슈",
         "가습기",
         "정리 박스",
-        "먼지 브러시"
-      ]
+        "먼지 브러시",
+        "AI 루틴 설계 도구",
+        "기록/관계 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-RC-P1",
-      "brand": "가성비 기준",
-      "productName": "루틴 회복 가성비 추천 제품",
-      "category": "Style",
+      "brand": "가성비 슬롯",
+      "productName": "바디그루밍 도구 가성비 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-RC-C1",
       "domain": "ST",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "기본 바디그루밍 루틴 갖추기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "바디그루밍 도구 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "바디그루밍 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "루틴 회복",
@@ -29602,22 +32577,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "루틴 실행 아이템",
+        "바디그루밍 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-RC-P2",
-      "brand": "민감/입문 기준",
-      "productName": "루틴 회복 민감/입문 추천 제품",
-      "category": "Style",
+      "brand": "민감/입문 슬롯",
+      "productName": "바디그루밍 도구 민감/입문 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-RC-C1",
       "domain": "ST",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "기본 바디그루밍 루틴 갖추기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "바디그루밍 도구 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "바디그루밍 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "루틴 회복",
@@ -29629,22 +32607,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "루틴 실행 아이템",
+        "바디그루밍 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-ST-RC-P3",
-      "brand": "프리미엄 기준",
-      "productName": "루틴 회복 프리미엄 추천 제품",
-      "category": "Style",
+      "brand": "프리미엄 슬롯",
+      "productName": "바디그루밍 도구 프리미엄 추천 슬롯",
+      "category": "루틴 실행 아이템",
       "itemCode": "SR26-ST-RC-C1",
       "domain": "ST",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "기본 바디그루밍 루틴 갖추기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "루틴을 안정적으로 반복하려는 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "바디그루밍 도구 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "바디그루밍 도구 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "스타일관리",
         "루틴 회복",
@@ -29656,22 +32637,25 @@ window.SERKAN_DATA = {
         "노트",
         "타이머",
         "명상 앱",
-        "캘린더"
-      ]
+        "캘린더",
+        "루틴 실행 아이템",
+        "바디그루밍 도구"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-BD-P1",
-      "brand": "가성비 기준",
-      "productName": "침구 / 수면 가성비 추천 제품",
-      "category": "Skin",
+      "brand": "가성비 슬롯",
+      "productName": "바세린 / 보습 밤 가성비 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-BD-C1",
       "domain": "SK",
       "recommendationType": "가성비",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "환절기에 바세린 침대곁에 놔두고 자기 전 바르기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "바세린 / 보습 밤 그룹의 가성비 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "바세린 / 보습 밤 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "침구 / 수면",
@@ -29691,22 +32675,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "바세린 / 보습 밤",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-BD-P2",
-      "brand": "민감/입문 기준",
-      "productName": "침구 / 수면 민감/입문 추천 제품",
-      "category": "Skin",
+      "brand": "민감/입문 슬롯",
+      "productName": "바세린 / 보습 밤 민감/입문 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-BD-C1",
       "domain": "SK",
       "recommendationType": "민감/입문",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "환절기에 바세린 침대곁에 놔두고 자기 전 바르기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "바세린 / 보습 밤 그룹의 민감/입문 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "바세린 / 보습 밤 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "침구 / 수면",
@@ -29726,22 +32713,25 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "바세린 / 보습 밤",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
     },
     {
       "code": "SR26-SK-BD-P3",
-      "brand": "프리미엄 기준",
-      "productName": "침구 / 수면 프리미엄 추천 제품",
-      "category": "Skin",
+      "brand": "프리미엄 슬롯",
+      "productName": "바세린 / 보습 밤 프리미엄 추천 슬롯",
+      "category": "스킨케어 아이템",
       "itemCode": "SR26-SK-BD-C1",
       "domain": "SK",
       "recommendationType": "프리미엄",
       "imageUrl": "",
       "productLink": "#",
-      "recommendationReason": "환절기에 바세린 침대곁에 놔두고 자기 전 바르기 루틴을 반복하기 쉽게 만드는 기준 제품",
-      "target": "입문자 / 매일 관리할 사람",
-      "caution": "피부 타입, 사용 빈도, 자극 여부를 확인하고 천천히 도입",
+      "recommendationReason": "바세린 / 보습 밤 그룹의 프리미엄 추천 슬롯입니다. 실제 제품 데이터가 연결되기 전까지 mock 상태로 유지합니다.",
+      "target": "바세린 / 보습 밤 루틴에 맞는 실제 제품 후보 입력 대기",
+      "caution": "실제 브랜드, 제품명, 이미지, 구매 링크가 확인되기 전에는 상세 제품으로 노출하지 않습니다.",
       "tags": [
         "피부관리",
         "침구 / 수면",
@@ -29761,8 +32751,141 @@ window.SERKAN_DATA = {
         "단백질",
         "유산균",
         "오메가3",
-        "물병"
-      ]
+        "물병",
+        "바세린 / 보습 밤",
+        "스킨케어 아이템"
+      ],
+      "connectionStatus": "mock"
+    },
+    {
+      "code": "SR26-SK-SS-P114",
+      "brand": "비레디",
+      "productName": "비레디 블루 수분 선크림 SPF50+/PA++++",
+      "category": "데일리 선크림",
+      "itemCode": "SR26-SK-SS-C1",
+      "domain": "SK",
+      "recommendationType": "입문/데일리",
+      "imageUrl": "https://images-kr.amoremall.com/products/177770000164/177770000164_01.png?1768982321096",
+      "productLink": "https://www.amoremall.com/kr/ko/product/detail?onlineProdCode=177770000164&onlineProdSn=57466",
+      "recommendationReason": "끈적임 때문에 선크림을 빼먹는 남성에게 매일 바르는 SPF 루틴을 만들기 좋은 후보입니다.",
+      "target": "출퇴근, 운전, 야외 이동이 잦고 선크림 사용감에 민감한 사람",
+      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "tags": [
+        "피부관리",
+        "선케어",
+        "상처 선크림/패치",
+        "입문/데일리",
+        "선크림",
+        "SPF",
+        "아침 루틴"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-8173-8aa4-d7bb660d3e08"
+    },
+    {
+      "code": "SR26-GR-FR-P114",
+      "brand": "쏘내추럴",
+      "productName": "쏘내추럴 파우더포룸 피치 데오 팩트 10g 기획 (+퍼프 증정)",
+      "category": "체취 / 데오 관리",
+      "itemCode": "SR26-GR-FR-C1",
+      "domain": "GR",
+      "recommendationType": "휴대/상황형",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022344601ko.jpg?l=ko",
+      "productLink": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223446",
+      "recommendationReason": "향으로 덮기 전에 겨드랑이, 목 뒤, 가슴 윗부분의 끈적임을 짧게 낮추는 데오 관리 후보입니다.",
+      "target": "셔츠를 입는 날 땀과 눅눅함이 신경 쓰이는 사람",
+      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "tags": [
+        "위생관리",
+        "바디케어",
+        "체취 세정용품",
+        "휴대/상황형",
+        "데오",
+        "체취",
+        "위생"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-8143-ac8a-e56557c1097f"
+    },
+    {
+      "code": "SR26-SK-HR-P108",
+      "brand": "솔랩",
+      "productName": "솔랩 프리미엄 탈모/두피진정 두피앰플 40ml (+탈모샴푸100ml)",
+      "category": "두피케어 / 두피 세럼",
+      "itemCode": "SR26-SK-HR-C1",
+      "domain": "SK",
+      "recommendationType": "데일리/집중관리",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0020/A00000020826401ko.jpg?l=ko",
+      "productLink": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000208264",
+      "recommendationReason": "샴푸 후에도 두피가 답답하거나 정수리 볼륨이 빨리 꺼지는 날에 두피 루틴을 한 단계 보강하는 후보입니다.",
+      "target": "두피 열감, 가려움, 정수리 볼륨 저하가 신경 쓰이는 사람",
+      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "tags": [
+        "스타일관리",
+        "두피케어",
+        "두피 보습제",
+        "데일리/집중관리",
+        "두피",
+        "앰플",
+        "헤어"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-8115-9b6e-e0c1b6dbbc48"
+    },
+    {
+      "code": "SR26-BD-RC-P040",
+      "brand": "풀리오",
+      "productName": "풀리오 목어깨 마사지기",
+      "category": "회복 디바이스 / 목어깨 마사지",
+      "itemCode": "SR26-BD-RC-C1",
+      "domain": "BD",
+      "recommendationType": "프리미엄/디바이스",
+      "imageUrl": "https://pulio365.cafe24.com/web/N002/006.png",
+      "productLink": "https://pulio.co.kr",
+      "recommendationReason": "목과 어깨가 굳는 사무직, 운동 후 상체 긴장을 집에서 짧게 풀기 위한 회복 디바이스 후보입니다.",
+      "target": "장시간 노트북 사용, 운전, 운동 후 목어깨 피로가 잦은 사람",
+      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "tags": [
+        "바디관리",
+        "운동회복",
+        "마사지볼 회복 루틴",
+        "프리미엄/디바이스",
+        "목어깨",
+        "회복",
+        "마사지기"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-81c5-b40a-f5d5cad2a893"
+    },
+    {
+      "code": "SR26-SK-HR-P106",
+      "brand": "케라스타즈",
+      "productName": "케라스타즈 제네시스 옴므 세럼 안티-슈트 포티피앙",
+      "category": "두피케어 / 두피 세럼",
+      "itemCode": "SR26-SK-HR-C1",
+      "domain": "SK",
+      "recommendationType": "프리미엄",
+      "imageUrl": "https://sitem.ssgcdn.com/38/88/60/item/1000546608838_i1_1100.jpg",
+      "productLink": "https://www.kerastase.co.kr",
+      "recommendationReason": "샴푸만으로 부족한 두피 관리 단계를 프리미엄 세럼 루틴으로 확장하는 후보입니다.",
+      "target": "두피 케어를 샴푸 이후 단계까지 확장하고 싶은 사람",
+      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "tags": [
+        "스타일관리",
+        "두피케어",
+        "두피 보습제",
+        "프리미엄",
+        "두피",
+        "세럼",
+        "프리미엄"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-8146-bbd8-d49c0df68382"
     }
   ],
   "situations": [
@@ -29770,7 +32893,7 @@ window.SERKAN_DATA = {
       "code": "SR26-MT-CN-C36",
       "title": "디지털 디톡스",
       "type": "Mental Management",
-      "manualCode": "SR26-MT-CN-M1",
+      "manualCode": null,
       "domain": "MT",
       "topic": "CN",
       "priority": "권장",
@@ -29779,13 +32902,19 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "청소 / 정리",
         "디지털 디톡스"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "itemCode": null,
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-MT-CN-M1",
+      "previousItemCode": null
     },
     {
       "code": "SR26-MT-RS-C37",
       "title": "고민 적기",
       "type": "Mental Management",
-      "manualCode": "SR26-MT-RS-M1",
+      "manualCode": null,
       "domain": "MT",
       "topic": "RS",
       "priority": "권장",
@@ -29794,7 +32923,13 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "고민 적기"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "itemCode": null,
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-MT-RS-M1",
+      "previousItemCode": null
     },
     {
       "code": "SR26-MT-DT-R38",
@@ -29809,7 +32944,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "식단 / 수분",
         "5분 호흡 명상"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-DT-R39",
@@ -29824,7 +32963,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "식단 / 수분",
         "턱 힘 풀기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-FT-R40",
@@ -29839,7 +32982,9 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "운동 / 자세",
         "어깨 내리고 호흡"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-MT-RS-R41",
@@ -29854,7 +32999,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "15초 하늘 보기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RC-R42",
@@ -29869,7 +33018,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "루틴 회복",
         "15분 리셋"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C43",
@@ -29884,7 +33037,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "선택 위임"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RC-R44",
@@ -29899,7 +33056,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "루틴 회복",
         "디지털 디톡스"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-MT-RS-C45",
@@ -29914,7 +33075,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "마인드셋 전환"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RC-C46",
@@ -29929,7 +33094,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "루틴 회복",
         "자책 대신 충전"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-DT-C47",
@@ -29944,7 +33113,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "식단 / 수분",
         "기분전환 간식"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C50",
@@ -29959,7 +33132,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "창밖 보기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C51",
@@ -29974,7 +33151,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "산책코스 확보"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-FI-R53",
@@ -29989,7 +33170,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "첫인상",
         "칭찬하기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-CN-C54",
@@ -30004,7 +33189,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "청소 / 정리",
         "시선 자신감"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-CM-R55",
@@ -30019,7 +33208,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "커뮤니케이션",
         "언어 습관 관리"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-RL-R56",
@@ -30034,7 +33227,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "관계 유지",
         "사회적 교류 유지"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-CM-C57",
@@ -30049,7 +33246,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "커뮤니케이션",
         "경청하기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-RL-C58",
@@ -30064,7 +33265,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "관계 유지",
         "관계 밀도 관리"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-CF-C59",
@@ -30079,7 +33284,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "갈등 / 거절",
         "거절 내성 훈련"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-CM-C60",
@@ -30094,7 +33303,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "커뮤니케이션",
         "비판, 불평 줄이기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-FI-R119",
@@ -30109,7 +33322,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "첫인상",
         "미소 연습"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-FT-R195",
@@ -30124,7 +33341,9 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "운동 / 자세",
         "정각 스트레칭"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-MT-RS-R208",
@@ -30139,7 +33358,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "자신감 장착"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-R220",
@@ -30154,7 +33377,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "명상"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-HR-R290",
@@ -30169,7 +33396,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "헤어",
         "디테일 칭찬"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-FI-R291",
@@ -30184,7 +33415,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "첫인상",
         "따뜻한 인사"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-FR-R292",
@@ -30199,7 +33434,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "향 / 체취",
         "세심한 대답"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-DT-C293",
@@ -30214,7 +33453,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "식단 / 수분",
         "호불호 없는 메뉴 제안"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-RS-C294",
@@ -30229,7 +33472,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "리셋 / 생산성",
         "낯선 대화 시도"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-SO-RS-C295",
@@ -30244,7 +33491,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "리셋 / 생산성",
         "힘이 되어주기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-CN-R296",
@@ -30259,7 +33510,9 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "청소 / 정리",
         "자연 속에서 걷기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "medium"
     },
     {
       "code": "SR26-MT-RC-R298",
@@ -30274,7 +33527,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "루틴 회복",
         "디지털 디톡스"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-MT-CN-R299",
@@ -30289,13 +33546,15 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "청소 / 정리",
         "손글씨 감정 정리"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "high"
     },
     {
       "code": "SR26-MT-RS-R300",
       "title": "5분 감정 기록",
       "type": "Mental Management",
-      "manualCode": "SR26-MT-RS-M1",
+      "manualCode": null,
       "domain": "MT",
       "topic": "RS",
       "priority": "권장",
@@ -30304,7 +33563,13 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "5분 감정 기록"
-      ]
+      ],
+      "connectionStatus": "pending",
+      "linkConfidence": "none",
+      "itemCode": null,
+      "pendingReason": "explicit concept conflict",
+      "previousManualCode": "SR26-MT-RS-M1",
+      "previousItemCode": null
     },
     {
       "code": "SR26-MT-DT-C301",
@@ -30319,7 +33584,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "식단 / 수분",
         "휴대폰 없는 차 한 잔"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-MT-RS-R302",
@@ -30334,7 +33603,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "10분 멍때리기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C303",
@@ -30349,7 +33622,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "자연 바라보기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-FR-C304",
@@ -30364,7 +33641,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "향 / 체취",
         "트리거 향 정하기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-MT-RS-C305",
@@ -30379,7 +33660,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "대비책 마련"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-C308",
@@ -30394,7 +33679,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "신호 알아차리기"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-R372",
@@ -30409,7 +33698,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "마스크팩 명상"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "no meaningful execution overlap"
     },
     {
       "code": "SR26-MT-RS-R403",
@@ -30424,7 +33717,11 @@ window.SERKAN_DATA = {
         "멘탈관리",
         "리셋 / 생산성",
         "세상에 대한 주인의식"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     },
     {
       "code": "SR26-SO-RS-C404",
@@ -30439,7 +33736,11 @@ window.SERKAN_DATA = {
         "대인관리",
         "리셋 / 생산성",
         "약자에 대한 연민과 책임"
-      ]
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "low",
+      "reviewNeeded": true,
+      "reviewReason": "weak but plausible overlap"
     }
   ],
   "categories": [
@@ -30624,18 +33925,6 @@ window.SERKAN_DATA = {
       "label": "관련 아이템 보기 →"
     },
     {
-      "from": "SR26-SP-RS-R5",
-      "to": "SR26-SP-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-SP-RS-R5",
-      "to": "SR26-SP-RS-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
       "from": "SR26-SP-BD-R6",
       "to": "SR26-SP-BD-M1",
       "type": "routine_to_manual",
@@ -30644,18 +33933,6 @@ window.SERKAN_DATA = {
     {
       "from": "SR26-SP-BD-R6",
       "to": "SR26-SP-BD-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
-      "from": "SR26-SP-DT-R7",
-      "to": "SR26-SP-DT-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-SP-DT-R7",
-      "to": "SR26-SP-DT-C1",
       "type": "routine_to_item",
       "label": "관련 아이템 보기 →"
     },
@@ -30816,18 +34093,6 @@ window.SERKAN_DATA = {
       "label": "관련 아이템 보기 →"
     },
     {
-      "from": "SR26-SP-RS-R21",
-      "to": "SR26-SP-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-SP-RS-R21",
-      "to": "SR26-SP-RS-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
       "from": "SR26-SP-CN-M22",
       "to": "SR26-SP-CN-M1",
       "type": "routine_to_manual",
@@ -30912,18 +34177,6 @@ window.SERKAN_DATA = {
       "label": "관련 아이템 보기 →"
     },
     {
-      "from": "SR26-SP-RS-R29",
-      "to": "SR26-SP-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-SP-RS-R29",
-      "to": "SR26-SP-RS-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
       "from": "SR26-SP-CN-M30",
       "to": "SR26-SP-CN-M1",
       "type": "routine_to_manual",
@@ -30992,30 +34245,6 @@ window.SERKAN_DATA = {
     {
       "from": "SR26-SP-CN-M35",
       "to": "SR26-SP-CN-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
-      "from": "SR26-MT-CN-C36",
-      "to": "SR26-MT-CN-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-MT-CN-C36",
-      "to": "SR26-MT-CN-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
-      "from": "SR26-MT-RS-C37",
-      "to": "SR26-MT-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-MT-RS-C37",
-      "to": "SR26-MT-RS-C1",
       "type": "routine_to_item",
       "label": "관련 아이템 보기 →"
     },
@@ -31351,18 +34580,6 @@ window.SERKAN_DATA = {
     },
     {
       "from": "SR26-SL-RS-R65",
-      "to": "SR26-SL-RS-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
-      "from": "SR26-SL-RS-R66",
-      "to": "SR26-SL-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-SL-RS-R66",
       "to": "SR26-SL-RS-C1",
       "type": "routine_to_item",
       "label": "관련 아이템 보기 →"
@@ -31704,18 +34921,6 @@ window.SERKAN_DATA = {
       "label": "관련 아이템 보기 →"
     },
     {
-      "from": "SR26-BD-FT-R95",
-      "to": "SR26-BD-FT-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-BD-FT-R95",
-      "to": "SR26-BD-FT-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
       "from": "SR26-BD-RS-R96",
       "to": "SR26-BD-RS-M1",
       "type": "routine_to_manual",
@@ -31748,18 +34953,6 @@ window.SERKAN_DATA = {
     {
       "from": "SR26-BD-DT-R98",
       "to": "SR26-BD-DT-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
-      "from": "SR26-BD-FT-R99",
-      "to": "SR26-BD-FT-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-BD-FT-R99",
-      "to": "SR26-BD-FT-C1",
       "type": "routine_to_item",
       "label": "관련 아이템 보기 →"
     },
@@ -33096,18 +36289,6 @@ window.SERKAN_DATA = {
       "label": "관련 아이템 보기 →"
     },
     {
-      "from": "SR26-BD-FT-R211",
-      "to": "SR26-BD-FT-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-BD-FT-R211",
-      "to": "SR26-BD-FT-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
       "from": "SR26-SY-RS-M212",
       "to": "SR26-SY-RS-M1",
       "type": "routine_to_manual",
@@ -33128,18 +36309,6 @@ window.SERKAN_DATA = {
     {
       "from": "SR26-FD-DT-R213",
       "to": "SR26-FD-DT-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
-      "from": "SR26-BD-RS-R214",
-      "to": "SR26-BD-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-BD-RS-R214",
-      "to": "SR26-BD-RS-C1",
       "type": "routine_to_item",
       "label": "관련 아이템 보기 →"
     },
@@ -33224,18 +36393,6 @@ window.SERKAN_DATA = {
     {
       "from": "SR26-SL-BD-R221",
       "to": "SR26-SL-BD-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
-      "from": "SR26-BD-RS-R222",
-      "to": "SR26-BD-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-BD-RS-R222",
-      "to": "SR26-BD-RS-C1",
       "type": "routine_to_item",
       "label": "관련 아이템 보기 →"
     },
@@ -33864,18 +37021,6 @@ window.SERKAN_DATA = {
       "label": "관련 아이템 보기 →"
     },
     {
-      "from": "SR26-SL-RS-R275",
-      "to": "SR26-SL-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-SL-RS-R275",
-      "to": "SR26-SL-RS-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
       "from": "SR26-ST-RS-R276",
       "to": "SR26-ST-RS-M1",
       "type": "routine_to_manual",
@@ -34164,18 +37309,6 @@ window.SERKAN_DATA = {
       "label": "관련 아이템 보기 →"
     },
     {
-      "from": "SR26-MT-RS-R300",
-      "to": "SR26-MT-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-MT-RS-R300",
-      "to": "SR26-MT-RS-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
       "from": "SR26-MT-DT-C301",
       "to": "SR26-MT-DT-M1",
       "type": "routine_to_manual",
@@ -34363,18 +37496,6 @@ window.SERKAN_DATA = {
     },
     {
       "from": "SR26-SL-RS-M316",
-      "to": "SR26-SL-RS-C1",
-      "type": "routine_to_item",
-      "label": "관련 아이템 보기 →"
-    },
-    {
-      "from": "SR26-SL-RS-R317",
-      "to": "SR26-SL-RS-M1",
-      "type": "routine_to_manual",
-      "label": "상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-SL-RS-R317",
       "to": "SR26-SL-RS-C1",
       "type": "routine_to_item",
       "label": "관련 아이템 보기 →"
@@ -40530,18 +43651,6 @@ window.SERKAN_DATA = {
       "label": "관련 아이템 보기 →"
     },
     {
-      "from": "SR26-MT-CN-C36",
-      "to": "SR26-MT-CN-M1",
-      "type": "situation_to_manual",
-      "label": "상황 상세 매뉴얼 보기 →"
-    },
-    {
-      "from": "SR26-MT-RS-C37",
-      "to": "SR26-MT-RS-M1",
-      "type": "situation_to_manual",
-      "label": "상황 상세 매뉴얼 보기 →"
-    },
-    {
       "from": "SR26-MT-DT-R38",
       "to": "SR26-MT-DT-M1",
       "type": "situation_to_manual",
@@ -40740,12 +43849,6 @@ window.SERKAN_DATA = {
       "label": "상황 상세 매뉴얼 보기 →"
     },
     {
-      "from": "SR26-MT-RS-R300",
-      "to": "SR26-MT-RS-M1",
-      "type": "situation_to_manual",
-      "label": "상황 상세 매뉴얼 보기 →"
-    },
-    {
       "from": "SR26-MT-DT-C301",
       "to": "SR26-MT-DT-M1",
       "type": "situation_to_manual",
@@ -40798,6 +43901,421 @@ window.SERKAN_DATA = {
       "to": "SR26-SO-RS-M1",
       "type": "situation_to_manual",
       "label": "상황 상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SP-RS-R5",
+      "to": "SR26-SP-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SP-RS-R5",
+      "to": "SR26-SP-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-SP-DT-R7",
+      "to": "SR26-SP-DT-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SP-DT-R7",
+      "to": "SR26-SP-DT-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-SP-RS-R21",
+      "to": "SR26-SP-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SP-RS-R21",
+      "to": "SR26-SP-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-SP-RS-R29",
+      "to": "SR26-SP-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SP-RS-R29",
+      "to": "SR26-SP-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-MT-CN-C36",
+      "to": "SR26-MT-CN-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-MT-CN-C36",
+      "to": "SR26-MT-CN-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-MT-CN-C36",
+      "to": "SR26-MT-CN-M1",
+      "type": "situation_to_manual",
+      "label": "상황 상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-MT-RS-C37",
+      "to": "SR26-MT-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-MT-RS-C37",
+      "to": "SR26-MT-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-MT-RS-C37",
+      "to": "SR26-MT-RS-M1",
+      "type": "situation_to_manual",
+      "label": "상황 상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SL-RS-R66",
+      "to": "SR26-SL-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SL-RS-R66",
+      "to": "SR26-SL-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-BD-FT-R95",
+      "to": "SR26-BD-FT-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-BD-FT-R95",
+      "to": "SR26-BD-FT-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-BD-FT-R99",
+      "to": "SR26-BD-FT-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-BD-FT-R99",
+      "to": "SR26-BD-FT-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-BD-FT-R211",
+      "to": "SR26-BD-FT-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-BD-FT-R211",
+      "to": "SR26-BD-FT-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-BD-RS-R214",
+      "to": "SR26-BD-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-BD-RS-R214",
+      "to": "SR26-BD-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-BD-RS-R222",
+      "to": "SR26-BD-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-BD-RS-R222",
+      "to": "SR26-BD-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-SL-RS-R275",
+      "to": "SR26-SL-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SL-RS-R275",
+      "to": "SR26-SL-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-MT-RS-R300",
+      "to": "SR26-MT-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-MT-RS-R300",
+      "to": "SR26-MT-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
+    },
+    {
+      "from": "SR26-MT-RS-R300",
+      "to": "SR26-MT-RS-M1",
+      "type": "situation_to_manual",
+      "label": "상황 상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SL-RS-R317",
+      "to": "SR26-SL-RS-M1",
+      "type": "routine_to_manual",
+      "label": "상세 매뉴얼 보기 →"
+    },
+    {
+      "from": "SR26-SL-RS-R317",
+      "to": "SR26-SL-RS-C1",
+      "type": "routine_to_item",
+      "label": "관련 아이템 보기 →"
     }
-  ]
+  ],
+  "linkQa": {
+    "generatedAt": "2026-06-12T02:13:31.712Z",
+    "criteria": "keep broad execution-guide manual links; pending only explicit or non-overlap mismatches; mock products hidden at product layer",
+    "evaluatedSourceCount": 510,
+    "pendingCount": 15,
+    "reviewNeededCount": 386,
+    "itemReviewCount": 216,
+    "mockProductCount": 243,
+    "fixedCount": 2
+  },
+  "itemQa": {
+    "generatedAt": "2026-06-12T04:18:30.956Z",
+    "reclassifiedCount": 81,
+    "remainingGenericNames": 0,
+    "changed": [
+      {
+        "code": "SR26-SP-RS-C1",
+        "from": "리셋 / 생산성",
+        "to": "간접 조명 / 조도 설정"
+      },
+      {
+        "code": "SR26-SP-CN-C1",
+        "from": "청소 / 정리",
+        "to": "데스크 정리 체크"
+      },
+      {
+        "code": "SR26-SP-BD-C1",
+        "from": "침구 / 수면",
+        "to": "침구 정리 도구"
+      },
+      {
+        "code": "SR26-SP-DT-C1",
+        "from": "식단 / 수분",
+        "to": "발코니/조명 청소 도구"
+      },
+      {
+        "code": "SR26-SP-SH-C1",
+        "from": "면도 / 체모",
+        "to": "체모 정리 도구"
+      },
+      {
+        "code": "SR26-MT-CN-C1",
+        "from": "청소 / 정리",
+        "to": "감정 기록 노트"
+      },
+      {
+        "code": "SR26-MT-RS-C1",
+        "from": "리셋 / 생산성",
+        "to": "리플렉션 노트"
+      },
+      {
+        "code": "SR26-MT-DT-C1",
+        "from": "식단 / 수분",
+        "to": "차/머그컵 세트"
+      },
+      {
+        "code": "SR26-MT-FT-C1",
+        "from": "운동 / 자세",
+        "to": "스트레칭 타이머"
+      },
+      {
+        "code": "SR26-MT-RC-C1",
+        "from": "루틴 회복",
+        "to": "디지털 차단 도구"
+      },
+      {
+        "code": "SR26-SY-RS-C1",
+        "from": "리셋 / 생산성",
+        "to": "시간 기록 트래커"
+      },
+      {
+        "code": "SR26-SY-RC-C1",
+        "from": "루틴 회복",
+        "to": "외모관리 프롬프트"
+      },
+      {
+        "code": "SR26-SO-FI-C1",
+        "from": "첫인상",
+        "to": "인사/첫인상 체크"
+      },
+      {
+        "code": "SR26-SO-CN-C1",
+        "from": "청소 / 정리",
+        "to": "시선/표정 체크"
+      },
+      {
+        "code": "SR26-SO-CM-C1",
+        "from": "커뮤니케이션",
+        "to": "대화 습관 체크"
+      },
+      {
+        "code": "SR26-SO-RL-C1",
+        "from": "관계 유지",
+        "to": "관계 관리 메모"
+      },
+      {
+        "code": "SR26-SO-CF-C1",
+        "from": "갈등 / 거절",
+        "to": "거절 연습 체크리스트"
+      },
+      {
+        "code": "SR26-SL-BD-C1",
+        "from": "침구 / 수면",
+        "to": "수면 트래커"
+      },
+      {
+        "code": "SR26-SL-FT-C1",
+        "from": "운동 / 자세",
+        "to": "수면 식단 체크"
+      },
+      {
+        "code": "SR26-SL-RS-C1",
+        "from": "리셋 / 생산성",
+        "to": "가습기 / 습도계"
+      },
+      {
+        "code": "SR26-SL-SS-C1",
+        "from": "선크림",
+        "to": "햇빛 노출 체크"
+      },
+      {
+        "code": "SR26-FD-DT-C1",
+        "from": "식단 / 수분",
+        "to": "컷팅 식단 체크"
+      },
+      {
+        "code": "SR26-FD-SP-C1",
+        "from": "영양제",
+        "to": "피부 식품 리스트"
+      },
+      {
+        "code": "SR26-FD-CN-C1",
+        "from": "청소 / 정리",
+        "to": "유지방 음식 체크"
+      },
+      {
+        "code": "SR26-FD-RS-C1",
+        "from": "리셋 / 생산성",
+        "to": "혼술 제한 체크"
+      },
+      {
+        "code": "SR26-FD-FR-C1",
+        "from": "향 / 체취",
+        "to": "장 자극 음식 체크"
+      },
+      {
+        "code": "SR26-FD-FT-C1",
+        "from": "운동 / 자세",
+        "to": "전해질 보충제"
+      },
+      {
+        "code": "SR26-BD-DT-C1",
+        "from": "식단 / 수분",
+        "to": "반창고/상처 키트"
+      },
+      {
+        "code": "SR26-BD-FT-C1",
+        "from": "운동 / 자세",
+        "to": "뒷목 아이스팩"
+      },
+      {
+        "code": "SR26-BD-RS-C1",
+        "from": "리셋 / 생산성",
+        "to": "얼굴 마사지 도구"
+      },
+      {
+        "code": "SR26-BD-CL-C1",
+        "from": "클렌징",
+        "to": "목 스트레칭 도구"
+      },
+      {
+        "code": "SR26-BD-CN-C1",
+        "from": "청소 / 정리",
+        "to": "격투기 운동 장비"
+      },
+      {
+        "code": "SR26-BD-SP-C1",
+        "from": "영양제",
+        "to": "기본 영양제"
+      },
+      {
+        "code": "SR26-SK-RS-C1",
+        "from": "리셋 / 생산성",
+        "to": "정량 도포 도구"
+      },
+      {
+        "code": "SR26-SK-HR-C1",
+        "from": "헤어",
+        "to": "두피 보습제"
+      },
+      {
+        "code": "SR26-BD-HR-C1",
+        "from": "헤어",
+        "to": "귀 물기 제거 타월"
+      },
+      {
+        "code": "SR26-SK-SS-C1",
+        "from": "선크림",
+        "to": "상처 선크림/패치"
+      },
+      {
+        "code": "SR26-SK-CN-C1",
+        "from": "청소 / 정리",
+        "to": "상처 세척 키트"
+      },
+      {
+        "code": "SR26-SK-AC-C1",
+        "from": "여드름 / 트러블",
+        "to": "트러블 케어"
+      },
+      {
+        "code": "SR26-SK-CL-C1",
+        "from": "클렌징",
+        "to": "좁쌀 여드름 케어"
+      }
+    ]
+  }
 };

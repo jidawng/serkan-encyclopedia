@@ -1012,6 +1012,13 @@
     ].join(" ").toLowerCase();
   }
 
+  function matchesSearchQuery(entity, query) {
+    const text = searchableText(entity);
+    const tokens = query.split(/\s+/).filter(Boolean);
+    if (!tokens.length) return false;
+    return tokens.every((token) => text.includes(token));
+  }
+
   function setView(view, options = {}) {
     if (!viewMeta[view]) return;
     if (!options.skipHistory) state.history.push({ view: state.view, query: state.query, selected: state.selected });
@@ -2071,7 +2078,7 @@
       ...data.situations.map((item) => ({ type: "situation", title: item.title, code: item.code, meta: item.type, entity: item })),
       ...data.categories.map((item) => ({ type: "category", title: item.name, code: item.code, meta: item.label, entity: item })),
     ];
-    const results = query ? entities.filter((item) => searchableText(item.entity).includes(query)) : [];
+    const results = query ? entities.filter((item) => matchesSearchQuery(item.entity, query)) : [];
     return `
       ${renderHero()}
       <section class="section-card">
@@ -2644,13 +2651,15 @@
   function renderProductSlot(product) {
     const mock = isMockProduct(product);
     const label = product.recommendationType || "추천";
-    return `
-      <div class="product-slot ${mock ? "is-mock" : "is-ready"}">
-        <span>${esc(label)}</span>
-        <strong>${esc(mock ? `${label} 슬롯` : product.productName)}</strong>
-        <em>${esc(mock ? "Mock Product · 제품 연결 대기" : product.code)}</em>
-      </div>
+    const inner = `
+      <span>${esc(label)}</span>
+      <strong>${esc(mock ? `${label} 슬롯` : product.productName)}</strong>
+      <em>${esc(mock ? "Mock Product · 제품 연결 대기" : `${product.code} →`)}</em>
     `;
+    if (mock) {
+      return `<div class="product-slot is-mock">${inner}</div>`;
+    }
+    return `<button class="product-slot is-ready clickable" data-open-type="product" data-code="${esc(product.code)}">${inner}</button>`;
   }
 
   function renderProductDetail(product) {

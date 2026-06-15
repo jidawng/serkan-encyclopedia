@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "createdAt": "2026-06-15",
+    "sourceFiles": [
+      "data/staging-product-import.json",
+      "data/product-import-review-table.md",
+      "app-data.js"
+    ],
+    "purpose": "Product import gap analysis and code proposals only. Do not merge into runtime data without approval.",
+    "safeMode": true,
+    "blockedWrites": [
+      "app-data.js",
+      "app-data.generated.js",
+      "app.js",
+      "index.html"
+    ]
+  },
+  "summary": {
+    "sampleProducts": 10,
+    "readyNow": 0,
+    "review": 5,
+    "needsItem": 5,
+    "needsManual": 0,
+    "existingItemDirectCandidate": 5,
+    "missingItem": 5,
+    "existingCodeAbsorbable": 3,
+    "newCodeRecommended": 5
+  },
+  "gapBuckets": {
+    "directExistingItemCandidate": [
+      "비레디 블루 수분 선크림 SPF50+/PA++++ -> SR26-SK-SS-C1, but item/manual meaning is too narrow",
+      "쏘내추럴 파우더포룸 피치 데오 팩트 -> SR26-GR-FR-C1, with domain/topic review",
+      "솔랩 두피앰플 -> SR26-SK-HR-C1, with scalp domain/topic review",
+      "풀리오 목어깨 마사지기 -> SR26-BD-RC-C1, but product group title is too narrow",
+      "케라스타즈 두피 세럼 -> SR26-SK-HR-C1, with scalp domain/topic review"
+    ],
+    "itemExistsButManualWeak": [
+      "데일리 선크림: SR26-SK-SS-M1 exists but describes wound pigmentation prevention rather than daily SPF",
+      "목어깨 마사지기: SR26-BD-RC-M1 exists but describes massage-ball recovery rather than device recovery",
+      "두피 세럼: SR26-SK-HR-M1 exists but current domain/topic may conflict with GR-SC scalp care"
+    ],
+    "missingItem": [
+      "SK-MK 남성 톤 보정 / 부분 커버",
+      "BD-BC 바디워시 / 바디 클렌징",
+      "SL light-block sleep mask / 수면 안대",
+      "BD or ST 착장/바디 리스크 관리",
+      "SK-MK 남성 베이스 메이크업"
+    ],
+    "newDomainTopicNeeded": [
+      "SK-MK",
+      "BD-BC",
+      "SL-LB",
+      "BD-WR",
+      "GR-SC or normalized SK-HR"
+    ],
+    "absorbableIntoExistingCode": [
+      "데오 팩트 -> SR26-GR-FR if body odor/deodorant is treated as Grooming",
+      "두피 세럼 -> SR26-SK-HR if scalp care stays in Skin/Hair",
+      "목어깨 마사지기 -> SR26-BD-RC if recovery device remains under recovery routine"
+    ],
+    "newCodeRecommended": [
+      "SR26-SK-MK-C1 / M1",
+      "SR26-BD-BC-C1 / M1",
+      "SR26-SL-LB-C1 / M1",
+      "SR26-BD-WR-C1 / M1",
+      "SR26-GR-SC-C1 / M1 or rename/normalize SR26-SK-HR"
+    ]
+  },
+  "proposals": [
+    {
+      "gapKey": "SK-MK",
+      "label": "남성 톤 보정 / 부분 커버",
+      "productsCovered": [
+        "비레디 트루 톤 로션 하이드로/에어리 40ml 기획",
+        "다슈 맨즈 듀얼 트릭 스틱 샌드 / 라이트"
+      ],
+      "newDomainTopicNeeded": true,
+      "absorbIntoExistingDomainTopic": false,
+      "recommendedDomain": "SK",
+      "recommendedTopic": "MK",
+      "candidateItemCode": "SR26-SK-MK-C1",
+      "candidateItemName": "남성 톤 보정 / 부분 커버",
+      "candidateManualCode": "SR26-SK-MK-M1",
+      "candidateManualTitle": "남성 톤 보정 / 부분 커버 관리 매뉴얼",
+      "candidateProductGroup": "남성 톤 보정 / 부분 커버",
+      "relatedExistingRoutineExamples": [
+        {
+          "code": "SR26-SK-FT-R142",
+          "title": "샤워 직후 냉장보관해둔 마스크팩으로 피부 진정하기",
+          "fit": "weak",
+          "note": "피부 컨디션 흐름은 맞지만 톤 보정 실행과 직접 일치하지 않음"
+        }
+      ],
+      "needsNewRoutine": true,
+      "newRoutineCandidate": {
+        "code": "SR26-SK-MK-R1",
+        "title": "출근 전 톤 보정 로션을 얇게 바르기",
+        "board": "daily"
+      },
+      "recommendedStatus": "NEEDS_ITEM",
+      "reason": "현재 SK-MK item/manual이 없어 제품을 억지로 기존 스킨케어에 붙이면 검색/관계가 흐려진다."
+    },
+    {
+      "gapKey": "BD-BC",
+      "label": "바디워시 / 바디 클렌징",
+      "productsCovered": [
+        "우르오스 스킨워시"
+      ],
+      "newDomainTopicNeeded": true,
+      "absorbIntoExistingDomainTopic": false,
+      "recommendedDomain": "BD",
+      "recommendedTopic": "BC",
+      "candidateItemCode": "SR26-BD-BC-C1",
+      "candidateItemName": "바디워시 / 바디 클렌징",
+      "candidateManualCode": "SR26-BD-BC-M1",
+      "candidateManualTitle": "바디워시 / 바디 클렌징 관리 매뉴얼",
+      "candidateProductGroup": "바디워시 / 바디 클렌징",
+      "relatedExistingRoutineExamples": [
+        {
+          "code": "SR26-BD-DT-R105",
+          "title": "샤워 마지막 30초 찬물로 마무리하기",
+          "fit": "medium",
+          "note": "샤워 흐름은 맞지만 바디워시 선택/사용 기준은 별도 manual이 필요"
+        }
+      ],
+      "needsNewRoutine": true,
+      "newRoutineCandidate": {
+        "code": "SR26-BD-BC-R1",
+        "title": "운동 후 바디워시로 땀과 피지 씻어내기",
+        "board": "daily"
+      },
+      "recommendedStatus": "NEEDS_ITEM",
+      "reason": "GR-HR 개인 세정용품으로 흡수할 수는 있지만 Body 관리 제품의 역할이 흐려진다."
+    },
+    {
+      "gapKey": "SL-LB",
+      "label": "수면 안대 / 빛 차단",
+      "productsCovered": [
+        "테라바디 슬립마스크 진동 수면 안대"
+      ],
+      "newDomainTopicNeeded": true,
+      "absorbIntoExistingDomainTopic": false,
+      "recommendedDomain": "SL",
+      "recommendedTopic": "LB",
+      "candidateItemCode": "SR26-SL-LB-C1",
+      "candidateItemName": "수면 안대 / 빛 차단 도구",
+      "candidateManualCode": "SR26-SL-LB-M1",
+      "candidateManualTitle": "수면 안대 / 빛 차단 관리 매뉴얼",
+      "candidateProductGroup": "수면 안대 / 빛 차단",
+      "relatedExistingRoutineExamples": [
+        {
+          "code": "SR26-SL-RS-R65",
+          "title": "밤에는 인공 조명과 강한 빛 멀리하기",
+          "fit": "high",
+          "note": "빛 차단 목적이 직접 연결됨"
+        },
+        {
+          "code": "SR26-SL-RS-R66",
+          "title": "밤 9시 이후 블루라이트 차단하기 (선글라스 착용)",
+          "fit": "medium",
+          "note": "빛 차단은 맞지만 블루라이트/선글라스와 수면 안대는 사용 장면이 다름"
+        }
+      ],
+      "needsNewRoutine": false,
+      "newRoutineCandidate": null,
+      "recommendedStatus": "NEEDS_ITEM",
+      "reason": "기존 SL-RS-C1은 가습기/습도계라 수면 안대 제품을 받으면 오연결이 발생한다."
+    },
+    {
+      "gapKey": "GR-FR",
+      "label": "체취 / 데오 관리",
+      "productsCovered": [
+        "쏘내추럴 파우더포룸 피치 데오 팩트 10g 기획 (+퍼프 증정)"
+      ],
+      "newDomainTopicNeeded": false,
+      "absorbIntoExistingDomainTopic": true,
+      "recommendedDomain": "GR",
+      "recommendedTopic": "FR",
+      "candidateItemCode": "SR26-GR-FR-C1",
+      "candidateItemName": "체취 세정용품",
+      "candidateManualCode": "SR26-GR-FR-M1",
+      "candidateManualTitle": "체취 부위 세정 관리 매뉴얼",
+      "candidateProductGroup": "체취 / 데오 관리",
+      "relatedExistingRoutineExamples": [
+        {
+          "code": "SR26-GR-FR-M1",
+          "title": "체취 부위 세정 관리 매뉴얼",
+          "fit": "high",
+          "note": "데오 팩트는 세정은 아니지만 체취/보송 리셋 맥락에 가깝다"
+        }
+      ],
+      "needsNewRoutine": false,
+      "newRoutineCandidate": null,
+      "recommendedStatus": "REVIEW",
+      "reason": "기존 코드로 흡수 가능하지만 Notion code가 BD-BC라 domain/topic normalization 확인이 필요하다."
+    },
+    {
+      "gapKey": "BD-WR",
+      "label": "착장 / 바디 리스크 관리",
+      "productsCovered": [
+        "다슈 맨즈 매직커버 니플밴드 더블 기획"
+      ],
+      "newDomainTopicNeeded": true,
+      "absorbIntoExistingDomainTopic": false,
+      "recommendedDomain": "BD",
+      "recommendedTopic": "WR",
+      "candidateItemCode": "SR26-BD-WR-C1",
+      "candidateItemName": "착장 / 바디 리스크 관리 도구",
+      "candidateManualCode": "SR26-BD-WR-M1",
+      "candidateManualTitle": "착장 / 바디 리스크 관리 매뉴얼",
+      "candidateProductGroup": "착장 / 바디 리스크 관리",
+      "relatedExistingRoutineExamples": [
+        {
+          "code": "SR26-ST-CN-C1",
+          "title": "착장 체크리스트",
+          "fit": "medium",
+          "note": "Style 착장과 관련은 있으나 제품은 Body/위생 리스크에 가까움"
+        }
+      ],
+      "needsNewRoutine": true,
+      "newRoutineCandidate": {
+        "code": "SR26-BD-WR-R1",
+        "title": "얇은 상의 입기 전 비침과 땀 자국 확인하기",
+        "board": "situation"
+      },
+      "recommendedStatus": "NEEDS_ITEM",
+      "reason": "바디워시나 바디그루밍으로 흡수하면 실제 사용 맥락이 다르다."
+    },
+    {
+      "gapKey": "SCALP",
+      "label": "두피케어 / 두피 세럼",
+      "productsCovered": [
+        "솔랩 프리미엄 탈모/두피진정 두피앰플 40ml (+탈모샴푸100ml)",
+        "케라스타즈 제네시스 옴므 세럼 안티-슈트 포티피앙"
+      ],
+      "newDomainTopicNeeded": "conditional",
+      "absorbIntoExistingDomainTopic": true,
+      "recommendedDomain": "GR",
+      "recommendedTopic": "SC",
+      "candidateItemCode": "SR26-GR-SC-C1",
+      "candidateItemName": "두피케어 / 두피 세럼",
+      "candidateManualCode": "SR26-GR-SC-M1",
+      "candidateManualTitle": "두피케어 / 두피 세럼 관리 매뉴얼",
+      "candidateProductGroup": "두피케어 / 두피 세럼",
+      "fallbackExistingItemCode": "SR26-SK-HR-C1",
+      "fallbackExistingManualCode": "SR26-SK-HR-M1",
+      "relatedExistingRoutineExamples": [
+        {
+          "code": "SR26-SK-HR-R139",
+          "title": "머리 감고 마지막 헹굼은 찬물로 하기",
+          "fit": "medium",
+          "note": "두피/헤어 루틴 흐름은 맞음"
+        },
+        {
+          "code": "SR26-SK-HR-R140",
+          "title": "젖은 머리 바로 말리기",
+          "fit": "medium",
+          "note": "두피 컨디션 관리와 연결 가능"
+        },
+        {
+          "code": "SR26-GR-HR-M145",
+          "title": "미용실 두피 스케일링 받아보기",
+          "fit": "high",
+          "note": "Grooming scalp care로 재정규화할 경우 직접 연결 가능"
+        }
+      ],
+      "needsNewRoutine": false,
+      "newRoutineCandidate": null,
+      "recommendedStatus": "REVIEW",
+      "reason": "기존 SK-HR로 흡수 가능하지만 Notion과 제품 의미는 GR-SC 쪽이 더 자연스럽다."
+    },
+    {
+      "gapKey": "BD-RD",
+      "label": "회복 디바이스 / 목어깨 마사지",
+      "productsCovered": [
+        "풀리오 목어깨 마사지기"
+      ],
+      "newDomainTopicNeeded": false,
+      "absorbIntoExistingDomainTopic": true,
+      "recommendedDomain": "BD",
+      "recommendedTopic": "RC",
+      "candidateItemCode": "SR26-BD-RC-C1",
+      "candidateItemName": "마사지볼 회복 루틴",
+      "candidateManualCode": "SR26-BD-RC-M1",
+      "candidateManualTitle": "마사지볼 회복 루틴 관리 매뉴얼",
+      "candidateProductGroup": "회복 디바이스 / 목어깨 마사지",
+      "relatedExistingRoutineExamples": [
+        {
+          "code": "SR26-BD-FT-R95",
+          "title": "폼롤러로 거북목, 굽은 어깨 스트레칭하기",
+          "fit": "medium",
+          "note": "manual/item pending 상태라 바로 연결하지 않는 편이 안전"
+        },
+        {
+          "code": "SR26-BD-CL-R101",
+          "title": "뒤통수에 수건 대고 목 버티기 운동하기",
+          "fit": "medium",
+          "note": "목/어깨 관리 흐름과 연결 가능"
+        }
+      ],
+      "needsNewRoutine": false,
+      "newRoutineCandidate": null,
+      "recommendedStatus": "REVIEW",
+      "reason": "기존 BD-RC로 흡수 가능하나 group명을 마사지볼로 고정하면 디바이스 제품과 어색하다."
+    }
+  ],
+  "nextStepEstimate": {
+    "minimumChangesToCreateReadyProducts": [
+      "Rename or broaden SR26-SK-SS-C1/M1 to daily sunscreen context, or create daily sunscreen item/manual",
+      "Normalize GR-FR deodorant/body odor as a valid product group",
+      "Choose scalp care canonical code: GR-SC or SK-HR",
+      "Broaden BD-RC product group label from massage ball to recovery device"
+    ],
+    "readyPotentialAfterMinimalApproval": 4,
+    "readyPotentialAfterNewItemApproval": 10
+  }
+}

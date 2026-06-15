@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "createdAt": "2026-06-15",
+    "purpose": "Approval-ready plan for turning staged Notion products into READY candidates without editing runtime data.",
+    "safeMode": true,
+    "runtimeFilesTouched": false,
+    "blockedWritesUntilApproval": [
+      "app-data.js",
+      "app-data.generated.js",
+      "app.js",
+      "index.html"
+    ]
+  },
+  "decisionSummary": {
+    "recommendedNextMove": "Approve a small code normalization batch before importing real products.",
+    "why": "The Product Group structure works, but READY is blocked by Item/Manual taxonomy gaps.",
+    "doNotDoYet": [
+      "Do not import products into app-data.js.",
+      "Do not generate app-data.generated.js.",
+      "Do not create P1/P2/P3 individual product cards.",
+      "Do not attach products to loosely related Item Groups just to make them visible."
+    ]
+  },
+  "batchA_existingCodeAbsorption": {
+    "description": "No new Item Code required. Normalize or broaden existing Product Group meanings, then these products can become READY candidates.",
+    "estimatedReadyProducts": 4,
+    "items": [
+      {
+        "decisionId": "A1-GR-FR-DEO",
+        "decision": "Treat deodorant/deo pact products as Grooming > 체취 / 데오 관리.",
+        "existingItemCode": "SR26-GR-FR-C1",
+        "existingManualCode": "SR26-GR-FR-M1",
+        "productGroupName": "체취 / 데오 관리",
+        "productsCovered": [
+          "쏘내추럴 파우더포룸 피치 데오 팩트"
+        ],
+        "effect": "Can move from REVIEW to READY after domain/topic normalization.",
+        "risk": "Notion source code currently points to BD-BC, so source code should be normalized or documented."
+      },
+      {
+        "decisionId": "A2-BD-RC-RECOVERY-DEVICE",
+        "decision": "Broaden Body recovery Product Group from massage ball only to recovery device / neck-shoulder massage.",
+        "existingItemCode": "SR26-BD-RC-C1",
+        "existingManualCode": "SR26-BD-RC-M1",
+        "productGroupName": "회복 디바이스 / 목어깨 마사지",
+        "productsCovered": [
+          "풀리오 목어깨 마사지기"
+        ],
+        "effect": "Can move from REVIEW to READY if group label is broadened.",
+        "risk": "If kept as '마사지볼 회복 루틴', product feels mismatched."
+      },
+      {
+        "decisionId": "A3-SCALP-CANONICAL",
+        "decision": "Choose canonical scalp care code before import.",
+        "optionRecommended": "Create/standardize GR-SC for scalp care if Grooming owns scalp products.",
+        "fallbackExistingItemCode": "SR26-SK-HR-C1",
+        "fallbackExistingManualCode": "SR26-SK-HR-M1",
+        "newItemCodeIfApproved": "SR26-GR-SC-C1",
+        "newManualCodeIfApproved": "SR26-GR-SC-M1",
+        "productGroupName": "두피케어 / 두피 세럼",
+        "productsCovered": [
+          "솔랩 프리미엄 탈모/두피진정 두피앰플",
+          "케라스타즈 제네시스 옴므 세럼 안티-슈트 포티피앙"
+        ],
+        "effect": "Can move 2 products from REVIEW to READY after canonical code decision.",
+        "risk": "Leaving scalp split between SK-HR and GR-SC will create repeated reviewNeeded cases."
+      },
+      {
+        "decisionId": "A4-SK-SS-DAILY-SUNSCREEN",
+        "decision": "Decide whether SK-SS means daily sunscreen generally or only wound pigmentation sunscreen.",
+        "existingItemCode": "SR26-SK-SS-C1",
+        "existingManualCode": "SR26-SK-SS-M1",
+        "productGroupName": "데일리 선크림",
+        "productsCovered": [
+          "비레디 블루 수분 선크림 SPF50+/PA++++"
+        ],
+        "effect": "Can become READY only if SK-SS is broadened or a dedicated daily sunscreen item/manual is created.",
+        "risk": "Current label '상처 선크림/패치' is too narrow for daily SPF."
+      }
+    ]
+  },
+  "batchB_newCodeCandidates": {
+    "description": "New Item/Manual Code recommended before importing these product families.",
+    "estimatedReadyProductsAfterApproval": 5,
+    "items": [
+      {
+        "decisionId": "B1-SK-MK",
+        "productFamily": "남성 톤 보정 / 부분 커버",
+        "newItemCode": "SR26-SK-MK-C1",
+        "newManualCode": "SR26-SK-MK-M1",
+        "newRoutineCandidate": "SR26-SK-MK-R1",
+        "productsCovered": [
+          "비레디 트루 톤 로션",
+          "다슈 맨즈 듀얼 트릭 스틱"
+        ],
+        "recommended": true
+      },
+      {
+        "decisionId": "B2-BD-BC",
+        "productFamily": "바디워시 / 바디 클렌징",
+        "newItemCode": "SR26-BD-BC-C1",
+        "newManualCode": "SR26-BD-BC-M1",
+        "newRoutineCandidate": "SR26-BD-BC-R1",
+        "productsCovered": [
+          "우르오스 스킨워시"
+        ],
+        "recommended": true
+      },
+      {
+        "decisionId": "B3-SL-LB",
+        "productFamily": "수면 안대 / 빛 차단",
+        "newItemCode": "SR26-SL-LB-C1",
+        "newManualCode": "SR26-SL-LB-M1",
+        "newRoutineCandidate": null,
+        "productsCovered": [
+          "테라바디 슬립마스크 진동 수면 안대"
+        ],
+        "recommended": true
+      },
+      {
+        "decisionId": "B4-BD-WR",
+        "productFamily": "착장 / 바디 리스크 관리",
+        "newItemCode": "SR26-BD-WR-C1",
+        "newManualCode": "SR26-BD-WR-M1",
+        "newRoutineCandidate": "SR26-BD-WR-R1",
+        "productsCovered": [
+          "다슈 맨즈 매직커버 니플밴드"
+        ],
+        "recommended": true
+      }
+    ]
+  },
+  "recommendedApprovalOrder": [
+    "Approve Batch A normalization first to make 4-5 staged products READY with minimal structural change.",
+    "Approve Batch B new Item/Manual candidates only after reviewing names and code topics.",
+    "Then generate app-data.generated.js candidate, not app-data.js direct edit.",
+    "Finally run browser QA before merging generated data into the prototype."
+  ],
+  "readyEstimate": {
+    "beforeApproval": 0,
+    "afterBatchA": 4,
+    "afterBatchAPlusSunscreenDecision": 5,
+    "afterBatchAAndBatchB": 10
+  }
+}
