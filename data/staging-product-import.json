@@ -18,7 +18,9 @@
     ],
     "note": "This file is staging-only. Do not merge these records into runtime data until the user approves.",
     "batchAAppliedAt": "2026-06-15",
-    "batchAApplication": "READY status applied to existing-code absorption records only. Runtime app data is unchanged."
+    "batchAApplication": "READY status applied to existing-code absorption records only. Runtime app data is unchanged.",
+    "batchBAppliedAt": "2026-06-15",
+    "batchBApplication": "SK-MK, BD-BC, and SL-LB approved expansions applied to generated preview only. BD-WR remains deferred."
   },
   "importStatusValues": [
     "READY",
@@ -267,13 +269,13 @@
       "notionAssetType": "메이크업",
       "candidateDomain": "SK",
       "candidateTopic": "MK",
-      "candidateItemCode": null,
-      "candidateManualCode": null,
-      "candidateProductGroup": "톤 보정 로션",
-      "recommendationType": "입문/데일리",
-      "importStatus": "NEEDS_ITEM",
-      "risk": "SR26-SK-MK-C1 item group이 없다.",
-      "reason": "남성 톤 보정/베이스 메이크업 item과 manual을 먼저 만들어야 안전하다."
+      "candidateItemCode": "SR26-SK-MK-C1",
+      "candidateManualCode": "SR26-SK-MK-M1",
+      "candidateProductGroup": "남성 톤 보정 / 부분 커버",
+      "recommendationType": "톤 보정 로션",
+      "importStatus": "READY",
+      "risk": "Batch B approved item/manual/product group expansion applied to generated preview.",
+      "reason": "승인된 신규 Item/Manual/Product Group 안에서 실제 제품 import 검증이 가능합니다."
     },
     {
       "sourceId": "37343a1a-d2c4-81e0-9002-ce288f67ac43",
@@ -286,13 +288,13 @@
       "notionAssetType": "바디케어",
       "candidateDomain": "BD",
       "candidateTopic": "BC",
-      "candidateItemCode": null,
-      "candidateManualCode": null,
-      "candidateProductGroup": "바디워시",
+      "candidateItemCode": "SR26-BD-BC-C1",
+      "candidateManualCode": "SR26-BD-BC-M1",
+      "candidateProductGroup": "바디워시 / 바디 클렌징",
       "recommendationType": "입문/데일리",
-      "importStatus": "NEEDS_ITEM",
-      "risk": "SR26-BD-BC-C1 item group이 없다.",
-      "reason": "GR-HR 개인 세정용품으로 억지 연결하면 Body/Grooming 관계가 흐려진다."
+      "importStatus": "READY",
+      "risk": "Batch B approved item/manual/product group expansion applied to generated preview.",
+      "reason": "승인된 신규 Item/Manual/Product Group 안에서 실제 제품 import 검증이 가능합니다."
     },
     {
       "sourceId": "37343a1a-d2c4-8190-82f7-f5a3365fd9b8",
@@ -304,14 +306,14 @@
       "notionCategory": "수면관리",
       "notionAssetType": "홈케어디바이스",
       "candidateDomain": "SL",
-      "candidateTopic": null,
-      "candidateItemCode": null,
-      "candidateManualCode": null,
+      "candidateTopic": "LB",
+      "candidateItemCode": "SR26-SL-LB-C1",
+      "candidateManualCode": "SR26-SL-LB-M1",
       "candidateProductGroup": "수면 안대 / 빛 차단",
-      "recommendationType": "프리미엄",
-      "importStatus": "NEEDS_ITEM",
-      "risk": "기존 SL-RS-C1은 가습기/습도계라 수면 안대와 다르다.",
-      "reason": "빛 차단/수면 안대 item 또는 manual이 먼저 필요하다."
+      "recommendationType": "프리미엄/디바이스",
+      "importStatus": "READY",
+      "risk": "Batch B approved item/manual/product group expansion applied to generated preview.",
+      "reason": "승인된 신규 Item/Manual/Product Group 안에서 실제 제품 import 검증이 가능합니다."
     },
     {
       "sourceId": "37343a1a-d2c4-8143-ac8a-e56557c1097f",
@@ -348,8 +350,8 @@
       "candidateProductGroup": "착장/바디 리스크 관리",
       "recommendationType": "상황형",
       "importStatus": "NEEDS_ITEM",
-      "risk": "니플밴드/여름 착장 리스크를 받을 직접 item이 없다.",
-      "reason": "바디워시나 바디그루밍에 붙이면 오연결 가능성이 크다."
+      "risk": "BD-WR is intentionally deferred. Do not create this item/manual/product group yet.",
+      "reason": "착장/바디 리스크 제품군은 Style 흡수 가능성과 Body 유지 기준을 추가 검토한 뒤 승인합니다."
     },
     {
       "sourceId": "37343a1a-d2c4-8115-9b6e-e0c1b6dbbc48",
@@ -400,13 +402,13 @@
       "notionAssetType": "메이크업",
       "candidateDomain": "SK",
       "candidateTopic": "MK",
-      "candidateItemCode": null,
-      "candidateManualCode": null,
-      "candidateProductGroup": "부분 커버 / 남성 베이스",
-      "recommendationType": "상황형",
-      "importStatus": "NEEDS_ITEM",
-      "risk": "SK-MK item/manual이 없다.",
-      "reason": "남성 메이크업 입문 루틴을 먼저 만든 뒤 연결해야 한다."
+      "candidateItemCode": "SR26-SK-MK-C1",
+      "candidateManualCode": "SR26-SK-MK-M1",
+      "candidateProductGroup": "남성 톤 보정 / 부분 커버",
+      "recommendationType": "부분 커버 스틱",
+      "importStatus": "READY",
+      "risk": "Batch B approved item/manual/product group expansion applied to generated preview.",
+      "reason": "승인된 신규 Item/Manual/Product Group 안에서 실제 제품 import 검증이 가능합니다."
     },
     {
       "sourceId": "37343a1a-d2c4-8146-bbd8-d49c0df68382",
@@ -430,10 +432,10 @@
   ],
   "summary": {
     "sampleRecords": 10,
-    "READY": 5,
+    "READY": 9,
     "REVIEW": 0,
     "PENDING": 0,
-    "NEEDS_ITEM": 5,
+    "NEEDS_ITEM": 1,
     "NEEDS_MANUAL": 0,
     "SOURCE_CONFLICT": 0
   }

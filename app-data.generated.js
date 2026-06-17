@@ -15638,6 +15638,70 @@ window.SERKAN_DATA = {
       "linkConfidence": "low",
       "reviewNeeded": true,
       "reviewReason": "weak but plausible overlap"
+    },
+    {
+      "code": "SR26-SK-MK-R1",
+      "title": "출근 전 톤 보정 로션을 얇게 바르기",
+      "board": "daily",
+      "frequency": "Daily",
+      "weekday": [
+        "매일"
+      ],
+      "timeBlocks": [
+        "기상"
+      ],
+      "priority": "권장",
+      "difficulty": "쉬움",
+      "manualCode": "SR26-SK-MK-M1",
+      "itemCode": "SR26-SK-MK-C1",
+      "sourceId": "BATCH-B-SK-MK",
+      "sourceType": "generated_preview",
+      "sourceCount": 1,
+      "domain": "SK",
+      "topic": "MK",
+      "category": "피부관리",
+      "tags": [
+        "피부관리",
+        "톤 보정",
+        "부분 커버",
+        "Daily",
+        "권장"
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "approved",
+      "reviewNeeded": false
+    },
+    {
+      "code": "SR26-BD-BC-R1",
+      "title": "운동 후 바디워시로 땀과 피지 씻어내기",
+      "board": "daily",
+      "frequency": "Daily",
+      "weekday": [
+        "매일"
+      ],
+      "timeBlocks": [
+        "저녁"
+      ],
+      "priority": "권장",
+      "difficulty": "쉬움",
+      "manualCode": "SR26-BD-BC-M1",
+      "itemCode": "SR26-BD-BC-C1",
+      "sourceId": "BATCH-B-BD-BC",
+      "sourceType": "generated_preview",
+      "sourceCount": 1,
+      "domain": "BD",
+      "topic": "BC",
+      "category": "바디관리",
+      "tags": [
+        "바디관리",
+        "바디워시",
+        "샤워",
+        "Daily",
+        "권장"
+      ],
+      "connectionStatus": "ready",
+      "linkConfidence": "approved",
+      "reviewNeeded": false
     }
   ],
   "manuals": [
@@ -21940,6 +22004,162 @@ window.SERKAN_DATA = {
         "sleep-bedding",
         "food-skin-body"
       ]
+    },
+    {
+      "code": "SR26-SK-MK-M1",
+      "title": "남성 톤 보정 / 부분 커버 관리 매뉴얼",
+      "breadcrumb": "03. Manual Encyclopedia / 톤 보정",
+      "category": "피부관리",
+      "domain": "SK",
+      "topic": "MK",
+      "summary": "피곤해 보이는 얼굴 톤, 붉은기, 부분 잡티를 과하지 않게 정리하기 위한 매뉴얼입니다.",
+      "blocks": [
+        {
+          "label": "목적",
+          "text": "남성 톤 보정은 화장한 티를 내기보다 피곤해 보이는 인상을 낮추는 최소 개입 루틴이다.",
+          "items": []
+        },
+        {
+          "label": "실행 기준",
+          "text": "",
+          "items": [
+            "전체 커버보다 붉은기, 다크서클, 트러블 자국처럼 시선이 가는 부위만 먼저 본다.",
+            "아침 보습과 선케어 이후 얇게 바르고 경계가 생기지 않게 펴 바른다.",
+            "흰 셔츠, 마스크, 손 닿음 상황에서 묻어남을 확인한다."
+          ]
+        },
+        {
+          "label": "추천 아이템",
+          "text": "",
+          "items": [
+            "톤 보정 로션 →",
+            "부분 커버 스틱 →",
+            "거울 →"
+          ]
+        },
+        {
+          "label": "주의사항",
+          "text": "",
+          "items": [
+            "색상이 뜨거나 목과 얼굴 톤 차이가 크면 사용량을 줄인다.",
+            "트러블을 가리기보다 먼저 진정과 세안을 점검한다."
+          ]
+        }
+      ],
+      "tags": [
+        "피부관리",
+        "톤 보정",
+        "부분 커버",
+        "남성 베이스"
+      ],
+      "routineCode": "SR26-SK-MK-R1",
+      "itemCodes": [
+        "SR26-SK-MK-C1"
+      ]
+    },
+    {
+      "code": "SR26-BD-BC-M1",
+      "title": "바디워시 / 바디 클렌징 관리 매뉴얼",
+      "breadcrumb": "03. Manual Encyclopedia / 바디 클렌징",
+      "category": "바디관리",
+      "domain": "BD",
+      "topic": "BC",
+      "summary": "운동 후와 외출 후 몸의 땀, 피지, 냄새를 정리하기 위한 바디 클렌징 매뉴얼입니다.",
+      "blocks": [
+        {
+          "label": "목적",
+          "text": "바디 클렌징은 향을 더하기 전에 몸의 땀과 피지를 먼저 정리하는 기본 위생 루틴이다.",
+          "items": []
+        },
+        {
+          "label": "실행 기준",
+          "text": "",
+          "items": [
+            "운동 후, 더운 날 외출 후, 땀이 오래 남은 날에는 얼굴보다 몸 세정을 먼저 끝낸다.",
+            "등, 가슴, 목 뒤처럼 피지와 땀이 남기 쉬운 부위를 빠뜨리지 않는다.",
+            "세정력이 강한 제품은 건조감과 가려움을 확인한다."
+          ]
+        },
+        {
+          "label": "추천 아이템",
+          "text": "",
+          "items": [
+            "바디워시 →",
+            "샤워 타월 →",
+            "보습 로션 →"
+          ]
+        },
+        {
+          "label": "주의사항",
+          "text": "",
+          "items": [
+            "향이 강한 제품은 체취와 섞일 수 있어 기본 사용감을 먼저 본다.",
+            "등드름이나 가려움이 심하면 세정 빈도보다 헹굼과 보습을 함께 점검한다."
+          ]
+        }
+      ],
+      "tags": [
+        "바디관리",
+        "바디워시",
+        "샤워",
+        "위생"
+      ],
+      "routineCode": "SR26-BD-BC-R1",
+      "itemCodes": [
+        "SR26-BD-BC-C1"
+      ]
+    },
+    {
+      "code": "SR26-SL-LB-M1",
+      "title": "수면 안대 / 빛 차단 관리 매뉴얼",
+      "breadcrumb": "03. Manual Encyclopedia / 수면 빛 차단",
+      "category": "수면관리",
+      "domain": "SL",
+      "topic": "LB",
+      "summary": "잠들기 전 강한 빛과 화면 자극을 줄이고 수면으로 전환하기 위한 매뉴얼입니다.",
+      "blocks": [
+        {
+          "label": "목적",
+          "text": "빛 차단은 의지로 잠드는 것이 아니라 눈으로 들어오는 자극을 줄여 수면 전환을 쉽게 만드는 루틴이다.",
+          "items": []
+        },
+        {
+          "label": "실행 기준",
+          "text": "",
+          "items": [
+            "취침 30분 전부터 강한 조명과 화면 밝기를 낮춘다.",
+            "침대에 누운 뒤에도 빛이 들어오면 수면 안대나 차단 도구를 사용한다.",
+            "진동, 압박감, 발열 등 수면을 방해하는 요소는 실제 사용감으로 검수한다."
+          ]
+        },
+        {
+          "label": "추천 아이템",
+          "text": "",
+          "items": [
+            "수면 안대 →",
+            "무드등 →",
+            "블루라이트 차단 설정 →"
+          ]
+        },
+        {
+          "label": "주의사항",
+          "text": "",
+          "items": [
+            "수면 안대가 답답하면 사용 시간을 짧게 시작한다.",
+            "제품보다 먼저 침실 조명과 스마트폰 사용 시간을 줄인다."
+          ]
+        }
+      ],
+      "tags": [
+        "수면관리",
+        "빛 차단",
+        "수면 안대",
+        "취침 루틴"
+      ],
+      "routineCode": "SR26-SL-RS-R65",
+      "itemCodes": [
+        "SR26-SL-LB-C1"
+      ]
     }
   ],
   "items": [
@@ -21956,7 +22176,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SP-RS-P1",
         "SR26-SP-RS-P2",
-        "SR26-SP-RS-P3"
+        "SR26-SP-RS-P3",
+        "SR26-SP-RS-P201",
+        "SR26-SP-RS-P401",
+        "SR26-SP-RS-P402"
       ],
       "tags": [
         "공간관리",
@@ -21976,7 +22199,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "리셋 / 생산성",
       "itemType": "환경/공간 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "warmIndirect",
+          "label": "따뜻한 간접 조명"
+        },
+        {
+          "id": "dimmable",
+          "label": "조도 조절"
+        },
+        {
+          "id": "smart",
+          "label": "스마트"
+        },
+        {
+          "id": "budget",
+          "label": "가성비"
+        }
+      ]
     },
     {
       "code": "SR26-SP-CN-C1",
@@ -21991,7 +22232,11 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SP-CN-P1",
         "SR26-SP-CN-P2",
-        "SR26-SP-CN-P3"
+        "SR26-SP-CN-P3",
+        "SR26-SP-CN-P201",
+        "SR26-SP-CN-P401",
+        "SR26-SP-CN-P402",
+        "SR26-SP-CN-P403"
       ],
       "tags": [
         "공간관리",
@@ -22011,7 +22256,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "청소 / 정리",
       "itemType": "루틴 실행 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "deskOrganizer",
+          "label": "책상 정리"
+        },
+        {
+          "id": "vertical",
+          "label": "세로 수납"
+        },
+        {
+          "id": "cableTray",
+          "label": "케이블 정리"
+        },
+        {
+          "id": "minimal",
+          "label": "미니멀"
+        }
+      ]
     },
     {
       "code": "SR26-SP-BD-C1",
@@ -22147,7 +22410,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-MT-CN-P1",
         "SR26-MT-CN-P2",
-        "SR26-MT-CN-P3"
+        "SR26-MT-CN-P3",
+        "SR26-MT-CN-P201",
+        "SR26-MT-CN-P401",
+        "SR26-MT-CN-P402"
       ],
       "tags": [
         "멘탈관리",
@@ -22167,7 +22433,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "청소 / 정리",
       "itemType": "기록/관계 도구",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "dailyJournal",
+          "label": "데일리 저널"
+        },
+        {
+          "id": "reflection",
+          "label": "리플렉션"
+        },
+        {
+          "id": "pocket",
+          "label": "휴대형"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-MT-RS-C1",
@@ -22280,7 +22564,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-MT-RC-P1",
         "SR26-MT-RC-P2",
-        "SR26-MT-RC-P3"
+        "SR26-MT-RC-P3",
+        "SR26-MT-RC-P201",
+        "SR26-MT-RC-P401",
+        "SR26-MT-RC-P402"
       ],
       "tags": [
         "멘탈관리",
@@ -22296,7 +22583,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "루틴 회복",
       "itemType": "기록/관계 도구",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "lockBox",
+          "label": "물리 차단"
+        },
+        {
+          "id": "appBlocker",
+          "label": "앱 차단"
+        },
+        {
+          "id": "focusMode",
+          "label": "집중 모드"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-SY-RS-C1",
@@ -22311,7 +22616,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SY-RS-P1",
         "SR26-SY-RS-P2",
-        "SR26-SY-RS-P3"
+        "SR26-SY-RS-P3",
+        "SR26-SY-RS-P201",
+        "SR26-SY-RS-P401",
+        "SR26-SY-RS-P402"
       ],
       "tags": [
         "생산성관리",
@@ -22331,7 +22639,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "리셋 / 생산성",
       "itemType": "기록/관계 도구",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "visualTimer",
+          "label": "시각 타이머"
+        },
+        {
+          "id": "deskTimer",
+          "label": "데스크 타이머"
+        },
+        {
+          "id": "app",
+          "label": "앱 기록"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-SY-RC-C1",
@@ -22537,7 +22863,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SL-BD-P1",
         "SR26-SL-BD-P2",
-        "SR26-SL-BD-P3"
+        "SR26-SL-BD-P3",
+        "SR26-SL-BD-P201",
+        "SR26-SL-BD-P401",
+        "SR26-SL-BD-P402"
       ],
       "tags": [
         "수면관리",
@@ -22557,7 +22886,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "침구 / 수면",
       "itemType": "루틴 실행 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "wearable",
+          "label": "웨어러블"
+        },
+        {
+          "id": "app",
+          "label": "앱 기록"
+        },
+        {
+          "id": "ring",
+          "label": "링"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-SL-FT-C1",
@@ -22608,7 +22955,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SL-RS-P1",
         "SR26-SL-RS-P2",
-        "SR26-SL-RS-P3"
+        "SR26-SL-RS-P3",
+        "SR26-SL-RS-P201",
+        "SR26-SL-RS-P401",
+        "SR26-SL-RS-P402"
       ],
       "tags": [
         "수면관리",
@@ -22624,7 +22974,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "리셋 / 생산성",
       "itemType": "환경/공간 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "bedroom",
+          "label": "침실 저소음"
+        },
+        {
+          "id": "smartLarge",
+          "label": "대용량/스마트"
+        },
+        {
+          "id": "hygrometer",
+          "label": "습도계"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-SL-SS-C1",
@@ -22836,7 +23208,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-FD-FT-P1",
         "SR26-FD-FT-P2",
-        "SR26-FD-FT-P3"
+        "SR26-FD-FT-P3",
+        "SR26-FD-FT-P201",
+        "SR26-FD-FT-P202",
+        "SR26-FD-FT-P301"
       ],
       "tags": [
         "식단관리",
@@ -22851,7 +23226,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "운동 / 자세",
       "itemType": "식단/영양 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "portable",
+          "label": "운동/휴대"
+        },
+        {
+          "id": "tablet",
+          "label": "타블렛"
+        },
+        {
+          "id": "lowSugar",
+          "label": "저당"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-BD-DT-C1",
@@ -22866,7 +23263,11 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-BD-DT-P1",
         "SR26-BD-DT-P2",
-        "SR26-BD-DT-P3"
+        "SR26-BD-DT-P3",
+        "SR26-BD-DT-P201",
+        "SR26-BD-DT-P301",
+        "SR26-BD-DT-P302",
+        "SR26-BD-DT-P303"
       ],
       "tags": [
         "신체관리",
@@ -22887,7 +23288,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "식단 / 수분",
       "itemType": "스킨케어 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "basic",
+          "label": "기본 상처"
+        },
+        {
+          "id": "waterproof",
+          "label": "방수"
+        },
+        {
+          "id": "friction",
+          "label": "마찰 보호"
+        },
+        {
+          "id": "portableKit",
+          "label": "휴대 키트"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-BD-FT-C1",
@@ -22902,7 +23325,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-BD-FT-P1",
         "SR26-BD-FT-P2",
-        "SR26-BD-FT-P3"
+        "SR26-BD-FT-P3",
+        "SR26-BD-FT-P201",
+        "SR26-BD-FT-P701",
+        "SR26-BD-FT-P702"
       ],
       "tags": [
         "신체관리",
@@ -22922,7 +23348,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "운동 / 자세",
       "itemType": "바디/회복 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "neckColdPack",
+          "label": "목 냉찜질"
+        },
+        {
+          "id": "portable",
+          "label": "휴대형"
+        },
+        {
+          "id": "wrap",
+          "label": "랩/고정형"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-BD-RS-C1",
@@ -23123,7 +23567,8 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SK-HR-P1",
         "SR26-SK-HR-P2",
-        "SR26-SK-HR-P3"
+        "SR26-SK-HR-P3",
+        "SR26-SK-HR-P701"
       ],
       "tags": [
         "피부관리",
@@ -23151,7 +23596,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "헤어",
       "itemType": "스킨케어 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "daily",
+          "label": "데일리/집중관리"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        },
+        {
+          "id": "cooling",
+          "label": "두피 열감"
+        },
+        {
+          "id": "volume",
+          "label": "정수리 볼륨"
+        }
+      ]
     },
     {
       "code": "SR26-BD-HR-C1",
@@ -23204,7 +23671,11 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SK-SS-P1",
         "SR26-SK-SS-P2",
-        "SR26-SK-SS-P3"
+        "SR26-SK-SS-P3",
+        "SR26-SK-SS-P201",
+        "SR26-SK-SS-P202",
+        "SR26-SK-SS-P701",
+        "SR26-SK-SS-P702"
       ],
       "tags": [
         "피부관리",
@@ -23227,7 +23698,36 @@ window.SERKAN_DATA = {
       ],
       "previousName": "선크림",
       "itemType": "스킨케어 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "sensitive",
+          "label": "민감/입문",
+          "aliases": [
+            "민감·입문"
+          ]
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        },
+        {
+          "id": "oily",
+          "label": "지성"
+        },
+        {
+          "id": "combination",
+          "label": "복합성"
+        },
+        {
+          "id": "dry",
+          "label": "건성"
+        }
+      ]
     },
     {
       "code": "SR26-SK-CN-C1",
@@ -23285,7 +23785,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SK-AC-P1",
         "SR26-SK-AC-P2",
-        "SR26-SK-AC-P3"
+        "SR26-SK-AC-P3",
+        "SR26-SK-AC-P201",
+        "SR26-SK-AC-P202",
+        "SR26-SK-AC-P701"
       ],
       "tags": [
         "피부관리",
@@ -23313,7 +23816,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "여드름 / 트러블",
       "itemType": "스킨케어 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "spotPatch",
+          "label": "스팟 패치"
+        },
+        {
+          "id": "soothing",
+          "label": "진정 크림"
+        },
+        {
+          "id": "emergency",
+          "label": "응급 케어"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-SK-CL-C1",
@@ -23366,7 +23891,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-GR-RS-P1",
         "SR26-GR-RS-P2",
-        "SR26-GR-RS-P3"
+        "SR26-GR-RS-P3",
+        "SR26-GR-RS-P201",
+        "SR26-GR-RS-P301",
+        "SR26-GR-RS-P302"
       ],
       "tags": [
         "위생관리",
@@ -23390,7 +23918,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "리셋 / 생산성",
       "itemType": "그루밍 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "entry",
+          "label": "입문"
+        },
+        {
+          "id": "portable",
+          "label": "휴대형"
+        },
+        {
+          "id": "orthodontic",
+          "label": "교정/임플란트"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-SK-SH-C1",
@@ -23405,7 +23955,9 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SK-SH-P1",
         "SR26-SK-SH-P2",
-        "SR26-SK-SH-P3"
+        "SR26-SK-SH-P3",
+        "SR26-SK-SH-P201",
+        "SR26-SK-SH-P301"
       ],
       "tags": [
         "피부관리",
@@ -23430,7 +23982,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "면도 / 체모",
       "itemType": "루틴 실행 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "sensitive",
+          "label": "민감/입문"
+        },
+        {
+          "id": "alcoholFree",
+          "label": "알코올프리"
+        },
+        {
+          "id": "soothingBalm",
+          "label": "진정 밤"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-GR-SH-C1",
@@ -23600,7 +24174,11 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-GR-DT-P1",
         "SR26-GR-DT-P2",
-        "SR26-GR-DT-P3"
+        "SR26-GR-DT-P3",
+        "SR26-GR-DT-P201",
+        "SR26-GR-DT-P301",
+        "SR26-GR-DT-P302",
+        "SR26-GR-DT-P303"
       ],
       "tags": [
         "위생관리",
@@ -23623,7 +24201,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "식단 / 수분",
       "itemType": "그루밍 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "alcoholFree",
+          "label": "알코올프리"
+        },
+        {
+          "id": "coffeeAfter",
+          "label": "커피 후"
+        },
+        {
+          "id": "whitening",
+          "label": "착색 관리"
+        },
+        {
+          "id": "portable",
+          "label": "휴대용"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-ST-RS-C1",
@@ -23638,7 +24238,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-ST-RS-P1",
         "SR26-ST-RS-P2",
-        "SR26-ST-RS-P3"
+        "SR26-ST-RS-P3",
+        "SR26-ST-RS-P201",
+        "SR26-ST-RS-P701",
+        "SR26-ST-RS-P702"
       ],
       "tags": [
         "스타일관리",
@@ -23653,7 +24256,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "리셋 / 생산성",
       "itemType": "스킨케어 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "daily",
+          "label": "데일리"
+        },
+        {
+          "id": "tinted",
+          "label": "발색"
+        },
+        {
+          "id": "men",
+          "label": "남성 입문"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-GR-CN-C1",
@@ -23753,7 +24374,9 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-GR-FR-P1",
         "SR26-GR-FR-P2",
-        "SR26-GR-FR-P3"
+        "SR26-GR-FR-P3",
+        "SR26-GR-FR-P701",
+        "SR26-GR-FR-P702"
       ],
       "tags": [
         "위생관리",
@@ -23773,7 +24396,32 @@ window.SERKAN_DATA = {
       ],
       "previousName": "향 / 체취",
       "itemType": "그루밍 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "sensitive",
+          "label": "민감/입문",
+          "aliases": [
+            "민감성"
+          ]
+        },
+        {
+          "id": "portable",
+          "label": "휴대/상황형"
+        },
+        {
+          "id": "lowScent",
+          "label": "저향"
+        },
+        {
+          "id": "powdery",
+          "label": "보송함 중심"
+        }
+      ]
     },
     {
       "code": "SR26-ST-SH-C1",
@@ -23788,7 +24436,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-ST-SH-P1",
         "SR26-ST-SH-P2",
-        "SR26-ST-SH-P3"
+        "SR26-ST-SH-P3",
+        "SR26-ST-SH-P201",
+        "SR26-ST-SH-P701",
+        "SR26-ST-SH-P702"
       ],
       "tags": [
         "스타일관리",
@@ -23812,7 +24463,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "면도 / 체모",
       "itemType": "그루밍 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "noseEyebrow",
+          "label": "코털/눈썹"
+        },
+        {
+          "id": "portable",
+          "label": "휴대형"
+        },
+        {
+          "id": "waterproof",
+          "label": "방수"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-ST-CN-C1",
@@ -24039,7 +24708,9 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SK-DT-P1",
         "SR26-SK-DT-P2",
-        "SR26-SK-DT-P3"
+        "SR26-SK-DT-P3",
+        "SR26-SK-DT-P201",
+        "SR26-SK-DT-P301"
       ],
       "tags": [
         "피부관리",
@@ -24064,7 +24735,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "식단 / 수분",
       "itemType": "루틴 실행 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "lightOil",
+          "label": "가벼운 오일"
+        },
+        {
+          "id": "drySkin",
+          "label": "건성"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-SK-SP-C1",
@@ -24079,7 +24768,9 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SK-SP-P1",
         "SR26-SK-SP-P2",
-        "SR26-SK-SP-P3"
+        "SR26-SK-SP-P3",
+        "SR26-SK-SP-P201",
+        "SR26-SK-SP-P301"
       ],
       "tags": [
         "피부관리",
@@ -24104,7 +24795,25 @@ window.SERKAN_DATA = {
       ],
       "previousName": "영양제",
       "itemType": "루틴 실행 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "gentleVitaminC",
+          "label": "입문/순한 비타민C"
+        },
+        {
+          "id": "brightening",
+          "label": "톤/칙칙함"
+        },
+        {
+          "id": "sensitive",
+          "label": "민감/입문"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
     },
     {
       "code": "SR26-SY-CM-C1",
@@ -24704,7 +25413,8 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-BD-RC-P1",
         "SR26-BD-RC-P2",
-        "SR26-BD-RC-P3"
+        "SR26-BD-RC-P3",
+        "SR26-BD-RC-P701"
       ],
       "tags": [
         "신체관리",
@@ -24727,7 +25437,29 @@ window.SERKAN_DATA = {
       ],
       "previousName": "루틴 회복",
       "itemType": "바디/회복 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "sensitive",
+          "label": "민감/입문"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        },
+        {
+          "id": "device",
+          "label": "프리미엄/디바이스"
+        },
+        {
+          "id": "portable",
+          "label": "휴대성"
+        }
+      ]
     },
     {
       "code": "SR26-SY-AC-C1",
@@ -24860,7 +25592,10 @@ window.SERKAN_DATA = {
       "productCodes": [
         "SR26-SK-BD-P1",
         "SR26-SK-BD-P2",
-        "SR26-SK-BD-P3"
+        "SR26-SK-BD-P3",
+        "SR26-SK-BD-P201",
+        "SR26-SK-BD-P301",
+        "SR26-SK-BD-P302"
       ],
       "tags": [
         "피부관리",
@@ -24887,7 +25622,187 @@ window.SERKAN_DATA = {
       ],
       "previousName": "침구 / 수면",
       "itemType": "스킨케어 아이템",
-      "reclassified": true
+      "reclassified": true,
+      "productSlots": [
+        {
+          "id": "occlusive",
+          "label": "보습막"
+        },
+        {
+          "id": "lipHand",
+          "label": "입술/손"
+        },
+        {
+          "id": "bedside",
+          "label": "침대 곁"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        }
+      ]
+    },
+    {
+      "code": "SR26-SK-MK-C1",
+      "name": "남성 톤 보정 / 부분 커버",
+      "category": "Skin Item Encyclopedia",
+      "domain": "SK",
+      "topic": "MK",
+      "role": "출근, 촬영, 약속 전 얼굴 톤과 피로감을 과하지 않게 정리하는 제품군",
+      "manualCodes": [
+        "SR26-SK-MK-M1"
+      ],
+      "productCodes": [
+        "SR26-SK-MK-P114",
+        "SR26-SK-MK-P111",
+        "SR26-SK-MK-P701",
+        "SR26-SK-MK-P702",
+        "SR26-SK-MK-P703",
+        "SR26-SK-MK-P704",
+        "SR26-SK-MK-P705",
+        "SR26-SK-MK-P706",
+        "SR26-SK-MK-P707"
+      ],
+      "tags": [
+        "피부관리",
+        "톤 보정",
+        "부분 커버",
+        "남성 베이스",
+        "출근 전"
+      ],
+      "productSlots": [
+        {
+          "id": "toneLotion",
+          "label": "톤 보정 로션"
+        },
+        {
+          "id": "coverStick",
+          "label": "부분 커버 스틱"
+        },
+        {
+          "id": "concealer",
+          "label": "컨실러"
+        },
+        {
+          "id": "cushionFoundation",
+          "label": "쿠션 / 파운데이션"
+        },
+        {
+          "id": "primerFinisher",
+          "label": "프라이머 / 피니셔"
+        },
+        {
+          "id": "sebumPowder",
+          "label": "세범 파우더"
+        },
+        {
+          "id": "settingSpray",
+          "label": "세팅 스프레이"
+        },
+        {
+          "id": "skinExpression",
+          "label": "피부 표현 보정"
+        },
+        {
+          "id": "classificationReview",
+          "label": "분류 검수 필요"
+        }
+      ]
+    },
+    {
+      "code": "SR26-BD-BC-C1",
+      "name": "바디워시 / 바디 클렌징",
+      "category": "Body Item Encyclopedia",
+      "domain": "BD",
+      "topic": "BC",
+      "role": "운동 후, 출근 전, 외출 후 몸의 땀과 피지를 씻어내는 바디 클렌징 제품군",
+      "manualCodes": [
+        "SR26-BD-BC-M1"
+      ],
+      "productCodes": [
+        "SR26-BD-BC-P112",
+        "SR26-BD-BC-P701",
+        "SR26-BD-BC-P702",
+        "SR26-BD-BC-P703"
+      ],
+      "tags": [
+        "바디관리",
+        "바디워시",
+        "샤워",
+        "땀",
+        "피지"
+      ],
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "sensitive",
+          "label": "민감성",
+          "aliases": [
+            "민감/입문"
+          ]
+        },
+        {
+          "id": "scent",
+          "label": "향 중심"
+        },
+        {
+          "id": "cleansing",
+          "label": "세정력 중심"
+        },
+        {
+          "id": "daily",
+          "label": "입문/데일리"
+        }
+      ]
+    },
+    {
+      "code": "SR26-SL-LB-C1",
+      "name": "수면 안대 / 빛 차단 도구",
+      "category": "Sleep Item Encyclopedia",
+      "domain": "SL",
+      "topic": "LB",
+      "role": "취침 전 눈으로 들어오는 빛과 화면 자극을 차단해 수면 전환을 돕는 제품군",
+      "manualCodes": [
+        "SR26-SL-LB-M1"
+      ],
+      "productCodes": [
+        "SR26-SL-LB-P102",
+        "SR26-SL-LB-P301",
+        "SR26-SL-LB-P302",
+        "SR26-SL-LB-P701"
+      ],
+      "tags": [
+        "수면관리",
+        "수면 안대",
+        "빛 차단",
+        "블루라이트",
+        "취침 루틴"
+      ],
+      "productSlots": [
+        {
+          "id": "budget",
+          "label": "가성비"
+        },
+        {
+          "id": "entry",
+          "label": "입문"
+        },
+        {
+          "id": "premium",
+          "label": "프리미엄"
+        },
+        {
+          "id": "device",
+          "label": "프리미엄/디바이스"
+        },
+        {
+          "id": "lightBlock",
+          "label": "빛 차단"
+        }
+      ]
     }
   ],
   "products": [
@@ -32764,16 +33679,18 @@ window.SERKAN_DATA = {
       "category": "데일리 선크림",
       "itemCode": "SR26-SK-SS-C1",
       "domain": "SK",
+      "slotId": "sensitive",
       "recommendationType": "입문/데일리",
       "imageUrl": "https://images-kr.amoremall.com/products/177770000164/177770000164_01.png?1768982321096",
       "productLink": "https://www.amoremall.com/kr/ko/product/detail?onlineProdCode=177770000164&onlineProdSn=57466",
-      "recommendationReason": "끈적임 때문에 선크림을 빼먹는 남성에게 매일 바르는 SPF 루틴을 만들기 좋은 후보입니다.",
-      "target": "출퇴근, 운전, 야외 이동이 잦고 선크림 사용감에 민감한 사람",
-      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "recommendationReason": "아침에 보습까지 했는데 선크림 단계에서 번들거림이 싫어 루틴이 끊기는 경우를 줄이기 위한 후보입니다.",
+      "target": "출근 전 빠르게 바르고 나가야 해서 백탁, 눈시림, 끈적임 때문에 선크림을 자주 건너뛰는 사람",
+      "actualUse": "수분감 있는 로션형 선케어로 쓰는 맥락이 맞습니다. 출근 직전 얼굴과 목에 얇게 펴 바르고, 손에 남는 미끈함이나 오후 번들거림이 루틴 지속 여부를 가르는 포인트입니다.",
+      "caution": "피부톤에 따라 백탁이 보일 수 있고, 눈가 가까이 바르면 눈시림이 생길 수 있습니다. 마스크나 셔츠 목 부분 묻어남도 확인이 필요합니다.",
       "tags": [
         "피부관리",
         "선케어",
-        "상처 선크림/패치",
+        "데일리 선크림",
         "입문/데일리",
         "선크림",
         "SPF",
@@ -32790,16 +33707,18 @@ window.SERKAN_DATA = {
       "category": "체취 / 데오 관리",
       "itemCode": "SR26-GR-FR-C1",
       "domain": "GR",
+      "slotId": "portable",
       "recommendationType": "휴대/상황형",
       "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022344601ko.jpg?l=ko",
       "productLink": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223446",
-      "recommendationReason": "향으로 덮기 전에 겨드랑이, 목 뒤, 가슴 윗부분의 끈적임을 짧게 낮추는 데오 관리 후보입니다.",
-      "target": "셔츠를 입는 날 땀과 눅눅함이 신경 쓰이는 사람",
-      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "recommendationReason": "점심 이후 셔츠 안쪽이 눅눅해지고 향수로 덮어도 체취가 섞이는 상황에서 보송함을 먼저 회복하기 위한 후보입니다.",
+      "target": "겨드랑이, 목 뒤, 가슴 윗부분의 끈적임이 신경 쓰이지만 강한 향 제품은 부담스러운 사람",
+      "actualUse": "팩트처럼 눌러 쓰는 방식이라 휴대 리셋용에 가깝습니다. 땀을 완전히 막기보다 피부 표면의 축축함을 줄이고 옷 입었을 때 들러붙는 느낌을 낮추는 쪽으로 봐야 합니다.",
+      "caution": "파우더가 옷에 묻거나 건조하게 느껴질 수 있습니다. 향이 있는 제품은 체취와 섞일 수 있어 처음에는 소량만 테스트하는 편이 안전합니다.",
       "tags": [
         "위생관리",
         "바디케어",
-        "체취 세정용품",
+        "체취 / 데오 관리",
         "휴대/상황형",
         "데오",
         "체취",
@@ -32816,16 +33735,18 @@ window.SERKAN_DATA = {
       "category": "두피케어 / 두피 세럼",
       "itemCode": "SR26-SK-HR-C1",
       "domain": "SK",
+      "slotId": "cooling",
       "recommendationType": "데일리/집중관리",
       "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0020/A00000020826401ko.jpg?l=ko",
       "productLink": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000208264",
-      "recommendationReason": "샴푸 후에도 두피가 답답하거나 정수리 볼륨이 빨리 꺼지는 날에 두피 루틴을 한 단계 보강하는 후보입니다.",
-      "target": "두피 열감, 가려움, 정수리 볼륨 저하가 신경 쓰이는 사람",
-      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "recommendationReason": "아침에 머리를 감아도 오후가 되면 정수리가 눌리고 두피가 답답해지는 날, 샴푸 이후 단계를 보강하기 위한 후보입니다.",
+      "target": "샴푸 직후는 괜찮지만 저녁이 되면 두피가 답답하거나 정수리 볼륨이 빨리 죽는 사람",
+      "actualUse": "두피에 직접 바르는 앰플이라 머리카락보다 두피 사이사이에 소량 나눠 쓰는 것이 핵심입니다. 바른 직후 떡짐 없이 마르는지, 드라이 후 볼륨이 꺼지지 않는지가 실제 사용 포인트입니다.",
+      "caution": "많이 바르면 모근 쪽이 무겁거나 끈적하게 느껴질 수 있습니다. 두피가 예민한 날에는 열감, 따가움, 향 지속감을 먼저 확인해야 합니다.",
       "tags": [
         "스타일관리",
         "두피케어",
-        "두피 보습제",
+        "두피케어 / 두피 세럼",
         "데일리/집중관리",
         "두피",
         "앰플",
@@ -32842,16 +33763,18 @@ window.SERKAN_DATA = {
       "category": "회복 디바이스 / 목어깨 마사지",
       "itemCode": "SR26-BD-RC-C1",
       "domain": "BD",
+      "slotId": "device",
       "recommendationType": "프리미엄/디바이스",
       "imageUrl": "https://pulio365.cafe24.com/web/N002/006.png",
       "productLink": "https://pulio.co.kr",
-      "recommendationReason": "목과 어깨가 굳는 사무직, 운동 후 상체 긴장을 집에서 짧게 풀기 위한 회복 디바이스 후보입니다.",
-      "target": "장시간 노트북 사용, 운전, 운동 후 목어깨 피로가 잦은 사람",
-      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "recommendationReason": "하루 종일 노트북을 보고 난 뒤 목 뒤와 승모근이 굳어 스트레칭만으로는 잘 풀리지 않는 날에 짧게 회복 루틴을 만들기 위한 후보입니다.",
+      "target": "퇴근 후 목과 어깨가 단단하게 뭉치고, 손으로 주무르기엔 귀찮아서 회복 루틴이 자주 밀리는 사람",
+      "actualUse": "목에 걸고 5~10분 쓰는 회복 장비에 가깝습니다. 압이 시원한지보다 매일 부담 없이 꺼내 쓸 수 있는 무게감, 소음, 착용 편의성이 중요합니다.",
+      "caution": "압이 강하면 다음 날 뻐근함이 남을 수 있습니다. 저림, 통증, 염증이 있는 부위에는 오래 쓰지 말고 짧은 시간부터 확인해야 합니다.",
       "tags": [
         "바디관리",
         "운동회복",
-        "마사지볼 회복 루틴",
+        "회복 디바이스 / 목어깨 마사지",
         "프리미엄/디바이스",
         "목어깨",
         "회복",
@@ -32868,16 +33791,18 @@ window.SERKAN_DATA = {
       "category": "두피케어 / 두피 세럼",
       "itemCode": "SR26-SK-HR-C1",
       "domain": "SK",
+      "slotId": "premium",
       "recommendationType": "프리미엄",
       "imageUrl": "https://sitem.ssgcdn.com/38/88/60/item/1000546608838_i1_1100.jpg",
       "productLink": "https://www.kerastase.co.kr",
-      "recommendationReason": "샴푸만으로 부족한 두피 관리 단계를 프리미엄 세럼 루틴으로 확장하는 후보입니다.",
-      "target": "두피 케어를 샴푸 이후 단계까지 확장하고 싶은 사람",
-      "caution": "성분, 피부 반응, 재고/가격, 공식 판매처는 실제 구매 전 확인이 필요합니다.",
+      "recommendationReason": "샴푸와 드라이만으로는 정수리 컨디션이 오래 버티지 않고, 두피 관리 단계를 좀 더 정돈하고 싶은 경우의 프리미엄 후보입니다.",
+      "target": "두피가 쉽게 기름지거나 힘없이 가라앉아 아침 스타일링이 오후까지 유지되지 않는 사람",
+      "actualUse": "고가 세럼인 만큼 매일 넓게 바르기보다 정수리와 헤어라인처럼 신경 쓰이는 부위에 나눠 쓰는 방식이 맞습니다. 향, 흡수 후 끈적임, 머리 떡짐 여부가 핵심 사용감입니다.",
+      "caution": "가격 대비 체감이 개인차가 큽니다. 향이 오래 남거나 모발이 무겁게 느껴지면 사용량을 줄이고, 두피 트러블이 있으면 중단 기준을 정해야 합니다.",
       "tags": [
         "스타일관리",
         "두피케어",
-        "두피 보습제",
+        "두피케어 / 두피 세럼",
         "프리미엄",
         "두피",
         "세럼",
@@ -32886,6 +33811,2458 @@ window.SERKAN_DATA = {
       "connectionStatus": "ready",
       "source": "Notion",
       "sourceId": "37343a1a-d2c4-8146-bbd8-d49c0df68382"
+    },
+    {
+      "code": "SR26-SK-MK-P114",
+      "brand": "비레디",
+      "productName": "비레디 트루 톤 로션 하이드로/에어리 40ml 기획",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "domain": "SK",
+      "slotId": "toneLotion",
+      "recommendationType": "톤 보정 로션",
+      "imageUrl": "https://img.danuri.io/catalog-image/212/035/114/985f4ff475254c27b8cffc650ff9a32c.jpg?shrink=500:500&_v=20260601193412",
+      "productLink": "https://www.brdy-official.com/product/detail.html?product_no=169",
+      "recommendationReason": "아침에 세안은 했는데 얼굴이 칙칙하거나 붉어 보여 셔츠를 입어도 피곤해 보이는 날, 화장한 느낌 없이 톤을 정리하기 위한 후보입니다.",
+      "target": "파운데이션은 부담스럽지만 출근, 촬영, 약속 전 얼굴 톤과 붉은기를 한 단계 정리하고 싶은 사람",
+      "actualUse": "로션처럼 얇게 펴 바르는 쪽이 자연스럽습니다. 손가락으로 빠르게 바를 수 있는지, 목과 얼굴 경계가 뜨지 않는지, 마스크나 옷깃에 묻는지가 실사용 체크 포인트입니다.",
+      "caution": "많이 바르면 얼굴만 밝아 보이거나 목과 톤 차이가 날 수 있습니다. 건조한 피부는 각질이 부각될 수 있어 보습 후 소량부터 시작해야 합니다.",
+      "tags": [
+        "피부관리",
+        "메이크업",
+        "남성 톤 보정 / 부분 커버",
+        "톤 보정 로션",
+        "톤 보정",
+        "남성 베이스",
+        "출근 전"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-8199-a84a-c31970af7ef3"
+    },
+    {
+      "code": "SR26-SK-MK-P111",
+      "brand": "다슈",
+      "productName": "다슈 맨즈 듀얼 트릭 스틱 샌드 / 라이트",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "domain": "SK",
+      "slotId": "coverStick",
+      "recommendationType": "부분 커버 스틱",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0013/A00000013179907ko.jpg?l=ko",
+      "productLink": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000131799",
+      "recommendationReason": "전체 얼굴을 바꾸기보다 코 옆 붉은기, 트러블 자국, 다크서클처럼 시선이 가는 부분만 빠르게 숨기기 위한 후보입니다.",
+      "target": "약속 직전 거울을 봤을 때 특정 잡티나 붉은기만 신경 쓰여 전체 베이스까지 하고 싶지는 않은 사람",
+      "actualUse": "스틱형이라 손에 덜 묻고 국소 부위에 바로 찍어 쓰기 좋습니다. 다만 경계가 남지 않게 손끝으로 살짝 펴야 하며, 피부결이 건조하면 커버 부위가 더 도드라질 수 있습니다.",
+      "caution": "두껍게 올리면 티가 나고, 색상이 피부톤과 맞지 않으면 오히려 커버 부위가 뜰 수 있습니다. 자연광에서 확인하고 소량만 쓰는 게 안전합니다.",
+      "tags": [
+        "피부관리",
+        "메이크업",
+        "남성 톤 보정 / 부분 커버",
+        "부분 커버 스틱",
+        "부분 커버",
+        "스틱",
+        "남성 베이스"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-814c-8555-c226030e6ac1"
+    },
+    {
+      "code": "SR26-BD-BC-P112",
+      "brand": "우르오스",
+      "productName": "우르오스 스킨워시",
+      "category": "바디워시 / 바디 클렌징",
+      "itemCode": "SR26-BD-BC-C1",
+      "domain": "BD",
+      "slotId": "cleansing",
+      "recommendationType": "입문/데일리",
+      "imageUrl": "https://sitem.ssgcdn.com/25/55/93/item/1000544935525_i1_1200.jpg",
+      "productLink": "https://www.ulos.co.kr",
+      "recommendationReason": "운동 후 땀 냄새와 피지가 남아 옷을 갈아입어도 몸이 개운하지 않은 날, 바디 세정 루틴을 명확히 만들기 위한 후보입니다.",
+      "target": "샤워를 빨리 끝내고 싶지만 등, 가슴, 목 뒤의 땀 냄새와 끈적임은 제대로 씻어내고 싶은 사람",
+      "actualUse": "멘톨감이나 강한 향으로 덮는 제품이라기보다 넓은 부위를 빠르게 씻는 데 맞는 바디워시 맥락입니다. 거품, 헹굼 속도, 샤워 후 당김 여부가 루틴 지속의 기준입니다.",
+      "caution": "세정 후 건조함이 느껴질 수 있어 겨울이나 운동 후 잦은 샤워에는 보습이 필요합니다. 향 호불호와 얼굴 겸용 사용 여부는 별도로 확인해야 합니다.",
+      "tags": [
+        "바디관리",
+        "바디케어",
+        "바디워시 / 바디 클렌징",
+        "입문/데일리",
+        "바디워시",
+        "샤워",
+        "위생"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-81e0-9002-ce288f67ac43"
+    },
+    {
+      "code": "SR26-SL-LB-P102",
+      "brand": "테라바디",
+      "productName": "테라바디 슬립마스크 진동 수면 안대",
+      "category": "수면 안대 / 빛 차단",
+      "itemCode": "SR26-SL-LB-C1",
+      "domain": "SL",
+      "slotId": "premium",
+      "recommendationType": "프리미엄/디바이스",
+      "imageUrl": "https://m.therabody.kr/web/product/big/202410/1809538e6c7efa847263c8be8c88ee6a.jpg",
+      "productLink": "https://m.therabody.kr/product/%ED%85%8C%EB%9D%BC%EB%B0%94%EB%94%94-%EC%8A%AC%EB%A6%BD%EB%A7%88%EC%8A%A4%ED%81%AC-%EC%A7%84%EB%8F%99-%EC%88%98%EB%A9%B4-%EC%95%88%EB%8C%80/313/category/53/display/1/",
+      "recommendationReason": "방 조명을 꺼도 스마트폰, 창문 빛, 머릿속 긴장 때문에 잠드는 전환이 늦어지는 날에 빛 차단 루틴을 강제로 시작하기 위한 후보입니다.",
+      "target": "침실을 완전히 어둡게 만들기 어렵거나, 눈을 감아도 화면 자극이 남아 잠들기까지 시간이 오래 걸리는 사람",
+      "actualUse": "일반 안대보다 디바이스에 가까워 착용감이 가장 중요합니다. 빛 차단은 확실한지, 진동이 편안한지 방해되는지, 옆으로 누웠을 때 압박감이 있는지를 먼저 봐야 합니다.",
+      "caution": "무게감, 압박감, 진동 호불호가 클 수 있습니다. 예민한 사람은 오히려 잠을 방해할 수 있어 짧은 시간 테스트 후 루틴에 넣는 편이 안전합니다.",
+      "tags": [
+        "수면관리",
+        "홈케어디바이스",
+        "수면 안대 / 빛 차단",
+        "프리미엄/디바이스",
+        "수면 안대",
+        "빛 차단",
+        "수면 디바이스"
+      ],
+      "connectionStatus": "ready",
+      "source": "Notion",
+      "sourceId": "37343a1a-d2c4-8190-82f7-f5a3365fd9b8"
+    },
+    {
+      "code": "SR26-SK-SS-P201",
+      "brand": "라운드랩",
+      "productName": "라운드랩 자작나무 수분 선크림 SPF50+ PA++++",
+      "category": "데일리 선크림",
+      "itemCode": "SR26-SK-SS-C1",
+      "manualCode": "SR26-SK-SS-M1",
+      "domain": "SK",
+      "topic": "SS",
+      "slotId": "dry",
+      "recommendationType": "건성",
+      "imageUrl": "https://roundlab.com/cdn/shop/files/1200x1200.jpg?v=1745240482&width=1080",
+      "productLink": "https://roundlab.com/products/birch-moisturizing-uv-sunscreen",
+      "recommendationReason": "아침 보습을 해도 선크림 단계에서 건조하게 뜨거나 밀려 루틴이 끊기는 사람에게, 보습감 있는 데일리 선케어 후보입니다.",
+      "target": "세안 후 얼굴이 금방 당기고, 매트한 선크림을 바르면 각질이나 하얀 들뜸이 보이는 사람",
+      "actualUse": "로션처럼 펴 바르는 수분 선크림 맥락입니다. 바른 직후 촉촉함, 오후 번들거림, 목과 귀 주변까지 발랐을 때 답답함이 적은지가 핵심 사용감입니다.",
+      "caution": "촉촉한 사용감이 지성 피부에는 번들거림으로 느껴질 수 있습니다. 눈가 가까이 바를 때 눈시림과 마스크 묻어남을 먼저 확인해야 합니다.",
+      "tags": [
+        "선크림",
+        "수분 선케어",
+        "건성",
+        "아침 루틴"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SK-SS-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-SS-P202",
+      "brand": "닥터지",
+      "productName": "닥터지 그린 마일드 업 선 플러스 SPF50+ PA++++",
+      "category": "데일리 선크림",
+      "itemCode": "SR26-SK-SS-C1",
+      "manualCode": "SR26-SK-SS-M1",
+      "domain": "SK",
+      "topic": "SS",
+      "slotId": "sensitive",
+      "recommendationType": "민감/입문",
+      "imageUrl": "https://product-image.kurly.com/product/image/81414e64-10ae-405f-bb14-1b3c4d291265.jpg",
+      "productLink": "https://www.kurly.com/goods/1001293829",
+      "recommendationReason": "선크림을 바르면 눈시림이나 따가움이 걱정돼 손이 안 가는 사람에게, 물리 차단 계열 입문 후보로 볼 수 있습니다.",
+      "target": "자외선 차단은 해야 하지만 눈시림, 따가움, 번들거림 때문에 매일 바르는 습관이 끊기는 사람",
+      "actualUse": "무기자차 계열이라 피부 위에 보호막처럼 남는 느낌이 있을 수 있습니다. 장점은 안정감이고, 체크 포인트는 백탁과 건조감입니다.",
+      "caution": "피부톤이 어두운 편이면 백탁이 도드라질 수 있습니다. 건조한 피부는 보습 후 얇게 나눠 바르는 쪽이 안전합니다.",
+      "tags": [
+        "선크림",
+        "무기자차",
+        "민감성",
+        "아침 루틴"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "kurly_product_page",
+      "sourceId": "SR26-SK-SS-P202",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-AC-P201",
+      "brand": "COSRX",
+      "productName": "COSRX Acne Pimple Master Patch",
+      "category": "트러블 케어",
+      "itemCode": "SR26-SK-AC-C1",
+      "manualCode": "SR26-SK-AC-M1",
+      "domain": "SK",
+      "topic": "AC",
+      "slotId": "spotPatch",
+      "recommendationType": "스팟 패치",
+      "imageUrl": "https://www.cosrx.com/cdn/shop/files/master-patch-basic-90ea-cosrx-official-1.jpg?v=1724836465",
+      "productLink": "https://www.cosrx.com/products/master-patch-basic-90-ea",
+      "recommendationReason": "트러블이 올라왔을 때 손으로 계속 만져서 더 커지는 상황을 막고, 압출 전후 접촉을 줄이기 위한 후보입니다.",
+      "target": "턱, 볼, 코 주변에 올라온 트러블을 무의식적으로 만지거나 뜯어 회복이 늦어지는 사람",
+      "actualUse": "자기 전이나 외출 전 트러블 부위에 붙여 손 접촉을 줄이는 용도입니다. 접착력, 티나는 정도, 세안 후 붙였을 때 들뜸이 실제 사용감을 가릅니다.",
+      "caution": "열감이 심한 염증성 트러블을 제품 하나로 해결하려고 하면 안 됩니다. 진물이나 상처 상태에 따라 자극이 생길 수 있어 깨끗한 피부에만 사용해야 합니다.",
+      "tags": [
+        "트러블",
+        "스팟 패치",
+        "손대지 않기",
+        "응급 케어"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SK-AC-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-RS-P201",
+      "brand": "Waterpik",
+      "productName": "Waterpik Cordless Advanced Water Flosser",
+      "category": "워터픽 / 구강 세정",
+      "itemCode": "SR26-GR-RS-C1",
+      "manualCode": "SR26-GR-RS-M1",
+      "domain": "GR",
+      "topic": "RS",
+      "slotId": "portable",
+      "recommendationType": "휴대형",
+      "imageUrl": "https://www.waterpik.com/media/catalog/product/0/9/09a451fedfdc0505a0840725f405dff77fb75925c6bd8d7a15bf7b10d19d3902.jpeg",
+      "productLink": "https://www.waterpik.com/oral-health/products/dental-water-flosser/WP-560/",
+      "recommendationReason": "칫솔질은 했는데 치실은 자꾸 빼먹는 사람에게, 샤워 전후 짧게 잇몸 사이를 리셋하는 구강 관리 후보입니다.",
+      "target": "치실을 매일 쓰기 번거롭고, 음식물이 잘 끼거나 잇몸 사이 개운함이 부족한 사람",
+      "actualUse": "코드리스라 세면대 주변에서 바로 쓰기 좋습니다. 물통 용량, 수압 단계, 물 튐, 충전 빈도가 실제 루틴 지속 여부를 결정합니다.",
+      "caution": "처음부터 강한 수압을 쓰면 잇몸이 아프거나 피가 날 수 있습니다. 교정 장치, 임플란트, 잇몸 질환이 있으면 낮은 단계부터 확인해야 합니다.",
+      "tags": [
+        "구강관리",
+        "워터픽",
+        "치실 대체",
+        "샤워 전후"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-GR-RS-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-RS-P201",
+      "brand": "Levoit",
+      "productName": "Levoit Superior 6000S Smart Evaporative Humidifier",
+      "category": "가습기 / 습도계",
+      "itemCode": "SR26-SL-RS-C1",
+      "manualCode": "SR26-SL-RS-M1",
+      "domain": "SL",
+      "topic": "RS",
+      "slotId": "smartLarge",
+      "recommendationType": "대용량/스마트",
+      "imageUrl": "https://levoit.com/cdn/shop/files/LUH-A602S-WUS-Lifestyle-3.jpg?v=1712781536",
+      "productLink": "https://levoit.com/products/superior-6000s-smart-evaporative-humidifier",
+      "recommendationReason": "겨울이나 에어컨을 오래 켠 날 아침에 목과 코가 마르고 피부가 당기는 사람에게, 침실 습도 루틴을 자동화하기 위한 후보입니다.",
+      "target": "자고 일어나면 목이 칼칼하거나 코가 건조하고, 작은 가습기는 물 보충이 귀찮아 루틴이 끊기는 사람",
+      "actualUse": "대용량 스마트 가습기라 침실이나 작업방 습도 유지에 맞습니다. 물 보충 주기, 청소 난이도, 작동음, 앱 제어가 실제 사용감의 핵심입니다.",
+      "caution": "가습기는 제품보다 관리가 더 중요합니다. 물통 세척을 미루면 냄새나 위생 문제가 생길 수 있고, 습도를 과하게 올리면 결로나 곰팡이 리스크가 있습니다.",
+      "tags": [
+        "수면환경",
+        "가습기",
+        "습도",
+        "침실"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SL-RS-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-AC-P202",
+      "brand": "닥터지",
+      "productName": "닥터지 레드 블레미쉬 클리어 수딩 크림",
+      "category": "트러블 케어",
+      "itemCode": "SR26-SK-AC-C1",
+      "manualCode": "SR26-SK-AC-M1",
+      "domain": "SK",
+      "topic": "AC",
+      "slotId": "soothing",
+      "recommendationType": "진정 크림",
+      "imageUrl": "https://gdetail.image-qoo10.jp/392/618849410/2025/4/1d343359-5bf6-4ee3-b619-018b98db0b2d.jpg",
+      "productLink": "https://dr-g.co.jp/products/%E3%83%AC%E3%83%83%E3%83%89%E3%83%96%E3%83%AC%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A5%E3%82%AF%E3%83%AA%E3%82%A2%E3%82%B9%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0",
+      "recommendationReason": "트러블을 건드린 뒤 피부가 붉고 열감이 남아 다음 단계 스킨케어가 부담스러운 날, 진정 보습을 루틴에 넣기 위한 후보입니다.",
+      "target": "트러블을 짜거나 만진 뒤 붉은기가 오래가고, 강한 기능성 제품을 바르면 따갑게 느끼는 사람",
+      "actualUse": "젤크림처럼 넓게 바르는 진정 크림 맥락입니다. 끈적임보다 산뜻함을 기대하는 사용자가 많고, 트러블 부위 주변이 당기지 않는지가 포인트입니다.",
+      "caution": "트러블 치료제가 아니라 진정 보습 제품으로 다뤄야 합니다. 염증이 심하거나 따가움이 계속되면 제품을 겹치기보다 루틴을 줄이는 편이 안전합니다.",
+      "tags": [
+        "트러블",
+        "진정",
+        "수딩 크림",
+        "피부 컨디션"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SK-AC-P202",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-SH-P201",
+      "brand": "NIVEA MEN",
+      "productName": "NIVEA MEN Sensitive After Shave Balm",
+      "category": "애프터쉐이브",
+      "itemCode": "SR26-SK-SH-C1",
+      "manualCode": "SR26-SK-SH-M1",
+      "domain": "SK",
+      "topic": "SH",
+      "slotId": "alcoholFree",
+      "recommendationType": "알코올프리 진정",
+      "imageUrl": "https://img.nivea.com/-/media/miscellaneous/media-center-items/c/1/2/149715-web_1010x1180_transparent_png.png",
+      "productLink": "https://www.nivea.com.ng/products/nivea-men-sensitive-after-shave-balm-40058088252330272.html",
+      "recommendationReason": "면도 직후 볼과 턱선이 따갑고 붉어져 보습 단계를 건너뛰는 사람에게, 자극을 낮추는 애프터쉐이브 후보입니다.",
+      "target": "면도 후 피부가 당기거나 화끈거리고, 향이 강한 스킨을 바르면 따갑게 느끼는 사람",
+      "actualUse": "면도 후 물기를 닦고 얇게 바르는 밤 타입입니다. 빠르게 흡수되는지, 끈적임이 남지 않는지, 향이 과하지 않은지가 매일 쓰는 기준입니다.",
+      "caution": "눈가 가까이 바르지 말고, 면도 상처가 난 부위에는 따가울 수 있습니다. 수염 부위 트러블이 심한 날은 면도 강도부터 낮춰야 합니다.",
+      "tags": [
+        "애프터쉐이브",
+        "면도",
+        "진정",
+        "민감 피부"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SK-SH-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-FD-FT-P201",
+      "brand": "Liquid I.V.",
+      "productName": "Liquid I.V. Hydration Multiplier Lemon Lime",
+      "category": "전해질 보충제",
+      "itemCode": "SR26-FD-FT-C1",
+      "manualCode": "SR26-FD-FT-M1",
+      "domain": "FD",
+      "topic": "FT",
+      "slotId": "portable",
+      "recommendationType": "운동/휴대",
+      "imageUrl": "https://drugwholesale.liquid-iv.com/cdn/shop/products/6ctLemonLime_1800x1800.jpg?v=1646336109",
+      "productLink": "https://drugwholesale.liquid-iv.com/products/liquid-i-v-hydration-multiplier-lemon-lime",
+      "recommendationReason": "운동 후 물만 마셔도 몸이 처지거나 두통, 갈증이 오래 남는 날에 전해질 보충을 루틴화하기 위한 후보입니다.",
+      "target": "땀을 많이 흘린 뒤 물을 마셔도 회복감이 느린 사람, 외출이나 운동 가방에 작은 보충제를 넣어두고 싶은 사람",
+      "actualUse": "스틱형 파우더라 물병에 타서 마시기 쉽습니다. 맛의 단맛, 나트륨감, 빈속에 마셨을 때 부담감이 실제 지속 여부를 가릅니다.",
+      "caution": "나트륨과 당 함량을 확인해야 합니다. 고혈압, 신장 질환, 당 관리가 필요한 사람은 매일 습관처럼 먹기 전에 성분을 먼저 봐야 합니다.",
+      "tags": [
+        "전해질",
+        "수분 보충",
+        "운동 후",
+        "휴대"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-FD-FT-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-FD-FT-P202",
+      "brand": "Nuun",
+      "productName": "Nuun Sport + Caffeine Hydration Tablets",
+      "category": "전해질 보충제",
+      "itemCode": "SR26-FD-FT-C1",
+      "manualCode": "SR26-FD-FT-M1",
+      "domain": "FD",
+      "topic": "FT",
+      "slotId": "tablet",
+      "recommendationType": "타블렛/운동 전후",
+      "imageUrl": "https://nuunlife.com/cdn/shop/files/Nuun_Tube_Upright_withTabs_Cherry_limeade_web.png?v=1706646196&width=800",
+      "productLink": "https://nuunlife.com/products/nuun-sport-caffeine-1",
+      "recommendationReason": "파우더를 타는 게 번거로운 사람에게, 운동 전후 물병에 한 알 넣는 방식으로 수분 보충을 단순화하는 후보입니다.",
+      "target": "헬스장이나 러닝 전후에 물은 마시지만 전해질 보충은 자주 잊는 사람",
+      "actualUse": "타블렛을 물에 넣고 녹여 마시는 방식입니다. 녹는 시간, 탄산감, 카페인 체감, 휴대성이 실제 사용 포인트입니다.",
+      "caution": "카페인이 들어간 제품은 저녁 운동 후에는 수면에 영향을 줄 수 있습니다. 속쓰림이나 심박 증가가 있으면 무카페인 타입을 먼저 봐야 합니다.",
+      "tags": [
+        "전해질",
+        "타블렛",
+        "운동",
+        "카페인"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-FD-FT-P202",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-DT-P201",
+      "brand": "Nexcare",
+      "productName": "Nexcare Waterproof Bandages One Size 20 Count",
+      "category": "반창고/상처 키트",
+      "itemCode": "SR26-BD-DT-C1",
+      "manualCode": "SR26-BD-DT-M1",
+      "domain": "BD",
+      "topic": "DT",
+      "slotId": "waterproof",
+      "recommendationType": "방수/상처 보호",
+      "imageUrl": "https://i5.walmartimages.com/seo/Nexcare-Waterproof-Bandages-One-Size-20-Count_c74fe4bd-94b6-4c6c-b5e6-0b203d8f0374_1.d1d95532a65d11982036f7bab7f69a4c.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+      "productLink": "https://www.walmart.com/ip/Nexcare-Waterproof-Bandages-One-Size-20-Count/35094360",
+      "recommendationReason": "작은 상처를 대충 방치하다가 샤워나 운동 중 물과 마찰로 오래 가는 상황을 줄이기 위한 후보입니다.",
+      "target": "손, 팔, 무릎에 작은 상처가 자주 생기고 샤워나 운동 때문에 일반 밴드가 쉽게 떨어지는 사람",
+      "actualUse": "얇고 투명한 방수 밴드라 샤워 전후 상처 보호에 맞습니다. 붙이기 쉬운지, 가장자리가 들뜨지 않는지, 뗄 때 피부 자극이 적은지가 포인트입니다.",
+      "caution": "피부가 젖어 있으면 잘 붙지 않습니다. 깊은 상처, 감염 의심, 진물이 많은 상처는 밴드보다 소독과 진료 기준을 먼저 봐야 합니다.",
+      "tags": [
+        "상처",
+        "반창고",
+        "방수",
+        "휴대 키트"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "walmart_product_page",
+      "sourceId": "SR26-BD-DT-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-DT-P201",
+      "brand": "Crest",
+      "productName": "Crest 3D White Brilliance Alcohol-Free Whitening Mouthwash",
+      "category": "무알코올 가글",
+      "itemCode": "SR26-GR-DT-C1",
+      "manualCode": "SR26-GR-DT-M1",
+      "domain": "GR",
+      "topic": "DT",
+      "slotId": "alcoholFree",
+      "recommendationType": "알코올프리",
+      "imageUrl": "https://i5.walmartimages.com/seo/Crest-3D-White-Brilliance-Alcohol-Free-Whitening-Mouthwash-Clean-Mint-33-8-fl-oz_14298e5d-4d44-425d-a0c4-d50e5fe47061.53535295f4836f10fc96428fd6a32f33.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+      "productLink": "https://www.walmart.com/ip/Crest-3D-White-Brilliance-Alcohol-Free-Whitening-Mouthwash-Clean-Mint-33-8-fl-oz/203405984",
+      "recommendationReason": "입 냄새나 착색이 신경 쓰여 가글을 쓰고 싶지만, 알코올 가글의 화한 자극 때문에 루틴이 끊기는 사람을 위한 후보입니다.",
+      "target": "커피를 자주 마시고 입안 텁텁함이 남지만, 강한 알코올 가글은 따갑거나 건조하게 느끼는 사람",
+      "actualUse": "양치 후 짧게 헹구는 구강 리셋용입니다. 화한 자극이 적은지, 단맛이나 민트향이 오래 남는지, 사용 후 입안 건조함이 없는지가 포인트입니다.",
+      "caution": "미백 효과를 과장해서 기대하면 안 됩니다. 입안 상처, 잇몸 염증, 치아 시림이 있으면 사용 빈도를 낮추고 치과 관리와 분리해야 합니다.",
+      "tags": [
+        "가글",
+        "무알코올",
+        "구강관리",
+        "커피 후"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "walmart_product_page",
+      "sourceId": "SR26-GR-DT-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-DT-P201",
+      "brand": "The Ordinary",
+      "productName": "The Ordinary 100% Plant-Derived Squalane",
+      "category": "스쿠알란 화장품",
+      "itemCode": "SR26-SK-DT-C1",
+      "manualCode": "SR26-SK-DT-M1",
+      "domain": "SK",
+      "topic": "DT",
+      "slotId": "lightOil",
+      "recommendationType": "가벼운 오일",
+      "imageUrl": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwc1227059/Images/products/The%20Ordinary/rdn-100pct-plant-derived-squalane-30ml.png?sh=860&sm=fit&sw=860",
+      "productLink": "https://theordinary.com/en-us/100-plant-derived-squalane-face-oil-100398.html",
+      "recommendationReason": "세안이나 샤워 후 보습 크림만으로도 피부가 계속 당기는 날, 루틴 마지막에 얇은 보습막을 더하기 위한 후보입니다.",
+      "target": "건조한 날 볼과 입가가 먼저 당기지만 무거운 크림을 두껍게 바르면 답답하게 느끼는 사람",
+      "actualUse": "물처럼 흡수되는 세럼은 아니고 오일감이 있는 마무리 단계에 가깝습니다. 2~3방울만 손바닥에 펴서 누르듯 바를 때 베개 묻어남과 번들거림이 덜합니다.",
+      "caution": "많이 바르면 얼굴 전체가 번들거릴 수 있습니다. 여드름이 잘 나는 부위에는 넓게 바르기보다 건조한 부위부터 소량 테스트가 필요합니다.",
+      "tags": [
+        "스쿠알란",
+        "보습막",
+        "건성",
+        "피부 장벽"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SK-DT-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-SP-P201",
+      "brand": "The Ordinary",
+      "productName": "The Ordinary Ascorbyl Glucoside Solution 12%",
+      "category": "비타민C 세럼",
+      "itemCode": "SR26-SK-SP-C1",
+      "manualCode": "SR26-SK-SP-M1",
+      "domain": "SK",
+      "topic": "SP",
+      "slotId": "gentleVitaminC",
+      "recommendationType": "입문/순한 비타민C",
+      "imageUrl": "https://theordinary.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw345ba9db/Images/products/The%20Ordinary/rdn-ascorbyl-glucoside-solution-12pct-30ml.png?sh=860&sm=fit&sw=860",
+      "productLink": "https://theordinary.com/en-us/ascorbyl-glucoside-solution-12-vitamin-c-100405.html",
+      "recommendationReason": "피부톤이 칙칙해 보여 기능성 세럼을 써보고 싶지만, 고농도 비타민C의 따가움 때문에 루틴을 포기하는 상황을 줄이기 위한 후보입니다.",
+      "target": "아침 거울에서 얼굴이 피곤해 보이고, 잡티보다 전체 톤과 생기를 먼저 정리하고 싶은 사람",
+      "actualUse": "물 베이스 세럼이라 보습제 전 단계에 얇게 쓰기 좋습니다. 바른 직후 끈적임, 따가움, 선크림과 밀림 여부가 매일 쓰는 기준입니다.",
+      "caution": "비타민C 계열은 순한 형태라도 따가움이 생길 수 있습니다. 낮에 쓸 때는 선크림과 함께 보고, 레티노이드나 강한 산 제품과 겹치는 날은 줄여야 합니다.",
+      "tags": [
+        "비타민C",
+        "칙칙함",
+        "톤 관리",
+        "입문 세럼"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SK-SP-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-BD-P201",
+      "brand": "Vaseline",
+      "productName": "Vaseline Healing Jelly Original",
+      "category": "바세린 / 보습 밤",
+      "itemCode": "SR26-SK-BD-C1",
+      "manualCode": "SR26-SK-BD-M1",
+      "domain": "SK",
+      "topic": "BD",
+      "slotId": "occlusive",
+      "recommendationType": "보습막",
+      "imageUrl": "https://assets.unileversolutions.com/v1/1474787.png",
+      "productLink": "https://www.vaseline.com/us/en/products/healing-jelly/vaseline-healing-jelly-original.html",
+      "recommendationReason": "입술, 손끝, 코 주변처럼 자주 갈라지는 부위를 자기 전에 덮어두는 침대 옆 보습막 후보입니다.",
+      "target": "보습제를 발라도 아침에 입가나 손끝이 갈라지고, 겨울이나 에어컨 환경에서 국소 건조가 반복되는 사람",
+      "actualUse": "크림처럼 흡수시키는 제품이 아니라 얇은 막을 만드는 제품입니다. 아주 소량만 덜어 바르면 오래 버티지만, 많이 쓰면 끈적임과 베개 묻어남이 바로 느껴집니다.",
+      "caution": "얼굴 전체에 두껍게 바르면 답답하거나 트러블처럼 느껴질 수 있습니다. 손으로 떠 쓰는 제품은 위생 문제가 생기기 쉬워 깨끗한 손이나 스패출러 기준을 두는 편이 좋습니다.",
+      "tags": [
+        "바세린",
+        "보습 밤",
+        "입술",
+        "국소 건조"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SK-BD-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-BD-P201",
+      "brand": "Fitbit",
+      "productName": "Fitbit Inspire 3 Tracker",
+      "category": "수면 트래커",
+      "itemCode": "SR26-SL-BD-C1",
+      "manualCode": "SR26-SL-BD-M1",
+      "domain": "SL",
+      "topic": "BD",
+      "slotId": "wearable",
+      "recommendationType": "웨어러블 수면 기록",
+      "imageUrl": "https://lh3.googleusercontent.com/PSvw-n--5o5mN9_KGWSBzfTeOO3PQqfZIvtaWJ5R4NbOKe2heDrXUAbf8-jsYSU8u4qq2MsOg5ou9xHDtl8XgwL8VQU1J2aA0DI",
+      "productLink": "https://store.google.com/us/product/fitbit_inspire_3?hl=en-US",
+      "recommendationReason": "수면 시간이 부족한지, 늦게 누워서 문제인지, 중간에 자주 깨는지 감으로만 판단하지 않도록 기록 기준을 만들기 위한 후보입니다.",
+      "target": "늘 피곤하다고 느끼지만 실제 취침 시간과 기상 시간을 꾸준히 기록하지 못하는 사람",
+      "actualUse": "손목에 차고 자는 방식이라 기능보다 착용감과 충전 루틴이 먼저입니다. 아침에 앱을 열어보는 습관까지 붙어야 수면 루틴 개선에 연결됩니다.",
+      "caution": "수면 점수는 의료 진단이 아니라 생활 기록으로 봐야 합니다. 손목 착용이 답답하거나 알림이 수면을 방해하면 야간 설정과 착용 위치를 조정해야 합니다.",
+      "tags": [
+        "수면 기록",
+        "웨어러블",
+        "수면 데이터",
+        "습관 추적"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SL-BD-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-ST-SH-P201",
+      "brand": "Panasonic",
+      "productName": "Panasonic Ear, Nose & Facial Hair Trimmer ER-GN30-H",
+      "category": "눈썹/코털 정리 도구",
+      "itemCode": "SR26-ST-SH-C1",
+      "manualCode": "SR26-ST-SH-M1",
+      "domain": "ST",
+      "topic": "SH",
+      "slotId": "noseEyebrow",
+      "recommendationType": "코털/눈썹",
+      "imageUrl": "https://shop.panasonic.com/cdn/shop/products/je5t4h3mhluyndzt5xnh.jpg?v=1779299940&width=2048",
+      "productLink": "https://shop.panasonic.com/products/ear-nose-facial-hair-trimmer",
+      "recommendationReason": "코털이나 눈썹 잔털은 매일 보는 사람보다 상대방이 먼저 알아차리기 쉬워, 외출 전 짧게 정리하는 기준을 만들기 위한 후보입니다.",
+      "target": "면도는 했는데 코털, 눈썹 아래 잔털, 귀 주변 털 때문에 전체 인상이 정돈되지 않아 보이는 사람",
+      "actualUse": "건식/습식으로 짧게 쓰는 디테일 트리머입니다. 잘 깎이는지보다 잡아당김이 적은지, 사용 후 바로 씻어서 보관하기 쉬운지가 루틴 지속 포인트입니다.",
+      "caution": "코 안쪽을 깊게 밀어 넣지 말고 겉에서 보이는 선만 정리해야 합니다. 눈썹은 한 번에 많이 자르면 복구가 어려워 거울을 보며 아주 조금씩 확인해야 합니다.",
+      "tags": [
+        "코털",
+        "눈썹",
+        "디테일 정리",
+        "스타일"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-ST-SH-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-ST-RS-P201",
+      "brand": "Burt's Bees",
+      "productName": "Burt's Bees Tinted Lip Balm Red Dahlia",
+      "category": "발색 립밤",
+      "itemCode": "SR26-ST-RS-C1",
+      "manualCode": "SR26-ST-RS-M1",
+      "domain": "ST",
+      "topic": "RS",
+      "slotId": "tinted",
+      "recommendationType": "발색",
+      "imageUrl": "https://chile.burtsbees.com/wp-content/uploads/sites/14/2019/10/tintedlipbalmcardedreddahlia1.jpg",
+      "productLink": "https://chile.burtsbees.com/productos/tinted-lip-balm/",
+      "recommendationReason": "입술이 하얗게 뜨거나 피곤해 보이는데 립스틱처럼 진한 색은 부담스러운 날, 혈색을 살짝 보정하기 위한 후보입니다.",
+      "target": "건조한 입술 때문에 말할 때 각질이 보이고, 무색 립밤만으로는 얼굴이 창백해 보이는 사람",
+      "actualUse": "립밤처럼 바르지만 약한 색이 남는 타입입니다. 거울 없이 여러 번 덧바르면 입술 경계에 색이 쌓일 수 있어 한두 번만 바르는 기준이 필요합니다.",
+      "caution": "발색 제품은 컵, 마스크, 손에 묻을 수 있습니다. 색상이 피부톤과 맞지 않으면 오히려 티가 날 수 있어 실내 조명과 자연광에서 모두 확인하는 편이 좋습니다.",
+      "tags": [
+        "발색 립밤",
+        "입술 보습",
+        "혈색",
+        "스타일"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-ST-RS-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SP-RS-P201",
+      "brand": "Philips Hue",
+      "productName": "Philips Hue Essential Lightstrip 5m White",
+      "category": "간접 조명 / 조도 설정",
+      "itemCode": "SR26-SP-RS-C1",
+      "manualCode": "SR26-SP-RS-M1",
+      "domain": "SP",
+      "topic": "RS",
+      "slotId": "warmIndirect",
+      "recommendationType": "따뜻한 간접 조명",
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/fc4cc7c7-5ce9-4293-8ca1-1266fd548dde.jpg",
+      "productLink": "https://www.bestbuy.com/product/philips-hue-essential-lightstrip-5m-16ft-white/J7GHXKHF62/sku/6671537",
+      "recommendationReason": "퇴근 후에도 천장등을 계속 켜두면 몸은 쉬고 싶은데 방은 업무 모드처럼 느껴집니다. 직접광을 줄이고 낮은 밝기의 간접광으로 바꾸기 위한 후보입니다.",
+      "target": "밤에도 방 조명이 너무 밝아서 휴대폰을 오래 보거나, 침대로 가기 전까지 머리가 쉽게 가라앉지 않는 사람",
+      "actualUse": "침대 뒤, 책상 뒤, 선반 아래에 붙여 벽을 한번 튕긴 빛으로 쓰는 맥락이 맞습니다. 밝기를 낮추고 따뜻한 색으로 고정해두면 수면 전 공간 전환 루틴에 넣기 쉽습니다.",
+      "caution": "부착면이 먼지나 습기에 약하면 떨어질 수 있습니다. 너무 화려한 색 변화는 오히려 자극이 될 수 있어 취침 전에는 낮은 밝기와 따뜻한 색 위주로 쓰는 편이 좋습니다.",
+      "tags": [
+        "간접 조명",
+        "수면 전환",
+        "공간 루틴",
+        "조도 조절"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "retailer_product_page",
+      "sourceId": "SR26-SP-RS-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SP-CN-P201",
+      "brand": "IKEA",
+      "productName": "IKEA VATTENKAR Desk Organizer",
+      "category": "데스크 정리 체크",
+      "itemCode": "SR26-SP-CN-C1",
+      "manualCode": "SR26-SP-CN-M1",
+      "domain": "SP",
+      "topic": "CN",
+      "slotId": "deskOrganizer",
+      "recommendationType": "책상 정리",
+      "imageUrl": "https://www.ikea.com/us/en/images/products/vattenkar-desk-organizer-white__1197213_fe002416_s5.jpg?f=u",
+      "productLink": "https://www.ikea.com/us/en/p/vattenkar-desk-organizer-white-80541565/",
+      "recommendationReason": "책상 위 물건이 계속 눈에 들어오면 집중 루틴을 시작하기 전에 이미 피로감이 생깁니다. 자주 쓰는 물건을 한 자리로 모아 시야 자극을 줄이는 후보입니다.",
+      "target": "펜, 충전기, 영수증, 작은 소품이 책상 위에 흩어져 있고 업무 시작 전에 정리 시간이 자주 새는 사람",
+      "actualUse": "책상 한쪽에 두고 매일 쓰는 물건만 세워두는 방식이 좋습니다. 서랍형 정리보다 눈에 보이는 물건 수를 줄이는 데 집중해야 업무 시작 전 1분 정리가 쉬워집니다.",
+      "caution": "정리함이 크면 오히려 잡동사니 보관함이 될 수 있습니다. 책상 위에 남길 물건 기준을 먼저 정하고, 잘 안 쓰는 물건은 별도 수납으로 빼야 합니다.",
+      "tags": [
+        "책상 정리",
+        "데스크 셋업",
+        "업무 루틴",
+        "시야 정리"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SP-CN-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-MT-CN-P201",
+      "brand": "Moleskine",
+      "productName": "Moleskine Classic Notebook Black",
+      "category": "감정 기록 노트",
+      "itemCode": "SR26-MT-CN-C1",
+      "manualCode": "SR26-MT-CN-M1",
+      "domain": "MT",
+      "topic": "CN",
+      "slotId": "dailyJournal",
+      "recommendationType": "데일리 저널",
+      "imageUrl": "https://www.uspatriottactical.com/photos/styles/Moleskine_9788883701122_Black_1.jpg",
+      "productLink": "https://www.uspatriottactical.com/moleskine-classic-notebook",
+      "recommendationReason": "머릿속 생각이 계속 돌아가면 해결보다 반복이 먼저 일어납니다. 감정, 걱정, 해야 할 일을 손으로 꺼내는 저널링 후보입니다.",
+      "target": "자기 전 생각이 많아지고, 고민을 휴대폰 메모에 적다가 다시 앱과 알림으로 흐름이 새는 사람",
+      "actualUse": "고급 필기감보다 매일 펼쳐놓기 쉬운지가 중요합니다. 침대 옆이나 책상 한쪽에 두고 한 줄이라도 쓰는 구조를 만들면 감정 기록 루틴에 연결하기 쉽습니다.",
+      "caution": "예쁘게 쓰려는 부담이 생기면 루틴이 끊깁니다. 긴 일기보다 날짜, 감정 단어, 다음 행동 하나만 적는 식으로 기준을 낮추는 편이 좋습니다.",
+      "tags": [
+        "감정 기록",
+        "저널링",
+        "손글씨",
+        "멘탈 루틴"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "retailer_product_page",
+      "sourceId": "SR26-MT-CN-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-MT-RC-P201",
+      "brand": "kSafe",
+      "productName": "kSafe Time Locking Container",
+      "category": "디지털 차단 도구",
+      "itemCode": "SR26-MT-RC-C1",
+      "manualCode": "SR26-MT-RC-M1",
+      "domain": "MT",
+      "topic": "RC",
+      "slotId": "lockBox",
+      "recommendationType": "물리 차단",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0250/0812/files/Products_GR-white.png?v=1675283507",
+      "productLink": "https://www.thekitchensafe.com/",
+      "recommendationReason": "디지털 디톡스가 의지 싸움이 되면 대부분 알림과 습관에 집니다. 휴대폰을 물리적으로 멀리 두는 장치를 만들어 스크린 제한을 강제하는 후보입니다.",
+      "target": "잠깐만 보려던 휴대폰이 30분 이상 이어지고, 침대나 책상 앞에서 앱을 지우는 방식만으로는 잘 안 멈추는 사람",
+      "actualUse": "휴대폰, 게임기, 간식처럼 손이 자동으로 가는 물건을 정해진 시간 동안 넣어두는 방식입니다. 앱 차단보다 단순하지만, 시작 전에 넣는 행동 자체가 루틴의 스위치가 됩니다.",
+      "caution": "긴 시간부터 잠그면 반발감이 커질 수 있습니다. 15~30분처럼 짧게 시작하고, 긴급 연락이 필요한 시간대에는 사용하지 않는 기준이 필요합니다.",
+      "tags": [
+        "디지털 디톡스",
+        "집중",
+        "물리 차단",
+        "스크린 제한"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-MT-RC-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SY-RS-P201",
+      "brand": "Time Timer",
+      "productName": "Time Timer MOD 120 Minute",
+      "category": "시간 기록 트래커",
+      "itemCode": "SR26-SY-RS-C1",
+      "manualCode": "SR26-SY-RS-M1",
+      "domain": "SY",
+      "topic": "RS",
+      "slotId": "visualTimer",
+      "recommendationType": "시각 타이머",
+      "imageUrl": "https://www.timetimer.com/cdn/shop/files/MOD120_2000x2000_InContext1.png?v=1718304213&width=720",
+      "productLink": "https://www.timetimer.com/products/time-timer-mod-120-minute",
+      "recommendationReason": "시간 관리는 앱 기록보다 지금 남은 시간이 눈에 보일 때 실행으로 이어지기 쉽습니다. 집중 블록과 휴식 시간을 시각적으로 잡기 위한 후보입니다.",
+      "target": "작업을 시작하면 시간이 사라진 것처럼 느껴지거나, 쉬는 시간이 길어져 다음 루틴으로 돌아오기 어려운 사람",
+      "actualUse": "책상 위에 두고 25분, 50분, 90분 같은 블록을 눈으로 확인하는 방식입니다. 숫자를 계속 보는 타이머보다 남은 시간이 줄어드는 감각이 직관적입니다.",
+      "caution": "타이머가 압박으로 느껴지면 집중보다 조급함이 커질 수 있습니다. 처음에는 작업 시간보다 휴식 종료 시간을 잡는 용도로 쓰는 편이 부담이 적습니다.",
+      "tags": [
+        "시간 기록",
+        "집중 블록",
+        "타이머",
+        "생산성"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-SY-RS-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-FT-P201",
+      "brand": "NatraCure",
+      "productName": "NatraCure FlexiKold Neck Gel Cold Pack with Straps",
+      "category": "뒷목 아이스팩",
+      "itemCode": "SR26-BD-FT-C1",
+      "manualCode": "SR26-BD-FT-M1",
+      "domain": "BD",
+      "topic": "FT",
+      "slotId": "neckColdPack",
+      "recommendationType": "목 냉찜질",
+      "imageUrl": "https://natracure.com/cdn/shop/products/flexikold-neck-gel-cold-pack-with-straps-natracure-1.jpg?crop=center&height=1500&v=1708983095&width=1500",
+      "productLink": "https://natracure.com/products/flexikold-neck-gel-cold-pack-with-straps",
+      "recommendationReason": "목 뒤가 뜨겁고 머리가 무거운 날, 마사지보다 먼저 열감과 긴장을 낮추는 짧은 회복 루틴 후보입니다.",
+      "target": "장시간 모니터를 본 뒤 뒷목이 뜨겁거나, 두통 전조처럼 목과 어깨가 먼저 뭉치는 사람",
+      "actualUse": "냉동실에서 꺼내 바로 피부에 대기보다 얇은 천을 사이에 두고 5~10분 짧게 쓰는 방식이 맞습니다. 목 뒤에 고정되면 손으로 계속 잡지 않아도 돼 루틴화하기 쉽습니다.",
+      "caution": "차가운 팩을 오래 직접 대면 피부 자극이나 냉화상이 생길 수 있습니다. 저림, 통증, 감각 이상이 있으면 냉찜질로 버티지 말고 휴식과 진료 기준을 우선해야 합니다.",
+      "tags": [
+        "목 냉찜질",
+        "회복",
+        "뒷목",
+        "바디 컨디션"
+      ],
+      "serkanFit": null,
+      "reviewStatus": null,
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "SR26-BD-FT-P201",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-RS-P301",
+      "brand": "Waterpik",
+      "productName": "Waterpik Cordless Express Water Flosser",
+      "category": "워터픽 / 구강 세정",
+      "itemCode": "SR26-GR-RS-C1",
+      "manualCode": "SR26-GR-RS-M1",
+      "domain": "GR",
+      "topic": "RS",
+      "slotId": "entry",
+      "recommendationType": "입문",
+      "imageUrl": "https://www.waterpik.com/products/images/waterpik-cordless-express-water-flosser-wf-02-white.jpg",
+      "productLink": "https://www.waterpik.com/products/dental-water-flosser/WF-02W010/",
+      "recommendationReason": "치실은 자꾸 미루지만 음식물이 잘 끼는 사람에게, 세면대 앞에서 물로 빠르게 잇몸 사이를 리셋하는 입문형 후보입니다.",
+      "target": "치실 사용이 귀찮고, 식사 후 어금니 사이가 답답하지만 큰 기기는 부담스러운 사람",
+      "actualUse": "AA 배터리 방식의 단순한 코드리스 워터플로서라 충전 루틴 없이 시작하기 쉽습니다. 물통 용량과 물 튐은 감안해야 하지만, 입문자는 복잡한 기능보다 꺼내 쓰는 허들이 낮은지가 중요합니다.",
+      "caution": "처음부터 강한 수압으로 쓰면 잇몸이 아프거나 피가 날 수 있습니다. 낮은 강도와 짧은 시간부터 시작하고, 치과 치료 중이면 사용 기준을 확인해야 합니다.",
+      "tags": [
+        "워터픽",
+        "구강관리",
+        "입문",
+        "식후 리셋"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "waterpik-wf-02w010",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-RS-P302",
+      "brand": "Waterpik",
+      "productName": "Waterpik Aquarius Water Flosser WP-660",
+      "category": "워터픽 / 구강 세정",
+      "itemCode": "SR26-GR-RS-C1",
+      "manualCode": "SR26-GR-RS-M1",
+      "domain": "GR",
+      "topic": "RS",
+      "slotId": "orthodontic",
+      "recommendationType": "교정/임플란트",
+      "imageUrl": "https://www.waterpik.com/products/images/waterpik-aquarius-water-flosser-wp-660-white.jpg",
+      "productLink": "https://www.waterpik.com/products/dental-water-flosser/WP-660/",
+      "recommendationReason": "교정 장치나 치간 관리가 필요한 사람에게, 휴대형보다 수압과 물통이 안정적인 세면대 고정형 후보입니다.",
+      "target": "교정기, 임플란트, 잇몸 관리 때문에 치실만으로는 부족하고 매일 같은 자리에서 구강 루틴을 만들고 싶은 사람",
+      "actualUse": "세면대에 두고 식후나 자기 전 고정 루틴으로 쓰기 좋습니다. 물통이 크고 수압 단계가 넓어 편하지만, 보관 공간과 물 튐 관리가 실제 지속성을 가릅니다.",
+      "caution": "잇몸이 예민한 상태에서 높은 수압을 쓰면 자극이 큽니다. 교정 장치 주변은 낮은 단계부터 확인하고, 사용 후 기기 내부 물기를 빼는 관리가 필요합니다.",
+      "tags": [
+        "워터픽",
+        "교정",
+        "임플란트",
+        "구강관리"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "waterpik-wp-660",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-DT-P301",
+      "brand": "TheraBreath",
+      "productName": "TheraBreath Fresh Breath Oral Rinse Icy Mint",
+      "category": "무알코올 가글",
+      "itemCode": "SR26-GR-DT-C1",
+      "manualCode": "SR26-GR-DT-M1",
+      "domain": "GR",
+      "topic": "DT",
+      "slotId": "coffeeAfter",
+      "recommendationType": "커피 후",
+      "imageUrl": "https://www.therabreath.com/cdn/shop/files/ThB-FB-IcyMint-16oz-Front.png?v=1718712999",
+      "productLink": "https://www.therabreath.com/products/therabreath-fresh-breath-oral-rinse-icy-mint",
+      "recommendationReason": "커피를 마신 뒤 입안이 텁텁한데 양치까지 하기 애매한 시간대에, 알코올 자극 없이 입안을 리셋하는 후보입니다.",
+      "target": "커피를 자주 마시고 회의나 약속 전 입 냄새가 신경 쓰이지만 강한 가글은 건조하게 느끼는 사람",
+      "actualUse": "민트감은 있지만 알코올 가글처럼 강하게 화한 방향은 아닙니다. 점심 이후 한 번 쓰는 리셋 루틴에 맞고, 사용 후 단맛이나 민트 잔향이 부담스럽지 않은지가 포인트입니다.",
+      "caution": "가글은 양치를 대체하지 않습니다. 입안 상처나 잇몸 염증이 있으면 따가움이 생길 수 있고, 구취가 반복되면 치석이나 위장 문제도 함께 봐야 합니다.",
+      "tags": [
+        "가글",
+        "커피 후",
+        "무알코올",
+        "입냄새"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "therabreath-icy-mint",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-DT-P302",
+      "brand": "Colgate",
+      "productName": "Colgate Optic White Alcohol Free Mouthwash",
+      "category": "무알코올 가글",
+      "itemCode": "SR26-GR-DT-C1",
+      "manualCode": "SR26-GR-DT-M1",
+      "domain": "GR",
+      "topic": "DT",
+      "slotId": "whitening",
+      "recommendationType": "착색 관리",
+      "imageUrl": "https://i5.walmartimages.com/seo/Colgate-Optic-White-Whitening-Mouthwash-2-Alcohol-Free-Enamel-Safe-Fresh-Mint-16-fl-oz_a1d80cc8-0842-4963-bdac-9eb9e361b7d9.7d490724489477fe87dd514d6d3ec4d5.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
+      "productLink": "https://www.walmart.com/ip/Colgate-Optic-White-Whitening-Mouthwash-2-Alcohol-Free-Enamel-Safe-Fresh-Mint-16-fl-oz/108505481",
+      "recommendationReason": "커피, 차, 음료를 자주 마셔 치아 착색이 신경 쓰이는 사람에게, 양치 후 보조 루틴으로 연결하기 위한 후보입니다.",
+      "target": "미백 치약만으로 부족하다고 느끼지만 치아 시림이나 알코올 가글 자극은 피하고 싶은 사람",
+      "actualUse": "양치 후 짧게 헹구는 보조 제품으로 봐야 합니다. 화한 자극이 적은지, 민트향이 오래 남는지, 입안이 마르지 않는지가 실제 사용감입니다.",
+      "caution": "가글만으로 치아색이 크게 바뀐다고 기대하면 안 됩니다. 시림이 있거나 치과 미백을 병행 중이면 사용 빈도를 조절해야 합니다.",
+      "tags": [
+        "가글",
+        "착색 관리",
+        "무알코올",
+        "치아 관리"
+      ],
+      "serkanFit": 3,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "retailer_product_page",
+      "sourceId": "colgate-optic-white-mouthwash",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-DT-P303",
+      "brand": "Listerine",
+      "productName": "Listerine Pocketmist Cool Mint Oral Care Mist",
+      "category": "무알코올 가글",
+      "itemCode": "SR26-GR-DT-C1",
+      "manualCode": "SR26-GR-DT-M1",
+      "domain": "GR",
+      "topic": "DT",
+      "slotId": "portable",
+      "recommendationType": "휴대용",
+      "imageUrl": "https://www.listerine.com/sites/listerine_us/files/product-images/listerine-pocketmist-cool-mint-oral-care-mist.png",
+      "productLink": "https://www.listerine.com/fresh-breath-products/listerine-pocketmist-cool-mint-oral-care-mist",
+      "recommendationReason": "가글병을 들고 다니기 어렵지만 회의 전 입안 텁텁함을 짧게 정리하고 싶은 상황형 후보입니다.",
+      "target": "외근, 이동, 데이트 전처럼 물로 헹굴 시간이 없고 가방이나 주머니에 작은 구강 리셋 도구를 넣고 싶은 사람",
+      "actualUse": "입안에 뿌리는 미스트라 가글처럼 세정하는 제품은 아닙니다. 휴대성과 즉시성이 강점이고, 향이 너무 강하지 않은지와 지속 시간이 실제 만족도를 가릅니다.",
+      "caution": "구강 청결 루틴의 보조 도구일 뿐 양치나 가글을 대체하지 않습니다. 입안이 건조한 사람은 민트 자극이 더 강하게 느껴질 수 있습니다.",
+      "tags": [
+        "가글",
+        "휴대용",
+        "구강 미스트",
+        "회의 전"
+      ],
+      "serkanFit": 3,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "listerine-pocketmist",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-DT-P301",
+      "brand": "Band-Aid",
+      "productName": "Band-Aid Brand Flexible Fabric Adhesive Bandages",
+      "category": "반창고/상처 키트",
+      "itemCode": "SR26-BD-DT-C1",
+      "manualCode": "SR26-BD-DT-M1",
+      "domain": "BD",
+      "topic": "DT",
+      "slotId": "basic",
+      "recommendationType": "기본 상처",
+      "imageUrl": "https://www.band-aid.com/sites/bandaid_us_2/files/styles/product_image/public/product-images/band-aid-brand-flexible-fabric-adhesive-bandages-all-one-size-30ct.png",
+      "productLink": "https://www.band-aid.com/products/adhesive-bandages/flexible-fabric-bandages",
+      "recommendationReason": "작은 상처를 그냥 두다가 손 씻기, 샤워, 운동 중 계속 건드리는 상황을 줄이기 위한 기본 상처 관리 후보입니다.",
+      "target": "손가락, 팔, 무릎에 작은 상처가 자주 생기고 밴드를 집에 사두지 않아 매번 휴지나 테이프로 대충 넘기는 사람",
+      "actualUse": "기본형 밴드라 손가락이나 팔처럼 움직임이 있는 부위에 쓰기 쉽습니다. 접착력과 뗄 때 피부 자극, 피부색과의 눈에 띔 정도가 실사용 포인트입니다.",
+      "caution": "깊은 상처나 감염 의심 상처에는 일반 밴드만 붙이면 안 됩니다. 땀이 많거나 젖은 피부에는 잘 떨어질 수 있어 방수 타입과 구분해야 합니다.",
+      "tags": [
+        "상처",
+        "반창고",
+        "기본 키트",
+        "위생"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "band-aid-flexible-fabric",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-DT-P302",
+      "brand": "Band-Aid",
+      "productName": "Band-Aid Hydro Seal Blister Cushions",
+      "category": "반창고/상처 키트",
+      "itemCode": "SR26-BD-DT-C1",
+      "manualCode": "SR26-BD-DT-M1",
+      "domain": "BD",
+      "topic": "DT",
+      "slotId": "friction",
+      "recommendationType": "마찰 보호",
+      "imageUrl": "https://www.band-aid.com/sites/bandaid_us_2/files/styles/product_image/public/product-images/band-aid-brand-hydro-seal-blister-cushions-6ct.png",
+      "productLink": "https://www.band-aid.com/products/hydro-seal-wound-care/blister-cushions",
+      "recommendationReason": "새 신발이나 오래 걷는 날 발뒤꿈치가 까져 루틴 전체가 무너지는 상황을 막기 위한 마찰 보호 후보입니다.",
+      "target": "출근 구두, 운동화, 여행 중 오래 걷는 날 발뒤꿈치나 발가락 물집이 자주 생기는 사람",
+      "actualUse": "물집이 생기기 전후 마찰 부위에 붙여 압박과 쓸림을 줄이는 용도입니다. 두께감, 접착력, 양말 안에서 밀리지 않는지가 중요합니다.",
+      "caution": "이미 터진 물집이나 감염이 의심되는 상처는 무리해서 덮지 말아야 합니다. 붙이기 전 피부를 완전히 건조해야 오래 붙습니다.",
+      "tags": [
+        "물집",
+        "마찰 보호",
+        "발 관리",
+        "상처 키트"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "band-aid-hydro-seal-blister",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-DT-P303",
+      "brand": "Welly",
+      "productName": "Welly First Aid Kit",
+      "category": "반창고/상처 키트",
+      "itemCode": "SR26-BD-DT-C1",
+      "manualCode": "SR26-BD-DT-M1",
+      "domain": "BD",
+      "topic": "DT",
+      "slotId": "portableKit",
+      "recommendationType": "휴대 키트",
+      "imageUrl": "https://fsastore.com/dw/image/v2/BDRW_PRD/on/demandware.static/-/Sites-hec-master/default/dw6a356609/images/large/welly-first-aid-kit---130-ct._29712_1.jpg?sw=800&sh=800&sm=fit",
+      "productLink": "https://fsastore.com/welly-first-aid-kit---130-ct./29712.html",
+      "recommendationReason": "반창고, 소독, 작은 응급 도구가 따로 흩어져 있으면 실제로 필요할 때 못 찾습니다. 집이나 가방에 하나로 묶어두는 상처 키트 후보입니다.",
+      "target": "운동, 여행, 자취 환경에서 작은 상처가 생겨도 소독솜이나 밴드를 바로 찾기 어려운 사람",
+      "actualUse": "제품 자체보다 ‘한 곳에 모아둔다’는 구조가 중요합니다. 현관, 욕실, 운동가방처럼 위치를 정해두면 상처를 방치하지 않는 루틴으로 연결됩니다.",
+      "caution": "구성품은 소모품이라 사용 후 다시 채워야 합니다. 유통기한, 포장 손상, 약품 포함 여부는 정기적으로 확인해야 합니다.",
+      "tags": [
+        "상처 키트",
+        "휴대 키트",
+        "자취",
+        "응급"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "retailer_product_page",
+      "sourceId": "welly-first-aid-kit",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-LB-P301",
+      "brand": "Kitsch",
+      "productName": "Kitsch Lavender Weighted Satin Eye Mask",
+      "category": "수면 안대 / 빛 차단",
+      "itemCode": "SR26-SL-LB-C1",
+      "manualCode": "SR26-SL-LB-M1",
+      "domain": "SL",
+      "topic": "LB",
+      "slotId": "entry",
+      "recommendationType": "입문",
+      "imageUrl": "https://www.mykitsch.com/cdn/shop/files/lavender-weighted-satin-eye-mask-kitsch-1.jpg?v=1718912505&width=900",
+      "productLink": "https://www.mykitsch.com/products/the-lavender-weighted-satin-eye-mask",
+      "recommendationReason": "스마트폰을 내려놓고도 눈앞이 밝거나 머리가 쉽게 가라앉지 않는 사람에게, 부담 낮은 수면 전환 도구로 넣기 위한 후보입니다.",
+      "target": "수면 안대를 처음 써보고 싶고, 디바이스형보다 가볍고 단순한 제품으로 빛 차단 루틴을 시작하고 싶은 사람",
+      "actualUse": "새틴 소재와 약간의 무게감이 있어 눈 위를 덮는 느낌이 선명합니다. 옆으로 누울 때 압박감, 코 주변 빛샘, 세탁/관리 편의성이 실제 사용 포인트입니다.",
+      "caution": "무게감이 편안하게 느껴지는 사람도 있지만 답답한 사람도 있습니다. 향이나 라벤더 소재에 민감하면 사용 전 확인이 필요합니다.",
+      "tags": [
+        "수면 안대",
+        "입문",
+        "빛 차단",
+        "취침 루틴"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "kitsch-lavender-eye-mask",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-LB-P302",
+      "brand": "Manta Sleep",
+      "productName": "Manta Sleep Mask",
+      "category": "수면 안대 / 빛 차단",
+      "itemCode": "SR26-SL-LB-C1",
+      "manualCode": "SR26-SL-LB-M1",
+      "domain": "SL",
+      "topic": "LB",
+      "slotId": "lightBlock",
+      "recommendationType": "빛 차단",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1582/3265/products/1.5-Mask-Buy-Box-1_800x@2x.png?v=1627037566",
+      "productLink": "https://mantasleep.com/products/manta-sleep-mask",
+      "recommendationReason": "침실 암막이 완벽하지 않거나 새벽빛 때문에 잠이 얕아지는 사람에게, 빛을 물리적으로 차단하는 수면 환경 후보입니다.",
+      "target": "창문 빛, 충전기 LED, 복도 불빛처럼 작은 빛에도 잠이 쉽게 깨고 일반 안대는 눈이 눌려 불편한 사람",
+      "actualUse": "눈 위에 공간을 만드는 컵 구조라 속눈썹과 눈꺼풀 압박을 줄이는 방향입니다. 코 주변 빛샘, 밴드 압박, 옆잠에서의 착용감이 실제 만족도를 결정합니다.",
+      "caution": "착용감은 얼굴형 차이가 큽니다. 너무 조이면 두통이나 답답함이 생길 수 있고, 여름에는 땀과 세탁 관리 기준을 둬야 합니다.",
+      "tags": [
+        "수면 안대",
+        "빛 차단",
+        "암막",
+        "수면 환경"
+      ],
+      "serkanFit": 5,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "manta-sleep-mask",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-BD-P301",
+      "brand": "Vaseline",
+      "productName": "Vaseline Lip Therapy Original",
+      "category": "바세린 / 보습 밤",
+      "itemCode": "SR26-SK-BD-C1",
+      "manualCode": "SR26-SK-BD-M1",
+      "domain": "SK",
+      "topic": "BD",
+      "slotId": "lipHand",
+      "recommendationType": "입술/손",
+      "imageUrl": "https://assets.unileversolutions.com/v1/1251504.png",
+      "productLink": "https://www.vaseline.com/us/en/products/lip-care/vaseline-lip-therapy-original.html",
+      "recommendationReason": "입술이 갈라져 말할 때 신경 쓰이거나 손끝 큐티클이 자주 트는 사람에게, 국소 보습을 따로 분리하기 위한 후보입니다.",
+      "target": "얼굴 보습은 하는데 입술과 손끝은 자주 놓쳐서 건조함이 먼저 티 나는 사람",
+      "actualUse": "작은 틴/밤 형태라 책상, 침대 옆, 가방에 두기 좋습니다. 흡수보다는 얇은 막을 만드는 제품이라 바른 직후 끈적임과 머리카락 묻어남이 체크 포인트입니다.",
+      "caution": "손으로 직접 덜어 쓰면 위생 관리가 필요합니다. 입술 각질을 뜯은 직후에는 따가울 수 있어 얇게만 바르는 편이 좋습니다.",
+      "tags": [
+        "립밤",
+        "입술",
+        "손끝",
+        "보습 밤"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "vaseline-lip-therapy-original",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-BD-P302",
+      "brand": "CeraVe",
+      "productName": "CeraVe Healing Ointment",
+      "category": "바세린 / 보습 밤",
+      "itemCode": "SR26-SK-BD-C1",
+      "manualCode": "SR26-SK-BD-M1",
+      "domain": "SK",
+      "topic": "BD",
+      "slotId": "bedside",
+      "recommendationType": "침대 곁",
+      "imageUrl": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/moisturizers/healing-ointment/cerave_healing_ointment_12oz_front.png",
+      "productLink": "https://www.cerave.com/skincare/moisturizers/healing-ointment",
+      "recommendationReason": "자기 전 입가, 팔꿈치, 손등처럼 건조한 부위를 두껍게 덮어두는 침대 옆 보습 루틴 후보입니다.",
+      "target": "겨울이나 에어컨 환경에서 보습제를 발라도 특정 부위가 계속 갈라지고, 자기 전에 한 번 더 막을 씌우고 싶은 사람",
+      "actualUse": "크림처럼 흡수시키는 제품보다 연고형 보습막에 가깝습니다. 소량만 써도 지속감이 있지만, 많이 바르면 베개나 옷에 묻는 느낌이 있습니다.",
+      "caution": "얼굴 전체에 두껍게 바르면 답답하거나 트러블처럼 느낄 수 있습니다. 국소 부위부터 테스트하고, 열린 상처에는 임의로 바르지 않는 기준이 필요합니다.",
+      "tags": [
+        "보습 밤",
+        "침대 곁",
+        "건조 부위",
+        "장벽"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "cerave-healing-ointment",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-SP-P301",
+      "brand": "Rohto Mentholatum",
+      "productName": "Melano CC Premium Brightening Essence",
+      "category": "비타민C 세럼",
+      "itemCode": "SR26-SK-SP-C1",
+      "manualCode": "SR26-SK-SP-M1",
+      "domain": "SK",
+      "topic": "SP",
+      "slotId": "brightening",
+      "recommendationType": "톤/칙칙함",
+      "imageUrl": "https://jp.rohto.com/-/media/com/melanocc/product/premium_essence/img_product_01.png",
+      "productLink": "https://jp.rohto.com/melanocc/premium-essence/",
+      "recommendationReason": "얼굴 전체가 피곤해 보이거나 칙칙함이 반복될 때, 고가 탄력 제품보다 톤 관리 루틴을 먼저 잡기 위한 후보입니다.",
+      "target": "잡티보다 전체 안색과 피부톤이 어두워 보이는 게 신경 쓰이고, 비타민C 제품을 루틴으로 써보고 싶은 사람",
+      "actualUse": "부분 또는 얼굴 전체에 얇게 쓰는 비타민C 계열 에센스입니다. 따가움, 끈적임, 선크림과의 밀림 여부가 매일 쓰는 기준입니다.",
+      "caution": "비타민C는 피부 상태에 따라 따가움이 생길 수 있습니다. 낮에 쓸 경우 선크림과 같이 보고, 레티놀이나 강한 산 제품과 같은 날에는 빈도를 낮춰야 합니다.",
+      "tags": [
+        "비타민C",
+        "칙칙함",
+        "브라이트닝",
+        "톤 관리"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "melano-cc-premium",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-DT-P301",
+      "brand": "Biossance",
+      "productName": "Biossance 100% Squalane Oil",
+      "category": "스쿠알란 화장품",
+      "itemCode": "SR26-SK-DT-C1",
+      "manualCode": "SR26-SK-DT-M1",
+      "domain": "SK",
+      "topic": "DT",
+      "slotId": "drySkin",
+      "recommendationType": "건성",
+      "imageUrl": "https://www.biossance.com/cdn/shop/files/100-Squalane-Oil_1200x1200.png?v=1719435874",
+      "productLink": "https://www.biossance.com/p/100-percent-squalane-oil/",
+      "recommendationReason": "수분크림을 발라도 볼과 입가가 계속 당기는 사람에게, 루틴 마지막에 얇은 오일막을 더하는 건성 보완 후보입니다.",
+      "target": "피부 속당김이 반복되고, 무거운 크림을 두껍게 바르면 답답하지만 밤에는 보습 지속력이 필요한 사람",
+      "actualUse": "세럼처럼 많이 바르는 제품이 아니라 1~2방울을 손바닥에 펴서 누르는 마무리감에 가깝습니다. 번들거림과 베개 묻어남이 실제 루틴 지속의 기준입니다.",
+      "caution": "오일감이 싫은 사람에게는 답답할 수 있습니다. 트러블이 잘 나는 부위에는 넓게 쓰지 말고 건조한 부위부터 소량 테스트가 필요합니다.",
+      "tags": [
+        "스쿠알란",
+        "건성",
+        "오일 보습",
+        "보습막"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "biossance-squalane-oil",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-SH-P301",
+      "brand": "Lab Series",
+      "productName": "Lab Series Razor Burn Relief Ultra",
+      "category": "애프터쉐이브",
+      "itemCode": "SR26-SK-SH-C1",
+      "manualCode": "SR26-SK-SH-M1",
+      "domain": "SK",
+      "topic": "SH",
+      "slotId": "soothingBalm",
+      "recommendationType": "진정 밤",
+      "imageUrl": "https://www.labseries.com/media/export/cms/products/558x768/LS_2022_Razor_Burn_Relief_Ultra_100ml.png",
+      "productLink": "https://www.labseries.com/product/15387/15571/skincare/post-shave/razor-burn-relief-ultra",
+      "recommendationReason": "면도 후 턱선이 빨갛게 올라오고 스킨을 바르면 따가운 사람에게, 향보다 진정과 보습을 먼저 잡는 애프터쉐이브 후보입니다.",
+      "target": "면도 후 화끈거림, 턱선 트러블, 건조함 때문에 애프터케어를 대충 넘기거나 아예 포기하는 사람",
+      "actualUse": "면도 직후 물기를 닦고 얇게 바르는 진정 밤 맥락입니다. 흡수 속도, 끈적임, 향, 수염 주변에 남는 답답함이 실제 사용 포인트입니다.",
+      "caution": "면도 상처가 난 부위에는 따가울 수 있습니다. 제품을 바르기 전에 면도날 상태와 면도 압부터 점검해야 자극 반복을 줄일 수 있습니다.",
+      "tags": [
+        "애프터쉐이브",
+        "면도 후 진정",
+        "턱선",
+        "남성 스킨케어"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "labseries-razor-burn-relief",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-FD-FT-P301",
+      "brand": "LMNT",
+      "productName": "LMNT Recharge Electrolyte Drink Mix Citrus Salt",
+      "category": "전해질 보충제",
+      "itemCode": "SR26-FD-FT-C1",
+      "manualCode": "SR26-FD-FT-M1",
+      "domain": "FD",
+      "topic": "FT",
+      "slotId": "lowSugar",
+      "recommendationType": "저당",
+      "imageUrl": "https://drinklmnt.com/cdn/shop/files/LMNT_Citrus_Salt_Box_1200x1200.png?v=1713384594",
+      "productLink": "https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink",
+      "recommendationReason": "운동 후 수분 보충은 필요하지만 단맛이 강한 전해질 음료가 부담스러운 사람에게, 저당 기준으로 분리한 후보입니다.",
+      "target": "땀을 많이 흘리지만 당이 많은 스포츠 음료는 피하고 싶고, 물만 마시면 갈증이 오래 남는 사람",
+      "actualUse": "스틱 파우더를 물에 타는 방식이라 운동가방에 넣기 쉽습니다. 짠맛, 단맛, 공복 섭취 부담, 운동 후 회복감이 실제 사용감을 가릅니다.",
+      "caution": "나트륨 함량이 높을 수 있어 고혈압, 신장 질환, 저염식이 필요한 사람은 매일 습관처럼 먹기 전에 성분을 확인해야 합니다.",
+      "tags": [
+        "전해질",
+        "저당",
+        "운동 후",
+        "수분 보충"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "lmnt-citrus-salt",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SP-RS-P401",
+      "brand": "TP-Link Tapo",
+      "productName": "Tapo L930-5 Smart Wi-Fi Light Strip",
+      "category": "간접 조명 / 조도 설정",
+      "itemCode": "SR26-SP-RS-C1",
+      "manualCode": "SR26-SP-RS-M1",
+      "domain": "SP",
+      "topic": "RS",
+      "slotId": "dimmable",
+      "recommendationType": "조도 조절",
+      "imageUrl": "https://static.tp-link.com/upload/product-overview/2022/202210/20221018/Tapo-L930-5_UN_1.0_01_large_20221018154655p.png",
+      "productLink": "https://www.tapo.com/us/product/smart-light-strip/tapo-l930-5/",
+      "recommendationReason": "퇴근 후에도 방 조명이 너무 밝아 몸이 쉬는 모드로 전환되지 않을 때, 밝기를 낮춰 공간 분위기를 바꾸는 후보입니다.",
+      "target": "천장등을 끄면 너무 어둡고 켜면 너무 밝아 수면 전 조도 조절이 어려운 사람",
+      "actualUse": "책상 뒤나 침대 헤드 쪽에 붙여 간접광으로 쓰기 좋습니다. 앱으로 밝기를 낮춰 고정해두면 수면 전 루틴의 스위치처럼 쓰기 쉽습니다.",
+      "caution": "화려한 색 변화는 오히려 자극이 될 수 있습니다. 취침 전에는 낮은 밝기와 따뜻한 색 위주로 고정하는 편이 좋습니다.",
+      "tags": [
+        "간접 조명",
+        "조도 조절",
+        "수면 전환",
+        "스마트 조명"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "tapo-l930-5",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SP-RS-P402",
+      "brand": "Govee",
+      "productName": "Govee RGBIC LED Strip Lights",
+      "category": "간접 조명 / 조도 설정",
+      "itemCode": "SR26-SP-RS-C1",
+      "manualCode": "SR26-SP-RS-M1",
+      "domain": "SP",
+      "topic": "RS",
+      "slotId": "smart",
+      "recommendationType": "스마트",
+      "imageUrl": "https://us.govee.com/cdn/shop/products/H61471A1-1.jpg?v=1662539988&width=900",
+      "productLink": "https://us.govee.com/products/govee-rgbic-led-strip-lights",
+      "recommendationReason": "조명을 매번 손으로 바꾸기보다 앱과 자동화로 밤 루틴에 연결하고 싶은 경우의 스마트 조명 후보입니다.",
+      "target": "침대에 누운 뒤 불을 다시 끄러 일어나기 귀찮고, 루틴 시간에 맞춰 조명을 자동으로 낮추고 싶은 사람",
+      "actualUse": "앱에서 장면과 밝기를 저장해두면 퇴근 후, 수면 전 모드로 전환하기 쉽습니다. 다만 앱 기능이 많아 처음 세팅이 귀찮을 수 있습니다.",
+      "caution": "색상 효과가 많을수록 루틴보다 놀이가 되기 쉽습니다. SERKAN에서는 화려함보다 조도 낮추기와 반복 가능성을 우선으로 봅니다.",
+      "tags": [
+        "스마트 조명",
+        "앱 제어",
+        "간접 조명",
+        "공간 루틴"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "govee-rgbic-strip",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SP-CN-P401",
+      "brand": "Yamazaki Home",
+      "productName": "Tosca Pen + Desk Organizer",
+      "category": "데스크 정리 체크",
+      "itemCode": "SR26-SP-CN-C1",
+      "manualCode": "SR26-SP-CN-M1",
+      "domain": "SP",
+      "topic": "CN",
+      "slotId": "vertical",
+      "recommendationType": "세로 수납",
+      "imageUrl": "https://theyamazakihome.com/cdn/shop/products/desk-organizer-tosca-white-yamazaki-home-1.jpg?v=1670877438&width=900",
+      "productLink": "https://theyamazakihome.com/products/tosca-pen-desk-organizer",
+      "recommendationReason": "펜, 메모, 충전 케이블이 책상 위에 누워 있으면 업무 시작 전 시야가 지저분해집니다. 작은 물건을 세워 모으는 후보입니다.",
+      "target": "책상 위 작은 물건이 계속 흩어지고, 업무 시작 전 정리 시간이 자주 새는 사람",
+      "actualUse": "큰 수납장보다 매일 쓰는 펜과 메모만 세워두는 방식이 맞습니다. 책상 위에 남길 물건을 줄이면 집중 루틴 시작이 쉬워집니다.",
+      "caution": "수납 공간이 많으면 오히려 잡동사니가 쌓입니다. 매일 쓰는 도구 5개 안팎으로 제한하는 기준이 필요합니다.",
+      "tags": [
+        "책상 정리",
+        "세로 수납",
+        "데스크",
+        "업무 루틴"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "yamazaki-tosca-desk-organizer",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SP-CN-P402",
+      "brand": "IKEA",
+      "productName": "SIGNUM Cable Management",
+      "category": "데스크 정리 체크",
+      "itemCode": "SR26-SP-CN-C1",
+      "manualCode": "SR26-SP-CN-M1",
+      "domain": "SP",
+      "topic": "CN",
+      "slotId": "cableTray",
+      "recommendationType": "케이블 정리",
+      "imageUrl": "https://www.ikea.com/us/en/images/products/signum-cable-management-horizontal-silver-color__0711936_pe728562_s5.jpg?f=s",
+      "productLink": "https://www.ikea.com/us/en/p/signum-cable-management-horizontal-silver-color-30200253/",
+      "recommendationReason": "멀티탭과 케이블이 바닥에 얽혀 있으면 청소도 어렵고 책상 밑이 늘 산만해집니다. 케이블을 책상 아래로 올리는 후보입니다.",
+      "target": "충전기, 모니터선, 멀티탭이 책상 아래에 늘어져 있고 발에 자주 걸리는 사람",
+      "actualUse": "책상 아래에 고정해 케이블을 한 번에 올리는 방식입니다. 설치가 번거롭지만 한 번 정리하면 바닥 청소와 시야 정리가 쉬워집니다.",
+      "caution": "책상 상판 두께와 나사 고정 가능 여부를 먼저 봐야 합니다. 너무 많은 케이블을 몰아넣으면 발열과 접근성이 나빠질 수 있습니다.",
+      "tags": [
+        "케이블 정리",
+        "책상 아래",
+        "업무 공간",
+        "공간관리"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "ikea-signum",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SP-CN-P403",
+      "brand": "Oakywood",
+      "productName": "Oakywood Desk Shelf",
+      "category": "데스크 정리 체크",
+      "itemCode": "SR26-SP-CN-C1",
+      "manualCode": "SR26-SP-CN-M1",
+      "domain": "SP",
+      "topic": "CN",
+      "slotId": "minimal",
+      "recommendationType": "미니멀",
+      "imageUrl": "https://oakywood.shop/cdn/shop/products/desk-shelf-oakywood-1.jpg?v=1693821841&width=900",
+      "productLink": "https://oakywood.shop/products/desk-shelf",
+      "recommendationReason": "책상 위 물건을 모두 숨기는 것보다, 모니터 아래 공간을 만들어 자주 쓰는 도구만 정리하는 미니멀 데스크 후보입니다.",
+      "target": "책상은 좁은데 모니터, 키보드, 노트, 작은 소품이 같은 면에 겹쳐 있어 작업 전 정리가 번거로운 사람",
+      "actualUse": "모니터 받침 겸 작은 선반으로 쓰는 제품입니다. 키보드와 노트를 아래로 넣어둘 수 있어 퇴근 후 책상 리셋이 쉬워집니다.",
+      "caution": "가격대가 높고 책상 크기에 따라 오히려 답답할 수 있습니다. 먼저 책상 폭과 모니터 위치를 확인해야 합니다.",
+      "tags": [
+        "미니멀 데스크",
+        "책상 정리",
+        "모니터 선반",
+        "공간관리"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "oakywood-desk-shelf",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-MT-CN-P401",
+      "brand": "Intelligent Change",
+      "productName": "The Five Minute Journal",
+      "category": "감정 기록 노트",
+      "itemCode": "SR26-MT-CN-C1",
+      "manualCode": "SR26-MT-CN-M1",
+      "domain": "MT",
+      "topic": "CN",
+      "slotId": "reflection",
+      "recommendationType": "리플렉션",
+      "imageUrl": "https://www.intelligentchange.com/cdn/shop/products/FiveMinuteJournal-Black-01.jpg?v=1676649797&width=900",
+      "productLink": "https://www.intelligentchange.com/products/the-five-minute-journal",
+      "recommendationReason": "생각을 길게 쓰려다 포기하는 사람에게, 짧은 질문 중심으로 하루를 정리하게 만드는 리플렉션 후보입니다.",
+      "target": "일기를 쓰고 싶지만 매번 길게 써야 할 것 같아 시작하지 못하는 사람",
+      "actualUse": "질문이 정해져 있어 빈 페이지보다 부담이 적습니다. 아침과 밤에 2~3줄만 쓰는 방식으로 감정 기록 루틴에 붙이기 좋습니다.",
+      "caution": "템플릿이 반복되면 지루하게 느껴질 수 있습니다. 예쁘게 쓰려는 부담보다 한 줄이라도 남기는 기준을 우선해야 합니다.",
+      "tags": [
+        "리플렉션",
+        "감정 기록",
+        "저널",
+        "멘탈 루틴"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "five-minute-journal",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-MT-CN-P402",
+      "brand": "Field Notes",
+      "productName": "Field Notes Original Kraft Memo Book",
+      "category": "감정 기록 노트",
+      "itemCode": "SR26-MT-CN-C1",
+      "manualCode": "SR26-MT-CN-M1",
+      "domain": "MT",
+      "topic": "CN",
+      "slotId": "pocket",
+      "recommendationType": "휴대형",
+      "imageUrl": "https://fieldnotesbrand.com/images/products/original-kraft-3-pack/original-kraft-3-pack-main.jpg",
+      "productLink": "https://fieldnotesbrand.com/products/original-kraft",
+      "recommendationReason": "생각이 떠오를 때 휴대폰을 열면 다시 앱으로 새기 쉽습니다. 짧은 고민이나 감정 단어를 바로 적는 휴대형 후보입니다.",
+      "target": "이동 중 생각이 많아지고, 휴대폰 메모를 켰다가 알림과 앱으로 흐름이 자주 새는 사람",
+      "actualUse": "작은 수첩이라 주머니나 가방에 넣기 쉽습니다. 긴 글보다 감정 단어, 해야 할 일 하나, 다음 행동 하나만 적는 용도에 맞습니다.",
+      "caution": "작은 수첩은 잃어버리기 쉽습니다. 개인적인 내용을 적는다면 보관 위치와 폐기 기준을 정해야 합니다.",
+      "tags": [
+        "휴대형 노트",
+        "감정 기록",
+        "손글씨",
+        "생각 정리"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "field-notes-kraft",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-MT-RC-P401",
+      "brand": "Freedom",
+      "productName": "Freedom App Blocker",
+      "category": "디지털 차단 도구",
+      "itemCode": "SR26-MT-RC-C1",
+      "manualCode": "SR26-MT-RC-M1",
+      "domain": "MT",
+      "topic": "RC",
+      "slotId": "appBlocker",
+      "recommendationType": "앱 차단",
+      "imageUrl": "https://freedom.to/wp-content/uploads/freedom-logo-share.png",
+      "productLink": "https://freedom.to/",
+      "recommendationReason": "휴대폰을 멀리 두기 어려운 업무 환경에서, 특정 앱과 사이트만 막아 집중 시간을 확보하는 후보입니다.",
+      "target": "일할 때 휴대폰이나 웹사이트를 완전히 끊기는 어렵지만, SNS와 쇼츠만 차단하고 싶은 사람",
+      "actualUse": "정해진 시간 동안 앱과 웹사이트를 차단하는 방식입니다. 물리 차단보다 유연하지만, 미리 세션을 켜는 습관이 붙어야 효과가 납니다.",
+      "caution": "차단 앱을 설치해도 우회하면 의미가 없습니다. 차단 시간은 처음부터 길게 잡지 말고 25~50분 블록부터 시작하는 편이 좋습니다.",
+      "tags": [
+        "앱 차단",
+        "디지털 디톡스",
+        "집중",
+        "멘탈관리"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "freedom-app",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-MT-RC-P402",
+      "brand": "Forest",
+      "productName": "Forest Focus App",
+      "category": "디지털 차단 도구",
+      "itemCode": "SR26-MT-RC-C1",
+      "manualCode": "SR26-MT-RC-M1",
+      "domain": "MT",
+      "topic": "RC",
+      "slotId": "focusMode",
+      "recommendationType": "집중 모드",
+      "imageUrl": "https://www.forestapp.cc/img/icon.png",
+      "productLink": "https://www.forestapp.cc/",
+      "recommendationReason": "강제 차단보다 짧은 집중 시간을 게임처럼 유지하고 싶은 사람에게 맞는 집중 모드 후보입니다.",
+      "target": "앱을 완전히 막으면 반발감이 생기지만, 25분 단위로 휴대폰을 내려놓는 동기가 필요한 사람",
+      "actualUse": "타이머를 켜고 휴대폰을 안 보는 동안 나무가 자라는 구조입니다. 단순하지만 시작 버튼을 누르는 행동이 집중 루틴의 스위치가 됩니다.",
+      "caution": "게임화가 목적이 되면 루틴보다 기록에 집착할 수 있습니다. 집중 블록이 끝나면 실제 작업 결과를 확인하는 기준이 필요합니다.",
+      "tags": [
+        "집중 모드",
+        "디지털 디톡스",
+        "타이머",
+        "앱 차단"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "forest-focus-app",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SY-RS-P401",
+      "brand": "TickTime",
+      "productName": "TickTime Cube Pomodoro Timer",
+      "category": "시간 기록 트래커",
+      "itemCode": "SR26-SY-RS-C1",
+      "manualCode": "SR26-SY-RS-M1",
+      "domain": "SY",
+      "topic": "RS",
+      "slotId": "deskTimer",
+      "recommendationType": "데스크 타이머",
+      "imageUrl": "https://ticktime.store/cdn/shop/products/ticktime-cube-pomodoro-timer.jpg?v=1679924800&width=900",
+      "productLink": "https://ticktime.store/products/ticktime-cube",
+      "recommendationReason": "앱 타이머를 켜려고 휴대폰을 열었다가 다른 앱으로 새는 사람에게, 책상 위 물리 타이머 후보입니다.",
+      "target": "집중 블록을 잡고 싶지만 휴대폰 타이머를 쓰면 알림과 앱 확인으로 흐름이 자주 끊기는 사람",
+      "actualUse": "책상 위에서 뒤집거나 눌러 바로 시간을 시작하는 방식입니다. 시야에 남은 시간이 보이면 휴식과 작업 전환이 더 분명해집니다.",
+      "caution": "소리와 알림이 거슬릴 수 있습니다. 조용한 환경에서는 진동/무음 설정을 확인하고, 타이머 압박이 심하면 짧은 블록부터 시작해야 합니다.",
+      "tags": [
+        "데스크 타이머",
+        "집중 블록",
+        "시간 기록",
+        "시스템"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "ticktime-cube",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SY-RS-P402",
+      "brand": "Toggl",
+      "productName": "Toggl Track",
+      "category": "시간 기록 트래커",
+      "itemCode": "SR26-SY-RS-C1",
+      "manualCode": "SR26-SY-RS-M1",
+      "domain": "SY",
+      "topic": "RS",
+      "slotId": "app",
+      "recommendationType": "앱 기록",
+      "imageUrl": "https://public-assets.toggl.com/b/static/track-logo-og-050b68d33aa151060d30b6f48170a4b7.png",
+      "productLink": "https://toggl.com/track/",
+      "recommendationReason": "하루가 어디에 쓰였는지 감으로만 판단하지 않도록, 업무와 루틴 시간을 앱으로 기록하는 후보입니다.",
+      "target": "시간이 없다고 느끼지만 실제로 어떤 일에 시간이 새는지 확인해본 적이 없는 사람",
+      "actualUse": "작업 시작 전 버튼을 누르고 끝나면 멈추는 방식입니다. 자동화보다 습관화가 중요하고, 하루 끝에 2분만 돌아보는 기준이 있어야 효과가 납니다.",
+      "caution": "기록 자체가 일이 되면 피곤해집니다. 모든 행동을 재기보다 업무, 운동, 수면 준비처럼 핵심 블록만 기록하는 편이 좋습니다.",
+      "tags": [
+        "앱 기록",
+        "시간 추적",
+        "생산성",
+        "시스템"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "toggl-track",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-BD-P401",
+      "brand": "Sleep Cycle",
+      "productName": "Sleep Cycle App",
+      "category": "수면 트래커",
+      "itemCode": "SR26-SL-BD-C1",
+      "manualCode": "SR26-SL-BD-M1",
+      "domain": "SL",
+      "topic": "BD",
+      "slotId": "app",
+      "recommendationType": "앱 기록",
+      "imageUrl": "https://www.sleepcycle.com/wp-content/uploads/2022/10/sleep-cycle-logo.png",
+      "productLink": "https://www.sleepcycle.com/",
+      "recommendationReason": "웨어러블을 사기 전, 취침 시간과 기상 패턴을 앱으로 먼저 확인하는 수면 기록 후보입니다.",
+      "target": "늘 피곤하지만 실제로 몇 시에 누워 몇 시에 일어나는지 일주일 단위로 본 적이 없는 사람",
+      "actualUse": "침대 옆에 휴대폰을 두고 수면을 기록하는 방식입니다. 정확도보다 취침/기상 패턴을 보는 데 의미가 있고, 아침에 기록을 확인하는 습관까지 붙어야 합니다.",
+      "caution": "휴대폰을 침대 가까이 두면 오히려 스크린 루틴이 살아날 수 있습니다. 기록 후에는 방해금지와 충전 위치 기준을 같이 잡아야 합니다.",
+      "tags": [
+        "수면 기록",
+        "앱",
+        "수면 데이터",
+        "취침 루틴"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "sleep-cycle",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-BD-P402",
+      "brand": "Oura",
+      "productName": "Oura Ring 4",
+      "category": "수면 트래커",
+      "itemCode": "SR26-SL-BD-C1",
+      "manualCode": "SR26-SL-BD-M1",
+      "domain": "SL",
+      "topic": "BD",
+      "slotId": "ring",
+      "recommendationType": "링",
+      "imageUrl": "https://ouraring.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F4f3rgqwzdznj%2F6nF3lSVHHsGRGfNXSbxqRZ%2F9e458dba626655fb42ea400c55a09be9%2Foura-ring-4-hero.png&w=1200&q=80",
+      "productLink": "https://ouraring.com/product/rings/oura-ring-4",
+      "recommendationReason": "손목 웨어러블이 답답한 사람에게, 수면과 회복 지표를 반지 형태로 기록하는 프리미엄 후보입니다.",
+      "target": "수면 데이터를 꾸준히 보고 싶지만 스마트워치를 차고 자는 게 불편한 사람",
+      "actualUse": "수면 중 착용감이 손목형보다 편할 수 있고, 회복/수면 패턴을 장기적으로 보기 좋습니다. 다만 사이즈와 구독 비용까지 봐야 실제 루틴화됩니다.",
+      "caution": "수면 점수는 의료 진단이 아니라 생활 기록입니다. 숫자에 과하게 집착하면 오히려 수면 불안이 커질 수 있습니다.",
+      "tags": [
+        "수면 트래커",
+        "링",
+        "회복 데이터",
+        "프리미엄"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "oura-ring-4",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-RS-P401",
+      "brand": "Levoit",
+      "productName": "Levoit Classic 300S Ultrasonic Smart Humidifier",
+      "category": "가습기 / 습도계",
+      "itemCode": "SR26-SL-RS-C1",
+      "manualCode": "SR26-SL-RS-M1",
+      "domain": "SL",
+      "topic": "RS",
+      "slotId": "bedroom",
+      "recommendationType": "침실 저소음",
+      "imageUrl": "https://levoit.com/cdn/shop/products/Classic300S_White_1.jpg?v=1666209057&width=900",
+      "productLink": "https://levoit.com/products/classic-300s-ultrasonic-smart-humidifier",
+      "recommendationReason": "자고 일어나면 목과 코가 마르고 얼굴이 푸석한 사람에게, 침실 습도를 밤새 유지하는 후보입니다.",
+      "target": "겨울이나 에어컨 환경에서 아침 목 칼칼함과 피부 당김이 반복되는 사람",
+      "actualUse": "침실용으로 쓰기 쉬운 스마트 가습기입니다. 물 보충 주기, 작동음, 청소 난이도, 앱 자동화가 루틴 지속 여부를 결정합니다.",
+      "caution": "가습기는 세척을 미루면 냄새와 위생 문제가 생깁니다. 습도를 너무 높이면 결로나 곰팡이 위험이 있어 40~60% 기준을 잡아야 합니다.",
+      "tags": [
+        "가습기",
+        "침실",
+        "저소음",
+        "수면 환경"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "levoit-classic-300s",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-RS-P402",
+      "brand": "SwitchBot",
+      "productName": "SwitchBot Meter Plus",
+      "category": "가습기 / 습도계",
+      "itemCode": "SR26-SL-RS-C1",
+      "manualCode": "SR26-SL-RS-M1",
+      "domain": "SL",
+      "topic": "RS",
+      "slotId": "hygrometer",
+      "recommendationType": "습도계",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0541/1475/4239/products/switchbot-meter-plus-1.jpg?v=1654671861&width=900",
+      "productLink": "https://us.switch-bot.com/products/switchbot-meter-plus",
+      "recommendationReason": "방이 건조한지 감으로만 판단하지 않고, 실제 습도 숫자를 보고 가습기 사용 기준을 만들기 위한 후보입니다.",
+      "target": "목이 칼칼하거나 피부가 당겨도 습도 문제인지, 난방/환기 문제인지 구분하기 어려운 사람",
+      "actualUse": "침대 옆이나 책상 위에 두고 실내 온습도를 확인하는 방식입니다. 숫자가 보이면 가습기 켜기, 환기하기, 빨래 널기 같은 행동 기준이 선명해집니다.",
+      "caution": "습도계만 둔다고 환경이 개선되지는 않습니다. 확인 후 어떤 행동을 할지 기준을 함께 정해야 합니다.",
+      "tags": [
+        "습도계",
+        "수면 환경",
+        "온습도",
+        "가습기"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "brand_official",
+      "sourceId": "switchbot-meter-plus",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-FT-P701",
+      "brand": "TheraICE",
+      "productName": "TheraICE Headache Relief Cap",
+      "category": "뒷목 아이스팩",
+      "itemCode": "SR26-BD-FT-C1",
+      "manualCode": "SR26-BD-FT-M1",
+      "domain": "BD",
+      "topic": "FT",
+      "slotId": "portable",
+      "recommendationType": "휴대형",
+      "imageUrl": "https://m.media-amazon.com/images/I/71MA2rgJwSL._AC_SL1500_.jpg",
+      "productLink": "https://theraicerx.com/",
+      "recommendationReason": "목과 머리 주변 열감이 올라온 날, 냉찜질을 손에 들고 있지 않아도 짧게 리셋할 수 있는 휴대형 후보입니다.",
+      "target": "두통, 열감, 눈 피로가 겹쳐서 화면 앞에서 컨디션이 무너지는 사람",
+      "actualUse": "냉동실에 넣어두었다가 필요할 때 꺼내 쓰는 방식입니다. 손으로 누르지 않아도 압박과 차가움이 유지돼 짧은 휴식 루틴에 붙이기 쉽습니다.",
+      "caution": "차가움이 강하게 느껴지면 얇은 천을 덧대고, 피부 감각이 둔하거나 냉자극에 예민하면 사용 시간을 짧게 잡아야 합니다.",
+      "tags": [
+        "냉찜질",
+        "휴대형",
+        "두통",
+        "열감"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "external_search",
+      "sourceId": "theraice-headache-relief-cap",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-FT-P702",
+      "brand": "Comfytemp",
+      "productName": "Comfytemp Neck Ice Pack Wrap",
+      "category": "뒷목 아이스팩",
+      "itemCode": "SR26-BD-FT-C1",
+      "manualCode": "SR26-BD-FT-M1",
+      "domain": "BD",
+      "topic": "FT",
+      "slotId": "wrap",
+      "recommendationType": "랩/고정형",
+      "imageUrl": "https://m.media-amazon.com/images/I/71ad2oXhQhL._AC_SL1500_.jpg",
+      "productLink": "https://comfytemp.com/",
+      "recommendationReason": "목 뒤를 직접 잡고 있어야 하는 아이스팩보다, 감싸서 고정하는 방식이 업무 중 짧은 냉찜질에 맞습니다.",
+      "target": "승모근과 뒷목이 자주 뻐근하고, 손으로 아이스팩을 대고 있기 귀찮은 사람",
+      "actualUse": "목에 감싸 고정하는 형태라 의자에 앉아 있을 때 쓰기 좋습니다. 냉감이 오래가지만 처음에는 압박감과 무게감을 확인해야 합니다.",
+      "caution": "너무 오래 착용하면 피부가 저릴 수 있습니다. 10~15분 단위로 끊고, 운동 직후 통증이 심하면 제품보다 휴식과 스트레칭 기준을 먼저 봐야 합니다.",
+      "tags": [
+        "냉찜질",
+        "목",
+        "랩",
+        "고정형"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "external_search",
+      "sourceId": "comfytemp-neck-ice-pack-wrap",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-HR-P701",
+      "brand": "Grafen",
+      "productName": "그라펜 루트 부스터 샴푸",
+      "category": "두피케어 / 두피 세럼",
+      "itemCode": "SR26-SK-HR-C1",
+      "manualCode": "SR26-SK-HR-M1",
+      "domain": "SK",
+      "topic": "HR",
+      "slotId": "volume",
+      "recommendationType": "정수리 볼륨",
+      "imageUrl": "https://dn5hzapyfrpio.cloudfront.net/home/glowmee/upload/20180607/1528352860755.png",
+      "productLink": "https://grafen.co.kr",
+      "recommendationReason": "머리를 감아도 오후가 되면 정수리가 눌려 보이는 사람에게 두피 세정과 볼륨 인상을 같이 잡는 후보입니다.",
+      "target": "정수리 볼륨이 빨리 꺼지고 머리가 기름져 보이는 남성",
+      "actualUse": "샴푸 단계에서 두피를 가볍게 세정하고 말릴 때 볼륨을 살리는 쪽에 맞습니다. 스타일링 제품보다 루틴 진입 장벽이 낮습니다.",
+      "caution": "볼륨 효과는 드라이 방식과 두피 유분량에 따라 차이가 큽니다. 샴푸만으로 스타일이 고정된다고 기대하면 안 됩니다.",
+      "tags": [
+        "두피",
+        "정수리",
+        "볼륨",
+        "샴푸"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "grafen-root-booster-shampoo",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-SS-P701",
+      "brand": "닥터지",
+      "productName": "닥터지 포어 블러 업 선 50mL",
+      "category": "데일리 선크림",
+      "itemCode": "SR26-SK-SS-C1",
+      "manualCode": "SR26-SK-SS-M1",
+      "domain": "SK",
+      "topic": "SS",
+      "slotId": "oily",
+      "recommendationType": "지성",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0020/A00000020063618ko.jpg",
+      "productLink": "https://www.dr-g.co.kr/item/9630",
+      "recommendationReason": "선크림을 바르면 오후에 이마와 코가 번들거려 루틴이 끊기는 사람에게, 보송한 마무리 중심의 후보입니다.",
+      "target": "선크림의 끈적임과 유분감 때문에 매일 바르기 어려운 지성 피부",
+      "actualUse": "모공과 유분이 신경 쓰이는 날 아침 SPF를 바르면서 표면감을 정리하는 용도입니다. 메이크업보다 선케어 루틴에 가깝습니다.",
+      "caution": "피부가 건조한 날에는 뻑뻑하게 느껴질 수 있습니다. 보습 후 소량부터 바르고 목과 귀 주변까지 빠뜨리지 않는 기준이 필요합니다.",
+      "tags": [
+        "선크림",
+        "지성",
+        "보송",
+        "모공"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "drg-pore-blur-up-sun",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-SS-P702",
+      "brand": "라운드랩",
+      "productName": "라운드랩 자작나무 수분 선크림",
+      "category": "데일리 선크림",
+      "itemCode": "SR26-SK-SS-C1",
+      "manualCode": "SR26-SK-SS-M1",
+      "domain": "SK",
+      "topic": "SS",
+      "slotId": "combination",
+      "recommendationType": "복합성",
+      "imageUrl": "https://img.danuri.io/catalog-image/527/155/011/89b1e86df368488ca348efbaa1330d09.jpg",
+      "productLink": "https://roundlab.co.kr/",
+      "recommendationReason": "볼은 건조하고 T존은 번들거리는 복합성 피부에서, 백탁과 답답함이 적은 데일리 SPF 후보입니다.",
+      "target": "수부지나 복합성이라 매트한 선크림은 당기고 촉촉한 선크림은 번들거리는 사람",
+      "actualUse": "아침 보습 뒤 자연스럽게 이어 붙이기 좋고, 촉촉한 사용감 때문에 루틴 지속성이 좋습니다. 단, 유분이 많은 날에는 파우더 리셋이 필요할 수 있습니다.",
+      "caution": "눈가에 많이 바르면 눈시림을 느낄 수 있습니다. 얼굴 중앙보다 외곽, 목, 귀 주변까지 얇게 나눠 바르는 기준이 좋습니다.",
+      "tags": [
+        "선크림",
+        "복합성",
+        "수분",
+        "데일리"
+      ],
+      "serkanFit": 5,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "roundlab-birch-sunscreen",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-AC-P701",
+      "brand": "노스카나",
+      "productName": "노스카나겔",
+      "category": "트러블 케어",
+      "itemCode": "SR26-SK-AC-C1",
+      "manualCode": "SR26-SK-AC-M1",
+      "domain": "SK",
+      "topic": "AC",
+      "slotId": "emergency",
+      "recommendationType": "응급 케어",
+      "imageUrl": "https://lzd-img-global.slatic.net/g/p/02dc2e889e7cf0488f605a45b674d26f.jpg_720x720q80.jpg",
+      "productLink": "https://www.noscarna.co.kr/",
+      "recommendationReason": "트러블이 가라앉은 뒤 자국이 오래 남아 신경 쓰이는 상황에서, 응급 케어 후 흔적 관리로 이어지는 후보입니다.",
+      "target": "트러블을 짜고 난 뒤 붉은 자국이 오래 보여 외출 전 신경 쓰이는 사람",
+      "actualUse": "트러블을 즉시 없애는 제품이라기보다, 상처가 아문 뒤 흔적 관리 루틴으로 붙이는 쪽에 맞습니다.",
+      "caution": "열린 상처나 진물이 있는 부위에는 바로 바르지 않습니다. 트러블 압출 직후보다 진정과 위생이 먼저입니다.",
+      "tags": [
+        "트러블",
+        "흔적",
+        "응급 케어",
+        "국소 관리"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "noscarna-gel",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-ST-RS-P701",
+      "brand": "Vaseline",
+      "productName": "Vaseline Lip Therapy Original",
+      "category": "발색 립밤",
+      "itemCode": "SR26-ST-RS-C1",
+      "manualCode": "SR26-ST-RS-M1",
+      "domain": "ST",
+      "topic": "RS",
+      "slotId": "daily",
+      "recommendationType": "데일리",
+      "imageUrl": "https://m.media-amazon.com/images/I/71j8EiIy0-L._SL1500_.jpg",
+      "productLink": "https://www.vaseline.com/us/en/products/lip-care/lip-therapy-original-tin.html",
+      "recommendationReason": "입술이 갈라지기 전에 매일 얇게 바르는 기본 보습 슬롯입니다. 색감보다 건조함 방지가 목적입니다.",
+      "target": "립 제품은 부담스럽지만 입술 각질과 갈라짐 때문에 피곤해 보이는 사람",
+      "actualUse": "밤, 출근 전, 외출 전 얇게 바르기 쉽습니다. 작은 틴 타입은 휴대성이 좋지만 손으로 덜어 쓰는 위생 기준이 필요합니다.",
+      "caution": "손으로 바르는 타입은 먼지와 오염이 묻기 쉽습니다. 위생이 신경 쓰이면 스틱형과 비교해야 합니다.",
+      "tags": [
+        "립밤",
+        "데일리",
+        "보습",
+        "입술"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "external_search",
+      "sourceId": "vaseline-lip-therapy-original",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-ST-RS-P702",
+      "brand": "OBgE",
+      "productName": "오브제 무드 체인지 립밤 2종",
+      "category": "발색 립밤",
+      "itemCode": "SR26-ST-RS-C1",
+      "manualCode": "SR26-ST-RS-M1",
+      "domain": "ST",
+      "topic": "RS",
+      "slotId": "men",
+      "recommendationType": "남성 입문",
+      "imageUrl": "https://cafe24img.poxo.com/obge/web/product/tiny/202603/8d905196a11b8ec753ed3e3cfe33f704.png",
+      "productLink": "https://obge.co.kr/product/%EB%AC%B4%EB%93%9C-%EC%B2%B4%EC%9D%B8%EC%A7%80-%EB%A6%BD%EB%B0%A4-2%EC%A2%85/18/",
+      "recommendationReason": "색조처럼 보이는 부담은 낮추고, 창백하거나 건조한 입술에 자연스러운 생기를 주는 남성 입문 후보입니다.",
+      "target": "립밤은 쓰지만 컬러 립은 부담스럽고, 사진이나 대화 중 입술이 창백해 보이는 사람",
+      "actualUse": "진한 발색보다 컨디션 보정에 가까운 톤입니다. 거울 없이도 바르기 쉽지만 과하게 바르면 티가 날 수 있습니다.",
+      "caution": "입술색과 피부톤에 따라 발색이 다르게 보입니다. 첫 사용은 외출 직전보다 집에서 양 조절을 먼저 확인하는 게 좋습니다.",
+      "tags": [
+        "립밤",
+        "남성 입문",
+        "자연 발색",
+        "스타일"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "obge-mood-change-lip-balm",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-FR-P701",
+      "brand": "Deonat",
+      "productName": "데오낫 미네랄 데오드란트 스틱",
+      "category": "체취 / 데오 관리",
+      "itemCode": "SR26-GR-FR-C1",
+      "manualCode": "SR26-GR-FR-M1",
+      "domain": "GR",
+      "topic": "FR",
+      "slotId": "lowScent",
+      "recommendationType": "저향",
+      "imageUrl": "https://f.nooncdn.com/p/v1531896471/N15767804A_1.jpg",
+      "productLink": "https://www.deonat.com",
+      "recommendationReason": "향으로 체취를 덮기보다 냄새 부담을 낮추고 싶은 사람에게 맞는 저향 데오 후보입니다.",
+      "target": "향수와 데오 향이 섞이는 것이 싫고, 사무실이나 대중교통에서 향이 튀는 것이 부담스러운 사람",
+      "actualUse": "향이 강하지 않아 매일 쓰기 쉽습니다. 대신 강한 땀 억제보다 기본 체취 관리 쪽에 가까워 운동량이 많은 날은 보강이 필요할 수 있습니다.",
+      "caution": "미네랄 스틱은 물을 묻혀 쓰는 방식에 익숙해져야 합니다. 겨드랑이가 완전히 젖은 상태에서는 밀착감이 떨어질 수 있습니다.",
+      "tags": [
+        "데오드란트",
+        "저향",
+        "체취",
+        "위생"
+      ],
+      "serkanFit": 3,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "deonat-mineral-stick",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-GR-FR-P702",
+      "brand": "쏘내추럴",
+      "productName": "쏘내추럴 파우더포룸 피치 데오 팩트",
+      "category": "체취 / 데오 관리",
+      "itemCode": "SR26-GR-FR-C1",
+      "manualCode": "SR26-GR-FR-M1",
+      "domain": "GR",
+      "topic": "FR",
+      "slotId": "powdery",
+      "recommendationType": "보송함 중심",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022344601ko.jpg?l=ko",
+      "productLink": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223446",
+      "recommendationReason": "땀 냄새보다 축축함과 끈적임이 신경 쓰이는 날, 향을 더하기보다 피부 표면을 보송하게 정리하는 후보입니다.",
+      "target": "출근길이나 외출 직전에 겨드랑이, 목 뒤, 접히는 부위의 습기가 신경 쓰이는 사람",
+      "actualUse": "팩트처럼 눌러 쓰는 방식이라 스프레이보다 국소 부위에 쓰기 쉽습니다. 여름철 셔츠 입기 전 보송 리셋에 맞습니다.",
+      "caution": "가루가 옷에 묻거나 뭉칠 수 있습니다. 검은 옷을 입는 날에는 적은 양으로 먼저 테스트해야 합니다.",
+      "tags": [
+        "데오",
+        "보송",
+        "피치",
+        "팩트"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "so-natural-peach-deo-pact",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-ST-SH-P701",
+      "brand": "피카소",
+      "productName": "피카소 눈썹칼",
+      "category": "눈썹/코털 정리 도구",
+      "itemCode": "SR26-ST-SH-C1",
+      "manualCode": "SR26-ST-SH-M1",
+      "domain": "ST",
+      "topic": "SH",
+      "slotId": "portable",
+      "recommendationType": "휴대형",
+      "imageUrl": "https://sitem.ssgcdn.com/43/66/54/item/1000298546643_i1_1200.jpg",
+      "productLink": "https://www.ssg.com",
+      "recommendationReason": "눈썹 주변 잔털이 신경 쓰일 때 큰 그루밍 도구보다 작은 눈썹칼이 빠른 정리에 맞습니다.",
+      "target": "눈썹 아래 잔털이나 미간 잔털만 빠르게 정리하고 싶은 사람",
+      "actualUse": "작고 가벼워 파우치나 욕실 서랍에 두기 쉽습니다. 샤워 후 피부가 부드러울 때 짧게 쓰는 방식이 좋습니다.",
+      "caution": "피부를 세게 누르면 상처가 날 수 있습니다. 눈썹 모양을 크게 바꾸기보다 라인 밖 잔털만 정리해야 자연스럽습니다.",
+      "tags": [
+        "눈썹",
+        "휴대형",
+        "잔털",
+        "그루밍"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "picasso-eyebrow-razor",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-ST-SH-P702",
+      "brand": "Panasonic",
+      "productName": "Panasonic Ear & Nose Hair Trimmer ER-GN30",
+      "category": "눈썹/코털 정리 도구",
+      "itemCode": "SR26-ST-SH-C1",
+      "manualCode": "SR26-ST-SH-M1",
+      "domain": "ST",
+      "topic": "SH",
+      "slotId": "waterproof",
+      "recommendationType": "방수",
+      "imageUrl": "https://m.media-amazon.com/images/I/61u8aAd8cHL._AC_SL1500_.jpg",
+      "productLink": "https://shop.panasonic.com/products/ear-nose-hair-trimmer",
+      "recommendationReason": "코털 정리는 뽑는 것보다 짧게 자르고 씻어 관리하는 편이 위생적입니다. 물세척 가능한 방수 트리머 후보입니다.",
+      "target": "코털이나 눈썹 주변 정리가 필요하지만 청소가 번거로워 도구를 방치하는 사람",
+      "actualUse": "사용 후 물로 헹구기 쉬워 욕실 루틴에 붙이기 좋습니다. 작은 부위를 정리하는 도구라 과하게 오래 쓰지 않는 기준이 필요합니다.",
+      "caution": "코털은 완전히 제거하는 대상이 아닙니다. 겉으로 보이는 부분만 짧게 다듬고, 사용 후 건조와 세척을 반복해야 합니다.",
+      "tags": [
+        "코털",
+        "눈썹",
+        "방수",
+        "트리머"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "external_search",
+      "sourceId": "panasonic-er-gn30",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-RC-P701",
+      "brand": "Therabody",
+      "productName": "테라바디 테라건 미니 마사지건",
+      "category": "회복 디바이스 / 목어깨 마사지",
+      "itemCode": "SR26-BD-RC-C1",
+      "manualCode": "SR26-BD-RC-M1",
+      "domain": "BD",
+      "topic": "RC",
+      "slotId": "portable",
+      "recommendationType": "휴대성",
+      "imageUrl": "https://sitem.ssgcdn.com/56/38/50/item/1000533503856_i1_1200.jpg",
+      "productLink": "https://www.therabody.com",
+      "recommendationReason": "운동 후나 장시간 앉은 뒤 등과 어깨 포인트를 짧게 풀기 위한 휴대형 마사지건 후보입니다.",
+      "target": "폼롤러를 펴기 귀찮고, 특정 부위만 3~5분 풀고 싶은 사람",
+      "actualUse": "크기가 작아 책상 옆이나 가방에 두기 쉽습니다. 강도보다 매일 짧게 쓰는 반복성이 장점입니다.",
+      "caution": "목 앞쪽, 뼈 부위, 통증이 날카로운 부위에는 쓰지 않습니다. 강도를 올리기보다 짧은 시간과 정확한 위치가 먼저입니다.",
+      "tags": [
+        "마사지건",
+        "휴대성",
+        "운동 회복",
+        "목어깨"
+      ],
+      "serkanFit": 5,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "therabody-theragun-mini",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-MK-P701",
+      "brand": "The Saem",
+      "productName": "더샘 커버 퍼펙션 팁 컨실러",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "manualCode": "SR26-SK-MK-M1",
+      "domain": "SK",
+      "topic": "MK",
+      "slotId": "concealer",
+      "recommendationType": "컨실러",
+      "imageUrl": "https://healivemall.com/web/thesaem_detail/cover_perfection/Allproof_Tip_Concealer_Renewal.jpg",
+      "productLink": "https://www.thesaemcosmetic.com",
+      "recommendationReason": "트러블 자국이나 다크서클처럼 작은 부위만 가리고 싶을 때 전체 베이스보다 부담이 낮은 컨실러 후보입니다.",
+      "target": "얼굴 전체를 바꾸고 싶지는 않지만 붉은 자국 하나가 계속 신경 쓰이는 사람",
+      "actualUse": "팁으로 소량 찍고 손끝으로 경계만 흐리는 방식이 자연스럽습니다. 넓게 펴 바르기보다 국소 커버에 맞습니다.",
+      "caution": "색이 맞지 않으면 커버 부위가 더 떠 보입니다. 목과 얼굴 톤 차이를 확인하고 얇게 쌓아야 합니다.",
+      "tags": [
+        "컨실러",
+        "부분 커버",
+        "트러블 자국",
+        "남성 베이스"
+      ],
+      "serkanFit": 5,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "the-saem-cover-perfection-concealer",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-MK-P702",
+      "brand": "WAKEMAKE",
+      "productName": "웨이크메이크 워터 벨벳 커버 쿠션",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "manualCode": "SR26-SK-MK-M1",
+      "domain": "SK",
+      "topic": "MK",
+      "slotId": "cushionFoundation",
+      "recommendationType": "쿠션 / 파운데이션",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018461518ko.jpg?l=ko",
+      "productLink": "https://www.wakemake.com",
+      "recommendationReason": "약속이나 촬영처럼 얼굴 전체 톤을 빠르게 정리해야 할 때 쓰는 쿠션/파운데이션 슬롯 후보입니다.",
+      "target": "부분 커버보다 전체 피부톤과 붉은기를 빠르게 정리하고 싶은 사람",
+      "actualUse": "퍼프로 얇게 눌러 바르면 손에 덜 묻고 속도가 빠릅니다. 양 조절을 못 하면 화장한 티가 나기 쉽습니다.",
+      "caution": "수염 자국, 각질, 모공 부위에 두껍게 올라가면 티가 납니다. 보습과 소량 터치 기준이 필요합니다.",
+      "tags": [
+        "쿠션",
+        "파운데이션",
+        "피부톤",
+        "베이스"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "wakemake-water-velvet-cover-cushion",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-MK-P703",
+      "brand": "오브제",
+      "productName": "오브제 오일 컨트롤 피니셔 5g",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "manualCode": "SR26-SK-MK-M1",
+      "domain": "SK",
+      "topic": "MK",
+      "slotId": "primerFinisher",
+      "recommendationType": "프라이머 / 피니셔",
+      "imageUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024660002ko.jpg",
+      "productLink": "https://m.obge.co.kr/product/detail.html?cate_no=1&display_group=7&product_no=1096",
+      "recommendationReason": "오후 T존 번들거림만 눌러 얼굴 표면을 정돈하고 싶은 사람에게 맞는 피니셔 후보입니다.",
+      "target": "기름종이는 임시방편이고 파우더는 하얗게 뜰까 봐 부담스러운 사람",
+      "actualUse": "이마와 코 주변에 소량 눌러 쓰는 방식입니다. 베이스를 더하는 제품보다 과한 빛을 줄이는 리셋 도구에 가깝습니다.",
+      "caution": "많이 올리면 건조하거나 뭉쳐 보일 수 있습니다. 특히 수염 주변과 각질 부위는 적은 양으로 테스트해야 합니다.",
+      "tags": [
+        "피니셔",
+        "프라이머",
+        "T존",
+        "번들거림"
+      ],
+      "serkanFit": 5,
+      "reviewStatus": "승인",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "obge-oil-control-finisher",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-MK-P704",
+      "brand": "비레디",
+      "productName": "비레디 블루 세범 파우더",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "manualCode": "SR26-SK-MK-M1",
+      "domain": "SK",
+      "topic": "MK",
+      "slotId": "sebumPowder",
+      "recommendationType": "세범 파우더",
+      "imageUrl": "https://images-kr.amoremall.com/products/177770000166/177770000166_01.jpg?1681693694576",
+      "productLink": "https://www.amoremall.com/kr/ko/product/detail?onlineProdCode=177770000166&onlineProdSn=57744",
+      "recommendationReason": "피부톤 보정보다 오후 유분과 모공 요철이 먼저 신경 쓰이는 날 쓰는 세범 파우더 후보입니다.",
+      "target": "화장한 느낌은 싫지만 이마와 코의 번들거림 때문에 얼굴이 지저분해 보이는 사람",
+      "actualUse": "쿠션 없이도 유분이 올라온 부위만 눌러 쓸 수 있습니다. 휴대가 쉬워 점심 이후 리셋 루틴에 맞습니다.",
+      "caution": "건조한 부위까지 넓게 바르면 각질이 부각될 수 있습니다. T존 중심으로 얇게 쓰는 기준이 필요합니다.",
+      "tags": [
+        "세범",
+        "파우더",
+        "유분",
+        "남성 베이스"
+      ],
+      "serkanFit": 5,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "beready-blue-sebum-powder",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-MK-P705",
+      "brand": "MAKE UP FOR EVER",
+      "productName": "메이크업포에버 미스트 앤 픽스 세팅 스프레이",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "manualCode": "SR26-SK-MK-M1",
+      "domain": "SK",
+      "topic": "MK",
+      "slotId": "settingSpray",
+      "recommendationType": "세팅 스프레이",
+      "imageUrl": "https://sitem.ssgcdn.com/43/15/89/item/1000575891543_i1_1200.jpg",
+      "productLink": "https://www.makeupforever.com",
+      "recommendationReason": "땀, 마스크, 긴 외출 때문에 베이스가 쉽게 무너지는 날 마무리 고정용으로 쓰는 후보입니다.",
+      "target": "행사, 촬영, 장시간 외출처럼 커버를 오래 유지해야 하는 사람",
+      "actualUse": "베이스 후 얼굴 전체에 가볍게 분사하는 방식입니다. 매일 쓰기보다 중요한 일정 전 마무리 슬롯에 가깝습니다.",
+      "caution": "향과 분사감 호불호가 있을 수 있습니다. 눈을 감고 충분히 거리 두고 뿌려야 하며, 민감 피부는 테스트가 필요합니다.",
+      "tags": [
+        "세팅 스프레이",
+        "픽서",
+        "지속력",
+        "메이크업"
+      ],
+      "serkanFit": 3,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "make-up-for-ever-mist-fix",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-MK-P706",
+      "brand": "MISSHA",
+      "productName": "미샤 M 퍼펙트 커버 비비크림",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "manualCode": "SR26-SK-MK-M1",
+      "domain": "SK",
+      "topic": "MK",
+      "slotId": "skinExpression",
+      "recommendationType": "피부 표현 보정",
+      "imageUrl": "https://media.ulta.com/i/ulta/77009050",
+      "productLink": "https://www.missha.com",
+      "recommendationReason": "쿠션 도구보다 크림처럼 바르는 방식이 익숙한 사람에게 맞는 피부 표현 보정 후보입니다.",
+      "target": "잡티와 톤을 한 번에 정리하고 싶지만 쿠션 사용은 어색한 사람",
+      "actualUse": "스킨케어처럼 손으로 얇게 펴 바르기 쉽습니다. 커버력이 있는 만큼 양이 많으면 목과 얼굴 톤 차이가 생길 수 있습니다.",
+      "caution": "색상 선택이 맞지 않으면 회색빛이나 두꺼운 느낌이 날 수 있습니다. 수염 자국 주변은 얇게 펴야 합니다.",
+      "tags": [
+        "BB크림",
+        "피부 표현",
+        "톤 보정",
+        "베이스"
+      ],
+      "serkanFit": 3,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "missha-perfect-cover-bb",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SK-MK-P707",
+      "brand": "피카소",
+      "productName": "피카소 131 파운데이션 브러쉬",
+      "category": "남성 톤 보정 / 부분 커버",
+      "itemCode": "SR26-SK-MK-C1",
+      "manualCode": "SR26-SK-MK-M1",
+      "domain": "SK",
+      "topic": "MK",
+      "slotId": "classificationReview",
+      "recommendationType": "분류 검수 필요",
+      "imageUrl": "https://images-kr.amoremall.com/products/000511000036/000511000036_01.png?1545035507825&1545035507828",
+      "productLink": "https://www.amoremall.com",
+      "recommendationReason": "제품 자체가 베이스 제품은 아니지만, 쿠션/파운데이션을 어떻게 바를지에 연결되는 도구라 별도 검수 슬롯에 둡니다.",
+      "target": "손으로 바르면 뭉치고, 퍼프나 브러쉬 사용 여부를 검토해야 하는 사람",
+      "actualUse": "넓은 면을 얇게 펴는 데 도움을 줄 수 있지만, 남성 루틴에서는 도구 관리와 세척 부담이 함께 생깁니다.",
+      "caution": "브러쉬는 세척하지 않으면 트러블과 위생 문제가 생깁니다. 실제 추천 슬롯으로 승격하기 전 도구 관리 기준을 먼저 정해야 합니다.",
+      "tags": [
+        "브러쉬",
+        "분류 검수",
+        "메이크업 도구",
+        "베이스"
+      ],
+      "serkanFit": 3,
+      "reviewStatus": "분류 검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "picasso-131-foundation-brush",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-BC-P701",
+      "brand": "Happy Bath",
+      "productName": "해피바스 오리지널 컬렉션 바디워시",
+      "category": "바디워시 / 바디 클렌징",
+      "itemCode": "SR26-BD-BC-C1",
+      "manualCode": "SR26-BD-BC-M1",
+      "domain": "BD",
+      "topic": "BC",
+      "slotId": "budget",
+      "recommendationType": "가성비",
+      "imageUrl": "https://www.masksheets.com/cdn/shop/products/happy-bath-original-collection-original-body-wash_66c1cc63-7b1e-468f-b90a-2c66f9f362f4.jpg?v=1762469338",
+      "productLink": "https://www.happybath.com",
+      "recommendationReason": "바디워시를 따로 고르지 않던 사람이 샤워 루틴을 가장 쉽게 바꿀 수 있는 가성비 후보입니다.",
+      "target": "비누나 아무 제품으로 샤워하다가 등, 팔 피부가 건조해지는 사람",
+      "actualUse": "대용량과 접근성이 좋아 매일 쓰기 쉽습니다. 특별한 기능보다 꾸준히 몸을 씻는 기본 루틴에 맞습니다.",
+      "caution": "향과 보습감은 호불호가 있을 수 있습니다. 등드름이나 민감 피부라면 세정 후 당김 여부를 봐야 합니다.",
+      "tags": [
+        "바디워시",
+        "가성비",
+        "샤워",
+        "입문"
+      ],
+      "serkanFit": 3,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "happybath-original-bodywash",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-BC-P702",
+      "brand": "Dove Men+Care",
+      "productName": "도브 맨+케어 클린 컴포트 바디워시",
+      "category": "바디워시 / 바디 클렌징",
+      "itemCode": "SR26-BD-BC-C1",
+      "manualCode": "SR26-BD-BC-M1",
+      "domain": "BD",
+      "topic": "BC",
+      "slotId": "sensitive",
+      "recommendationType": "민감성",
+      "imageUrl": "https://assets.unileversolutions.com/v1/78030763.png",
+      "productLink": "https://www.dove.com/kr",
+      "recommendationReason": "샤워 후 몸이 당기거나 향이 강한 제품이 부담스러운 사람에게 보습 균형을 보는 바디워시 후보입니다.",
+      "target": "운동 후 자주 씻지만 피부가 건조하고, 강한 향 바디워시는 부담스러운 사람",
+      "actualUse": "남성용 바디워시 중 보습감을 기대하는 쪽에 가깝습니다. 세정력보다 샤워 후 당김을 덜 느끼는지가 기준입니다.",
+      "caution": "민감성 슬롯이지만 모든 피부에 맞는 것은 아닙니다. 등, 가슴 트러블이 잦다면 잔여감과 헹굼감을 확인해야 합니다.",
+      "tags": [
+        "바디워시",
+        "민감성",
+        "보습",
+        "남성"
+      ],
+      "serkanFit": 3,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "dove-men-clean-comfort-bodywash",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-BD-BC-P703",
+      "brand": "닥터브로너스",
+      "productName": "닥터브로너스 퓨어 캐스틸 솝 라벤더",
+      "category": "바디워시 / 바디 클렌징",
+      "itemCode": "SR26-BD-BC-C1",
+      "manualCode": "SR26-BD-BC-M1",
+      "domain": "BD",
+      "topic": "BC",
+      "slotId": "scent",
+      "recommendationType": "향 중심",
+      "imageUrl": "https://img.danuri.io/catalog-image/378/627/001/4df3d6339c034396bfdbbd28687895ea.jpg",
+      "productLink": "https://www.drbronner.co.kr/",
+      "recommendationReason": "샤워 후 몸 냄새를 향수로 덮기보다, 씻는 단계에서 은은한 향을 남기고 싶은 사람에게 맞는 후보입니다.",
+      "target": "강한 향수는 부담스럽지만 샤워 직후의 깨끗한 향은 유지하고 싶은 사람",
+      "actualUse": "라벤더 계열 향이 있어 저녁 샤워나 휴식 전 루틴에 붙이기 쉽습니다. 멀티유즈 제품이라 사용량 조절이 중요합니다.",
+      "caution": "향 호불호가 있고, 고농축 제품은 희석이나 적정량 기준이 필요합니다. 건조한 피부는 샤워 후 보습을 같이 봐야 합니다.",
+      "tags": [
+        "바디워시",
+        "향 중심",
+        "라벤더",
+        "샤워"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "notion_product_curation",
+      "sourceId": "drbronner-lavender-castile-soap",
+      "importStatus": "READY"
+    },
+    {
+      "code": "SR26-SL-LB-P701",
+      "brand": "Kitsch",
+      "productName": "Kitsch Lavender Weighted Satin Eye Mask",
+      "category": "수면 안대 / 빛 차단 도구",
+      "itemCode": "SR26-SL-LB-C1",
+      "manualCode": "SR26-SL-LB-M1",
+      "domain": "SL",
+      "topic": "LB",
+      "slotId": "budget",
+      "recommendationType": "가성비",
+      "imageUrl": "https://m.media-amazon.com/images/I/71d8CAYEqGL._SL1500_.jpg",
+      "productLink": "https://www.mykitsch.com/products/lavender-weighted-satin-eye-mask",
+      "recommendationReason": "수면 안대를 처음 써보는 사람이 빛 차단과 착용감을 가볍게 테스트하기 위한 가성비 후보입니다.",
+      "target": "호텔, 여행, 낮잠처럼 빛이 완전히 차단되지 않는 환경에서 잠을 자야 하는 사람",
+      "actualUse": "일반 안대보다 부담이 낮고, 수면 전 빛 차단 루틴을 시도하기 좋습니다. 무게감과 향은 호불호가 있을 수 있습니다.",
+      "caution": "라벤더 향이나 압박감이 예민한 사람에게는 방해가 될 수 있습니다. 처음에는 짧게 착용해 보고 적응 여부를 봐야 합니다.",
+      "tags": [
+        "수면 안대",
+        "가성비",
+        "빛 차단",
+        "수면"
+      ],
+      "serkanFit": 4,
+      "reviewStatus": "검수 필요",
+      "connectionStatus": "ready",
+      "source": "external_search",
+      "sourceId": "kitsch-lavender-weighted-eye-mask",
+      "importStatus": "READY"
     }
   ],
   "situations": [

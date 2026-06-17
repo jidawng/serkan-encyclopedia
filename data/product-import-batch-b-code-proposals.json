@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "createdAt": "2026-06-15",
+    "basisCommit": "ea42668 Batch A product import generated preview",
+    "purpose": "Batch B approval-only code proposals for NEEDS_ITEM product families.",
+    "safeMode": true,
+    "runtimeFilesTouched": false,
+    "doNotModifyUntilApproved": [
+      "app-data.js",
+      "app-data.generated.js",
+      "app.js",
+      "index.html"
+    ]
+  },
+  "summary": {
+    "candidateCount": 4,
+    "productsCovered": 5,
+    "newItemsNeeded": 4,
+    "newManualsNeeded": 4,
+    "existingAbsorbAlternatives": 3,
+    "riskyIfCreatedNow": 2,
+    "readyPotentialAfterApproval": 5
+  },
+  "candidates": [
+    {
+      "id": "B1-SK-MK",
+      "title": "남성 톤 보정 / 메이크업 보정",
+      "productsCovered": [
+        "비레디 트루 톤 로션 하이드로/에어리 40ml 기획",
+        "다슈 맨즈 듀얼 트릭 스틱 샌드 / 라이트"
+      ],
+      "newTopicCodeNeeded": true,
+      "domain": "SK",
+      "topic": "MK",
+      "itemCode": "SR26-SK-MK-C1",
+      "itemName": "남성 톤 보정 / 부분 커버",
+      "manualCode": "SR26-SK-MK-M1",
+      "manualTitle": "남성 톤 보정 / 부분 커버 관리 매뉴얼",
+      "productGroupName": "남성 톤 보정 / 부분 커버",
+      "connectableExistingRoutines": [
+        {
+          "code": "SR26-SK-FT-R142",
+          "title": "샤워 직후 냉장보관해둔 마스크팩으로 피부 진정하기",
+          "fit": "weak",
+          "reason": "피부 컨디션 관리 흐름은 맞지만 톤 보정 행동은 아님"
+        }
+      ],
+      "newRoutineNeeded": true,
+      "newRoutineProposal": {
+        "code": "SR26-SK-MK-R1",
+        "title": "출근 전 톤 보정 로션을 얇게 바르기",
+        "board": "daily",
+        "flowGroup": "기상"
+      },
+      "existingAbsorbAlternative": {
+        "possible": false,
+        "reason": "기존 Skin item에 메이크업/부분 커버 역할이 없어 흡수 시 관계가 흐려짐"
+      },
+      "risk": "메이크업이라는 단어가 SERKAN 피부관리 톤과 다르게 느껴질 수 있음. 화면에서는 '톤 보정 / 부분 커버' 중심 명칭이 안전함.",
+      "recommendation": "APPROVE_NEW_CODE",
+      "readyProductsAfterApproval": 2
+    },
+    {
+      "id": "B2-BD-BC",
+      "title": "바디워시 / 바디 클렌징",
+      "productsCovered": [
+        "우르오스 스킨워시"
+      ],
+      "newTopicCodeNeeded": true,
+      "domain": "BD",
+      "topic": "BC",
+      "itemCode": "SR26-BD-BC-C1",
+      "itemName": "바디워시 / 바디 클렌징",
+      "manualCode": "SR26-BD-BC-M1",
+      "manualTitle": "바디워시 / 바디 클렌징 관리 매뉴얼",
+      "productGroupName": "바디워시 / 바디 클렌징",
+      "connectableExistingRoutines": [
+        {
+          "code": "SR26-BD-DT-R105",
+          "title": "샤워 마지막 30초 찬물로 마무리하기",
+          "fit": "medium",
+          "reason": "샤워 흐름은 맞지만 바디워시 선택/사용 기준은 별도 manual이 필요"
+        },
+        {
+          "code": "SR26-GR-HR-M145",
+          "title": "미용실 두피 스케일링 받아보기",
+          "fit": "weak",
+          "reason": "개인 세정/그루밍 맥락은 있으나 바디 클렌징과 직접 연결은 약함"
+        }
+      ],
+      "newRoutineNeeded": true,
+      "newRoutineProposal": {
+        "code": "SR26-BD-BC-R1",
+        "title": "운동 후 바디워시로 땀과 피지 씻어내기",
+        "board": "daily",
+        "flowGroup": "저녁"
+      },
+      "existingAbsorbAlternative": {
+        "possible": true,
+        "candidateItemCode": "SR26-GR-HR-C1",
+        "candidateManualCode": "SR26-GR-HR-M1",
+        "reason": "개인 세정용품으로 넓게 흡수 가능하지만 Body 제품군 역할이 약해짐"
+      },
+      "risk": "Body와 Grooming 사이 경계가 흐릴 수 있음. 바디워시는 Body, 면도/체취는 Grooming으로 기준화하는 편이 좋음.",
+      "recommendation": "APPROVE_NEW_CODE",
+      "readyProductsAfterApproval": 1
+    },
+    {
+      "id": "B3-SL-LB",
+      "title": "수면 안대 / 수면 차단 도구",
+      "productsCovered": [
+        "테라바디 슬립마스크 진동 수면 안대"
+      ],
+      "newTopicCodeNeeded": true,
+      "domain": "SL",
+      "topic": "LB",
+      "itemCode": "SR26-SL-LB-C1",
+      "itemName": "수면 안대 / 빛 차단 도구",
+      "manualCode": "SR26-SL-LB-M1",
+      "manualTitle": "수면 안대 / 빛 차단 관리 매뉴얼",
+      "productGroupName": "수면 안대 / 빛 차단",
+      "connectableExistingRoutines": [
+        {
+          "code": "SR26-SL-RS-R65",
+          "title": "밤에는 인공 조명과 강한 빛 멀리하기",
+          "fit": "high",
+          "reason": "빛 차단 목적이 직접 연결됨"
+        },
+        {
+          "code": "SR26-SL-RS-R66",
+          "title": "밤 9시 이후 블루라이트 차단하기 (선글라스 착용)",
+          "fit": "medium",
+          "reason": "빛 차단은 맞지만 수면 안대 사용 장면과는 다름"
+        }
+      ],
+      "newRoutineNeeded": false,
+      "newRoutineProposal": null,
+      "existingAbsorbAlternative": {
+        "possible": false,
+        "candidateItemCode": "SR26-SL-RS-C1",
+        "candidateManualCode": "SR26-SL-RS-M1",
+        "reason": "기존 SL-RS는 가습기/습도계라 수면 안대를 넣으면 명백한 오연결"
+      },
+      "risk": "LB topic은 신규 약어라 의미 설명이 필요함. Light Blocking 기준으로 사용.",
+      "recommendation": "APPROVE_NEW_CODE",
+      "readyProductsAfterApproval": 1
+    },
+    {
+      "id": "B4-BD-WR",
+      "title": "착장 / 바디 리스크",
+      "productsCovered": [
+        "다슈 맨즈 매직커버 니플밴드 더블 기획"
+      ],
+      "newTopicCodeNeeded": true,
+      "domain": "BD",
+      "topic": "WR",
+      "itemCode": "SR26-BD-WR-C1",
+      "itemName": "착장 / 바디 리스크 관리 도구",
+      "manualCode": "SR26-BD-WR-M1",
+      "manualTitle": "착장 / 바디 리스크 관리 매뉴얼",
+      "productGroupName": "착장 / 바디 리스크 관리",
+      "connectableExistingRoutines": [
+        {
+          "code": "SR26-ST-CN-C1",
+          "title": "착장 체크리스트",
+          "fit": "medium",
+          "reason": "착장 맥락은 있지만 item domain은 Style이고 제품은 Body 리스크 관리에 가까움"
+        },
+        {
+          "code": "SR26-ST-RC-M1",
+          "title": "바디그루밍 관리 매뉴얼",
+          "fit": "weak",
+          "reason": "바디 관리와 인접하지만 니플밴드/비침 리스크와 직접 연결은 약함"
+        }
+      ],
+      "newRoutineNeeded": true,
+      "newRoutineProposal": {
+        "code": "SR26-BD-WR-R1",
+        "title": "얇은 상의 입기 전 비침과 땀 자국 확인하기",
+        "board": "situation",
+        "flowGroup": "외출 전"
+      },
+      "existingAbsorbAlternative": {
+        "possible": true,
+        "candidateItemCode": "SR26-ST-CN-C1",
+        "candidateManualCode": "SR26-ST-CN-M1",
+        "reason": "착장 체크리스트에 흡수 가능하지만 제품의 위생/바디 리스크 성격이 약해짐"
+      },
+      "risk": "제품 특성상 표현 수위와 화면 문구 톤을 조심해야 함. '니플'보다 '얇은 상의 비침 관리' 중심 카피 권장.",
+      "recommendation": "APPROVE_WITH_COPY_CAUTION",
+      "readyProductsAfterApproval": 1
+    }
+  ],
+  "approvalRecommendation": {
+    "approveFirst": [
+      "B1-SK-MK",
+      "B2-BD-BC",
+      "B3-SL-LB"
+    ],
+    "reviewBeforeApproval": [
+      "B4-BD-WR"
+    ],
+    "reason": "B1/B2/B3 are clear product taxonomy gaps. B4 is structurally valid but wording and placement need extra tone review."
+  }
+}
