@@ -8,6 +8,7 @@
   const DAILY_MUST_KEY = scopedStorageKey("CLUB_SERKAN_DAILY_MUST");
   const DAILY_REFLECTION_KEY = scopedStorageKey("CLUB_SERKAN_DAILY_REFLECTION");
   const COACHING_SETTINGS_KEY = scopedStorageKey("CLUB_SERKAN_COACHING_SETTINGS");
+  const REMOTE_STATE_TABLE = "club_serkan_state";
   const INITIAL_CALENDAR_YEAR = 2026;
   const INITIAL_CALENDAR_MONTH = 6;
   const ROUTINE_DAY_START_HOUR = 4;
@@ -15,6 +16,14 @@
   const COACHING_START_KEY = getCoachingStartKey();
   const OVERALL_GOAL_KEY = "__overall";
   const dailyMustStatuses = ["미완료", "진행중", "완료"];
+  const remoteSync = {
+    enabled: false,
+    client: null,
+    channel: null,
+    applyingRemote: false,
+    initialized: false,
+    instanceId: "",
+  };
 
   const sectors = [
     { key: "skin", label: "피부", icon: "💧" },
@@ -176,6 +185,121 @@
 
   function writeJson(key, value) {
     localStorage.setItem(key, JSON.stringify(value));
+    pushRemoteState(key, value);
+  }
+
+  function remoteConfig() {
+    return window.CLUB_SERKAN_REMOTE || {};
+  }
+
+  function remoteStorageKeys() {
+    return [
+      PROFILE_KEY,
+      GOALS_KEY,
+      ROUTINES_KEY,
+      ROUTINE_CHECKS_KEY,
+      PROGRESS_KEY,
+      DAILY_MUST_KEY,
+      DAILY_REFLECTION_KEY,
+      COACHING_SETTINGS_KEY,
+      scopedStorageKey("CLUB_SERKAN_COACHING_START"),
+    ];
+  }
+
+  function reloadStateFromStorage() {
+    state.profile = getProfile();
+    state.goals = getGoals();
+    state.dailyMust = getDailyMust();
+    state.reflections = getDailyReflections();
+    state.routines = getRoutines();
+    state.checks = getRoutineChecks();
+    state.progress = getDailyProgress();
+    state.coachingSettings = getCoachingSettings();
+  }
+
+  async function initRemoteSync() {
+    const config = remoteConfig();
+    if (!config.enabled || !config.url || !config.anonKey || !window.supabase?.createClient) {
+      return;
+    }
+
+    remoteSync.enabled = true;
+    remoteSync.instanceId = window.crypto?.randomUUID?.() || `${Date.now()}-${Math.random()}`;
+    remoteSync.client = window.supabase.createClient(config.url, config.anonKey);
+
+    try {
+      await pullRemoteState();
+      subscribeRemoteState();
+      showToast("실시간 공유 저장소에 연결되었습니다.");
+    } catch (error) {
+      console.warn("CLUB SERKAN remote sync failed", error);
+      showToast("공유 저장소 연결에 실패해 이 기기 저장으로 유지합니다.");
+    }
+  }
+
+  async function pullRemoteState() {
+    if (!remoteSync.client) return;
+    const { data, error } = await remoteSync.client
+      .from(remoteConfig().table || REMOTE_STATE_TABLE)
+      .select("storage_key,value")
+      .eq("client_id", CLIENT.id)
+      .in("storage_key", remoteStorageKeys());
+
+    if (error) throw error;
+    remoteSync.applyingRemote = true;
+    (data || []).forEach((row) => {
+      localStorage.setItem(row.storage_key, JSON.stringify(row.value ?? null));
+    });
+    remoteSync.applyingRemote = false;
+    reloadStateFromStorage();
+    render();
+  }
+
+  function subscribeRemoteState() {
+    if (!remoteSync.client || remoteSync.channel) return;
+    const table = remoteConfig().table || REMOTE_STATE_TABLE;
+    remoteSync.channel = remoteSync.client
+      .channel(`club-serkan-${CLIENT.id}`)
+      .on(
+        "postgres_changes",
+        {
+          event: "*",
+          schema: "public",
+          table,
+          filter: `client_id=eq.${CLIENT.id}`,
+        },
+        (payload) => {
+          const row = payload.new;
+          if (!row || row.updated_by === remoteSync.instanceId) return;
+          if (!remoteStorageKeys().includes(row.storage_key)) return;
+          remoteSync.applyingRemote = true;
+          localStorage.setItem(row.storage_key, JSON.stringify(row.value ?? null));
+          remoteSync.applyingRemote = false;
+          reloadStateFromStorage();
+          render();
+          showToast("상대방 변경 사항이 반영되었습니다.");
+        }
+      )
+      .subscribe();
+  }
+
+  function pushRemoteState(key, value) {
+    if (!remoteSync.enabled || !remoteSync.client || remoteSync.applyingRemote) return;
+    remoteSync.client
+      .from(remoteConfig().table || REMOTE_STATE_TABLE)
+      .upsert(
+        {
+          client_id: CLIENT.id,
+          storage_key: key,
+          value,
+          updated_by: remoteSync.instanceId,
+          updated_at: new Date().toISOString(),
+        },
+        { onConflict: "client_id,storage_key" }
+      )
+      .then(({ error }) => {
+        if (error) console.warn("CLUB SERKAN remote write failed", error);
+      });
   }
 
   function getProfile() {
@@ -2141,6 +2265,7 @@
   bindEvents();
   applyClientIdentity();
   render();
+  initRemoteSync();
   window.setInterval(() => {
     if (!syncRoutineDayKey()) return;
     render();
