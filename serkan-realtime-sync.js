@@ -3,9 +3,7 @@
   const localKey = config.storageKey || "SERKAN_TEAM_SHARED_STATE";
   const userKey = "SERKAN_TEAM_USER_NAME";
   const panelKey = "SERKAN_TEAM_PANEL_OPEN";
-  const followKey = "SERKAN_TEAM_FOLLOW_MODE";
   const maxActivity = 60;
-  const sessionId = `session-${Date.now()}-${Math.random().toString(16).slice(2)}`;
   const statusLabels = {
     review: "검수 필요",
     approved: "승인",
@@ -25,8 +23,6 @@
   let syncTimer = null;
   let lastRoutineDoneSignature = "";
   let lastRoutineDoneAt = 0;
-  let applyingRemoteContext = false;
-  let lastLiveContextSignature = "";
 
   function $(selector, root = document) {
     return root.querySelector(selector);
@@ -46,7 +42,6 @@
       reviews: value.reviews && typeof value.reviews === "object" ? value.reviews : {},
       routineDone: value.routineDone && typeof value.routineDone === "object" ? value.routineDone : {},
       customEntries: Array.isArray(value.customEntries) ? value.customEntries : [],
-      liveContext: value.liveContext && typeof value.liveContext === "object" ? value.liveContext : null,
       comments: Array.isArray(value.comments) ? value.comments : [],
       activity: Array.isArray(value.activity) ? value.activity : [],
       updatedAt: value.updatedAt || new Date().toISOString(),
@@ -100,14 +95,12 @@
       reviews: { ...teamState.reviews, ...next.reviews },
       routineDone: { ...teamState.routineDone, ...next.routineDone },
       customEntries: Array.isArray(next.customEntries) ? next.customEntries : teamState.customEntries,
-      liveContext: next.liveContext || teamState.liveContext,
       comments: uniqueById([...teamState.comments, ...next.comments]).slice(-200),
       activity: uniqueById([...teamState.activity, ...next.activity]).slice(-maxActivity),
       updatedAt: next.updatedAt || teamState.updatedAt,
     };
     applySharedRoutineDone(teamState.routineDone);
     applySharedCustomEntries(teamState.customEntries);
-    applySharedLiveContext(teamState.liveContext);
     saveLocalState();
     renderPanel();
   }
@@ -138,43 +131,9 @@
     });
   }
 
-  function followModeEnabled() {
-    return localStorage.getItem(followKey) !== "off";
-  }
-
-  function toggleFollowMode() {
-    localStorage.setItem(followKey, followModeEnabled() ? "off" : "on");
-    renderPanel();
-  }
-
   function applySharedCustomEntries(entries) {
     if (!window.SERKAN_TEAM_API?.setCustomEntries || !Array.isArray(entries)) return;
     window.SERKAN_TEAM_API.setCustomEntries(entries);
-  }
-
-  function applySharedLiveContext(context) {
-    if (!context || !followModeEnabled() || context.updatedBySession === sessionId) return;
-    if (!window.SERKAN_TEAM_API?.setContext) return;
-    applyingRemoteContext = true;
-    try {
-      window.SERKAN_TEAM_API.setContext(context);
-    } finally {
-      applyingRemoteContext = false;
-    }
-  }
-
-  function publishLiveContext(context) {
-    if (!context || applyingRemoteContext) return;
-    const signature = `${context.view || ""}:${context.type || ""}:${context.code || ""}`;
-    if (signature === lastLiveContextSignature) return;
-    lastLiveContextSignature = signature;
-    teamState.liveContext = {
-      ...context,
-      updatedBy: userName(),
-      updatedBySession: sessionId,
-      updatedAt: new Date().toISOString(),
-    };
-    scheduleRemoteSync();
   }
 
   function titleForEntity(type, code) {
@@ -437,22 +396,6 @@
         font-size: 12px;
         margin-top: 4px;
       }
-      .team-share-follow {
-        margin-top: 10px;
-        width: 100%;
-        border: 1px solid rgba(112, 44, 30, 0.16);
-        border-radius: 12px;
-        background: #fbf6f1;
-        color: #6f2a1d;
-        font-weight: 800;
-        padding: 9px 10px;
-        cursor: pointer;
-      }
-      .team-share-follow.active {
-        background: #ecfdf5;
-        border-color: rgba(34, 197, 94, 0.28);
-        color: #166534;
-      }
       .team-share-user {
         width: 100%;
         box-sizing: border-box;
@@ -544,9 +487,6 @@
           <h4>현재 항목</h4>
           <strong>${esc(currentContext.title || "SERKAN Dashboard")}</strong>
           <span>${esc(currentContext.type || "view")} · ${esc(shortCode())}</span>
-          <button class="team-share-follow ${followModeEnabled() ? "active" : ""}" type="button" data-team-action="follow">
-            ${followModeEnabled() ? "함께 보기 ON" : "함께 보기 OFF"}
-          </button>
         </section>
         <section class="team-share-card">
           <h4>검수 상태</h4>
@@ -622,12 +562,6 @@
         return;
       }
 
-      const follow = event.target.closest("[data-team-action='follow']");
-      if (follow) {
-        toggleFollowMode();
-        return;
-      }
-
       const statusButton = event.target.closest("[data-team-status]");
       if (statusButton) {
         setReviewStatus(statusButton.dataset.teamStatus);
@@ -657,7 +591,6 @@
 
     window.addEventListener("serkan:context-change", (event) => {
       currentContext = event.detail || currentContext;
-      publishLiveContext(currentContext);
       renderPanel();
     });
 
@@ -681,7 +614,6 @@
     bindEvents();
     applySharedRoutineDone(teamState.routineDone);
     applySharedCustomEntries(teamState.customEntries);
-    applySharedLiveContext(teamState.liveContext);
     renderPanel();
     initRemote();
   });

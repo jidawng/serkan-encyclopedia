@@ -84,7 +84,6 @@
   }
 
   function publishSerkanContext(extra = {}) {
-    if (window.SERKAN_TEAM_SUPPRESS_CONTEXT) return;
     const detail = { ...currentSerkanContext(), ...extra };
     window.SERKAN_CURRENT_CONTEXT = detail;
     window.dispatchEvent(new CustomEvent("serkan:context-change", { detail }));
@@ -2187,41 +2186,11 @@
     mergeCustomEntries();
     rebuildIndexes();
     saveCustomEntries();
-    window.SERKAN_TEAM_SUPPRESS_CONTEXT = true;
-    try {
-      render();
-    } finally {
-      window.SERKAN_TEAM_SUPPRESS_CONTEXT = false;
-    }
+    render();
   }
 
   function getSharedCustomEntries() {
     return state.customEntries.map((entry) => ({ ...entry }));
-  }
-
-  function setSharedContext(context) {
-    if (!context) return;
-    const type = context.type || "view";
-    const code = context.code || context.view || "dashboard";
-    const view = context.view && viewMeta[context.view] ? context.view : state.view;
-    window.SERKAN_TEAM_SUPPRESS_CONTEXT = true;
-    try {
-      if (type === "view") {
-        if (viewMeta[code]) {
-          state.view = code;
-          state.selected = null;
-          render();
-        }
-        return;
-      }
-      if (["routine", "manual", "item", "product", "situation"].includes(type) && code) {
-        if (viewMeta[view]) state.view = view;
-        state.selected = { type, code };
-        render();
-      }
-    } finally {
-      window.SERKAN_TEAM_SUPPRESS_CONTEXT = false;
-    }
   }
 
   window.SERKAN_TEAM_API = {
@@ -2229,7 +2198,6 @@
     getRoutineDone: getSharedRoutineDone,
     setCustomEntries: setSharedCustomEntries,
     getCustomEntries: getSharedCustomEntries,
-    setContext: setSharedContext,
   };
 
   function renderCustomPlanningBoard(kind) {
