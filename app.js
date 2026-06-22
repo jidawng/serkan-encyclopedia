@@ -52,6 +52,53 @@
     situations: new Map(data.situations.map((item) => [item.code, item])),
   };
 
+  function entityForContext(type, code) {
+    const mapByType = {
+      routine: byCode.routines,
+      manual: byCode.manuals,
+      item: byCode.items,
+      product: byCode.products,
+      situation: byCode.situations,
+    };
+    return mapByType[type]?.get(code) || null;
+  }
+
+  function currentSerkanContext() {
+    const selected = state.selected || null;
+    if (!selected) {
+      return {
+        view: state.view,
+        type: "view",
+        code: state.view,
+        title: viewMeta[state.view]?.title || "SERKAN Dashboard",
+      };
+    }
+    const entity = entityForContext(selected.type, selected.code);
+    return {
+      view: state.view,
+      type: selected.type,
+      code: selected.code,
+      title: entity?.title || entity?.name || entity?.productName || selected.code,
+      category: entity?.category || entity?.domain || "",
+    };
+  }
+
+  function publishSerkanContext(extra = {}) {
+    const detail = { ...currentSerkanContext(), ...extra };
+    window.SERKAN_CURRENT_CONTEXT = detail;
+    window.dispatchEvent(new CustomEvent("serkan:context-change", { detail }));
+  }
+
+  function publishSerkanAction(actionType, detail = {}) {
+    window.dispatchEvent(new CustomEvent("serkan:team-action", {
+      detail: {
+        actionType,
+        context: currentSerkanContext(),
+        ...detail,
+      },
+    }));
+  }
+
   const viewMeta = {
     dashboard: {
       title: "루틴 시스템 대시보드",
@@ -1456,6 +1503,8 @@
     state.selected = { type, code };
     recordRecentItem(type, code);
     renderDrawer();
+    publishSerkanContext({ reason: "open-detail" });
+    publishSerkanAction("open_detail", { targetType: type, targetCode: code });
   }
 
   function goBack() {
@@ -1473,6 +1522,7 @@
   function closeDrawer() {
     state.selected = null;
     render();
+    publishSerkanContext({ reason: "close-detail" });
   }
 
   function statCards() {
@@ -2079,6 +2129,12 @@
     state.weeklyDone[key] = !state.weeklyDone[key];
     saveWeeklyDone();
     render();
+    publishSerkanAction("routine_check", {
+      targetType: "routine",
+      targetCode: code,
+      done: state.weeklyDone[key],
+      bucket: dayKey,
+    });
     scrollAfterRender("#weekly-board", "auto");
   }
 
@@ -2087,6 +2143,12 @@
     state.weeklyDone[key] = !state.weeklyDone[key];
     saveWeeklyDone();
     render();
+    publishSerkanAction("routine_check", {
+      targetType: "routine",
+      targetCode: code,
+      done: state.weeklyDone[key],
+      bucket: bucketKey,
+    });
     const keyText = String(bucketKey || "");
     const target = keyText.startsWith("daily:")
       ? "#daily-board"
@@ -2095,6 +2157,25 @@
         : "#monthly-board";
     scrollAfterRender(target, "auto");
   }
+
+  function setSharedRoutineDone(bucketKey, code, done) {
+    if (!bucketKey || !code) return;
+    const key = weeklyDoneKey(bucketKey, code);
+    const nextDone = Boolean(done);
+    if (Boolean(state.weeklyDone[key]) === nextDone) return;
+    state.weeklyDone[key] = nextDone;
+    saveWeeklyDone();
+    render();
+  }
+
+  function getSharedRoutineDone() {
+    return { ...state.weeklyDone };
+  }
+
+  window.SERKAN_TEAM_API = {
+    setRoutineDone: setSharedRoutineDone,
+    getRoutineDone: getSharedRoutineDone,
+  };
 
   function renderCustomPlanningBoard(kind) {
     if (kind === "monthly") return renderMonthlyRoutineBoard();
@@ -7320,6 +7401,7 @@
     updateActiveNav();
     renderDrawer();
     updateEditModeUI();
+    publishSerkanContext({ reason: "render" });
   }
 
   function updateEditModeUI() {
