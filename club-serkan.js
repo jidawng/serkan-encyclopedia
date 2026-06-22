@@ -13,7 +13,7 @@
   const INITIAL_CALENDAR_MONTH = 6;
   const ROUTINE_DAY_START_HOUR = 4;
   let TODAY_KEY = getRoutineDayKey();
-  const COACHING_START_KEY = getCoachingStartKey();
+  let COACHING_START_KEY = getCoachingStartKey();
   const OVERALL_GOAL_KEY = "__overall";
   const dailyMustStatuses = ["미완료", "진행중", "완료"];
   const remoteSync = {
@@ -215,6 +215,7 @@
     state.checks = getRoutineChecks();
     state.progress = getDailyProgress();
     state.coachingSettings = getCoachingSettings();
+    COACHING_START_KEY = getCoachingStartKey();
   }
 
   async function initRemoteSync() {
@@ -248,7 +249,7 @@
     if (error) throw error;
     remoteSync.applyingRemote = true;
     (data || []).forEach((row) => {
-      localStorage.setItem(row.storage_key, JSON.stringify(row.value ?? null));
+      setLocalStorageFromRemote(row.storage_key, row.value);
     });
     remoteSync.applyingRemote = false;
     reloadStateFromStorage();
@@ -273,7 +274,7 @@
           if (!row || row.updated_by === remoteSync.instanceId) return;
           if (!remoteStorageKeys().includes(row.storage_key)) return;
           remoteSync.applyingRemote = true;
-          localStorage.setItem(row.storage_key, JSON.stringify(row.value ?? null));
+          setLocalStorageFromRemote(row.storage_key, row.value);
           remoteSync.applyingRemote = false;
           reloadStateFromStorage();
           render();
@@ -300,6 +301,14 @@
       .then(({ error }) => {
         if (error) console.warn("CLUB SERKAN remote write failed", error);
       });
+  }
+
+  function setLocalStorageFromRemote(key, value) {
+    if (key === scopedStorageKey("CLUB_SERKAN_COACHING_START") && typeof value === "string") {
+      localStorage.setItem(key, value);
+      return;
+    }
+    localStorage.setItem(key, JSON.stringify(value ?? null));
   }
 
   function getProfile() {
@@ -544,9 +553,24 @@
   function getCoachingStartKey() {
     const key = scopedStorageKey("CLUB_SERKAN_COACHING_START");
     const stored = localStorage.getItem(key);
-    if (/^\d{4}-\d{2}-\d{2}$/.test(stored || "")) return stored;
+    const normalized = normalizeDateStorageValue(stored);
+    if (normalized) {
+      if (stored !== normalized) localStorage.setItem(key, normalized);
+      return normalized;
+    }
     localStorage.setItem(key, TODAY_KEY);
     return TODAY_KEY;
+  }
+
+  function normalizeDateStorageValue(value) {
+    if (/^\d{4}-\d{2}-\d{2}$/.test(value || "")) return value;
+    try {
+      const parsed = JSON.parse(value || "null");
+      if (/^\d{4}-\d{2}-\d{2}$/.test(parsed || "")) return parsed;
+    } catch {
+      return "";
+    }
+    return "";
   }
 
   function getRoutineChecks() {
