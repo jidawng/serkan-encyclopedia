@@ -84,6 +84,7 @@
   }
 
   function publishSerkanContext(extra = {}) {
+    if (window.SERKAN_TEAM_SUPPRESS_CONTEXT) return;
     const detail = { ...currentSerkanContext(), ...extra };
     window.SERKAN_CURRENT_CONTEXT = detail;
     window.dispatchEvent(new CustomEvent("serkan:context-change", { detail }));
@@ -748,6 +749,7 @@
     else data.routines.push(entry);
     rebuildIndexes();
     saveCustomEntries();
+    publishSerkanAction("custom_entries_update", { customEntries: state.customEntries });
     return entry;
   }
 
@@ -765,6 +767,7 @@
     saveWeeklyDone();
     saveCustomEntries();
     rebuildIndexes();
+    publishSerkanAction("custom_entries_update", { customEntries: state.customEntries });
     return true;
   }
 
@@ -2172,9 +2175,61 @@
     return { ...state.weeklyDone };
   }
 
+  function setSharedCustomEntries(entries) {
+    if (!Array.isArray(entries)) return;
+    const normalized = entries
+      .filter((entry, index, all) => entry?.code && entry?.title && all.findIndex((item) => item.code === entry.code) === index)
+      .map((entry) => ({ ...entry, isCustom: true }));
+
+    data.routines = data.routines.filter((routine) => !routine.isCustom);
+    data.situations = data.situations.filter((situation) => !situation.isCustom);
+    state.customEntries = normalized;
+    mergeCustomEntries();
+    rebuildIndexes();
+    saveCustomEntries();
+    window.SERKAN_TEAM_SUPPRESS_CONTEXT = true;
+    try {
+      render();
+    } finally {
+      window.SERKAN_TEAM_SUPPRESS_CONTEXT = false;
+    }
+  }
+
+  function getSharedCustomEntries() {
+    return state.customEntries.map((entry) => ({ ...entry }));
+  }
+
+  function setSharedContext(context) {
+    if (!context) return;
+    const type = context.type || "view";
+    const code = context.code || context.view || "dashboard";
+    const view = context.view && viewMeta[context.view] ? context.view : state.view;
+    window.SERKAN_TEAM_SUPPRESS_CONTEXT = true;
+    try {
+      if (type === "view") {
+        if (viewMeta[code]) {
+          state.view = code;
+          state.selected = null;
+          render();
+        }
+        return;
+      }
+      if (["routine", "manual", "item", "product", "situation"].includes(type) && code) {
+        if (viewMeta[view]) state.view = view;
+        state.selected = { type, code };
+        render();
+      }
+    } finally {
+      window.SERKAN_TEAM_SUPPRESS_CONTEXT = false;
+    }
+  }
+
   window.SERKAN_TEAM_API = {
     setRoutineDone: setSharedRoutineDone,
     getRoutineDone: getSharedRoutineDone,
+    setCustomEntries: setSharedCustomEntries,
+    getCustomEntries: getSharedCustomEntries,
+    setContext: setSharedContext,
   };
 
   function renderCustomPlanningBoard(kind) {
