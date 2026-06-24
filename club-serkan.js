@@ -34,6 +34,16 @@
     { key: "life", label: "생활", icon: "🏠" },
   ];
 
+  const weekdays = [
+    { key: "mon", label: "월" },
+    { key: "tue", label: "화" },
+    { key: "wed", label: "수" },
+    { key: "thu", label: "목" },
+    { key: "fri", label: "금" },
+    { key: "sat", label: "토" },
+    { key: "sun", label: "일" },
+  ];
+
   const timeBlocks = [
     { key: "wake", label: "기상", time: "06:00 ~ 07:30", icon: "☀️" },
     { key: "work", label: "업무", time: "07:30 ~ 12:00", icon: "💼" },
@@ -128,8 +138,9 @@
     activeGoalSector: null,
     activeDay: null,
     activeDayMode: "reader",
-    sheetContext: { timeBlock: "wake", sector: "skin" },
+    sheetContext: { timeBlock: "wake", sector: "skin", dayOfWeek: "mon" },
     activeCell: null,
+    activeSectorFilter: "all",
     highlightCellKey: "",
     highlightedRoutineId: "",
     calendarYear: INITIAL_CALENDAR_YEAR,
@@ -525,7 +536,7 @@
 
   function getRoutines() {
     const routines = readJson(ROUTINES_KEY, []);
-    return Array.isArray(routines) ? routines : [];
+    return Array.isArray(routines) ? routines.map(normalizeRoutine) : [];
   }
 
   function getRoutineDayKey(date = new Date()) {
@@ -670,6 +681,8 @@
       routines: state.routines.map((routine) => ({
         id: routine.id,
         title: routine.title,
+        dayOfWeek: routine.dayOfWeek,
+        days: routine.days,
         timeBlock: routine.timeBlock,
         sector: routine.sector,
         duration: routine.duration,
@@ -710,8 +723,26 @@
     return calculateCompletionRate(state.routines.filter((routine) => routine.timeBlock === timeBlockKey), dateKey);
   }
 
-  function getCellRoutines(timeBlockKey, sectorKey) {
-    return state.routines.filter((routine) => routine.timeBlock === timeBlockKey && routine.sector === sectorKey);
+  function calculateWeekdayProgress(weekdayKey, dateKey = TODAY_KEY) {
+    return calculateCompletionRate(state.routines.filter((routine) => routineAppliesToDay(routine, weekdayKey)), dateKey);
+  }
+
+  function activeSectorAllows(routine) {
+    return state.activeSectorFilter === "all" || routine.sector === state.activeSectorFilter;
+  }
+
+  function routineAppliesToDay(routine, weekdayKey) {
+    const days = Array.isArray(routine.days) ? routine.days : [];
+    if (days.length) return days.includes(weekdayKey);
+    return routine.dayOfWeek ? routine.dayOfWeek === weekdayKey : true;
+  }
+
+  function getCellRoutines(timeBlockKey, weekdayKey) {
+    return state.routines.filter((routine) => (
+      routine.timeBlock === timeBlockKey
+      && routineAppliesToDay(routine, weekdayKey)
+      && activeSectorAllows(routine)
+    ));
   }
 
   function pad2(value) {
@@ -820,8 +851,8 @@
     return `${year}.${month}.${day} ${weekday}`;
   }
 
-  function cellKey(timeBlockKey, sectorKey) {
-    return `${timeBlockKey}:${sectorKey}`;
+  function cellKey(timeBlockKey, weekdayKey) {
+    return `${timeBlockKey}:${weekdayKey}`;
   }
 
   function toggleRoutineComplete(id) {
@@ -831,7 +862,7 @@
     dayChecks[id] = !isRoutineDoneOnDate(id, TODAY_KEY);
     state.checks = { ...state.checks, [TODAY_KEY]: dayChecks };
     saveRoutineChecks();
-    state.highlightCellKey = cellKey(routine.timeBlock, routine.sector);
+    state.highlightCellKey = cellKey(routine.timeBlock, routine.dayOfWeek || weekdays[0].key);
     state.highlightedRoutineId = id;
     saveDailyProgress(calculateBoardProgress(TODAY_KEY), TODAY_KEY);
   }
@@ -842,10 +873,17 @@
 
   function normalizeRoutine(input) {
     const now = new Date().toISOString();
+    const validWeekdayKeys = new Set(weekdays.map((day) => day.key));
+    const sourceDays = Array.isArray(input.days) ? input.days : [];
+    const days = sourceDays.filter((day) => validWeekdayKeys.has(day));
+    const dayOfWeek = validWeekdayKeys.has(input.dayOfWeek) ? input.dayOfWeek : (days[0] || "mon");
+    const normalizedDays = days.length ? days : [dayOfWeek];
     return {
       id: input.id || createId("routine"),
       timeBlock: input.timeBlock || "wake",
       sector: input.sector || "skin",
+      dayOfWeek,
+      days: normalizedDays,
       title: String(input.title || "").trim(),
       action: String(input.action || "").trim(),
       duration: String(input.duration || "").trim(),
@@ -873,6 +911,10 @@
 
   function timeBlockByKey(key) {
     return getDisplayTimeBlocks().find((block) => block.key === key) || getDisplayTimeBlocks()[0];
+  }
+
+  function weekdayByKey(key) {
+    return weekdays.find((day) => day.key === key) || weekdays[0];
   }
 
   function parseClock(value, fallbackMinutes) {
@@ -1070,26 +1112,26 @@
     const displayTimeBlocks = getDisplayTimeBlocks();
     const head = [
       `<div class="board-head-cell">시간대</div>`,
-      ...sectors.map((sector) => `<div class="board-head-cell">${esc(sector.icon)} ${esc(sector.label)}</div>`),
+      ...weekdays.map((day) => `<div class="board-head-cell">${esc(day.label)}</div>`),
       `<div class="board-head-cell">시간대 달성률</div>`,
     ].join("");
 
     const rows = displayTimeBlocks.map((block) => {
-      const cells = sectors.map((sector) => {
-        const routines = getCellRoutines(block.key, sector.key);
+      const cells = weekdays.map((day) => {
+        const routines = getCellRoutines(block.key, day.key);
         const progress = calculateCompletionRate(routines);
         const visibleRoutines = routines.slice(0, 2);
         const hiddenCount = Math.max(routines.length - visibleRoutines.length, 0);
         const rateClass = progress.total === 0 ? "cell-empty" : progress.rate === 100 ? "cell-done" : "cell-partial";
-        const isHighlighted = state.highlightCellKey === cellKey(block.key, sector.key);
+        const isHighlighted = state.highlightCellKey === cellKey(block.key, day.key);
         return `
-          <div class="routine-cell ${rateClass} ${isHighlighted ? "is-highlighted" : ""}" data-time="${esc(block.key)}" data-sector="${esc(sector.key)}">
+          <div class="routine-cell ${rateClass} ${isHighlighted ? "is-highlighted" : ""}" data-time="${esc(block.key)}" data-day="${esc(day.key)}">
             <div class="cell-summary">${progress.total ? `${progress.done}/${progress.total}` : "루틴 없음"}</div>
             <div class="cell-routine-list">
-              ${visibleRoutines.map(renderRoutinePill).join("")}
-              ${hiddenCount ? `<button class="cell-more-button" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-sector="${esc(sector.key)}">+${hiddenCount}개 더보기</button>` : ""}
+              ${visibleRoutines.map((routine) => renderRoutinePill(routine, day.key)).join("")}
+              ${hiddenCount ? `<button class="cell-more-button" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}">+${hiddenCount}개 더보기</button>` : ""}
             </div>
-            <button class="add-cell" data-action="open-add-sheet" data-time="${esc(block.key)}" data-sector="${esc(sector.key)}" data-hint="${esc(`${block.label} 시간대 ${sector.label} 루틴 추가`)}"><b>+</b><span>루틴 추가</span></button>
+            <button class="add-cell" data-action="open-add-sheet" data-time="${esc(block.key)}" data-day="${esc(day.key)}" data-hint="${esc(`${day.label}요일 ${block.label} 루틴 추가`)}"><b>+</b><span>루틴 추가</span></button>
           </div>
         `;
       }).join("");
@@ -1110,16 +1152,38 @@
     grid.innerHTML = head + rows;
   }
 
-  function renderRoutinePill(routine) {
+  function renderBoardFilters() {
+    const target = $("#board-filter-row");
+    if (!target) return;
+    const filters = [
+      { key: "all", label: "전체", icon: "▾" },
+      ...sectors,
+    ];
+    target.innerHTML = filters.map((filter) => `
+      <button
+        type="button"
+        class="board-filter-chip ${state.activeSectorFilter === filter.key ? "active" : ""} ${filter.key !== "all" ? `sector-${esc(filter.key)}` : ""}"
+        data-action="set-sector-filter"
+        data-sector="${esc(filter.key)}"
+      >
+        <span>${esc(filter.icon || "")}</span>
+        ${esc(filter.label)}
+      </button>
+    `).join("");
+  }
+
+  function renderRoutinePill(routine, contextDayKey = "") {
     const done = isRoutineDoneOnDate(routine.id, TODAY_KEY);
     const meta = getRoutineDisplayMeta(routine);
     const highlighted = state.highlightedRoutineId === routine.id;
+    const sector = sectorByKey(routine.sector);
+    const title = routine.title || "이름 없는 루틴";
     return `
-      <article class="routine-pill ${done ? "is-done" : ""} ${highlighted ? "just-toggled" : ""}">
-        <input class="routine-check" type="checkbox" ${done ? "checked" : ""} data-action="toggle-complete" data-id="${esc(routine.id)}" aria-label="${esc(routine.title || "루틴")} 완료 처리">
-        <span class="routine-pill-title">${esc(routine.title || "이름 없는 루틴")}</span>
+      <article class="routine-pill ${done ? "is-done" : ""} ${highlighted ? "just-toggled" : ""}" data-sector="${esc(sector.key)}" title="${esc(`${sector.label} · ${title}`)}">
+        <input class="routine-check" type="checkbox" ${done ? "checked" : ""} data-action="toggle-complete" data-id="${esc(routine.id)}" aria-label="${esc(`${sector.label} ${title}`)} 완료 처리">
+        <span class="routine-pill-title">${esc(title)}</span>
         ${meta ? `<span class="routine-pill-meta">${esc(meta)}</span>` : ""}
-        <button class="routine-more" type="button" data-action="open-cell-drawer" data-time="${esc(routine.timeBlock)}" data-sector="${esc(routine.sector)}" aria-label="셀 전체 루틴 보기">…</button>
+        <button class="routine-more" type="button" data-action="open-cell-drawer" data-time="${esc(routine.timeBlock)}" data-day="${esc(contextDayKey || routine.dayOfWeek || weekdays[0].key)}" aria-label="셀 전체 루틴 보기">…</button>
       </article>
     `;
   }
@@ -1127,27 +1191,27 @@
   function renderMobileBoard() {
     const target = $("#mobile-board-list");
     if (!target) return;
-    target.innerHTML = getDisplayTimeBlocks().map((block) => {
-      const timeProgress = calculateTimeBlockProgress(block.key);
+    target.innerHTML = weekdays.map((day, dayIndex) => {
+      const dayProgress = calculateWeekdayProgress(day.key);
       return `
-        <details class="mobile-time-card" ${block.key === "wake" ? "open" : ""}>
+        <details class="mobile-time-card" ${dayIndex === 0 ? "open" : ""}>
           <summary>
-            <b>${esc(block.icon)} ${esc(block.label)}<span>${esc(block.time)}</span></b>
-            <b>${timeProgress.total ? `${timeProgress.done}/${timeProgress.total} · ${timeProgress.rate}%` : "루틴 없음"}</b>
+            <b>${esc(day.label)}요일<span>주간 실행 루틴</span></b>
+            <b>${dayProgress.total ? `${dayProgress.done}/${dayProgress.total} · ${dayProgress.rate}%` : "루틴 없음"}</b>
           </summary>
           <div class="mobile-sector-list">
-            ${sectors.map((sector) => {
-              const routines = getCellRoutines(block.key, sector.key);
+            ${getDisplayTimeBlocks().map((block) => {
+              const routines = getCellRoutines(block.key, day.key);
               const progress = calculateCompletionRate(routines);
               return `
                 <div class="mobile-sector-row">
                   <div class="mobile-sector-head">
-                    <span>${esc(sector.icon)} ${esc(sector.label)}</span>
-                    <button class="routine-more" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-sector="${esc(sector.key)}">${progress.total ? `${progress.done}/${progress.total}` : "+"}</button>
+                    <span>${esc(block.icon)} ${esc(block.label)} <small>${esc(block.time)}</small></span>
+                    <button class="routine-more" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}">${progress.total ? `${progress.done}/${progress.total}` : "+"}</button>
                   </div>
-                  ${routines.slice(0, 3).map(renderRoutinePill).join("")}
-                  ${routines.length > 3 ? `<button class="cell-more-button" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-sector="${esc(sector.key)}">+${routines.length - 3}개 더보기</button>` : ""}
-                  ${!routines.length ? `<button class="add-cell" data-action="open-add-sheet" data-time="${esc(block.key)}" data-sector="${esc(sector.key)}" data-hint="${esc(`${block.label} 시간대 ${sector.label} 루틴 추가`)}"><b>+</b><span>루틴 추가</span></button>` : ""}
+                  ${routines.slice(0, 3).map((routine) => renderRoutinePill(routine, day.key)).join("")}
+                  ${routines.length > 3 ? `<button class="cell-more-button" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}">+${routines.length - 3}개 더보기</button>` : ""}
+                  ${!routines.length ? `<button class="add-cell" data-action="open-add-sheet" data-time="${esc(block.key)}" data-day="${esc(day.key)}" data-hint="${esc(`${day.label}요일 ${block.label} 루틴 추가`)}"><b>+</b><span>루틴 추가</span></button>` : ""}
                 </div>
               `;
             }).join("")}
@@ -1177,8 +1241,8 @@
     textarea.style.height = `${Math.max(122, textarea.scrollHeight)}px`;
   }
 
-  function openCellRoutineDrawer(timeBlockKey, sectorKey) {
-    state.activeCell = { timeBlock: timeBlockKey || "wake", sector: sectorKey || "skin" };
+  function openCellRoutineDrawer(timeBlockKey, weekdayKey) {
+    state.activeCell = { timeBlock: timeBlockKey || "wake", dayOfWeek: weekdayKey || weekdays[0].key };
     renderCellRoutineDrawer();
     const drawer = $("#cell-drawer");
     drawer?.classList.add("open");
@@ -1194,13 +1258,13 @@
   function renderCellRoutineDrawer() {
     if (!state.activeCell) return;
     const block = timeBlockByKey(state.activeCell.timeBlock);
-    const sector = sectorByKey(state.activeCell.sector);
-    const routines = getCellRoutines(block.key, sector.key);
+    const day = weekdayByKey(state.activeCell.dayOfWeek);
+    const routines = getCellRoutines(block.key, day.key);
     const progress = calculateCompletionRate(routines);
     const title = $("#cell-drawer-title");
     const summaryTarget = $("#cell-drawer-summary");
     const body = $("#cell-drawer-body");
-    if (title) title.textContent = `${block.label} ${sector.label} 루틴 목록`;
+    if (title) title.textContent = `${day.label}요일 ${block.label} 루틴 목록`;
     if (summaryTarget) {
       const progressTone = progress.total && progress.rate === 100 ? "is-done" : progress.done > 0 ? "is-partial" : "is-empty";
       summaryTarget.innerHTML = `
@@ -1212,9 +1276,10 @@
           </div>
         </div>
         <div class="cell-summary-card sector">
-          <span class="cell-summary-icon">${esc(sector.icon)}</span>
+          <span class="cell-summary-icon">▦</span>
           <div>
-            <strong>${esc(sector.label)}</strong>
+            <strong>${esc(day.label)}요일</strong>
+            <span>실행 요일</span>
           </div>
         </div>
         <div class="cell-summary-card progress ${progressTone}">
@@ -1231,7 +1296,7 @@
         <div class="activity-empty">
           <div style="font-size:34px;color:#d1c8be;">＋</div>
           <b>아직 추가된 루틴이 없습니다.</b>
-          <span>${esc(block.label)} 시간대의 ${esc(sector.label)} 루틴을 추가해보세요.</span>
+          <span>${esc(day.label)}요일 ${esc(block.label)} 시간대에 실행할 루틴을 추가해보세요.</span>
         </div>
       `;
       return;
@@ -1244,6 +1309,7 @@
           <input class="routine-check" type="checkbox" ${done ? "checked" : ""} data-action="toggle-complete" data-id="${esc(routine.id)}" aria-label="${esc(routine.title)} 완료 처리">
           <div>
             <strong>${esc(routine.title || "이름 없는 루틴")}</strong>
+            <span class="drawer-routine-meta">${esc(sectorByKey(routine.sector).icon)} ${esc(sectorByKey(routine.sector).label)}${getRoutineDisplayMeta(routine) ? ` · ${esc(getRoutineDisplayMeta(routine))}` : ""}</span>
           </div>
         </div>
         <div class="drawer-routine-actions">
@@ -1282,7 +1348,17 @@
 
     const sectorTarget = $("#sector-progress");
     if (!sectorTarget) return;
-    sectorTarget.innerHTML = sectors.map((sector) => {
+    const weekdayRows = weekdays.map((day) => {
+      const daySummary = calculateWeekdayProgress(day.key);
+      return `
+        <div class="sector-row weekday-row">
+          <span>${esc(day.label)}</span>
+          <div class="bar"><i style="--value:${daySummary.rate}%;"></i></div>
+          <b>${daySummary.rate}% (${daySummary.done}/${daySummary.total})</b>
+        </div>
+      `;
+    }).join("");
+    const sectorRows = sectors.map((sector) => {
       const sectorSummary = calculateSectorProgress(sector.key);
       return `
         <div class="sector-row">
@@ -1292,6 +1368,12 @@
         </div>
       `;
     }).join("");
+    sectorTarget.innerHTML = `
+      <div class="progress-subhead">요일별 달성률</div>
+      ${weekdayRows}
+      <div class="progress-subhead">섹터별 달성률</div>
+      ${sectorRows}
+    `;
   }
 
   function renderCalendar() {
@@ -1591,7 +1673,7 @@
       <h3>오늘의 회고</h3>
       ${trimmed
         ? `<p class="day-reflection-text">${esc(trimmed).replace(/\n/g, "<br>")}</p>`
-        : `<p class="day-reflection-empty">아직 남긴 회고가 없습니다. 데일리 루틴 보드 아래의 오늘의 회고 영역에서 작성할 수 있습니다.</p>`}
+        : `<p class="day-reflection-empty">아직 남긴 회고가 없습니다. 위클리 루틴 보드 아래의 오늘의 회고 영역에서 작성할 수 있습니다.</p>`}
     `;
     return innerOnly ? content : `<section class="day-memo-card">${content}</section>`;
   }
@@ -1599,8 +1681,12 @@
   function populateSheetOptions() {
     const timeSelect = $("#routine-time");
     const sectorSelect = $("#routine-sector");
+    const daySelect = $("#routine-day");
     if (timeSelect) {
       timeSelect.innerHTML = getDisplayTimeBlocks().map((block) => `<option value="${esc(block.key)}">${esc(block.label)} ${esc(block.time)}</option>`).join("");
+    }
+    if (daySelect) {
+      daySelect.innerHTML = weekdays.map((day) => `<option value="${esc(day.key)}">${esc(day.label)}요일</option>`).join("");
     }
     if (sectorSelect) {
       sectorSelect.innerHTML = sectors.map((sector) => `<option value="${esc(sector.key)}">${esc(sector.label)}</option>`).join("");
@@ -1616,9 +1702,11 @@
     state.sheetContext = {
       timeBlock: editingRoutine?.timeBlock || context.timeBlock || context.time || "wake",
       sector: editingRoutine?.sector || context.sector || "skin",
+      dayOfWeek: editingRoutine?.dayOfWeek || context.dayOfWeek || context.day || weekdays[0].key,
     };
     $("#sheet-title").textContent = editingRoutine ? "루틴 수정하기" : "루틴 추가하기";
     form.elements.timeBlock.value = state.sheetContext.timeBlock;
+    form.elements.dayOfWeek.value = state.sheetContext.dayOfWeek;
     form.elements.sector.value = state.sheetContext.sector;
     form.elements.title.value = editingRoutine?.title || "";
     form.elements.duration.value = editingRoutine?.duration || "";
@@ -1644,6 +1732,8 @@
       : null;
     return {
       timeBlock: form.elements.timeBlock.value,
+      dayOfWeek: form.elements.dayOfWeek.value,
+      days: [form.elements.dayOfWeek.value],
       sector: form.elements.sector.value,
       status: editingRoutine && isRoutineDoneOnDate(editingRoutine.id, TODAY_KEY) ? "완료" : "미완료",
       title: form.elements.title.value,
@@ -1660,6 +1750,7 @@
     const memoCount = $("#routine-memo-count");
     if (!form || !target) return;
     const block = timeBlockByKey(form.elements.timeBlock?.value || state.sheetContext.timeBlock);
+    const day = weekdayByKey(form.elements.dayOfWeek?.value || state.sheetContext.dayOfWeek);
     const sector = sectorByKey(form.elements.sector?.value || state.sheetContext.sector);
     const title = String(form.elements.title?.value || "").trim() || "루틴명을 입력하세요";
     const duration = cleanRoutineMeta(form.elements.duration?.value);
@@ -1668,6 +1759,7 @@
     if (memoCount) memoCount.textContent = `${Math.min(memo.length, 100)} / 100`;
     target.innerHTML = `
       <div class="routine-preview-meta">
+        <span>${esc(day.label)}요일</span>
         <span>${esc(block.icon)} ${esc(block.label)} ${esc(block.time)}</span>
         <span>${esc(sector.icon)} ${esc(sector.label)}</span>
         ${frequency ? `<span>↻ ${esc(frequency)}</span>` : ""}
@@ -1880,6 +1972,7 @@
     syncRoutineDayKey();
     renderProfile();
     renderGoals();
+    renderBoardFilters();
     renderBoard();
     renderMobileBoard();
     renderDailyReflection();
@@ -2025,12 +2118,12 @@
       }
 
       if (action === "open-add-sheet") {
-        openRoutineSheet({ time: actionButton.dataset.time, sector: actionButton.dataset.sector });
+        openRoutineSheet({ time: actionButton.dataset.time, sector: actionButton.dataset.sector, day: actionButton.dataset.day });
         return;
       }
 
       if (action === "open-cell-drawer") {
-        openCellRoutineDrawer(actionButton.dataset.time, actionButton.dataset.sector);
+        openCellRoutineDrawer(actionButton.dataset.time, actionButton.dataset.day);
         return;
       }
 
@@ -2092,8 +2185,16 @@
       if (action === "add-from-cell-drawer") {
         openRoutineSheet({
           time: state.activeCell?.timeBlock || "wake",
-          sector: state.activeCell?.sector || "skin",
+          day: state.activeCell?.dayOfWeek || weekdays[0].key,
+          sector: state.activeSectorFilter === "all" ? "skin" : state.activeSectorFilter,
         });
+        return;
+      }
+
+      if (action === "set-sector-filter") {
+        const next = actionButton.dataset.sector || "all";
+        state.activeSectorFilter = next === state.activeSectorFilter ? "all" : next;
+        render();
         return;
       }
 
@@ -2246,7 +2347,7 @@
         };
         saveRoutineChecks();
         saveDailyProgress(calculateBoardProgress(TODAY_KEY), TODAY_KEY);
-        state.highlightCellKey = cellKey(saved.timeBlock, saved.sector);
+        state.highlightCellKey = cellKey(saved.timeBlock, saved.dayOfWeek || weekdays[0].key);
         state.highlightedRoutineId = saved.id;
       }
       closeRoutineSheet();
