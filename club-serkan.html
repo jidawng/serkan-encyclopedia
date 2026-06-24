@@ -4019,6 +4019,74 @@
         padding-bottom: 0;
       }
 
+      .goal-drawer {
+        max-height: calc(100dvh - 24px);
+      }
+
+      .goal-detail-form {
+        overflow-x: hidden;
+        overscroll-behavior: contain;
+      }
+
+      .goal-note-section {
+        padding: 14px;
+      }
+
+      .goal-note-section-head {
+        grid-template-columns: 30px minmax(0, 1fr);
+        align-items: start;
+      }
+
+      .goal-note-add {
+        grid-column: 1 / -1;
+        justify-self: stretch;
+        min-height: 42px;
+      }
+
+      .goal-note-list {
+        overflow-x: hidden;
+      }
+
+      .goal-note-item,
+      .goal-note-item.is-simple {
+        position: relative;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 10px;
+        align-items: stretch;
+        padding: 12px;
+        overflow: hidden;
+      }
+
+      .goal-note-handle {
+        display: none;
+      }
+
+      .goal-note-text {
+        width: 100%;
+        min-height: 50px;
+        padding: 0 44px 0 14px;
+      }
+
+      .goal-note-meta {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .goal-note-meta label {
+        min-height: 42px;
+        padding: 7px 10px;
+        border-radius: 14px;
+      }
+
+      .goal-note-remove {
+        position: absolute;
+        top: 13px;
+        right: 13px;
+        width: 32px;
+        height: 32px;
+        background: rgba(250, 247, 241, .92);
+      }
+
       .profile-card {
         padding: 18px;
       }
@@ -4105,7 +4173,8 @@
         width: 100%;
         border-radius: 22px 22px 0 0;
         align-self: flex-end;
-        height: min(86vh, 760px);
+        height: min(92dvh, 760px);
+        max-height: calc(100dvh - 10px);
       }
 
       .goal-summary-box {
