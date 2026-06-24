@@ -955,6 +955,19 @@
       .replace(/'/g, "&#039;");
   }
 
+  function isFormControl(target) {
+    return Boolean(target?.closest?.("input, textarea, select, option, [contenteditable='true']"));
+  }
+
+  function focusEditable(selector) {
+    const target = $(selector);
+    if (!target) return;
+    target.focus({ preventScroll: true });
+    if (target.select && target.tagName !== "SELECT") {
+      target.select();
+    }
+  }
+
   function conditionTone(value) {
     if (["좋음", "충분", "낮음"].includes(value)) return "good";
     if (["높음", "부족", "나쁨"].includes(value)) return "high";
@@ -1538,7 +1551,7 @@
     const mode = state.activeDayMode || "reader";
     const isCoachMode = mode === "coach";
     const progress = getDayProgress(dateKey);
-    const reflection = getDailyReflection(dateKey) || progress?.reflection || progress?.note || "";
+    const dayNote = progress?.note || "";
     const title = $("#day-drawer-title");
     const subtitle = $("#day-drawer-subtitle");
     const body = $("#day-drawer-body");
@@ -1553,7 +1566,7 @@
           <b>아직 기록이 없습니다.</b>
           <span>루틴을 실행하면 이곳에 달성 기록이 표시됩니다.</span>
         </div>
-        ${isCoachMode ? renderDayMemoCard(dateKey, progress?.coachFeedback || "", false, mode) : renderDayReflectionCard(reflection)}
+        ${renderDayMemoCard(dateKey, isCoachMode ? progress?.coachFeedback || "" : dayNote, false, mode)}
       `;
       return;
     }
@@ -1611,7 +1624,7 @@
         ${renderDayRoutineList((progress.routines || []).filter((routine) => !routine.completed), "미완료 루틴이 없습니다.", "todo")}
       </section>
       <section class="day-memo-card">
-        ${isCoachMode ? renderDayMemoCard(dateKey, progress.coachFeedback || "", true, mode) : renderDayReflectionCard(reflection, true)}
+        ${renderDayMemoCard(dateKey, isCoachMode ? progress.coachFeedback || "" : dayNote, true, mode)}
       </section>
     `;
   }
@@ -2051,25 +2064,25 @@
       }
 
       if (action === "edit-profile-field") {
-        if (event.target.closest("input, select")) return;
+        if (isFormControl(event.target)) return;
         state.activeProfileField = actionButton.dataset.field;
         state.activeConditionField = null;
         render();
-        setTimeout(() => $(`[data-quick-profile-field="${state.activeProfileField}"]`)?.focus(), 0);
+        focusEditable(`[data-quick-profile-field="${state.activeProfileField}"]`);
         return;
       }
 
       if (action === "edit-condition-field") {
-        if (event.target.closest("select")) return;
+        if (isFormControl(event.target)) return;
         state.activeConditionField = actionButton.dataset.field;
         state.activeProfileField = null;
         render();
-        setTimeout(() => $(`[data-quick-profile-field="${state.activeConditionField}"]`)?.focus(), 0);
+        focusEditable(`[data-quick-profile-field="${state.activeConditionField}"]`);
         return;
       }
 
       if (action === "open-goal-detail") {
-        if (state.editingProfile && event.target.closest("input")) return;
+        if (isFormControl(event.target)) return;
         openGoalDetail(actionButton.dataset.sector || "skin");
         return;
       }
@@ -2275,7 +2288,7 @@
 
     document.addEventListener("keydown", (event) => {
       const editableCard = event.target.closest('[data-action="edit-profile-field"], [data-action="edit-condition-field"]');
-      if (!editableCard || event.target.closest("input, select")) return;
+      if (!editableCard || isFormControl(event.target)) return;
       if (!["Enter", " "].includes(event.key)) return;
       event.preventDefault();
       editableCard.click();

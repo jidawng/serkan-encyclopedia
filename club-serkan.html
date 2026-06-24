@@ -3902,6 +3902,19 @@
         overflow-x: hidden;
       }
 
+      input,
+      select,
+      textarea {
+        font-size: 16px !important;
+        -webkit-text-size-adjust: 100%;
+        touch-action: manipulation;
+      }
+
+      textarea {
+        -webkit-user-select: text;
+        user-select: text;
+      }
+
       .app-shell {
         display: block;
       }
@@ -4058,6 +4071,14 @@
       .sheet-field.wide {
         grid-column: auto;
       }
+
+      .routine-sheet,
+      .goal-drawer,
+      .day-drawer,
+      .cell-drawer,
+      .calendar-modal {
+        -webkit-overflow-scrolling: touch;
+      }
     }
 
     @media (max-width: 560px) {
@@ -4142,6 +4163,7 @@
         width: 100%;
         max-height: 90vh;
         border-radius: 24px 24px 0 0;
+        padding-bottom: calc(20px + env(safe-area-inset-bottom));
       }
 
       .toast {
