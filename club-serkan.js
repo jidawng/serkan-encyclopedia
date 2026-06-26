@@ -643,9 +643,7 @@
   }
 
   function saveDayNote(dateKey, note) {
-    const current = dateKey === TODAY_KEY
-      ? buildProgressSnapshot(calculateBoardProgress(TODAY_KEY), TODAY_KEY)
-      : state.progress?.[dateKey] || { total: 0, done: 0, inProgress: 0, todo: 0, rate: 0 };
+    const current = buildProgressSnapshot(calculateBoardProgress(dateKey), dateKey);
     state.progress = {
       ...state.progress,
       [dateKey]: {
@@ -658,9 +656,7 @@
   }
 
   function saveCoachFeedback(dateKey, feedback) {
-    const current = dateKey === TODAY_KEY
-      ? buildProgressSnapshot(calculateBoardProgress(TODAY_KEY), TODAY_KEY)
-      : state.progress?.[dateKey] || { total: 0, done: 0, inProgress: 0, todo: 0, rate: 0 };
+    const current = buildProgressSnapshot(calculateBoardProgress(dateKey), dateKey);
     state.progress = {
       ...state.progress,
       [dateKey]: {
@@ -673,12 +669,13 @@
   }
 
   function buildProgressSnapshot(progress = calculateBoardProgress(TODAY_KEY), dateKey = TODAY_KEY) {
+    const routinesForDate = getRoutinesForDate(dateKey);
     return {
       ...progress,
       routineDayKey: dateKey,
       sectors: Object.fromEntries(sectors.map((sector) => [sector.key, calculateSectorProgress(sector.key, dateKey)])),
       timeBlocks: Object.fromEntries(timeBlocks.map((block) => [block.key, calculateTimeBlockProgress(block.key, dateKey)])),
-      routines: state.routines.map((routine) => ({
+      routines: routinesForDate.map((routine) => ({
         id: routine.id,
         title: routine.title,
         dayOfWeek: routine.dayOfWeek,
@@ -712,15 +709,15 @@
   }
 
   function calculateBoardProgress(dateKey = TODAY_KEY) {
-    return calculateCompletionRate(state.routines, dateKey);
+    return calculateCompletionRate(getRoutinesForDate(dateKey), dateKey);
   }
 
   function calculateSectorProgress(sectorKey, dateKey = TODAY_KEY) {
-    return calculateCompletionRate(state.routines.filter((routine) => routine.sector === sectorKey), dateKey);
+    return calculateCompletionRate(getRoutinesForDate(dateKey).filter((routine) => routine.sector === sectorKey), dateKey);
   }
 
   function calculateTimeBlockProgress(timeBlockKey, dateKey = TODAY_KEY) {
-    return calculateCompletionRate(state.routines.filter((routine) => routine.timeBlock === timeBlockKey), dateKey);
+    return calculateCompletionRate(getRoutinesForDate(dateKey).filter((routine) => routine.timeBlock === timeBlockKey), dateKey);
   }
 
   function calculateWeekdayProgress(weekdayKey, dateKey = TODAY_KEY) {
@@ -735,6 +732,17 @@
     const days = Array.isArray(routine.days) ? routine.days : [];
     if (days.length) return days.includes(weekdayKey);
     return routine.dayOfWeek ? routine.dayOfWeek === weekdayKey : true;
+  }
+
+  function weekdayKeyForDate(dateKey = TODAY_KEY) {
+    const date = new Date(`${dateKey}T00:00:00`);
+    if (Number.isNaN(date.getTime())) return weekdays[0].key;
+    return ["sun", "mon", "tue", "wed", "thu", "fri", "sat"][date.getDay()] || weekdays[0].key;
+  }
+
+  function getRoutinesForDate(dateKey = TODAY_KEY) {
+    const weekdayKey = weekdayKeyForDate(dateKey);
+    return state.routines.filter((routine) => routineAppliesToDay(routine, weekdayKey));
   }
 
   function getCellRoutines(timeBlockKey, weekdayKey) {
@@ -794,26 +802,25 @@
 
   function getDayProgress(dateKey) {
     if (dateKey === TODAY_KEY) return buildProgressSnapshot(calculateBoardProgress(TODAY_KEY), TODAY_KEY);
-    if (state.progress?.[dateKey]) return state.progress[dateKey];
-    if (state.checks?.[dateKey]) return buildProgressSnapshot(calculateBoardProgress(dateKey), dateKey);
+    if (state.progress?.[dateKey] || state.checks?.[dateKey]) return buildProgressSnapshot(calculateBoardProgress(dateKey), dateKey);
     return null;
   }
 
   function calendarProgressEntries() {
     const entries = { ...(state.progress || {}) };
     entries[TODAY_KEY] = buildProgressSnapshot(calculateBoardProgress(TODAY_KEY), TODAY_KEY);
-    return Object.entries(entries)
-      .filter(([dateKey, entry]) => (
-        isVisibleCalendarMonth(dateKey)
-        && Number(entry?.total || 0) > 0
-        && Number.isFinite(Number(entry?.rate))
-      ))
-      .map(([, entry]) => entry);
+    return Object.keys(entries)
+      .map((dateKey) => getDayProgress(dateKey))
+      .filter((entry) => (
+        entry
+        && isVisibleCalendarMonth(entry.routineDayKey)
+        && Number(entry.total || 0) > 0
+        && Number.isFinite(Number(entry.rate))
+      ));
   }
 
   function progressEntryForDate(dateKey) {
-    if (dateKey === TODAY_KEY) return buildProgressSnapshot(calculateBoardProgress(TODAY_KEY), TODAY_KEY);
-    return state.progress?.[dateKey] || null;
+    return getDayProgress(dateKey);
   }
 
   function calculateStreakDays(dateKey = TODAY_KEY) {
