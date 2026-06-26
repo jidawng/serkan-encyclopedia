@@ -917,6 +917,74 @@
     return weekdays.find((day) => day.key === key) || weekdays[0];
   }
 
+  function normalizeRoutineDays(days = [], fallbackDay = weekdays[0].key, allowEmpty = false) {
+    const source = Array.isArray(days) ? days : [days];
+    const sourceSet = new Set(source.filter(Boolean));
+    const normalized = weekdays
+      .map((day) => day.key)
+      .filter((key) => sourceSet.has(key));
+    if (!normalized.length && !allowEmpty) {
+      const fallback = weekdays.some((day) => day.key === fallbackDay) ? fallbackDay : weekdays[0].key;
+      normalized.push(fallback);
+    }
+    return normalized;
+  }
+
+  function checkedRoutineDays(form = $("#routine-form")) {
+    if (!form) return [];
+    return normalizeRoutineDays($$("[data-routine-day-input]:checked", form).map((input) => input.value), "", true);
+  }
+
+  function routineDaysFromForm(form = $("#routine-form")) {
+    return normalizeRoutineDays(checkedRoutineDays(form), state.sheetContext.dayOfWeek || weekdays[0].key);
+  }
+
+  function syncRoutineDayHidden(form = $("#routine-form")) {
+    if (!form) return;
+    const hidden = $("#routine-day", form);
+    if (!hidden) return;
+    const checked = checkedRoutineDays(form);
+    hidden.value = checked[0] || state.sheetContext.dayOfWeek || weekdays[0].key;
+  }
+
+  function setRoutineDaySelection(days = [], options = {}) {
+    const form = $("#routine-form");
+    if (!form) return;
+    const selected = normalizeRoutineDays(
+      days,
+      state.sheetContext.dayOfWeek || weekdays[0].key,
+      Boolean(options.allowEmpty)
+    );
+    $$("[data-routine-day-input]", form).forEach((input) => {
+      input.checked = selected.includes(input.value);
+    });
+    syncRoutineDayHidden(form);
+  }
+
+  function routineDaysLabel(days = []) {
+    const selected = normalizeRoutineDays(days, "", true);
+    const signature = selected.join(",");
+    if (!selected.length) return "요일 선택";
+    if (selected.length === weekdays.length) return "매일";
+    if (signature === "mon,tue,wed,thu,fri") return "평일";
+    if (signature === "sat,sun") return "주말";
+    return selected.map((key) => weekdayByKey(key).label).join("·");
+  }
+
+  function applyRoutineDayPreset(preset) {
+    const presetDays = {
+      all: weekdays.map((day) => day.key),
+      weekday: ["mon", "tue", "wed", "thu", "fri"],
+      weekend: ["sat", "sun"],
+      mwf: ["mon", "wed", "fri"],
+      tth: ["tue", "thu"],
+      clear: [state.sheetContext.dayOfWeek || weekdays[0].key],
+    };
+    if (!Object.prototype.hasOwnProperty.call(presetDays, preset)) return;
+    setRoutineDaySelection(presetDays[preset]);
+    renderRoutineSheetPreview();
+  }
+
   function parseClock(value, fallbackMinutes) {
     const match = String(value || "").match(/^(\d{1,2}):(\d{2})$/);
     if (!match) return fallbackMinutes;
@@ -1694,12 +1762,12 @@
   function populateSheetOptions() {
     const timeSelect = $("#routine-time");
     const sectorSelect = $("#routine-sector");
-    const daySelect = $("#routine-day");
+    const dayInput = $("#routine-day");
     if (timeSelect) {
       timeSelect.innerHTML = getDisplayTimeBlocks().map((block) => `<option value="${esc(block.key)}">${esc(block.label)} ${esc(block.time)}</option>`).join("");
     }
-    if (daySelect) {
-      daySelect.innerHTML = weekdays.map((day) => `<option value="${esc(day.key)}">${esc(day.label)}요일</option>`).join("");
+    if (dayInput && !dayInput.value) {
+      dayInput.value = weekdays[0].key;
     }
     if (sectorSelect) {
       sectorSelect.innerHTML = sectors.map((sector) => `<option value="${esc(sector.key)}">${esc(sector.label)}</option>`).join("");
@@ -1712,10 +1780,14 @@
     const editingRoutine = context.id ? state.routines.find((routine) => routine.id === context.id) : null;
     populateSheetOptions();
     state.editingRoutineId = editingRoutine?.id || null;
+    const selectedDays = normalizeRoutineDays(
+      editingRoutine?.days || editingRoutine?.dayOfWeek || context.dayOfWeek || context.day,
+      context.dayOfWeek || context.day || editingRoutine?.dayOfWeek || weekdays[0].key
+    );
     state.sheetContext = {
       timeBlock: editingRoutine?.timeBlock || context.timeBlock || context.time || "wake",
       sector: editingRoutine?.sector || context.sector || "skin",
-      dayOfWeek: editingRoutine?.dayOfWeek || context.dayOfWeek || context.day || weekdays[0].key,
+      dayOfWeek: selectedDays[0] || weekdays[0].key,
     };
     $("#sheet-title").textContent = editingRoutine ? "루틴 수정하기" : "루틴 추가하기";
     form.elements.timeBlock.value = state.sheetContext.timeBlock;
@@ -1725,6 +1797,7 @@
     form.elements.duration.value = editingRoutine?.duration || "";
     form.elements.frequency.value = editingRoutine?.frequency || "";
     form.elements.memo.value = editingRoutine?.memo || editingRoutine?.action || "";
+    setRoutineDaySelection(selectedDays);
     renderRoutineSheetPreview();
     sheet.classList.add("open");
     sheet.setAttribute("aria-hidden", "false");
@@ -1743,10 +1816,11 @@
     const editingRoutine = state.editingRoutineId
       ? state.routines.find((routine) => routine.id === state.editingRoutineId)
       : null;
+    const days = routineDaysFromForm(form);
     return {
       timeBlock: form.elements.timeBlock.value,
-      dayOfWeek: form.elements.dayOfWeek.value,
-      days: [form.elements.dayOfWeek.value],
+      dayOfWeek: days[0],
+      days,
       sector: form.elements.sector.value,
       status: editingRoutine && isRoutineDoneOnDate(editingRoutine.id, TODAY_KEY) ? "완료" : "미완료",
       title: form.elements.title.value,
@@ -1763,7 +1837,7 @@
     const memoCount = $("#routine-memo-count");
     if (!form || !target) return;
     const block = timeBlockByKey(form.elements.timeBlock?.value || state.sheetContext.timeBlock);
-    const day = weekdayByKey(form.elements.dayOfWeek?.value || state.sheetContext.dayOfWeek);
+    const days = checkedRoutineDays(form);
     const sector = sectorByKey(form.elements.sector?.value || state.sheetContext.sector);
     const title = String(form.elements.title?.value || "").trim() || "루틴명을 입력하세요";
     const duration = cleanRoutineMeta(form.elements.duration?.value);
@@ -1772,7 +1846,7 @@
     if (memoCount) memoCount.textContent = `${Math.min(memo.length, 100)} / 100`;
     target.innerHTML = `
       <div class="routine-preview-meta">
-        <span>${esc(day.label)}요일</span>
+        <span>${esc(routineDaysLabel(days))}</span>
         <span>${esc(block.icon)} ${esc(block.label)} ${esc(block.time)}</span>
         <span>${esc(sector.icon)} ${esc(sector.label)}</span>
         ${frequency ? `<span>↻ ${esc(frequency)}</span>` : ""}
@@ -2242,6 +2316,11 @@
         return;
       }
 
+      if (action === "set-day-preset") {
+        applyRoutineDayPreset(actionButton.dataset.preset || "all");
+        return;
+      }
+
       if (action === "open-guide") {
         showToast("빈 칸을 눌러 루틴을 추가하고, 체크박스로 실행 여부를 기록합니다.");
       }
@@ -2310,6 +2389,10 @@
     });
 
     document.addEventListener("change", (event) => {
+      if (event.target.closest("[data-routine-day-input]")) {
+        syncRoutineDayHidden();
+      }
+
       if (event.target.closest("#routine-form")) {
         renderRoutineSheetPreview();
       }

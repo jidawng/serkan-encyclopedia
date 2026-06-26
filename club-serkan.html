@@ -3547,6 +3547,105 @@
       font-weight: 950;
     }
 
+    .routine-day-panel {
+      grid-column: 1 / -1;
+      gap: 10px;
+      padding: 12px;
+      border: 1px solid rgba(69, 47, 37, .1);
+      border-radius: 16px;
+      background: rgba(255, 253, 249, .72);
+    }
+
+    .routine-day-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .routine-day-head span {
+      color: rgba(25, 27, 31, .52);
+      font-size: 11px;
+      font-weight: 820;
+      line-height: 1.35;
+      text-align: right;
+    }
+
+    .routine-day-select {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .routine-day-chip {
+      position: relative;
+      display: block;
+      min-width: 0;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .routine-day-chip input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .routine-day-chip span {
+      display: grid;
+      min-height: 42px;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #fff;
+      color: rgba(25, 27, 31, .62);
+      font-size: 13px;
+      font-weight: 950;
+      transition: background .16s ease, border-color .16s ease, color .16s ease, box-shadow .16s ease, transform .16s ease;
+    }
+
+    .routine-day-chip input:checked + span {
+      border-color: rgba(111, 36, 21, .76);
+      background: rgba(111, 36, 21, .1);
+      color: var(--brown);
+      box-shadow: 0 8px 18px rgba(111, 36, 21, .08);
+    }
+
+    .routine-day-chip:focus-within span {
+      outline: 3px solid rgba(111, 36, 21, .18);
+      outline-offset: 2px;
+    }
+
+    .routine-day-chip:hover span {
+      transform: translateY(-1px);
+      border-color: rgba(111, 36, 21, .24);
+    }
+
+    .routine-day-presets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .routine-day-preset {
+      min-height: 32px;
+      border: 1px solid rgba(111, 36, 21, .16);
+      border-radius: 999px;
+      background: rgba(111, 36, 21, .06);
+      color: var(--brown);
+      padding: 0 12px;
+      font-size: 12px;
+      font-weight: 950;
+    }
+
+    .routine-day-preset.subtle {
+      border-color: rgba(69, 47, 37, .12);
+      background: rgba(250, 247, 241, .9);
+      color: rgba(25, 27, 31, .58);
+    }
+
     .sheet-field input,
     .sheet-field select,
     .sheet-field textarea {
@@ -4140,6 +4239,10 @@
         grid-column: auto;
       }
 
+      .routine-day-panel {
+        grid-column: 1 / -1;
+      }
+
       .routine-sheet,
       .goal-drawer,
       .day-drawer,
@@ -4233,6 +4336,25 @@
         max-height: 90vh;
         border-radius: 24px 24px 0 0;
         padding-bottom: calc(20px + env(safe-area-inset-bottom));
+      }
+
+      .routine-day-head {
+        display: grid;
+        gap: 4px;
+      }
+
+      .routine-day-head span {
+        text-align: left;
+      }
+
+      .routine-day-select {
+        grid-template-columns: repeat(7, minmax(38px, 1fr));
+        gap: 6px;
+      }
+
+      .routine-day-chip span {
+        min-height: 40px;
+        border-radius: 12px;
       }
 
       .toast {
@@ -4680,9 +4802,50 @@
         </div>
         <form id="routine-form">
           <div class="sheet-form-grid">
-            <div class="sheet-field">
-              <label for="routine-day">요일</label>
-              <select id="routine-day" name="dayOfWeek"></select>
+            <div class="sheet-field routine-day-panel">
+              <div class="routine-day-head">
+                <label id="routine-day-label">반복 요일</label>
+                <span>한 번에 여러 요일에 같은 루틴을 배치할 수 있습니다.</span>
+              </div>
+              <input type="hidden" id="routine-day" name="dayOfWeek" value="mon">
+              <div class="routine-day-select" role="group" aria-labelledby="routine-day-label">
+                <label class="routine-day-chip">
+                  <input type="checkbox" value="mon" data-routine-day-input>
+                  <span>월</span>
+                </label>
+                <label class="routine-day-chip">
+                  <input type="checkbox" value="tue" data-routine-day-input>
+                  <span>화</span>
+                </label>
+                <label class="routine-day-chip">
+                  <input type="checkbox" value="wed" data-routine-day-input>
+                  <span>수</span>
+                </label>
+                <label class="routine-day-chip">
+                  <input type="checkbox" value="thu" data-routine-day-input>
+                  <span>목</span>
+                </label>
+                <label class="routine-day-chip">
+                  <input type="checkbox" value="fri" data-routine-day-input>
+                  <span>금</span>
+                </label>
+                <label class="routine-day-chip">
+                  <input type="checkbox" value="sat" data-routine-day-input>
+                  <span>토</span>
+                </label>
+                <label class="routine-day-chip">
+                  <input type="checkbox" value="sun" data-routine-day-input>
+                  <span>일</span>
+                </label>
+              </div>
+              <div class="routine-day-presets" aria-label="반복 요일 빠른 선택">
+                <button type="button" class="routine-day-preset" data-action="set-day-preset" data-preset="all">매일</button>
+                <button type="button" class="routine-day-preset" data-action="set-day-preset" data-preset="weekday">평일</button>
+                <button type="button" class="routine-day-preset" data-action="set-day-preset" data-preset="weekend">주말</button>
+                <button type="button" class="routine-day-preset" data-action="set-day-preset" data-preset="mwf">월수금</button>
+                <button type="button" class="routine-day-preset" data-action="set-day-preset" data-preset="tth">화목</button>
+                <button type="button" class="routine-day-preset subtle" data-action="set-day-preset" data-preset="clear">초기화</button>
+              </div>
             </div>
             <div class="sheet-field">
               <label for="routine-time">시간대</label>
