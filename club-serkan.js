@@ -721,7 +721,8 @@
   }
 
   function calculateWeekdayProgress(weekdayKey, dateKey = TODAY_KEY) {
-    return calculateCompletionRate(state.routines.filter((routine) => routineAppliesToDay(routine, weekdayKey)), dateKey);
+    const weekdayDateKey = dateKeyForCurrentWeekday(weekdayKey, dateKey);
+    return calculateCompletionRate(state.routines.filter((routine) => routineAppliesToDay(routine, weekdayKey)), weekdayDateKey);
   }
 
   function activeSectorAllows(routine) {
@@ -765,6 +766,14 @@
     const date = new Date(`${dateKey}T00:00:00`);
     date.setDate(date.getDate() + offset);
     return `${date.getFullYear()}-${pad2(date.getMonth() + 1)}-${pad2(date.getDate())}`;
+  }
+
+  function dateKeyForCurrentWeekday(weekdayKey, baseDateKey = TODAY_KEY) {
+    const baseDate = new Date(`${baseDateKey}T00:00:00`);
+    if (Number.isNaN(baseDate.getTime())) return baseDateKey;
+    const mondayOffset = (baseDate.getDay() + 6) % 7;
+    const weekdayIndex = Math.max(0, weekdays.findIndex((day) => day.key === weekdayKey));
+    return addDaysToDateKey(baseDateKey, weekdayIndex - mondayOffset);
   }
 
   function coachingDateKey(dayNumber) {
@@ -862,16 +871,17 @@
     return `${timeBlockKey}:${weekdayKey}`;
   }
 
-  function toggleRoutineComplete(id) {
+  function toggleRoutineComplete(id, dateKey = TODAY_KEY) {
     const routine = state.routines.find((entry) => entry.id === id);
     if (!routine) return;
-    const dayChecks = { ...getDayChecks(TODAY_KEY) };
-    dayChecks[id] = !isRoutineDoneOnDate(id, TODAY_KEY);
-    state.checks = { ...state.checks, [TODAY_KEY]: dayChecks };
+    const targetDateKey = dateKey || TODAY_KEY;
+    const dayChecks = { ...getDayChecks(targetDateKey) };
+    dayChecks[id] = !isRoutineDoneOnDate(id, targetDateKey);
+    state.checks = { ...state.checks, [targetDateKey]: dayChecks };
     saveRoutineChecks();
-    state.highlightCellKey = cellKey(routine.timeBlock, routine.dayOfWeek || weekdays[0].key);
+    state.highlightCellKey = cellKey(routine.timeBlock, weekdayKeyForDate(targetDateKey));
     state.highlightedRoutineId = id;
-    saveDailyProgress(calculateBoardProgress(TODAY_KEY), TODAY_KEY);
+    saveDailyProgress(calculateBoardProgress(targetDateKey), targetDateKey);
   }
 
   function createId(prefix) {
@@ -1206,18 +1216,19 @@
 
     const rows = displayTimeBlocks.map((block) => {
       const cells = weekdays.map((day) => {
+        const cellDateKey = dateKeyForCurrentWeekday(day.key);
         const routines = getCellRoutines(block.key, day.key);
-        const progress = calculateCompletionRate(routines);
+        const progress = calculateCompletionRate(routines, cellDateKey);
         const visibleRoutines = routines.slice(0, 2);
         const hiddenCount = Math.max(routines.length - visibleRoutines.length, 0);
         const rateClass = progress.total === 0 ? "cell-empty" : progress.rate === 100 ? "cell-done" : "cell-partial";
         const isHighlighted = state.highlightCellKey === cellKey(block.key, day.key);
         return `
-          <div class="routine-cell ${rateClass} ${isHighlighted ? "is-highlighted" : ""}" data-time="${esc(block.key)}" data-day="${esc(day.key)}">
+          <div class="routine-cell ${rateClass} ${isHighlighted ? "is-highlighted" : ""}" data-time="${esc(block.key)}" data-day="${esc(day.key)}" data-date="${esc(cellDateKey)}">
             <div class="cell-summary">${progress.total ? `${progress.done}/${progress.total}` : "루틴 없음"}</div>
             <div class="cell-routine-list">
-              ${visibleRoutines.map((routine) => renderRoutinePill(routine, day.key)).join("")}
-              ${hiddenCount ? `<button class="cell-more-button" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}">+${hiddenCount}개 더보기</button>` : ""}
+              ${visibleRoutines.map((routine) => renderRoutinePill(routine, day.key, cellDateKey)).join("")}
+              ${hiddenCount ? `<button class="cell-more-button" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}" data-date="${esc(cellDateKey)}">+${hiddenCount}개 더보기</button>` : ""}
             </div>
             <button class="add-cell" data-action="open-add-sheet" data-time="${esc(block.key)}" data-day="${esc(day.key)}" data-hint="${esc(`${day.label}요일 ${block.label} 루틴 추가`)}"><b>+</b><span>루틴 추가</span></button>
           </div>
@@ -1260,18 +1271,19 @@
     `).join("");
   }
 
-  function renderRoutinePill(routine, contextDayKey = "") {
-    const done = isRoutineDoneOnDate(routine.id, TODAY_KEY);
+  function renderRoutinePill(routine, contextDayKey = "", contextDateKey = "") {
+    const dateKey = contextDateKey || dateKeyForCurrentWeekday(contextDayKey || routine.dayOfWeek || weekdays[0].key);
+    const done = isRoutineDoneOnDate(routine.id, dateKey);
     const meta = getRoutineDisplayMeta(routine);
     const highlighted = state.highlightedRoutineId === routine.id;
     const sector = sectorByKey(routine.sector);
     const title = routine.title || "이름 없는 루틴";
     return `
       <article class="routine-pill ${done ? "is-done" : ""} ${highlighted ? "just-toggled" : ""}" data-sector="${esc(sector.key)}" title="${esc(`${sector.label} · ${title}`)}">
-        <input class="routine-check" type="checkbox" ${done ? "checked" : ""} data-action="toggle-complete" data-id="${esc(routine.id)}" aria-label="${esc(`${sector.label} ${title}`)} 완료 처리">
+        <input class="routine-check" type="checkbox" ${done ? "checked" : ""} data-action="toggle-complete" data-id="${esc(routine.id)}" data-date="${esc(dateKey)}" aria-label="${esc(`${sector.label} ${title}`)} 완료 처리">
         <span class="routine-pill-title">${esc(title)}</span>
         ${meta ? `<span class="routine-pill-meta">${esc(meta)}</span>` : ""}
-        <button class="routine-more" type="button" data-action="open-cell-drawer" data-time="${esc(routine.timeBlock)}" data-day="${esc(contextDayKey || routine.dayOfWeek || weekdays[0].key)}" aria-label="셀 전체 루틴 보기">…</button>
+        <button class="routine-more" type="button" data-action="open-cell-drawer" data-time="${esc(routine.timeBlock)}" data-day="${esc(contextDayKey || routine.dayOfWeek || weekdays[0].key)}" data-date="${esc(dateKey)}" aria-label="셀 전체 루틴 보기">…</button>
       </article>
     `;
   }
@@ -1280,6 +1292,7 @@
     const target = $("#mobile-board-list");
     if (!target) return;
     target.innerHTML = weekdays.map((day, dayIndex) => {
+      const dayDateKey = dateKeyForCurrentWeekday(day.key);
       const dayProgress = calculateWeekdayProgress(day.key);
       return `
         <details class="mobile-time-card" ${dayIndex === 0 ? "open" : ""}>
@@ -1290,15 +1303,15 @@
           <div class="mobile-sector-list">
             ${getDisplayTimeBlocks().map((block) => {
               const routines = getCellRoutines(block.key, day.key);
-              const progress = calculateCompletionRate(routines);
+              const progress = calculateCompletionRate(routines, dayDateKey);
               return `
                 <div class="mobile-sector-row">
                   <div class="mobile-sector-head">
                     <span>${esc(block.icon)} ${esc(block.label)} <small>${esc(block.time)}</small></span>
-                    <button class="routine-more" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}">${progress.total ? `${progress.done}/${progress.total}` : "+"}</button>
+                    <button class="routine-more" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}" data-date="${esc(dayDateKey)}">${progress.total ? `${progress.done}/${progress.total}` : "+"}</button>
                   </div>
-                  ${routines.slice(0, 3).map((routine) => renderRoutinePill(routine, day.key)).join("")}
-                  ${routines.length > 3 ? `<button class="cell-more-button" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}">+${routines.length - 3}개 더보기</button>` : ""}
+                  ${routines.slice(0, 3).map((routine) => renderRoutinePill(routine, day.key, dayDateKey)).join("")}
+                  ${routines.length > 3 ? `<button class="cell-more-button" data-action="open-cell-drawer" data-time="${esc(block.key)}" data-day="${esc(day.key)}" data-date="${esc(dayDateKey)}">+${routines.length - 3}개 더보기</button>` : ""}
                   ${!routines.length ? `<button class="add-cell" data-action="open-add-sheet" data-time="${esc(block.key)}" data-day="${esc(day.key)}" data-hint="${esc(`${day.label}요일 ${block.label} 루틴 추가`)}"><b>+</b><span>루틴 추가</span></button>` : ""}
                 </div>
               `;
@@ -1329,8 +1342,13 @@
     textarea.style.height = `${Math.max(122, textarea.scrollHeight)}px`;
   }
 
-  function openCellRoutineDrawer(timeBlockKey, weekdayKey) {
-    state.activeCell = { timeBlock: timeBlockKey || "wake", dayOfWeek: weekdayKey || weekdays[0].key };
+  function openCellRoutineDrawer(timeBlockKey, weekdayKey, dateKey = "") {
+    const dayOfWeek = weekdayKey || weekdays[0].key;
+    state.activeCell = {
+      timeBlock: timeBlockKey || "wake",
+      dayOfWeek,
+      dateKey: dateKey || dateKeyForCurrentWeekday(dayOfWeek),
+    };
     renderCellRoutineDrawer();
     const drawer = $("#cell-drawer");
     drawer?.classList.add("open");
@@ -1347,8 +1365,9 @@
     if (!state.activeCell) return;
     const block = timeBlockByKey(state.activeCell.timeBlock);
     const day = weekdayByKey(state.activeCell.dayOfWeek);
+    const dateKey = state.activeCell.dateKey || dateKeyForCurrentWeekday(day.key);
     const routines = getCellRoutines(block.key, day.key);
-    const progress = calculateCompletionRate(routines);
+    const progress = calculateCompletionRate(routines, dateKey);
     const title = $("#cell-drawer-title");
     const summaryTarget = $("#cell-drawer-summary");
     const body = $("#cell-drawer-body");
@@ -1390,11 +1409,11 @@
       return;
     }
     body.innerHTML = routines.map((routine) => {
-      const done = isRoutineDoneOnDate(routine.id, TODAY_KEY);
+      const done = isRoutineDoneOnDate(routine.id, dateKey);
       return `
       <article class="drawer-routine-card ${done ? "is-done" : "is-todo"}">
         <div class="drawer-routine-main">
-          <input class="routine-check" type="checkbox" ${done ? "checked" : ""} data-action="toggle-complete" data-id="${esc(routine.id)}" aria-label="${esc(routine.title)} 완료 처리">
+          <input class="routine-check" type="checkbox" ${done ? "checked" : ""} data-action="toggle-complete" data-id="${esc(routine.id)}" data-date="${esc(dateKey)}" aria-label="${esc(routine.title)} 완료 처리">
           <div>
             <strong>${esc(routine.title || "이름 없는 루틴")}</strong>
             <span class="drawer-routine-meta">${esc(sectorByKey(routine.sector).icon)} ${esc(sectorByKey(routine.sector).label)}${getRoutineDisplayMeta(routine) ? ` · ${esc(getRoutineDisplayMeta(routine))}` : ""}</span>
@@ -2217,7 +2236,7 @@
       }
 
       if (action === "open-cell-drawer") {
-        openCellRoutineDrawer(actionButton.dataset.time, actionButton.dataset.day);
+        openCellRoutineDrawer(actionButton.dataset.time, actionButton.dataset.day, actionButton.dataset.date);
         return;
       }
 
@@ -2298,7 +2317,7 @@
       }
 
       if (action === "toggle-complete") {
-        toggleRoutineComplete(actionButton.dataset.id);
+        toggleRoutineComplete(actionButton.dataset.id, actionButton.dataset.date || TODAY_KEY);
         render();
         window.setTimeout(() => {
           state.highlightCellKey = "";
